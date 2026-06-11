@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\" --yes)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/MacBook/.nvm/**)",
+      "Bash(find /opt /usr/local /Users/MacBook -name \"node\" -type f 2>/dev/null | head -5; ls /Users/MacBook/.nvm 2>/dev/null)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(command -v npm)",
+      "Read(//Users/MacBook/.volta/**)",
+      "Bash(ls \"/Users/MacBook/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/ad15597b-d286-4912-8dfe-65279b898828/c29357d7-05c4-48c6-9f96-0d75af4edeaa/bin/\" 2>/dev/null | head -10)",
+      "Bash(open \"/Users/MacBook/Downloads/SNS運用代行会社HP/demo.html\")",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "Bash(cp \"/Users/MacBook/Downloads/SNS運用代行会社HP/demo.html\" /tmp/ideno-demo.html && echo \"OK\")",
+      "Bash(ls -la /tmp/serve_ideno.py /tmp/ideno-demo.html 2>&1; echo \"---\"; ls -la /usr/bin/python3)",
+      "Bash(gh --version)",
+      "Bash(command -v gh)",
+      "Bash(echo \"gh: $\\(command -v gh || echo none\\)\")",
+      "Bash(command -v brew)",
+      "Bash(echo \"brew: $\\(command -v brew || echo none\\)\")",
+      "Bash(command -v port)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebSearch",
+      "Bash(node -v)",
+      "Bash(npm -v)",
+      "Bash(echo \"npm: $\\(npm -v 2>/dev/null || echo 'なし'\\)\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(gh repo *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Initial commit *)"
+    ]
+  }
+}

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ホームページ制作サービス | 合同会社出野 ideno LLC</title>
+<meta name="description" content="成果につながるホームページを。中小企業・スタートアップ向けに、信頼構築・問い合わせ獲得・採用強化につながるサイト制作を行います。SNS運用と組み合わせた集客もワンストップで対応。">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#0a0a0a;--fg:#ededed;
+    --white50:rgba(255,255,255,.5);--white40:rgba(255,255,255,.4);
+    --white20:rgba(255,255,255,.2);--white60:rgba(255,255,255,.6);
+    --white70:rgba(255,255,255,.7);--white06:rgba(255,255,255,.06);
+  }
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+    font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:rgba(255,255,255,.15)}
+  ::-webkit-scrollbar{width:4px}
+  ::-webkit-scrollbar-thumb{background:rgba(255,255,255,.15);border-radius:2px}
+
+  .container{max-width:1200px;margin:0 auto;padding:0 2rem}
+  .container-narrow{max-width:880px;margin:0 auto;padding:0 2rem}
+  .text-center{text-align:center}
+  .label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--white40);margin-bottom:1.5rem}
+  .section-title{font-size:clamp(1.8rem,5vw,3.2rem);font-weight:700;line-height:1.15;letter-spacing:-.03em;color:#fff}
+  .section-sub{color:var(--white50);margin-top:1.25rem;font-size:1rem;line-height:1.7}
+  .glass-card{
+    background:rgba(255,255,255,.03);
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);
+    border-radius:1.25rem;transition:background .3s;
+  }
+  .glass-card:hover{background:rgba(255,255,255,.04)}
+  section{padding:8rem 0}
+  .divider{width:100%;height:1px;background:rgba(255,255,255,.06)}
+  .icon-box{
+    width:2.5rem;height:2.5rem;border-radius:.75rem;background:var(--white06);
+    display:flex;align-items:center;justify-content:center;transition:background .3s;
+  }
+  .icon-box svg{width:18px;height:18px;stroke:#999;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+  /* HEADER */
+  header{position:fixed;top:0;left:0;right:0;z-index:100;height:4rem;display:flex;align-items:center;transition:all .4s}
+  header.scrolled{background:rgba(10,10,10,.9);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.06)}
+  .header-inner{max-width:1200px;margin:0 auto;padding:0 2rem;width:100%;display:flex;align-items:center;justify-content:space-between}
+  .logo span:first-child{font-weight:600;font-size:.875rem;letter-spacing:.1em;color:#fff;display:block}
+  .logo span:last-child{font-size:.6rem;letter-spacing:.2em;color:var(--white40);display:block;margin-top:1px}
+  nav{display:flex;gap:2rem}
+  nav a{color:var(--white60);font-size:.85rem;text-decoration:none;letter-spacing:.04em;transition:color .2s;cursor:pointer}
+  nav a:hover{color:#fff}
+  .header-right{display:flex;align-items:center;gap:1.25rem}
+  .header-link{color:var(--white50);font-size:.85rem;text-decoration:none;transition:color .2s}
+  .header-link:hover{color:#fff}
+  .header-cta{padding:.6rem 1.25rem;border-radius:9999px;background:#fff;color:#000;font-weight:600;font-size:.8rem;border:none;cursor:pointer;transition:all .2s;text-decoration:none}
+  .header-cta:hover{background:rgba(255,255,255,.88)}
+
+  /* HERO */
+  #hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:6rem 2rem 4rem}
+  .hero-grid{position:absolute;inset:0;opacity:.03;background-image:linear-gradient(rgba(255,255,255,.8) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.8) 1px,transparent 1px);background-size:64px 64px;pointer-events:none}
+  .hero-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:600px;border-radius:50%;background:rgba(255,255,255,.025);filter:blur(120px);pointer-events:none}
+  .hero-content{position:relative;z-index:1;text-align:center;max-width:880px}
+  .hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.4rem 1rem;border-radius:9999px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);color:var(--white50);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;margin-bottom:2.5rem}
+  .hero-badge .dot{width:6px;height:6px;border-radius:50%;background:#34d399}
+  h1{font-size:clamp(2.6rem,8vw,5rem);font-weight:700;line-height:1.08;letter-spacing:-.04em;color:#fff;margin-bottom:1.5rem}
+  h1 .gradient{background:linear-gradient(135deg,#fff 30%,rgba(255,255,255,.55));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .hero-sub{color:var(--white50);font-size:clamp(1rem,2.5vw,1.2rem);line-height:1.7;margin-bottom:3rem}
+  .hero-btns{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap}
+  .btn-primary{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 2rem;border-radius:9999px;background:#fff;color:#000;font-weight:600;font-size:.85rem;letter-spacing:.04em;border:none;cursor:pointer;transition:all .2s;text-decoration:none}
+  .btn-primary:hover{background:rgba(255,255,255,.9);transform:translateY(-1px)}
+  .btn-outline{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 2rem;border-radius:9999px;background:transparent;color:var(--white70);font-size:.85rem;letter-spacing:.04em;border:1px solid rgba(255,255,255,.12);cursor:pointer;transition:all .2s;text-decoration:none}
+  .btn-outline:hover{color:#fff;border-color:rgba(255,255,255,.25)}
+  .scroll-line{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);width:1px;height:3rem;background:linear-gradient(transparent,rgba(255,255,255,.2))}
+
+  /* GRID CARDS (problems / features) */
+  .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:4rem}
+  .feature-card{padding:1.75rem}
+  .card-title{color:#fff;font-weight:600;font-size:1.1rem;margin:1.25rem 0 .6rem}
+  .card-desc{color:var(--white50);font-size:.85rem;line-height:1.7}
+  .section-outro{text-align:center;margin-top:3rem;color:var(--white40);font-size:.875rem}
+  .tinted{background:linear-gradient(180deg,transparent,rgba(255,255,255,.015) 50%,transparent)}
+
+  /* SERVICE GRID */
+  .service-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid rgba(255,255,255,.06);border-radius:1.5rem;overflow:hidden;margin-top:4rem}
+  .service-item{padding:2.5rem;background:var(--bg);border-right:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);transition:background .3s}
+  .service-item:nth-child(3n){border-right:none}
+  .service-item:nth-child(n+4){border-bottom:none}
+  .service-item:hover{background:rgba(255,255,255,.02)}
+  .service-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1.5rem}
+  .service-icon{width:2.75rem;height:2.75rem;border-radius:.875rem;background:var(--white06);display:flex;align-items:center;justify-content:center;transition:background .3s}
+  .service-icon svg{width:20px;height:20px;stroke:#888;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+  .service-item:hover .service-icon{background:rgba(255,255,255,.1)}
+  .service-num{color:var(--white20);font-size:.7rem;font-weight:500;letter-spacing:.1em;padding-top:.5rem}
+  .service-title{color:#fff;font-weight:600;font-size:1.2rem;margin-bottom:.75rem}
+  .service-desc{color:var(--white50);font-size:.85rem;line-height:1.7}
+  .service-filler{display:flex;flex-direction:column;justify-content:center}
+  .service-filler p{color:rgba(255,255,255,.3);font-size:.85rem;line-height:1.7}
+  .service-filler a{margin-top:1rem;color:var(--white70);text-decoration:none;font-size:.85rem;font-weight:500}
+  .service-filler a:hover{color:#fff}
+
+  /* WORKFLOW */
+  .workflow{position:relative;max-width:760px;margin:4rem auto 0}
+  .workflow-line{position:absolute;left:27px;top:.5rem;bottom:.5rem;width:1px;background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.12),rgba(255,255,255,.03))}
+  .workflow-steps{display:flex;flex-direction:column;gap:.75rem}
+  .wf-step{position:relative;display:flex;align-items:flex-start;gap:1.5rem}
+  .wf-node{position:relative;z-index:1;flex-shrink:0;width:3.5rem;height:3.5rem;border-radius:1rem;background:var(--bg);border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;transition:border-color .3s}
+  .wf-step:hover .wf-node{border-color:rgba(255,255,255,.25)}
+  .wf-node svg{width:20px;height:20px;stroke:#999;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+  .wf-body{flex:1;padding:1.5rem}
+  .wf-head{display:flex;align-items:center;gap:.75rem;margin-bottom:.5rem}
+  .wf-tag{color:var(--white20);font-size:.7rem;font-weight:500;letter-spacing:.1em}
+  .wf-title{color:#fff;font-weight:600;font-size:1.1rem}
+  .wf-desc{color:var(--white50);font-size:.85rem;line-height:1.7}
+
+  /* PRICING */
+  .pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;align-items:start;max-width:1080px;margin:4rem auto 0}
+  .plan-card{padding:2.25rem;border-radius:1.75rem;position:relative}
+  .plan-card.normal{box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);background:rgba(255,255,255,.03)}
+  .plan-card.featured{background:#fff;color:#000;box-shadow:0 20px 50px rgba(255,255,255,.08)}
+  @media(min-width:768px){.plan-card.featured{margin-top:-1rem;margin-bottom:1rem}}
+  .plan-badge{position:absolute;top:-.85rem;left:50%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:.35rem;padding:.35rem .9rem;border-radius:9999px;background:#000;color:#fff;font-size:.7rem;font-weight:600;letter-spacing:.06em;white-space:nowrap}
+  .plan-name{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;margin-bottom:1.25rem}
+  .normal .plan-name{color:var(--white40)}
+  .featured .plan-name{color:rgba(0,0,0,.5)}
+  .plan-price-row{display:flex;align-items:flex-end;gap:.25rem;margin-bottom:.5rem}
+  .plan-price{font-size:2.2rem;font-weight:700;letter-spacing:-.04em;line-height:1}
+  .normal .plan-price{color:#fff}
+  .featured .plan-price{color:#000}
+  .price-suffix{font-size:.85rem;font-weight:500;padding-bottom:.25rem}
+  .normal .price-suffix{color:var(--white60)}
+  .featured .price-suffix{color:rgba(0,0,0,.6)}
+  .plan-tagline{font-size:.85rem;margin-bottom:2rem;line-height:1.6}
+  .normal .plan-tagline{color:var(--white50)}
+  .featured .plan-tagline{color:rgba(0,0,0,.6)}
+  .plan-features{list-style:none;margin-bottom:2.25rem}
+  .plan-features li{display:flex;align-items:center;gap:.75rem;padding:.5rem 0;font-size:.875rem;border-bottom:1px solid}
+  .normal .plan-features li{color:var(--white60);border-color:rgba(255,255,255,.06)}
+  .featured .plan-features li{color:rgba(0,0,0,.75);border-color:rgba(0,0,0,.08)}
+  .plan-features li:last-child{border-bottom:none}
+  .check-circle{width:1.25rem;height:1.25rem;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .normal .check-circle{background:rgba(255,255,255,.08)}
+  .featured .check-circle{background:rgba(0,0,0,.1)}
+  .check-circle svg{width:10px;height:10px;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .normal .check-circle svg{stroke:#aaa}
+  .featured .check-circle svg{stroke:#000}
+  .plan-btn{display:block;text-align:center;width:100%;padding:.9rem;border-radius:.875rem;font-weight:600;font-size:.875rem;letter-spacing:.04em;border:none;cursor:pointer;transition:all .2s;text-decoration:none}
+  .normal .plan-btn{background:#fff;color:#000}
+  .normal .plan-btn:hover{background:rgba(255,255,255,.9)}
+  .featured .plan-btn{background:#000;color:#fff}
+  .featured .plan-btn:hover{background:rgba(0,0,0,.8)}
+  .pricing-note{text-align:center;margin-top:2.5rem;color:rgba(255,255,255,.25);font-size:.8rem}
+
+  /* WHY US */
+  .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:4rem}
+  .why-card{padding:2.5rem}
+  .why-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1.5rem}
+  .why-icon{width:3rem;height:3rem;border-radius:1rem;background:var(--white06);display:flex;align-items:center;justify-content:center;transition:background .3s}
+  .why-icon svg{width:22px;height:22px;stroke:#888;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+  .why-card:hover .why-icon{background:rgba(255,255,255,.1)}
+  .why-num{color:var(--white20);font-size:.8rem;font-weight:500;padding-top:.5rem}
+  .why-title{color:#fff;font-weight:600;font-size:1.2rem;line-height:1.35;margin-bottom:.75rem;white-space:pre-line}
+  .why-desc{color:var(--white50);font-size:.875rem;line-height:1.75}
+
+  /* CROSS SELL FUNNEL */
+  .funnel{display:flex;flex-direction:column;align-items:center;margin-top:1rem}
+  .funnel-row{width:100%;display:flex;flex-direction:column;align-items:center}
+  .funnel-card{padding:1.1rem 1.5rem;width:100%;max-width:28rem;display:flex;align-items:center;gap:1rem}
+  .funnel-icon{width:2.75rem;height:2.75rem;border-radius:.75rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:var(--white06)}
+  .funnel-icon.start{background:rgba(52,211,153,.1)}
+  .funnel-icon.end{background:rgba(251,191,36,.1)}
+  .funnel-icon svg{width:20px;height:20px;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:#999}
+  .funnel-icon.start svg{stroke:#34d399}
+  .funnel-icon.end svg{stroke:#fbbf24}
+  .funnel-label{color:#fff;font-weight:600}
+  .funnel-note{color:var(--white40);font-size:.85rem}
+  .funnel-num{margin-left:auto;color:rgba(255,255,255,.15);font-size:.75rem;font-weight:500;letter-spacing:.05em}
+  .funnel-arrow{padding:.5rem 0}
+  .funnel-arrow svg{width:18px;height:18px;stroke:var(--white20);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+  /* CTA */
+  #cta{padding:5rem 0}
+  .cta-box{background:linear-gradient(135deg,#fff,#f4f4f5);border-radius:2rem;padding:5rem 4rem;text-align:center;position:relative;overflow:hidden}
+  .cta-circle1{position:absolute;top:-6rem;right:-6rem;width:16rem;height:16rem;border-radius:50%;background:rgba(0,0,0,.04)}
+  .cta-circle2{position:absolute;bottom:-4rem;left:-4rem;width:12rem;height:12rem;border-radius:50%;background:rgba(0,0,0,.03)}
+  .cta-label{color:rgba(0,0,0,.45);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500;margin-bottom:1rem}
+  .cta-title{font-size:clamp(1.75rem,4vw,2.75rem);font-weight:700;color:#000;letter-spacing:-.03em;margin-bottom:1.25rem;line-height:1.2}
+  .cta-sub{color:rgba(0,0,0,.55);font-size:1rem;line-height:1.7;margin-bottom:2.5rem}
+  .cta-btn{display:inline-flex;align-items:center;gap:.6rem;padding:1rem 2.5rem;border-radius:9999px;background:#000;color:#fff;font-weight:600;font-size:.875rem;letter-spacing:.04em;border:none;cursor:pointer;transition:all .2s;box-shadow:0 8px 24px rgba(0,0,0,.2);text-decoration:none}
+  .cta-btn:hover{background:rgba(0,0,0,.8);transform:translateY(-1px)}
+  .cta-btn svg{width:15px;height:15px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+
+  /* FOOTER */
+  footer{border-top:1px solid rgba(255,255,255,.06);padding:4rem 0 3rem}
+  .footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+  .footer-logo span:first-child{font-weight:600;font-size:.95rem;letter-spacing:.1em;color:#fff;display:block}
+  .footer-logo span:last-child{font-size:.65rem;letter-spacing:.2em;color:var(--white40);display:block;margin-top:2px}
+  .footer-inner p{color:rgba(255,255,255,.25);font-size:.78rem}
+  .footer-back{color:var(--white50);font-size:.85rem;text-decoration:none}
+  .footer-back:hover{color:#fff}
+
+  /* RESPONSIVE */
+  @media(max-width:900px){
+    .card-grid{grid-template-columns:1fr 1fr}
+    .service-grid{grid-template-columns:1fr 1fr}
+    .service-item:nth-child(3n){border-right:1px solid rgba(255,255,255,.06)}
+    .service-item:nth-child(2n){border-right:none}
+    .pricing-grid{grid-template-columns:1fr;max-width:30rem}
+    .plan-card.featured{margin:0}
+    .why-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:600px){
+    section{padding:5rem 0}
+    .card-grid,.service-grid{grid-template-columns:1fr}
+    .service-item:nth-child(n){border-right:1px solid rgba(255,255,255,.06)}
+    nav,.header-link{display:none}
+    .cta-box{padding:3rem 1.5rem}
+  }
+
+  .fade-up{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+  .fade-up.visible{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="header-inner">
+    <div class="logo">
+      <span>ideno LLC</span>
+      <span>ホームページ制作</span>
+    </div>
+    <nav>
+      <a onclick="scrollToId('problems')">Problems</a>
+      <a onclick="scrollToId('service')">Service</a>
+      <a onclick="scrollToId('pricing')">Pricing</a>
+      <a onclick="scrollToId('workflow')">Flow</a>
+    </nav>
+    <div class="header-right">
+      <a href="demo-services.html" class="header-link">← サービス一覧</a>
+      <a href="demo.html#contact" class="header-cta">無料相談する</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-badge fade-up"><span class="dot"></span>ホームページ制作 / Web Production</div>
+    <h1 class="fade-up">成果につながる<br><span class="gradient">ホームページを。</span></h1>
+    <p class="hero-sub fade-up">見た目だけではなく、<br>信頼構築・問い合わせ獲得・採用強化につながるホームページを制作します。</p>
+    <div class="hero-btns fade-up">
+      <a href="demo.html#contact" class="btn-primary">
+        無料相談する
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a class="btn-outline" onclick="scrollToId('pricing')">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>
+        見積もり依頼
+      </a>
+    </div>
+  </div>
+  <div class="scroll-line"></div>
+</section>
+
+<!-- PROBLEMS -->
+<section id="problems" class="tinted">
+  <div class="container">
+    <div class="text-center">
+      <div class="label fade-up">Problems</div>
+      <h2 class="section-title fade-up">こんなお悩み<br>ありませんか？</h2>
+    </div>
+    <div class="card-grid">
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <div class="card-title">ホームページがない</div>
+        <div class="card-desc">会社の信頼性を示す受け皿がなく、商談や採用で機会損失が起きている。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"/><path d="M12 7v5l4 2"/></svg></div>
+        <div class="card-title">古いサイトを放置している</div>
+        <div class="card-desc">何年も更新されておらず、情報も古く会社の印象を下げてしまっている。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></div>
+        <div class="card-title">問い合わせが来ない</div>
+        <div class="card-desc">サイトはあるが、見込み客からの問い合わせや資料請求につながらない。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="17" y1="8" x2="22" y2="13"/><line x1="22" y1="8" x2="17" y2="13"/></svg></div>
+        <div class="card-title">採用応募が来ない</div>
+        <div class="card-desc">求職者に魅力が伝わらず、応募数・採用の質が伸び悩んでいる。</div>
+      </div>
+      <div class="glass-card feature-card fade-up" style="grid-column:span 2">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <div class="card-title">スマホ対応できていない</div>
+        <div class="card-desc">スマホで見ると崩れて読みづらく、離脱の原因になっている。</div>
+      </div>
+    </div>
+    <div class="section-outro fade-up">そのすべてを、私たちが解決します。</div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SERVICE -->
+<section id="service">
+  <div class="container">
+    <div class="text-center">
+      <div class="label fade-up">Service</div>
+      <h2 class="section-title fade-up">目的に合わせた<br>5つの制作メニュー</h2>
+      <p class="section-sub fade-up">「作って終わり」ではなく、ビジネスの成果から逆算して設計します。</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-item fade-up">
+        <div class="service-header"><div class="service-icon"><svg viewBox="0 0 24 24"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><line x1="9" y1="9" x2="9" y2="9.01"/><line x1="9" y1="12" x2="9" y2="12.01"/><line x1="9" y1="15" x2="9" y2="15.01"/></svg></div><span class="service-num">01</span></div>
+        <div class="service-title">コーポレートサイト</div>
+        <div class="service-desc">会社の信頼性とブランドを伝える、企業の顔となる公式サイトを制作します。</div>
+      </div>
+      <div class="service-item fade-up">
+        <div class="service-header"><div class="service-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><span class="service-num">02</span></div>
+        <div class="service-title">採用サイト</div>
+        <div class="service-desc">求職者に企業の魅力を届け、応募数と採用の質を高める採用専用サイト。</div>
+      </div>
+      <div class="service-item fade-up">
+        <div class="service-header"><div class="service-icon"><svg viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/></svg></div><span class="service-num">03</span></div>
+        <div class="service-title">LP制作</div>
+        <div class="service-desc">商品・サービスの訴求に特化し、問い合わせ・申込みを最大化するランディングページ。</div>
+      </div>
+      <div class="service-item fade-up">
+        <div class="service-header"><div class="service-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div><span class="service-num">04</span></div>
+        <div class="service-title">サービスサイト</div>
+        <div class="service-desc">提供サービスの価値を分かりやすく整理し、見込み客の理解と行動を促します。</div>
+      </div>
+      <div class="service-item fade-up">
+        <div class="service-header"><div class="service-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><span class="service-num">05</span></div>
+        <div class="service-title">オウンドメディア</div>
+        <div class="service-desc">コンテンツでSEO集客を行い、継続的に見込み客を獲得する資産型メディア。</div>
+      </div>
+      <div class="service-item service-filler fade-up">
+        <p>上記以外のご要望も<br>お気軽にご相談ください。</p>
+        <a href="demo.html#contact">相談する →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FEATURES -->
+<section class="tinted">
+  <div class="container">
+    <div class="text-center">
+      <div class="label fade-up">Features</div>
+      <h2 class="section-title fade-up">すべての制作に<br>標準で備わる品質</h2>
+    </div>
+    <div class="card-grid">
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <div class="card-title">スマホ最適化</div>
+        <div class="card-desc">全ページをモバイルファーストで設計。どの端末でも美しく快適に閲覧できます。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+        <div class="card-title">SEO対策</div>
+        <div class="card-desc">検索エンジンに評価される構造化マークアップと内部対策を標準実装します。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <div class="card-title">高速表示</div>
+        <div class="card-desc">最新のフレームワークと画像最適化で、ストレスのない表示速度を実現します。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+        <div class="card-title">更新しやすい設計</div>
+        <div class="card-desc">専門知識がなくても、お知らせやブログを自社で更新できる仕組みを構築します。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <div class="card-title">お問い合わせフォーム</div>
+        <div class="card-desc">迷惑メール対策や自動返信を備えた、確実に届くフォームを実装します。</div>
+      </div>
+      <div class="glass-card feature-card fade-up">
+        <div class="icon-box"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></div>
+        <div class="card-title">SNS連携</div>
+        <div class="card-desc">Instagram・TikTok・YouTubeと連携し、SNSとサイトの相乗効果を生み出します。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- WORKFLOW -->
+<section id="workflow">
+  <div class="container-narrow">
+    <div class="text-center">
+      <div class="label fade-up">Workflow</div>
+      <h2 class="section-title fade-up">制作の流れ</h2>
+    </div>
+    <div class="workflow">
+      <div class="workflow-line"></div>
+      <div class="workflow-steps">
+        <div class="wf-step fade-up">
+          <div class="wf-node"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+          <div class="glass-card wf-body"><div class="wf-head"><span class="wf-tag">STEP 01</span><span class="wf-title">ヒアリング</span></div><div class="wf-desc">事業内容・課題・目標を丁寧にお伺いし、サイトの目的を明確にします。</div></div>
+        </div>
+        <div class="wf-step fade-up">
+          <div class="wf-node"><svg viewBox="0 0 24 24"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div>
+          <div class="glass-card wf-body"><div class="wf-head"><span class="wf-tag">STEP 02</span><span class="wf-title">企画設計</span></div><div class="wf-desc">サイトマップ・ワイヤーフレームを作成し、構成と導線を設計します。</div></div>
+        </div>
+        <div class="wf-step fade-up">
+          <div class="wf-node"><svg viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></div>
+          <div class="glass-card wf-body"><div class="wf-head"><span class="wf-tag">STEP 03</span><span class="wf-title">デザイン</span></div><div class="wf-desc">ブランドに合ったビジュアルで、信頼感と魅力を伝えるデザインを制作します。</div></div>
+        </div>
+        <div class="wf-step fade-up">
+          <div class="wf-node"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <div class="glass-card wf-body"><div class="wf-head"><span class="wf-tag">STEP 04</span><span class="wf-title">開発</span></div><div class="wf-desc">レスポンシブ・高速表示・SEOに配慮し、本番品質でコーディングします。</div></div>
+        </div>
+        <div class="wf-step fade-up">
+          <div class="wf-node"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <div class="glass-card wf-body"><div class="wf-head"><span class="wf-tag">STEP 05</span><span class="wf-title">公開</span></div><div class="wf-desc">サーバー設定・ドメイン・各種テストを行い、安全に公開します。</div></div>
+        </div>
+        <div class="wf-step fade-up">
+          <div class="wf-node"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg></div>
+          <div class="glass-card wf-body"><div class="wf-head"><span class="wf-tag">STEP 06</span><span class="wf-title">運用サポート</span></div><div class="wf-desc">公開後の更新・改善・アクセス分析まで、継続的にサポートします。</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PRICING -->
+<section id="pricing" class="tinted">
+  <div class="container">
+    <div class="text-center">
+      <div class="label fade-up">Pricing</div>
+      <h2 class="section-title fade-up">料金プラン</h2>
+      <p class="section-sub fade-up">目的と規模に合わせて、3つのプランからお選びいただけます</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="plan-card normal fade-up">
+        <div class="plan-name">Light</div>
+        <div class="plan-price-row"><span class="plan-price">¥200,000</span><span class="price-suffix">〜</span></div>
+        <div class="plan-tagline">まず最低限の受け皿を用意したい方に</div>
+        <ul class="plan-features">
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>5ページ程度</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>テンプレートベース</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>お問い合わせフォーム</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>スマホ対応</li>
+        </ul>
+        <a href="demo.html#contact" class="plan-btn">このプランで相談する</a>
+      </div>
+      <div class="plan-card featured fade-up">
+        <div class="plan-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="white"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>おすすめ</div>
+        <div class="plan-name">Standard</div>
+        <div class="plan-price-row"><span class="plan-price">¥350,000</span><span class="price-suffix">〜</span></div>
+        <div class="plan-tagline">しっかり成果を出したい企業に</div>
+        <ul class="plan-features">
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>10ページ程度</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>オリジナルデザイン</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>SEO対応</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>ブログ機能</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>お問い合わせフォーム</li>
+        </ul>
+        <a href="demo.html#contact" class="plan-btn">このプランで相談する</a>
+      </div>
+      <div class="plan-card normal fade-up">
+        <div class="plan-name">Premium</div>
+        <div class="plan-price-row"><span class="plan-price">¥500,000</span><span class="price-suffix">〜</span></div>
+        <div class="plan-tagline">採用・集客まで本格的に強化したい企業に</div>
+        <ul class="plan-features">
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>オリジナル設計</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>採用ページ</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>LP制作</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>SEO強化</li>
+          <li><div class="check-circle"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>運用サポート</li>
+        </ul>
+        <a href="demo.html#contact" class="plan-btn">このプランで相談する</a>
+      </div>
+    </div>
+    <p class="pricing-note fade-up">※ 料金は税別表示です。ページ数・機能により変動します。詳細はお見積もりにてご案内します。</p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- WHY US -->
+<section>
+  <div class="container">
+    <div class="text-center">
+      <div class="label fade-up">Why Us</div>
+      <h2 class="section-title fade-up">選ばれる理由</h2>
+    </div>
+    <div class="why-grid">
+      <div class="glass-card why-card fade-up">
+        <div class="why-header"><div class="why-icon"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></div><span class="why-num">01</span></div>
+        <div class="why-title">SNS運用もまとめて
+依頼可能</div>
+        <div class="why-desc">ホームページとSNS運用を一社で完結。集客から受け皿まで一貫した戦略で支援します。</div>
+      </div>
+      <div class="glass-card why-card fade-up">
+        <div class="why-header"><div class="why-icon"><svg viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></div><span class="why-num">02</span></div>
+        <div class="why-title">動画制作にも
+対応</div>
+        <div class="why-desc">ショート動画・撮影・編集まで内製。サイトに載せる動画コンテンツも同時に制作できます。</div>
+      </div>
+      <div class="glass-card why-card fade-up">
+        <div class="why-header"><div class="why-icon"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><span class="why-num">03</span></div>
+        <div class="why-title">経営者ブランディング
+が得意</div>
+        <div class="why-desc">代表の想いや価値観を言語化・可視化し、企業の信頼性を高めるサイトを設計します。</div>
+      </div>
+      <div class="glass-card why-card fade-up">
+        <div class="why-header"><div class="why-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg></div><span class="why-num">04</span></div>
+        <div class="why-title">制作後の運用も
+相談可能</div>
+        <div class="why-desc">公開して終わりにしません。更新・改善・分析まで、長期パートナーとして伴走します。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CROSS SELL -->
+<section class="tinted">
+  <div class="container-narrow">
+    <div class="text-center">
+      <div class="label fade-up">Cross Sell</div>
+      <h2 class="section-title fade-up">SNS運用 × ホームページで<br>効果を最大化</h2>
+      <p class="section-sub fade-up" style="max-width:34rem;margin-left:auto;margin-right:auto">集客（SNS）と受け皿（ホームページ）を組み合わせることで、認知から成約までが一本の線でつながります。</p>
+    </div>
+    <div class="funnel" style="margin-top:3rem">
+      <div class="funnel-row fade-up">
+        <div class="glass-card funnel-card">
+          <div class="funnel-icon start"><svg viewBox="0 0 24 24"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></div>
+          <div><div class="funnel-label">SNS集客</div><div class="funnel-note">ショート動画で認知を広げる</div></div>
+          <div class="funnel-num">01</div>
+        </div>
+      </div>
+      <div class="funnel-arrow fade-up"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg></div>
+      <div class="funnel-row fade-up">
+        <div class="glass-card funnel-card">
+          <div class="funnel-icon"><svg viewBox="0 0 24 24"><path d="M9 9h6v6"/><path d="M9 15 20 4"/><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/></svg></div>
+          <div><div class="funnel-label">ホームページ訪問</div><div class="funnel-note">興味を持った見込み客が来訪</div></div>
+          <div class="funnel-num">02</div>
+        </div>
+      </div>
+      <div class="funnel-arrow fade-up"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg></div>
+      <div class="funnel-row fade-up">
+        <div class="glass-card funnel-card">
+          <div class="funnel-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="funnel-label">問い合わせ</div><div class="funnel-note">信頼を得て行動につながる</div></div>
+          <div class="funnel-num">03</div>
+        </div>
+      </div>
+      <div class="funnel-arrow fade-up"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg></div>
+      <div class="funnel-row fade-up">
+        <div class="glass-card funnel-card">
+          <div class="funnel-icon"><svg viewBox="0 0 24 24"><path d="M11 17a4 4 0 0 1-8 0V9a5 5 0 0 1 5-5h1"/><path d="M13 7a4 4 0 0 1 8 0v8a5 5 0 0 1-5 5h-1"/></svg></div>
+          <div><div class="funnel-label">商談</div><div class="funnel-note">具体的な提案・すり合わせ</div></div>
+          <div class="funnel-num">04</div>
+        </div>
+      </div>
+      <div class="funnel-arrow fade-up"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg></div>
+      <div class="funnel-row fade-up">
+        <div class="glass-card funnel-card">
+          <div class="funnel-icon end"><svg viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg></div>
+          <div><div class="funnel-label">成約</div><div class="funnel-note">売上・採用の成果へ</div></div>
+          <div class="funnel-num">05</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="container">
+    <div class="cta-box fade-up">
+      <div class="cta-circle1"></div>
+      <div class="cta-circle2"></div>
+      <div style="position:relative;z-index:1">
+        <div class="cta-label">Free Consultation</div>
+        <div class="cta-title">ホームページは、会社の顔です。</div>
+        <div class="cta-sub">「何から始めればいいかわからない」という段階でも大丈夫です。<br>まずはお気軽にご相談ください。</div>
+        <a href="demo.html#contact" class="cta-btn">無料相談する<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span>ideno LLC</span>
+        <span>合同会社出野</span>
+      </div>
+      <a href="demo.html" class="footer-back">← SNS運用代行トップへ</a>
+      <p>© 2025 合同会社出野 / ideno LLC. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40), {passive:true});
+function scrollToId(id){ document.getElementById(id).scrollIntoView({behavior:'smooth'}); }
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const delay = parseInt(entry.target.dataset.delay || 0);
+      setTimeout(() => entry.target.classList.add('visible'), delay);
+    }
+  });
+}, {threshold: 0.08, rootMargin: '-40px'});
+
+document.querySelectorAll('.fade-up').forEach(el => {
+  const siblings = el.parentElement.querySelectorAll('.fade-up');
+  const idx = Array.from(siblings).indexOf(el);
+  el.dataset.delay = Math.min(idx, 6) * 80;
+  observer.observe(el);
+});
+</script>
+</body>
+</html>

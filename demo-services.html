@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サービス一覧 | 合同会社出野 ideno LLC</title>
+<meta name="description" content="合同会社出野の3つのサービス（SNS運用代行・ホームページ制作・社長の一日）をご紹介。認知拡大から信頼構築まで、目的に合わせてお選びいただけます。">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{--bg:#0a0a0a;--fg:#ededed;--white50:rgba(255,255,255,.5);--white40:rgba(255,255,255,.4);--white20:rgba(255,255,255,.2);--white60:rgba(255,255,255,.6);--white70:rgba(255,255,255,.7);--white06:rgba(255,255,255,.06)}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  ::selection{background:rgba(255,255,255,.15)}
+  ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-thumb{background:rgba(255,255,255,.15);border-radius:2px}
+  .container{max-width:1200px;margin:0 auto;padding:0 2rem}
+  .container-narrow{max-width:880px;margin:0 auto;padding:0 2rem}
+  .text-center{text-align:center}
+  .label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--white40);margin-bottom:1.5rem}
+  .section-title{font-size:clamp(1.8rem,5vw,3.2rem);font-weight:700;line-height:1.15;letter-spacing:-.03em;color:#fff}
+  .section-sub{color:var(--white50);margin-top:1.25rem;font-size:1rem;line-height:1.7}
+  .glass-card{background:rgba(255,255,255,.03);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);border-radius:1.25rem;transition:all .3s}
+  section{padding:7rem 0}
+  .divider{width:100%;height:1px;background:rgba(255,255,255,.06)}
+  .tinted{background:linear-gradient(180deg,transparent,rgba(255,255,255,.015) 50%,transparent)}
+
+  /* HEADER */
+  header{position:fixed;top:0;left:0;right:0;z-index:100;height:4rem;display:flex;align-items:center;transition:all .4s}
+  header.scrolled{background:rgba(10,10,10,.9);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.06)}
+  .header-inner{max-width:1200px;margin:0 auto;padding:0 2rem;width:100%;display:flex;align-items:center;justify-content:space-between}
+  .logo span:first-child{font-weight:600;font-size:.875rem;letter-spacing:.1em;color:#fff;display:block}
+  .logo span:last-child{font-size:.6rem;letter-spacing:.2em;color:var(--white40);display:block;margin-top:1px}
+  nav{display:flex;gap:2rem}
+  nav a{color:var(--white60);font-size:.85rem;text-decoration:none;letter-spacing:.04em;transition:color .2s;cursor:pointer}
+  nav a:hover{color:#fff}
+  .header-cta{padding:.6rem 1.25rem;border-radius:9999px;background:#fff;color:#000;font-weight:600;font-size:.8rem;border:none;cursor:pointer;transition:all .2s;text-decoration:none}
+  .header-cta:hover{background:rgba(255,255,255,.88)}
+
+  /* HERO */
+  #hero{min-height:78vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:7rem 2rem 4rem}
+  .hero-grid{position:absolute;inset:0;opacity:.03;background-image:linear-gradient(rgba(255,255,255,.8) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.8) 1px,transparent 1px);background-size:64px 64px;pointer-events:none}
+  .hero-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:600px;border-radius:50%;background:rgba(255,255,255,.025);filter:blur(120px);pointer-events:none}
+  .hero-content{position:relative;z-index:1;text-align:center;max-width:820px}
+  .hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.4rem 1rem;border-radius:9999px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);color:var(--white50);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;margin-bottom:2.5rem}
+  .hero-badge .dot{width:6px;height:6px;border-radius:50%;background:#34d399}
+  h1{font-size:clamp(2.6rem,8vw,4.5rem);font-weight:700;line-height:1.08;letter-spacing:-.04em;margin-bottom:1.5rem}
+  h1 .gradient{background:linear-gradient(135deg,#fff 30%,rgba(255,255,255,.55));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .hero-sub{color:var(--white50);font-size:clamp(1rem,2.5vw,1.2rem);line-height:1.7}
+  .scroll-line{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);width:1px;height:3rem;background:linear-gradient(transparent,rgba(255,255,255,.2))}
+
+  /* SERVICE CARDS */
+  .cards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+  .svc-card{display:flex;flex-direction:column;height:100%;padding:2.25rem;border-radius:1.75rem;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);background:rgba(255,255,255,.03);text-decoration:none;transition:all .3s}
+  .svc-card:hover{background:rgba(255,255,255,.045);transform:translateY(-6px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),0 24px 50px rgba(0,0,0,.4)}
+  .svc-head{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:2rem}
+  .svc-icon{width:3.5rem;height:3.5rem;border-radius:1rem;display:flex;align-items:center;justify-content:center;transition:transform .3s}
+  .svc-card:hover .svc-icon{transform:scale(1.1)}
+  .svc-icon.sns{background:rgba(52,211,153,.1)}
+  .svc-icon.web{background:rgba(56,189,248,.1)}
+  .svc-icon.doc{background:rgba(251,191,36,.1)}
+  .svc-icon svg{width:24px;height:24px;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .svc-icon.sns svg{stroke:#34d399}.svc-icon.web svg{stroke:#38bdf8}.svc-icon.doc svg{stroke:#fbbf24}
+  .svc-num{color:rgba(255,255,255,.15);font-size:.85rem;font-weight:500;letter-spacing:.05em}
+  .svc-name{color:#fff;font-weight:600;font-size:1.5rem;margin-bottom:1rem}
+  .svc-catch{color:var(--white70);font-size:1.1rem;font-weight:500;line-height:1.4;white-space:pre-line;margin-bottom:1.25rem}
+  .svc-desc{color:rgba(255,255,255,.45);font-size:.875rem;line-height:1.75;margin-bottom:2rem;flex:1}
+  .svc-link{display:inline-flex;align-items:center;gap:.5rem;color:#fff;font-weight:500;font-size:.875rem;transition:gap .3s}
+  .svc-card:hover .svc-link{gap:.85rem}
+  .svc-link svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+  /* COMPARISON */
+  .cmp-wrap{box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);border-radius:1.75rem;overflow:hidden;margin-top:3.5rem}
+  .cmp-scroll{overflow-x:auto}
+  table.cmp{width:100%;min-width:560px;border-collapse:collapse}
+  table.cmp th{padding:1.25rem 1rem;font-size:.875rem}
+  table.cmp thead tr{border-bottom:1px solid rgba(255,255,255,.08)}
+  table.cmp th.purpose{text-align:left;color:var(--white40);font-size:.7rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding-left:1.5rem}
+  table.cmp th.col{color:#fff;font-weight:600;text-align:center}
+  table.cmp td{padding:1.25rem 1rem;text-align:center}
+  table.cmp td.rowlabel{text-align:left;color:var(--white70);font-size:.875rem;font-weight:500;padding-left:1.5rem}
+  table.cmp tbody tr{border-bottom:1px solid rgba(255,255,255,.05)}
+  table.cmp tbody tr:last-child{border-bottom:none}
+  .chk{width:1.75rem;height:1.75rem;border-radius:50%;display:inline-flex;align-items:center;justify-content:center}
+  .chk.strong{background:#fff}.chk.weak{background:rgba(255,255,255,.08)}
+  .chk svg{width:14px;height:14px;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .chk.strong svg{stroke:#000}.chk.weak svg{stroke:rgba(255,255,255,.6)}
+  .dash{display:inline-block;width:14px;height:2px;background:rgba(255,255,255,.15);border-radius:2px;vertical-align:middle}
+  .cmp-legend{display:flex;align-items:center;justify-content:center;gap:1.5rem;margin-top:2rem;flex-wrap:wrap;color:var(--white40);font-size:.78rem}
+  .cmp-legend span{display:inline-flex;align-items:center;gap:.5rem}
+
+  /* FLOW */
+  .flow{display:flex;flex-direction:column;align-items:center;margin-top:1rem}
+  .flow-row{width:100%;display:flex;flex-direction:column;align-items:center}
+  .flow-card{padding:1.1rem 1.5rem;width:100%;max-width:28rem;display:flex;align-items:center;gap:1rem;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);background:rgba(255,255,255,.03);border-radius:1.25rem;transition:background .3s}
+  .flow-card:hover{background:rgba(255,255,255,.045)}
+  .flow-icon{width:2.75rem;height:2.75rem;border-radius:.75rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:var(--white06)}
+  .flow-icon.start{background:rgba(52,211,153,.1)}.flow-icon.end{background:rgba(251,191,36,.1)}
+  .flow-icon svg{width:20px;height:20px;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:#999}
+  .flow-icon.start svg{stroke:#34d399}.flow-icon.end svg{stroke:#fbbf24}
+  .flow-label{color:#fff;font-weight:600}.flow-note{color:var(--white40);font-size:.85rem}
+  .flow-num{margin-left:auto;color:rgba(255,255,255,.15);font-size:.75rem;font-weight:500}
+  .flow-arrow{padding:.5rem 0}.flow-arrow svg{width:18px;height:18px;stroke:var(--white20);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+  /* CROSS */
+  .cross-row{display:flex;align-items:stretch;justify-content:center;gap:.75rem;margin-top:1rem;flex-wrap:wrap}
+  .cross-item{flex:1;min-width:160px;text-align:center;padding:2rem 1.5rem;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);background:rgba(255,255,255,.03);border-radius:1.25rem}
+  .cross-icon{width:3rem;height:3rem;border-radius:1rem;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem}
+  .cross-icon.sns{background:rgba(52,211,153,.1)}.cross-icon.web{background:rgba(56,189,248,.1)}.cross-icon.doc{background:rgba(251,191,36,.1)}
+  .cross-icon svg{width:22px;height:22px;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .cross-icon.sns svg{stroke:#34d399}.cross-icon.web svg{stroke:#38bdf8}.cross-icon.doc svg{stroke:#fbbf24}
+  .cross-label{color:#fff;font-weight:600;margin-bottom:.25rem}.cross-role{color:var(--white40);font-size:.85rem}
+  .cross-plus{display:flex;align-items:center;color:rgba(255,255,255,.25);font-size:1.5rem;font-weight:300}
+  .cross-eq{text-align:center;margin-top:2rem}
+  .cross-eq span{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.5rem;border-radius:9999px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);color:var(--white70);font-size:.875rem}
+  .cross-eq b{color:#fff;font-weight:600}
+
+  /* CTA */
+  #cta{padding:5rem 0}
+  .cta-box{background:linear-gradient(135deg,#fff,#f4f4f5);border-radius:2rem;padding:5rem 4rem;text-align:center;position:relative;overflow:hidden}
+  .cta-circle1{position:absolute;top:-6rem;right:-6rem;width:16rem;height:16rem;border-radius:50%;background:rgba(0,0,0,.04)}
+  .cta-circle2{position:absolute;bottom:-4rem;left:-4rem;width:12rem;height:12rem;border-radius:50%;background:rgba(0,0,0,.03)}
+  .cta-label{color:rgba(0,0,0,.45);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500;margin-bottom:1rem}
+  .cta-title{font-size:clamp(1.75rem,4vw,2.75rem);font-weight:700;color:#000;letter-spacing:-.03em;margin-bottom:1.25rem;line-height:1.2}
+  .cta-sub{color:rgba(0,0,0,.55);font-size:1rem;line-height:1.7;margin-bottom:2.5rem}
+  .cta-btns{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap}
+  .cta-btn{display:inline-flex;align-items:center;gap:.6rem;padding:1rem 2.5rem;border-radius:9999px;background:#000;color:#fff;font-weight:600;font-size:.875rem;border:none;cursor:pointer;transition:all .2s;box-shadow:0 8px 24px rgba(0,0,0,.2);text-decoration:none}
+  .cta-btn:hover{background:rgba(0,0,0,.8);transform:translateY(-1px)}
+  .cta-btn svg{width:15px;height:15px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+  .cta-btn.ghost{background:transparent;color:rgba(0,0,0,.7);border:1px solid rgba(0,0,0,.15);box-shadow:none}
+  .cta-btn.ghost:hover{color:#000;border-color:rgba(0,0,0,.3);background:transparent}
+  .cta-btn.ghost svg{stroke:currentColor}
+
+  /* FOOTER */
+  footer{border-top:1px solid rgba(255,255,255,.06);padding:4rem 0 3rem}
+  .footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+  .footer-logo span:first-child{font-weight:600;font-size:.95rem;letter-spacing:.1em;color:#fff;display:block}
+  .footer-logo span:last-child{font-size:.65rem;letter-spacing:.2em;color:var(--white40);display:block;margin-top:2px}
+  .footer-inner p{color:rgba(255,255,255,.25);font-size:.78rem}
+  .footer-links{display:flex;gap:1.5rem;flex-wrap:wrap}
+  .footer-links a{color:var(--white50);font-size:.85rem;text-decoration:none}.footer-links a:hover{color:#fff}
+
+  @media(max-width:900px){
+    .cards-grid{grid-template-columns:1fr;max-width:34rem;margin:0 auto}
+  }
+  @media(max-width:600px){
+    section{padding:5rem 0}
+    nav{display:none}
+    .cross-row{flex-direction:column}.cross-plus{justify-content:center}
+    .cta-box{padding:3rem 1.5rem}
+  }
+  .fade-up{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+  .fade-up.visible{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<header id="header">
+  <div class="header-inner">
+    <div class="logo"><span>ideno LLC</span><span>合同会社出野</span></div>
+    <nav>
+      <a onclick="scrollToId('service-cards')">サービス</a>
+      <a onclick="scrollToId('comparison')">比較</a>
+      <a onclick="scrollToId('flow')">活用方法</a>
+    </nav>
+    <a href="demo.html#contact" class="header-cta">無料相談する</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-badge fade-up"><span class="dot"></span>Services</div>
+    <h1 class="fade-up"><span class="gradient">サービス一覧</span></h1>
+    <p class="hero-sub fade-up">企業の魅力を伝えるための3つのサービスをご用意しています。<br>認知拡大から信頼構築まで、目的に合わせてお選びください。</p>
+  </div>
+  <div class="scroll-line"></div>
+</section>
+
+<!-- SERVICE CARDS -->
+<section id="service-cards">
+  <div class="container">
+    <div class="cards-grid">
+      <a href="demo.html" class="svc-card fade-up">
+        <div class="svc-head">
+          <div class="svc-icon sns"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></div>
+          <span class="svc-num">01</span>
+        </div>
+        <div class="svc-name">SNS運用代行</div>
+        <div class="svc-catch">継続的な発信で
+認知と信頼を積み上げる</div>
+        <div class="svc-desc">企画・撮影・編集・投稿まで一括対応。Instagram、TikTok、YouTube Shortsを活用し、企業や経営者の魅力を発信します。</div>
+        <span class="svc-link">詳しく見る<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </a>
+      <a href="demo-website.html" class="svc-card fade-up">
+        <div class="svc-head">
+          <div class="svc-icon web"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <span class="svc-num">02</span>
+        </div>
+        <div class="svc-name">ホームページ制作</div>
+        <div class="svc-catch">成果につながる
+ホームページを。</div>
+        <div class="svc-desc">企業サイト、採用サイト、LP制作まで対応。見た目だけではなく、問い合わせや採用につながる設計を行います。</div>
+        <span class="svc-link">詳しく見る<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </a>
+      <a href="demo-shacho.html" class="svc-card fade-up">
+        <div class="svc-head">
+          <div class="svc-icon doc"><svg viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></div>
+          <span class="svc-num">03</span>
+        </div>
+        <div class="svc-name">社長の一日</div>
+        <div class="svc-catch">経営者のリアルを
+映像に。</div>
+        <div class="svc-desc">出社から退社まで密着。会社ではなく「人」を伝えるドキュメンタリー動画を制作します。採用・営業・ブランディングに活用可能。</div>
+        <span class="svc-link">詳しく見る<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- COMPARISON -->
+<section id="comparison" class="tinted">
+  <div class="container-narrow">
+    <div class="text-center">
+      <div class="label fade-up">Comparison</div>
+      <h2 class="section-title fade-up">どのサービスを選ぶべき？</h2>
+    </div>
+    <div class="cmp-wrap fade-up">
+      <div class="cmp-scroll">
+        <table class="cmp">
+          <thead>
+            <tr><th class="purpose">目的</th><th class="col">SNS運用代行</th><th class="col">ホームページ制作</th><th class="col">社長の一日</th></tr>
+          </thead>
+          <tbody id="cmp-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="cmp-legend fade-up">
+      <span><span class="chk strong"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>特に効果的</span>
+      <span><span class="chk weak"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>対応可能</span>
+      <span><span class="dash"></span>対象外</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- RECOMMENDED FLOW -->
+<section id="flow">
+  <div class="container-narrow">
+    <div class="text-center">
+      <div class="label fade-up">Recommended Flow</div>
+      <h2 class="section-title fade-up">おすすめの活用方法</h2>
+    </div>
+    <div class="flow" id="flow-list" style="margin-top:3rem"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CROSS SELLING -->
+<section class="tinted">
+  <div class="container-narrow">
+    <div class="text-center">
+      <div class="label fade-up">Cross Selling</div>
+      <h2 class="section-title fade-up">組み合わせることで<br>効果最大化</h2>
+      <p class="section-sub fade-up" style="max-width:34rem;margin-left:auto;margin-right:auto">SNSだけでも、ホームページだけでも不十分です。集客・信頼・成約までを一貫して設計することで成果が高まります。</p>
+    </div>
+    <div class="cross-row" style="margin-top:3rem">
+      <div class="cross-item fade-up">
+        <div class="cross-icon sns"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></div>
+        <div class="cross-label">SNS運用</div><div class="cross-role">集客</div>
+      </div>
+      <div class="cross-plus fade-up">＋</div>
+      <div class="cross-item fade-up">
+        <div class="cross-icon web"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <div class="cross-label">ホームページ</div><div class="cross-role">信頼・受け皿</div>
+      </div>
+      <div class="cross-plus fade-up">＋</div>
+      <div class="cross-item fade-up">
+        <div class="cross-icon doc"><svg viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></div>
+        <div class="cross-label">社長の一日</div><div class="cross-role">人で差別化</div>
+      </div>
+    </div>
+    <div class="cross-eq fade-up"><span>集客 × 信頼 × 差別化 ＝ <b>成果の最大化</b></span></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="container">
+    <div class="cta-box fade-up">
+      <div class="cta-circle1"></div><div class="cta-circle2"></div>
+      <div style="position:relative;z-index:1">
+        <div class="cta-label">Free Consultation</div>
+        <div class="cta-title">まずはお気軽にご相談ください</div>
+        <div class="cta-sub">どのサービスが最適かわからない場合も、お気軽にご相談ください。</div>
+        <div class="cta-btns">
+          <a href="demo.html#contact" class="cta-btn">無料相談する<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a href="demo.html#contact" class="cta-btn ghost"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>お問い合わせ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo"><span>ideno LLC</span><span>合同会社出野</span></div>
+      <div class="footer-links">
+        <a href="demo.html">SNS運用代行</a>
+        <a href="demo-website.html">ホームページ制作</a>
+        <a href="demo-shacho.html">社長の一日</a>
+      </div>
+      <p>© 2025 合同会社出野 / ideno LLC.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40), {passive:true});
+function scrollToId(id){ document.getElementById(id).scrollIntoView({behavior:'smooth'}); }
+
+// Comparison matrix: 0=dash,1=weak,2=strong
+const cmp = [
+  {label:'認知拡大', v:[2,1,1]},
+  {label:'問い合わせ獲得', v:[1,2,0]},
+  {label:'採用強化', v:[1,2,2]},
+  {label:'ブランディング', v:[2,1,2]},
+  {label:'営業活用', v:[0,1,2]},
+];
+const check = '<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>';
+function cell(v){
+  if(v===0) return '<span class="dash"></span>';
+  if(v===2) return '<span class="chk strong">'+check+'</span>';
+  return '<span class="chk weak">'+check+'</span>';
+}
+document.getElementById('cmp-body').innerHTML = cmp.map(r =>
+  '<tr><td class="rowlabel">'+r.label+'</td>'+r.v.map(v=>'<td>'+cell(v)+'</td>').join('')+'</tr>'
+).join('');
+
+// Flow
+const flow = [
+  {label:'SNS運用', note:'ショート動画で認知を広げる', cls:'start', icon:'<polygon points="3 11 3 14 21 19 21 6 3 11"/>'},
+  {label:'ホームページ訪問', note:'興味を持った見込み客が来訪', cls:'', icon:'<path d="M9 9h6v6"/><path d="M9 15 20 4"/><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>'},
+  {label:'問い合わせ', note:'信頼を得て行動につながる', cls:'', icon:'<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>'},
+  {label:'商談', note:'具体的な提案・すり合わせ', cls:'', icon:'<path d="M11 17a4 4 0 0 1-8 0V9a5 5 0 0 1 5-5h1"/><path d="M13 7a4 4 0 0 1 8 0v8a5 5 0 0 1-5 5h-1"/>'},
+  {label:'成約', note:'売上・採用の成果へ', cls:'', icon:'<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/>'},
+  {label:'社長の一日で信頼強化', note:'「人」を伝え、関係を深める', cls:'end', icon:'<polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>'},
+];
+const arrow = '<div class="flow-arrow fade-up"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg></div>';
+document.getElementById('flow-list').innerHTML = flow.map((s,i) =>
+  '<div class="flow-row fade-up"><div class="flow-card"><div class="flow-icon '+s.cls+'"><svg viewBox="0 0 24 24">'+s.icon+'</svg></div><div><div class="flow-label">'+s.label+'</div><div class="flow-note">'+s.note+'</div></div><div class="flow-num">'+String(i+1).padStart(2,'0')+'</div></div></div>'
+  + (i<flow.length-1 ? arrow : '')
+).join('');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const delay = parseInt(entry.target.dataset.delay || 0);
+      setTimeout(() => entry.target.classList.add('visible'), delay);
+    }
+  });
+}, {threshold: 0.08, rootMargin: '-30px'});
+document.querySelectorAll('.fade-up').forEach(el => {
+  const siblings = el.parentElement.querySelectorAll('.fade-up');
+  const idx = Array.from(siblings).indexOf(el);
+  el.dataset.delay = Math.min(idx, 6) * 80;
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
