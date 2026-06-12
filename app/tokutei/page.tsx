@@ -4,10 +4,8 @@ import Link from "next/link";
 
 const items = [
   { label: "販売事業者名", value: "合同会社出野" },
-  { label: "代表者氏名", value: "出野（代表社員）" },
   { label: "所在地", value: "お問い合わせいただいた際に開示します" },
   { label: "電話番号", value: "お問い合わせいただいた際に開示します" },
-  { label: "メールアドレス", value: "info@ideno-llc.jp" },
   { label: "販売価格", value: "各プランページに記載の通り（税別）" },
   { label: "サービス提供時期", value: "契約締結後、協議の上で定める日程より開始" },
   { label: "支払方法", value: "銀行振込（前払い・月払い）" },
@@ -27,7 +25,7 @@ export default function TokuteiPage() {
         </Link>
 
         <h1 className="text-3xl font-bold mb-2">特定商取引法に基づく表記</h1>
-        <p className="text-white/40 text-sm mb-12">最終更新日：2024年1月1日</p>
+        <p className="text-white/40 text-sm mb-12">最終更新日：2026年6月12日</p>
 
         <div className="space-y-0 border border-white/[0.08] rounded-2xl overflow-hidden">
           {items.map((item, i) => (
