@@ -30,7 +30,12 @@
       "Bash(npm run *)",
       "Bash(gh repo *)",
       "Bash(git add *)",
-      "Bash(git commit -m 'Initial commit *)"
+      "Bash(git commit -m 'Initial commit *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8000/demo-shacho.html)",
+      "Bash(lsof -nP -iTCP:8000 -sTCP:LISTEN)",
+      "Bash(curl -s http://localhost:8000/demo.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8000/demo.html)",
+      "Bash(git commit -m 'Integrate Google Sheets + GAS for contact form submission *)"
     ]
   }
 }

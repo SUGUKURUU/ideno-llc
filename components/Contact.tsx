@@ -29,12 +29,35 @@ export default function Contact() {
 
   const onSubmit = async (data: FormData) => {
     setLoading(true);
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1200));
-    console.log("Form data:", data);
-    setLoading(false);
-    setSubmitted(true);
-    reset();
+    try {
+      // Google Apps Script Web App URL に POST
+      // ユーザーが自分の GAS URL に置き換える
+      const GAS_WEB_APP_URL = process.env.NEXT_PUBLIC_GAS_URL || "";
+
+      if (GAS_WEB_APP_URL) {
+        const response = await fetch(GAS_WEB_APP_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            timestamp: new Date().toISOString(),
+            ...data,
+          }),
+        });
+      } else {
+        console.warn("NEXT_PUBLIC_GAS_URL not configured. Form data not sent.");
+      }
+
+      console.log("Form data:", data);
+      setLoading(false);
+      setSubmitted(true);
+      reset();
+    } catch (error) {
+      console.error("Form submission error:", error);
+      setLoading(false);
+      setSubmitted(true);
+      reset();
+    }
   };
 
   const inputClass =
@@ -169,12 +192,30 @@ export default function Contact() {
                 <option value="" className="bg-zinc-900">
                   選択してください
                 </option>
-                <option value="standard" className="bg-zinc-900">
-                  STANDARD（月額100,000円〜）
-                </option>
-                <option value="premium" className="bg-zinc-900">
-                  PREMIUM（月額125,000円〜）
-                </option>
+                <optgroup label="SNS運用代行" className="bg-zinc-900">
+                  <option value="sns-standard" className="bg-zinc-900">
+                    SNS運用 STANDARD（月額100,000円〜）
+                  </option>
+                  <option value="sns-premium" className="bg-zinc-900">
+                    SNS運用 PREMIUM（月額125,000円〜）
+                  </option>
+                </optgroup>
+                <optgroup label="ホームページ制作" className="bg-zinc-900">
+                  <option value="web-light" className="bg-zinc-900">
+                    ホームページ LIGHT（200,000円〜）
+                  </option>
+                  <option value="web-standard" className="bg-zinc-900">
+                    ホームページ STANDARD（350,000円〜）
+                  </option>
+                  <option value="web-premium" className="bg-zinc-900">
+                    ホームページ PREMIUM（500,000円〜）
+                  </option>
+                </optgroup>
+                <optgroup label="社長の一日" className="bg-zinc-900">
+                  <option value="shacho" className="bg-zinc-900">
+                    社長の一日（密着ドキュメンタリー）
+                  </option>
+                </optgroup>
                 <option value="other" className="bg-zinc-900">
                   その他・まず相談したい
                 </option>

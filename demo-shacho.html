@@ -70,6 +70,14 @@
 
   .yt-embed{position:relative;aspect-ratio:16/9;border-radius:1.5rem;overflow:hidden;border:1px solid rgba(255,255,255,.08);margin-top:3.5rem;background:#000;max-width:920px;margin-left:auto;margin-right:auto}
   .yt-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .yt-fl{display:block;position:absolute;inset:0;text-decoration:none}
+  .yt-fl .yt-bg{position:absolute;inset:0;background:linear-gradient(135deg,#3f3f46,#18181b 55%,#000)}
+  .yt-fl .yt-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.7),transparent)}
+  .yt-fl .yt-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.25rem}
+  .yt-fl .yt-play{width:5.5rem;height:3.75rem;border-radius:1rem;background:#ff0000;display:flex;align-items:center;justify-content:center;box-shadow:0 16px 40px rgba(120,0,0,.45);transition:transform .3s}
+  .yt-fl:hover .yt-play{transform:scale(1.1)}
+  .yt-fl .yt-play svg{width:28px;height:28px;margin-left:3px}
+  .yt-fl .yt-meta{text-align:center}.yt-fl .yt-title{color:#fff;font-weight:600;font-size:1.25rem}.yt-fl .yt-sub{color:var(--white50);font-size:.85rem;margin-top:.35rem}
   .yt-facade{display:block;position:relative;aspect-ratio:16/9;border-radius:1.5rem;overflow:hidden;border:1px solid rgba(255,255,255,.08);margin-top:3.5rem;text-decoration:none}
   .yt-bg{position:absolute;inset:0;background:linear-gradient(135deg,#3f3f46,#18181b 55%,#000)}
   .yt-grid{position:absolute;inset:0;opacity:.04;background-image:linear-gradient(rgba(255,255,255,.8) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.8) 1px,transparent 1px);background-size:48px 48px}
@@ -190,9 +198,7 @@
       <h2 class="section-title fade-up">動画で見る「社長の一日」</h2>
       <p class="section-sub fade-up" style="max-width:34rem;margin-left:auto;margin-right:auto">実際に制作した密着ドキュメンタリーを、YouTubeチャンネルで公開しています。</p>
     </div>
-    <div class="yt-embed">
-      <iframe src="https://www.youtube.com/embed/8W7Zz2txefw?rel=0&playsinline=1" title="社長の一日 密着ドキュメンタリー" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <div class="yt-embed" id="yt-player" data-video="8W7Zz2txefw"></div>
     <div class="text-center fade-up" style="margin-top:2rem">
       <a href="https://www.youtube.com/@one-shacho/videos" target="_blank" rel="noopener noreferrer" class="yt-btn">
         <svg viewBox="0 0 24 24" fill="#ff0000" stroke="none" style="width:18px;height:18px"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8z"/><polygon points="9.5 15.5 15.5 12 9.5 8.5" fill="#fff"/></svg>
@@ -271,6 +277,29 @@
 </footer>
 
 <script>
+// YouTubeプレーヤー: http(s)配信ならインライン再生、file://ならYouTubeで開くサムネイルに切替
+(function(){
+  var box = document.getElementById('yt-player');
+  if(!box) return;
+  var vid = box.getAttribute('data-video');
+  if(location.protocol === 'file:'){
+    box.innerHTML =
+      '<a class="yt-fl" href="https://www.youtube.com/watch?v=' + vid + '" target="_blank" rel="noopener noreferrer">' +
+        '<div class="yt-bg"></div><div class="yt-shade"></div>' +
+        '<div class="yt-center">' +
+          '<div class="yt-play"><svg viewBox="0 0 24 24" fill="#fff" stroke="none"><polygon points="6 4 20 12 6 20 6 4"/></svg></div>' +
+          '<div class="yt-meta"><div class="yt-title">社長の一日</div><div class="yt-sub">クリックでYouTubeで再生します</div></div>' +
+        '</div>' +
+      '</a>';
+  } else {
+    box.innerHTML =
+      '<iframe src="https://www.youtube.com/embed/' + vid + '?rel=0&playsinline=1" ' +
+      'title="社長の一日 密着ドキュメンタリー" ' +
+      'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
+      'allowfullscreen></iframe>';
+  }
+})();
+
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40), {passive:true});
 const observer = new IntersectionObserver((entries) => {
