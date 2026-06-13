@@ -22,18 +22,19 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/[0.06] pt-20 pb-10">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+    <footer className="relative pt-20 pb-10">
+      {/* Gold top line */}
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(196,163,90,0.25)] to-transparent" />
+
+      <div className="max-w-7xl mx-auto px-6 lg:px-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="mb-5">
-              <div className="text-white font-semibold text-base tracking-wider mb-1">
-                ideno LLC
-              </div>
-              <div className="text-white/40 text-xs tracking-widest">合同会社出野</div>
+            <div className="mb-6">
+              <div className="text-white font-semibold text-sm tracking-[0.15em] mb-1">ideno LLC</div>
+              <div className="text-[#C4A35A] text-[9px] tracking-[0.25em] opacity-70">合同会社出野</div>
             </div>
-            <p className="text-white/40 text-sm leading-relaxed mb-6 max-w-xs">
+            <p className="text-white/30 text-sm leading-relaxed mb-8 max-w-xs">
               企業と経営者の魅力を発信し、
               SNSを会社の資産へと変えるパートナーです。
             </p>
@@ -47,9 +48,9 @@ export default function Footer() {
                   key={label}
                   href={href}
                   aria-label={label}
-                  className="w-9 h-9 rounded-full bg-white/[0.06] flex items-center justify-center text-white/50 hover:text-white hover:bg-white/[0.1] transition-all duration-200"
+                  className="w-9 h-9 border border-white/[0.07] flex items-center justify-center text-white/30 hover:text-[#C4A35A] hover:border-[rgba(196,163,90,0.3)] transition-all duration-300"
                 >
-                  <Icon size={16} />
+                  <Icon size={15} />
                 </a>
               ))}
             </div>
@@ -58,10 +59,10 @@ export default function Footer() {
           {/* Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="text-white/60 text-xs font-medium tracking-[0.15em] uppercase mb-5">
+              <h3 className="text-[#C4A35A] text-[10px] font-medium tracking-[0.2em] uppercase mb-6 opacity-70">
                 {category}
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-3.5">
                 {links.map((link) => (
                   <li key={link.label}>
                     <a
@@ -69,12 +70,10 @@ export default function Footer() {
                       onClick={(e) => {
                         if (link.href.startsWith("#")) {
                           e.preventDefault();
-                          document
-                            .querySelector(link.href)
-                            ?.scrollIntoView({ behavior: "smooth" });
+                          document.querySelector(link.href)?.scrollIntoView({ behavior: "smooth" });
                         }
                       }}
-                      className="text-white/40 hover:text-white/70 text-sm transition-colors duration-200"
+                      className="text-white/30 hover:text-white/60 text-sm transition-colors duration-200"
                     >
                       {link.label}
                     </a>
@@ -85,12 +84,12 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-white/[0.06] pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/30 text-xs">
+        <div className="border-t border-white/[0.04] pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-white/20 text-xs tracking-wide">
             © {year} 合同会社出野 / ideno LLC. All rights reserved.
           </p>
-          <p className="text-white/20 text-xs">
-            Designed & Built with Next.js
+          <p className="text-white/10 text-xs tracking-wider">
+            Built with Next.js
           </p>
         </div>
       </div>

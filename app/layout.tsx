@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
+import ChatBot from "@/components/ChatBot";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -87,6 +88,7 @@ export default function RootLayout({
     <html lang="ja" className="dark">
       <body className={`${geistSans.variable} font-sans antialiased`}>
         {children}
+        <ChatBot />
       </body>
     </html>
   );

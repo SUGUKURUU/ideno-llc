@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #080808;
+  --foreground: #e8e8e6;
+  --gold: #C4A35A;
+  --gold-dim: rgba(196, 163, 90, 0.15);
+  --gold-line: rgba(196, 163, 90, 0.3);
 }
 
 html {
@@ -20,12 +25,11 @@ body {
 }
 
 ::selection {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(196, 163, 90, 0.2);
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -33,19 +37,22 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(196, 163, 90, 0.2);
   border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(196, 163, 90, 0.4);
 }
 
-/* Focus styles */
 *:focus-visible {
-  outline: 1px solid rgba(255, 255, 255, 0.4);
+  outline: 1px solid rgba(196, 163, 90, 0.5);
   outline-offset: 2px;
   border-radius: 4px;
+}
+
+.font-serif-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
 @layer utilities {
@@ -55,13 +62,28 @@ body {
 
   .gradient-border {
     background: linear-gradient(var(--background), var(--background)) padding-box,
-                linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.03)) border-box;
-    border: 1px solid transparent;
+                linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.02)) border-box;
+    border: 0.5px solid transparent;
+  }
+
+  .gold-border {
+    background: linear-gradient(var(--background), var(--background)) padding-box,
+                linear-gradient(135deg, var(--gold), rgba(196,163,90,0.2)) border-box;
+    border: 0.5px solid transparent;
   }
 
   .glass {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+  }
+
+  .text-gold {
+    color: var(--gold);
+  }
+
+  .luxury-divider {
+    height: 0.5px;
+    background: linear-gradient(90deg, transparent, var(--gold-line), transparent);
   }
 }

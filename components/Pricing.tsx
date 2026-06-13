@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Check, Zap } from "lucide-react";
+import { Check } from "lucide-react";
 
 const plans = [
   {
@@ -43,21 +43,35 @@ export default function Pricing() {
 
   return (
     <section id="pricing" ref={ref} className="py-32 lg:py-48 relative">
-      <div className="max-w-5xl mx-auto px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-20"
-        >
-          <div className="text-white/40 text-xs tracking-[0.2em] uppercase mb-6">Pricing</div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-balance mb-6">
-            料金プラン
-          </h2>
-          <p className="text-white/50 text-base">
+      <div className="max-w-5xl mx-auto px-6 lg:px-16">
+        {/* Header */}
+        <div className="mb-20">
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6 }}
+            className="flex items-center gap-4 mb-6"
+          >
+            <div className="h-px w-8 bg-[#C4A35A]" />
+            <span className="text-[#C4A35A] text-[11px] tracking-[0.25em] uppercase font-medium">Pricing</span>
+          </motion.div>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ delay: 0.1, duration: 0.7 }}
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4"
+          >
+            <span className="font-serif-display italic font-light text-[#C4A35A]">料金</span>プラン
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
+            transition={{ delay: 0.2, duration: 0.6 }}
+            className="text-white/35 text-sm"
+          >
             すべてのプランに初期設定・戦略設計が含まれています
-          </p>
-        </motion.div>
+          </motion.p>
+        </div>
 
         <div className="grid md:grid-cols-2 gap-5">
           {plans.map((plan, i) => (
@@ -66,66 +80,43 @@ export default function Pricing() {
               initial={{ opacity: 0, y: 32 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: i * 0.15, duration: 0.7 }}
-              className={`relative rounded-3xl p-8 lg:p-10 ${
+              className={`relative p-8 lg:p-10 ${
                 plan.featured
-                  ? "bg-white text-black"
-                  : "gradient-border hover:bg-white/[0.02] transition-colors duration-300"
+                  ? "border border-[rgba(196,163,90,0.4)] bg-[rgba(196,163,90,0.03)]"
+                  : "border border-white/[0.06] hover:border-white/[0.1] transition-colors duration-300"
               }`}
             >
               {plan.featured && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-black text-white text-xs font-semibold tracking-wide">
-                  <Zap size={11} fill="white" />
-                  おすすめ
+                <div className="absolute -top-px left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C4A35A] to-transparent" />
+              )}
+
+              {plan.featured && (
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 bg-[#080808] border border-[rgba(196,163,90,0.4)]">
+                  <span className="text-[#C4A35A] text-[10px] font-medium tracking-[0.2em] uppercase">推奨</span>
                 </div>
               )}
 
               <div className="mb-8">
-                <div
-                  className={`text-xs font-medium tracking-[0.15em] uppercase mb-4 ${
-                    plan.featured ? "text-black/50" : "text-white/40"
-                  }`}
-                >
+                <div className={`text-[11px] font-medium tracking-[0.2em] uppercase mb-4 ${plan.featured ? "text-[#C4A35A]" : "text-white/30"}`}>
                   {plan.name}
                 </div>
                 <div className="flex items-end gap-1.5 mb-3">
-                  <span
-                    className={`text-sm font-medium ${plan.featured ? "text-black/60" : "text-white/60"}`}
-                  >
-                    月額
-                  </span>
-                  <span
-                    className={`text-5xl font-bold tracking-tight ${plan.featured ? "text-black" : "text-white"}`}
-                  >
+                  <span className="text-white/40 text-sm font-medium">月額</span>
+                  <span className={`text-5xl font-bold tracking-tight ${plan.featured ? "text-[#C4A35A]" : "text-white"}`}>
                     ¥{plan.price}
                   </span>
-                  <span
-                    className={`text-sm font-medium mb-1 ${plan.featured ? "text-black/60" : "text-white/60"}`}
-                  >
-                    〜
-                  </span>
+                  <span className="text-white/40 text-sm font-medium mb-1">〜</span>
                 </div>
-                <p className={`text-sm ${plan.featured ? "text-black/60" : "text-white/50"}`}>
-                  {plan.description}
-                </p>
+                <p className="text-white/35 text-sm">{plan.description}</p>
               </div>
 
-              <ul className="space-y-3 mb-10">
+              <ul className="space-y-3.5 mb-10">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-center gap-3">
-                    <div
-                      className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 ${
-                        plan.featured ? "bg-black/10" : "bg-white/[0.08]"
-                      }`}
-                    >
-                      <Check
-                        size={12}
-                        strokeWidth={2.5}
-                        className={plan.featured ? "text-black" : "text-white/70"}
-                      />
+                    <div className={`w-4 h-4 flex items-center justify-center flex-shrink-0 ${plan.featured ? "text-[#C4A35A]" : "text-white/30"}`}>
+                      <Check size={12} strokeWidth={2.5} />
                     </div>
-                    <span
-                      className={`text-sm ${plan.featured ? "text-black/80" : "text-white/60"}`}
-                    >
+                    <span className={`text-sm ${plan.featured ? "text-white/70" : "text-white/45"}`}>
                       {feature}
                     </span>
                   </li>
@@ -133,13 +124,11 @@ export default function Pricing() {
               </ul>
 
               <button
-                onClick={() =>
-                  document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })
-                }
-                className={`w-full py-4 rounded-2xl font-semibold text-sm tracking-wide transition-all duration-200 ${
+                onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
+                className={`w-full py-4 font-semibold text-sm tracking-wide transition-all duration-300 ${
                   plan.featured
-                    ? "bg-black text-white hover:bg-black/80"
-                    : "bg-white text-black hover:bg-white/90"
+                    ? "bg-[#C4A35A] text-black hover:bg-[#d4b36a]"
+                    : "border border-white/[0.12] text-white hover:border-white/25 hover:bg-white/[0.03]"
                 }`}
               >
                 このプランで相談する
@@ -152,7 +141,7 @@ export default function Pricing() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ delay: 0.5, duration: 0.6 }}
-          className="text-center mt-10 text-white/30 text-sm"
+          className="text-center mt-8 text-white/25 text-xs"
         >
           ※ 料金は税別表示です。別途、交通費実費が発生する場合があります。
         </motion.p>

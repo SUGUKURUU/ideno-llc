@@ -8,7 +8,7 @@ const fadeUp = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] },
+    transition: { delay: i * 0.1, duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] },
   }),
 };
 
@@ -32,37 +32,49 @@ export default function About() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" ref={ref} className="py-32 lg:py-48 relative">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-20 lg:gap-32 items-center">
+    <section id="about" ref={ref} className="py-32 lg:py-48 relative overflow-hidden">
+      {/* Decorative abstract SVG */}
+      <div className="absolute left-0 top-0 w-96 h-96 pointer-events-none opacity-60">
+        <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="0" cy="400" r="300" stroke="rgba(196,163,90,0.05)" strokeWidth="0.5" />
+          <circle cx="0" cy="400" r="200" stroke="rgba(196,163,90,0.07)" strokeWidth="0.5" />
+          <circle cx="0" cy="400" r="100" stroke="rgba(196,163,90,0.09)" strokeWidth="0.5" />
+        </svg>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+        {/* Section label */}
+        <motion.div
+          custom={0}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          variants={fadeUp}
+          className="flex items-center gap-4 mb-20"
+        >
+          <div className="h-px w-8 bg-[#C4A35A]" />
+          <span className="text-[#C4A35A] text-[11px] tracking-[0.25em] uppercase font-medium">About</span>
+        </motion.div>
+
+        <div className="grid lg:grid-cols-2 gap-20 lg:gap-40 items-center">
           {/* Left */}
           <div>
-            <motion.div
-              custom={0}
-              initial="hidden"
-              animate={inView ? "visible" : "hidden"}
-              variants={fadeUp}
-              className="text-white/40 text-xs tracking-[0.2em] uppercase mb-6"
-            >
-              About
-            </motion.div>
             <motion.h2
               custom={1}
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeUp}
-              className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-8 text-balance"
+              className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-10"
             >
               単なるSNS運用会社では
               <br />
-              ありません。
+              <span className="font-serif-display italic font-light text-[#C4A35A]">ありません。</span>
             </motion.h2>
             <motion.p
               custom={2}
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeUp}
-              className="text-white/50 text-base leading-relaxed mb-6"
+              className="text-white/45 text-base leading-relaxed mb-5"
             >
               私たちは企業や経営者が持つ「本質的な価値」を、
               SNSというメディアを通じて世界に発信するパートナーです。
@@ -72,7 +84,7 @@ export default function About() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeUp}
-              className="text-white/50 text-base leading-relaxed"
+              className="text-white/45 text-base leading-relaxed"
             >
               認知・信頼・採用・売上——すべてのビジネス課題に
               SNSからアプローチする方法を、私たちは知っています。
@@ -80,25 +92,27 @@ export default function About() {
           </div>
 
           {/* Right */}
-          <div className="space-y-4">
+          <div className="space-y-px">
             {values.map((v, i) => (
               <motion.div
                 key={v.title}
-                custom={i + 2}
+                custom={i + 3}
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
                 variants={fadeUp}
-                className="gradient-border rounded-2xl p-6 hover:bg-white/[0.02] transition-colors duration-300"
+                className="group border-t border-white/[0.06] py-8 last:border-b last:border-white/[0.06] hover:border-[rgba(196,163,90,0.2)] transition-colors duration-500"
               >
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded-full bg-white/[0.06] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-white/60 text-xs font-medium">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                  </div>
+                <div className="flex items-start gap-6">
+                  <span className="text-[#C4A35A] text-[11px] font-medium tracking-widest mt-1 flex-shrink-0">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
                   <div>
-                    <h3 className="text-white font-semibold mb-2">{v.title}</h3>
-                    <p className="text-white/50 text-sm leading-relaxed">{v.description}</p>
+                    <h3 className="text-white font-semibold text-lg mb-2 group-hover:text-white transition-colors">
+                      {v.title}
+                    </h3>
+                    <p className="text-white/40 text-sm leading-relaxed group-hover:text-white/55 transition-colors duration-300">
+                      {v.description}
+                    </p>
                   </div>
                 </div>
               </motion.div>

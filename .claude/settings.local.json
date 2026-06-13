@@ -35,7 +35,27 @@
       "Bash(lsof -nP -iTCP:8000 -sTCP:LISTEN)",
       "Bash(curl -s http://localhost:8000/demo.html)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8000/demo.html)",
-      "Bash(git commit -m 'Integrate Google Sheets + GAS for contact form submission *)"
+      "Bash(git commit -m 'Integrate Google Sheets + GAS for contact form submission *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git commit -m 'Update tokutei \\(特定商取引法表記\\) page *)",
+      "Bash(git commit -m 'Update privacy policy page *)",
+      "Bash(git commit -m 'Fix GAS form submission in Contact component *)",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "mcp__Claude_in_Chrome__find",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "mcp__Claude_in_Chrome__read_page",
+      "mcp__Claude_in_Chrome__javascript_tool",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(ls /Volumes/)",
+      "Bash(ls ~/Desktop/UMP/ 2>/dev/null)",
+      "Bash(ls ~/.Trash/ | grep WINNERS *)",
+      "WebFetch(domain:pachipachiland.hatenadiary.com)",
+      "WebFetch(domain:jscss-pachipachiland.s3.ap-northeast-1.amazonaws.com)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

@@ -62,9 +62,9 @@ export default function Contact() {
   };
 
   const inputClass =
-    "w-full bg-white/[0.04] border border-white/[0.08] rounded-xl px-4 py-3.5 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-white/20 focus:bg-white/[0.06] transition-all duration-200";
+    "w-full bg-white/[0.02] border border-white/[0.07] px-4 py-3.5 text-white text-sm placeholder:text-white/25 focus:outline-none focus:border-[rgba(196,163,90,0.3)] focus:bg-white/[0.03] transition-all duration-300";
 
-  const labelClass = "block text-white/60 text-xs font-medium tracking-wide mb-2";
+  const labelClass = "block text-white/40 text-[11px] font-medium tracking-[0.12em] uppercase mb-2";
 
   return (
     <section id="contact" ref={ref} className="py-32 lg:py-48 relative">
@@ -75,11 +75,15 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="text-white/40 text-xs tracking-[0.2em] uppercase mb-6">Contact</div>
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <div className="h-px w-8 bg-[#C4A35A]" />
+            <span className="text-[#C4A35A] text-[11px] tracking-[0.25em] uppercase font-medium">Contact</span>
+            <div className="h-px w-8 bg-[#C4A35A]" />
+          </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-balance mb-6">
             まずはお気軽に
             <br />
-            ご相談ください
+            <span className="font-serif-display italic font-light text-[#C4A35A]">ご相談ください</span>
           </h2>
           <p className="text-white/50 text-base">
             無料相談・資料請求はこちらから。
@@ -118,7 +122,7 @@ export default function Contact() {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.2, duration: 0.6 }}
             onSubmit={handleSubmit(onSubmit)}
-            className="gradient-border rounded-3xl p-8 lg:p-10 space-y-6"
+            className="border border-white/[0.06] p-8 lg:p-10 space-y-6"
           >
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
@@ -238,7 +242,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full flex items-center justify-center gap-2.5 py-4 rounded-xl bg-white text-black font-semibold text-sm tracking-wide hover:bg-white/90 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+              className="w-full flex items-center justify-center gap-2.5 py-4 bg-[#C4A35A] text-black font-semibold text-sm tracking-[0.12em] hover:bg-[#d4b36a] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-[rgba(196,163,90,0.1)]"
             >
               {loading ? (
                 <>

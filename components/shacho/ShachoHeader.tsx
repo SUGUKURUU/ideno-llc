@@ -17,35 +17,25 @@ export default function ShachoHeader() {
     <motion.header
       initial={{ opacity: 0, y: -16 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.7, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-[#0a0a0a]/90 backdrop-blur-xl border-b border-white/[0.06]"
+          ? "bg-[#080808]/95 backdrop-blur-xl border-b border-[rgba(196,163,90,0.1)]"
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 lg:px-16 h-16 flex items-center justify-between">
         <Link href="/" className="flex flex-col leading-none">
-          <span className="text-white font-semibold text-sm tracking-wider">
-            ideno LLC
-          </span>
-          <span className="text-white/40 text-[10px] tracking-widest mt-0.5">
-            社長の一日
-          </span>
+          <span className="text-white font-semibold text-sm tracking-[0.15em]">ideno LLC</span>
+          <span className="text-[#C4A35A] text-[9px] tracking-[0.25em] mt-0.5 opacity-70">社長の一日</span>
         </Link>
 
         <div className="flex items-center gap-5">
-          <Link
-            href="/services"
-            className="hidden sm:block text-white/50 hover:text-white text-sm transition-colors tracking-wide"
-          >
-            ← サービス一覧
+          <Link href="/services" className="hidden sm:block text-white/30 hover:text-white/60 text-xs transition-colors tracking-widest uppercase">
+            ← Services
           </Link>
-          <Link
-            href="/#contact"
-            className="text-sm px-5 py-2 rounded-full bg-white text-black font-medium hover:bg-white/90 transition-all duration-200 tracking-wide"
-          >
-            無料相談する
+          <Link href="/#contact" className="text-xs px-6 py-2.5 border border-[rgba(196,163,90,0.35)] text-[#C4A35A] font-medium hover:bg-[rgba(196,163,90,0.08)] transition-all duration-300 tracking-[0.12em] uppercase">
+            無料相談
           </Link>
         </div>
       </div>

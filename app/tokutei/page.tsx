@@ -15,30 +15,34 @@ const items = [
 
 export default function TokuteiPage() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
-      <div className="max-w-3xl mx-auto px-6 py-24">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-white/40 hover:text-white/70 text-sm transition-colors mb-12"
-        >
+    <div className="min-h-screen bg-[#080808] text-white">
+      <div className="fixed top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(196,163,90,0.25)] to-transparent z-50" />
+
+      <div className="max-w-3xl mx-auto px-6 py-28">
+        <Link href="/" className="inline-flex items-center gap-2 text-[#C4A35A] opacity-60 hover:opacity-100 text-xs tracking-widest uppercase transition-opacity mb-14">
           ← トップに戻る
         </Link>
 
-        <h1 className="text-3xl font-bold mb-2">特定商取引法に基づく表記</h1>
-        <p className="text-white/40 text-sm mb-12">最終更新日：2026年6月12日</p>
+        <div className="flex items-center gap-4 mb-6">
+          <div className="h-px w-8 bg-[#C4A35A]" />
+          <span className="text-[#C4A35A] text-[11px] tracking-[0.25em] uppercase font-medium">Legal</span>
+        </div>
 
-        <div className="space-y-0 border border-white/[0.08] rounded-2xl overflow-hidden">
+        <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">特定商取引法に基づく表記</h1>
+        <p className="text-white/30 text-sm mb-14 tracking-wide">最終更新日：2026年6月12日</p>
+
+        <div className="luxury-divider mb-14" />
+
+        <div className="border border-[rgba(196,163,90,0.15)] overflow-hidden">
           {items.map((item, i) => (
             <div
               key={item.label}
-              className={`flex flex-col sm:flex-row ${
-                i !== items.length - 1 ? "border-b border-white/[0.06]" : ""
-              }`}
+              className={`flex flex-col sm:flex-row ${i !== items.length - 1 ? "border-b border-white/[0.04]" : ""} hover:bg-[rgba(196,163,90,0.02)] transition-colors duration-200`}
             >
-              <div className="sm:w-48 flex-shrink-0 px-6 py-4 bg-white/[0.02] text-white/50 text-xs font-medium tracking-wide flex items-start sm:items-center">
+              <div className="sm:w-48 flex-shrink-0 px-6 py-4 bg-[rgba(196,163,90,0.03)] text-[#C4A35A] text-[11px] font-medium tracking-[0.1em] uppercase flex items-start sm:items-center opacity-80">
                 {item.label}
               </div>
-              <div className="px-6 py-4 text-white/70 text-sm leading-relaxed flex items-center">
+              <div className="px-6 py-4 text-white/50 text-sm leading-relaxed flex items-center border-t border-white/[0.03] sm:border-t-0 sm:border-l sm:border-white/[0.04]">
                 {item.value}
               </div>
             </div>
