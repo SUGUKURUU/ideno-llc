@@ -1,0 +1,64 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">制作費用とスケジュールの関係</text>
+
+  <!-- Timeline axis -->
+  <line x1="60" y1="320" x2="750" y2="320" stroke="#c9a84c" stroke-width="1" opacity="0.5"/>
+
+  <!-- Phase 1 - Fast & Cheap -->
+  <g>
+    <polygon points="80,200 150,200 130,240 60,240" fill="#4a9eff" opacity="0.3" stroke="#4a9eff" stroke-width="2"/>
+    <text x="100" y="170" text-anchor="middle" fill="#4a9eff" font-size="11" font-weight="bold">1-2週間</text>
+    <text x="100" y="190" text-anchor="middle" fill="#4a9eff" font-size="10">～30万円</text>
+
+    <text x="60" y="270" fill="#ffffff" font-size="9" font-weight="bold">STUDIO</text>
+    <text x="60" y="283" fill="#aaaaaa" font-size="8">Wix</text>
+
+    <!-- Marker on timeline -->
+    <circle cx="100" cy="320" r="3" fill="#4a9eff"/>
+  </g>
+
+  <!-- Phase 2 - Medium -->
+  <g>
+    <polygon points="220,160 310,160 330,240 200,240" fill="#50c878" opacity="0.3" stroke="#50c878" stroke-width="2"/>
+    <text x="265" y="120" text-anchor="middle" fill="#50c878" font-size="11" font-weight="bold">4-8週間</text>
+    <text x="265" y="140" text-anchor="middle" fill="#50c878" font-size="10">30～100万円</text>
+
+    <text x="220" y="270" fill="#ffffff" font-size="9" font-weight="bold">WordPress</text>
+    <text x="220" y="283" fill="#aaaaaa" font-size="8">制作会社（小）</text>
+
+    <!-- Marker on timeline -->
+    <circle cx="265" cy="320" r="3" fill="#50c878"/>
+  </g>
+
+  <!-- Phase 3 - High Quality -->
+  <g>
+    <polygon points="390,120 500,120 530,240 360,240" fill="#e91e63" opacity="0.3" stroke="#e91e63" stroke-width="2"/>
+    <text x="445" y="70" text-anchor="middle" fill="#e91e63" font-size="11" font-weight="bold">3-6ヶ月</text>
+    <text x="445" y="90" text-anchor="middle" fill="#e91e63" font-size="10">100～300万円</text>
+
+    <text x="390" y="270" fill="#ffffff" font-size="9" font-weight="bold">制作会社（中）</text>
+    <text x="390" y="283" fill="#aaaaaa" font-size="8">フルオーダー</text>
+
+    <!-- Marker on timeline -->
+    <circle cx="445" cy="320" r="3" fill="#e91e63"/>
+  </g>
+
+  <!-- Phase 4 - Enterprise -->
+  <g>
+    <polygon points="600,80 730,80 750,240 570,240" fill="#ff9800" opacity="0.3" stroke="#ff9800" stroke-width="2"/>
+    <text x="665" y="30" text-anchor="middle" fill="#ff9800" font-size="11" font-weight="bold">6-12ヶ月+</text>
+    <text x="665" y="50" text-anchor="middle" fill="#ff9800" font-size="10">300万円以上</text>
+
+    <text x="600" y="270" fill="#ffffff" font-size="9" font-weight="bold">大手制作会社</text>
+    <text x="600" y="283" fill="#aaaaaa" font-size="8">コンサル型</text>
+
+    <!-- Marker on timeline -->
+    <circle cx="665" cy="320" r="3" fill="#ff9800"/>
+  </g>
+
+  <!-- Key insight boxes -->
+  <rect x="30" y="360" width="730" height="50" rx="4" fill="#c9a84c" opacity="0.15"/>
+  <text x="50" y="378" fill="#c9a84c" font-size="11" font-weight="bold">💡 重要：「安い」「速い」「品質高い」の3つを同時に得ることはできない</text>
+  <text x="50" y="395" fill="#ffffff" font-size="10">必要に応じて「費用」「期間」「品質」の優先順位を決めることが重要</text>
+</svg>

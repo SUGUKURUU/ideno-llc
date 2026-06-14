@@ -1,0 +1,54 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">プロフィール最適化：検索・フォロー導線</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">プロフィール文がSEOと同じ役割</text>
+
+  <!-- NG例 -->
+  <rect x="50" y="80" width="330" height="250" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="215" y="100" class="gold" text-anchor="middle" font-size="12" font-weight="bold">❌ NG：フォロー不可な設計</text>
+
+  <line x1="70" y1="115" x2="360" y2="115" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="215" y="140" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">アカウント名：</text>
+  <text x="215" y="160" class="text-white" text-anchor="middle" font-size="10">「〇〇株式会社」</text>
+  <text x="215" y="180" class="text-gray" text-anchor="middle" font-size="9">→ キーワードなし</text>
+
+  <text x="215" y="205" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">プロフィール文：</text>
+  <text x="215" y="225" class="text-white" text-anchor="middle" font-size="9">「公式アカウントです。</text>
+  <text x="215" y="240" class="text-white" text-anchor="middle" font-size="9">フォローよろしく」</text>
+  <text x="215" y="260" class="text-gray" text-anchor="middle" font-size="9">→ 価値提案がない</text>
+
+  <!-- OK例 -->
+  <rect x="420" y="80" width="330" height="250" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="585" y="100" class="gold" text-anchor="middle" font-size="12" font-weight="bold">✓ OK：検索・フォローされやすい</text>
+
+  <line x1="440" y1="115" x2="730" y2="115" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="585" y="140" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">アカウント名：</text>
+  <text x="585" y="160" class="text-white" text-anchor="middle" font-size="9">「〇〇株式会社｜渋谷の</text>
+  <text x="585" y="173" class="text-white" text-anchor="middle" font-size="9">整骨院」</text>
+  <text x="585" y="193" class="text-gray" text-anchor="middle" font-size="9">→ キーワード含まれる</text>
+
+  <text x="585" y="218" class="text-white" text-anchor="middle" font-size="10" font-weight="bold">プロフィール文：</text>
+  <text x="585" y="238" class="text-white" text-anchor="middle" font-size="8">「経営者向けに採用ノウハウを発信</text>
+  <text x="585" y="250" class="text-white" text-anchor="middle" font-size="8">毎週月曜・木曜更新</text>
+  <text x="585" y="262" class="text-white" text-anchor="middle" font-size="8">フォローすると採用コストが</text>
+  <text x="585" y="274" class="text-white" text-anchor="middle" font-size="8">下がります」</text>
+
+  <!-- 下部 -->
+  <rect x="60" y="350" width="680" height="50" fill="#c9a84c" opacity="0.15" rx="3"/>
+  <text x="400" y="370" class="gold" text-anchor="middle" font-size="12" font-weight="bold">プロフィールは「この人をフォローするとどんな価値があるか」を</text>
+  <text x="400" y="388" class="gold" text-anchor="middle" font-size="12" font-weight="bold">プロフィールを見た1秒でわかるように設計する</text>
+</svg>

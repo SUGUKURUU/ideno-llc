@@ -1,0 +1,31 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.tw{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.tg{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.t{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="t" text-anchor="middle">スマホ対応：失敗パターン5つ</text>
+  <text x="400" y="55" class="tg" text-anchor="middle">よくある間違いと対策</text>
+
+  <rect x="50" y="80" width="700" height="310" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+
+  <text x="70" y="105" class="gold" font-size="10" font-weight="bold">失敗1：PCで見て大丈夫と判断する</text>
+  <text x="70" y="123" class="tw" font-size="9">→ 対策：実機確認を必須に</text>
+
+  <line x1="50" y1="135" x2="750" y2="135" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="70" y="160" class="gold" font-size="10" font-weight="bold">失敗2：レスポンシブはしたが、コンテンツ最適化なし</text>
+  <text x="70" y="178" class="tw" font-size="9">→ 対策：画像サイズ、テキスト量をスマホ向けに最適化</text>
+
+  <line x1="50" y1="190" x2="750" y2="190" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="70" y="215" class="gold" font-size="10" font-weight="bold">失敗3：表示速度改善を後回しにする</text>
+  <text x="70" y="233" class="tw" font-size="9">→ 対策：制作段階から画像最適化・スクリプト最適化を組み込む</text>
+
+  <line x1="50" y1="245" x2="750" y2="245" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="70" y="270" class="gold" font-size="10" font-weight="bold">失敗4：スマホ対応と最適化を混同する</text>
+  <text x="70" y="288" class="tw" font-size="9">→ 対策：「表示される」だけでなく「使いやすい」レベルまで改善</text>
+
+  <line x1="50" y1="300" x2="750" y2="300" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="70" y="325" class="gold" font-size="10" font-weight="bold">失敗5：古いWordPressテーマをそのまま使用</text>
+  <text x="70" y="343" class="tw" font-size="9">→ 対策：モバイル対応テーマに切り替え、Core Web Vitals改善</text>
+</svg>

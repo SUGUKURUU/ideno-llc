@@ -1,0 +1,55 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">価格×品質の制作会社分布マトリクス</text>
+
+  <!-- axes -->
+  <line x1="100" y1="70" x2="100" y2="370" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="100" y1="370" x2="760" y2="370" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <polygon points="100,65 95,78 105,78" fill="rgba(255,255,255,0.4)"/>
+  <polygon points="765,370 752,365 752,375" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- center lines -->
+  <line x1="430" y1="70" x2="430" y2="370" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="100" y1="220" x2="760" y2="220" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-dasharray="5,4"/>
+
+  <!-- Quadrant labels -->
+  <text x="108" y="390" fill="rgba(255,255,255,0.4)" font-size="11">低価格</text>
+  <text x="720" y="390" fill="rgba(255,255,255,0.4)" font-size="11">高価格</text>
+  <text x="88" y="378" text-anchor="end" fill="rgba(255,255,255,0.4)" font-size="11">低</text>
+  <text x="88" y="78" text-anchor="end" fill="rgba(255,255,255,0.4)" font-size="11">高</text>
+  <text x="75" y="225" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12" transform="rotate(-90,75,225)">品 質</text>
+  <text x="430" y="398" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">価 格</text>
+
+  <!-- Q1: 高品質×高価格（右上）→ 大手 -->
+  <rect x="435" y="75" width="320" height="140" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="595" y="120" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="14" font-weight="bold">高品質 × 高価格</text>
+  <text x="595" y="145" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">大手エージェンシー</text>
+  <text x="595" y="165" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">予算が豊富な大企業向け</text>
+  <text x="595" y="183" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">ブランド価値・信頼性は高い</text>
+
+  <!-- Q2: 高品質×中価格（中上）→ ★推奨 -->
+  <rect x="105" y="75" width="320" height="140" rx="6" fill="rgba(201,168,76,0.1)" stroke="#c9a84c" stroke-width="2"/>
+  <text x="265" y="112" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">高品質 × 適正価格</text>
+  <text x="265" y="137" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">★ 中小専門会社</text>
+  <text x="265" y="157" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">中小企業に最もおすすめ</text>
+  <text x="265" y="175" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">実績・SEO・保守バランスが良い</text>
+  <!-- star badge -->
+  <rect x="220" y="188" width="90" height="22" rx="11" fill="#c9a84c"/>
+  <text x="265" y="203" text-anchor="middle" fill="#111" font-size="11" font-weight="bold">発注推奨ゾーン</text>
+
+  <!-- Q3: 低品質×低価格（左下）→ 格安 -->
+  <rect x="105" y="225" width="320" height="140" rx="6" fill="rgba(255,100,100,0.06)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="265" y="270" text-anchor="middle" fill="rgba(255,150,150,0.8)" font-size="14" font-weight="bold">低品質 × 低価格</text>
+  <text x="265" y="295" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">格安代行・量産型</text>
+  <text x="265" y="315" text-anchor="middle" fill="rgba(255,150,150,0.6)" font-size="11">テンプレ使い回し・SEOゼロ</text>
+  <text x="265" y="335" text-anchor="middle" fill="rgba(255,150,150,0.6)" font-size="11">公開後のサポートなし</text>
+  <text x="265" y="355" text-anchor="middle" fill="rgba(255,120,120,0.7)" font-size="11">⚠ 長期的にはコスト増</text>
+
+  <!-- Q4: 低品質×高価格（右下）→ 要注意 -->
+  <rect x="435" y="225" width="320" height="140" rx="6" fill="rgba(255,150,0,0.06)" stroke="rgba(255,150,0,0.25)" stroke-width="1"/>
+  <text x="595" y="270" text-anchor="middle" fill="rgba(255,180,0,0.8)" font-size="14" font-weight="bold">低品質 × 高価格</text>
+  <text x="595" y="295" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">名前だけの老舗・過大請求</text>
+  <text x="595" y="315" text-anchor="middle" fill="rgba(255,180,0,0.6)" font-size="11">費用対効果が最悪</text>
+  <text x="595" y="335" text-anchor="middle" fill="rgba(255,180,0,0.6)" font-size="11">担当者経験が浅い大手も</text>
+  <text x="595" y="355" text-anchor="middle" fill="rgba(255,150,0,0.7)" font-size="11">⚠ 最も注意が必要</text>
+</svg>

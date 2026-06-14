@@ -1,0 +1,68 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">1つの質問から複数の投稿を生成</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">コンテンツリパーパシング：効率的なネタ活用</text>
+
+  <!-- 質問 -->
+  <rect x="100" y="75" width="600" height="50" fill="#c9a84c" opacity="0.2" rx="5"/>
+  <text x="400" y="105" class="text-white" text-anchor="middle" font-size="14" font-weight="bold">「SNS運用代行の費用はいくらですか？」</text>
+
+  <!-- 矢印 -->
+  <text x="400" y="150" class="gold" text-anchor="middle" font-size="20">↓</text>
+
+  <!-- 派生する投稿 -->
+  <g>
+    <rect x="50" y="165" width="200" height="180" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="150" y="185" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">投稿1</text>
+    <text x="150" y="210" class="gold" text-anchor="middle" font-size="11">相場はいくら？</text>
+    <text x="65" y="230" class="text-white" font-size="10">「SNS運用代行の</text>
+    <text x="65" y="243" class="text-white" font-size="10">費用の相場は？」</text>
+    <text x="150" y="265" class="text-gray" text-anchor="middle" font-size="10">【教育系】</text>
+    <text x="65" y="285" class="text-white" font-size="10">月額費用の相場や</text>
+    <text x="65" y="298" class="text-white" font-size="10">予算別プランを</text>
+    <text x="65" y="311" class="text-white" font-size="10">詳しく解説</text>
+    <circle cx="220" cy="340" r="6" fill="#c9a84c"/>
+  </g>
+
+  <g>
+    <rect x="300" y="165" width="200" height="180" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="400" y="185" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">投稿2</text>
+    <text x="400" y="210" class="gold" text-anchor="middle" font-size="11">費用の差は何か？</text>
+    <text x="315" y="230" class="text-white" font-size="10">「月3万円と月10万円</text>
+    <text x="315" y="243" class="text-white" font-size="10">の違いは？」</text>
+    <text x="400" y="265" class="text-gray" text-anchor="middle" font-size="10">【比較系】</text>
+    <text x="315" y="285" class="text-white" font-size="10">安いプラン・高いプラン</text>
+    <text x="315" y="298" class="text-white" font-size="10">のサービス内容を</text>
+    <text x="315" y="311" class="text-white" font-size="10">比較解説</text>
+    <circle cx="470" cy="340" r="6" fill="#c9a84c"/>
+  </g>
+
+  <g>
+    <rect x="550" y="165" width="200" height="180" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="650" y="185" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">投稿3</text>
+    <text x="650" y="210" class="gold" text-anchor="middle" font-size="11">自社運用との比較</text>
+    <text x="565" y="230" class="text-white" font-size="10">「自社運用 vs 外注</text>
+    <text x="565" y="243" class="text-white" font-size="10">本当のコスト」</text>
+    <text x="650" y="265" class="text-gray" text-anchor="middle" font-size="10">【実用系】</text>
+    <text x="565" y="285" class="text-white" font-size="10">時間コスト・機会損失</text>
+    <text x="565" y="298" class="text-white" font-size="10">を含めた総コスト</text>
+    <text x="565" y="311" class="text-white" font-size="10">を実務的に解説</text>
+    <circle cx="720" cy="340" r="6" fill="#c9a84c"/>
+  </g>
+
+  <!-- リパーパシング効果 -->
+  <text x="400" y="380" class="text-white" text-anchor="middle" font-size="14" font-weight="bold">1つの質問から3本の投稿が生まれる</text>
+  <text x="400" y="405" class="text-gray" text-anchor="middle" font-size="11">同じ素材でも「切り口」を変えれば複数のコンテンツに</text>
+</svg>

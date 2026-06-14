@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">採用選択理由の変化：企業 vs 社長</text>
+
+  <!-- 過去 -->
+  <g>
+    <text x="200" y="70" font-size="14" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">過去（2010年代）</text>
+    <rect x="80" y="90" width="240" height="280" fill="#333333" rx="5" stroke="#555555" stroke-width="1"/>
+
+    <text x="200" y="125" font-size="12" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">選択基準の優先順位</text>
+    <line x1="95" y1="135" x2="305" y2="135" stroke="#555555" stroke-width="1"/>
+
+    <text x="100" y="160" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1. 企業規模・知名度</text>
+    <text x="100" y="180" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">2. 給与・福利厚生</text>
+    <text x="100" y="200" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3. 仕事内容</text>
+    <text x="100" y="220" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">4. 企業文化</text>
+    <text x="100" y="240" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">5. 経営者の人柄</text>
+
+    <rect x="90" y="270" width="220" height="80" fill="none" stroke="#555555" stroke-width="1" rx="2"/>
+    <text x="105" y="295" font-size="10" fill="#888888" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「会社」で選ぶ時代</text>
+    <text x="105" y="315" font-size="10" fill="#888888" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長の情報は限定的</text>
+    <text x="105" y="335" font-size="10" fill="#888888" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">メディア・業界誌のみ</text>
+  </g>
+
+  <!-- 現在 -->
+  <g>
+    <text x="600" y="70" font-size="14" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">現在（2020年代）</text>
+    <rect x="480" y="90" width="240" height="280" fill="#222222" rx="5" stroke="#c9a84c" stroke-width="2"/>
+
+    <text x="600" y="125" font-size="12" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">選択基準の優先順位</text>
+    <line x1="495" y1="135" x2="705" y2="135" stroke="#c9a84c" stroke-width="1"/>
+
+    <text x="500" y="160" font-size="11" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1. 経営者の人柄・ビジョン</text>
+    <text x="500" y="180" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">2. 企業文化・値観</text>
+    <text x="500" y="200" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3. 仕事内容</text>
+    <text x="500" y="220" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">4. 給与・福利厚生</text>
+    <text x="500" y="240" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">5. 企業規模・知名度</text>
+
+    <rect x="490" y="270" width="220" height="80" fill="none" stroke="#c9a84c" stroke-width="1" rx="2"/>
+    <text x="505" y="295" font-size="10" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「社長」で選ぶ時代</text>
+    <text x="505" y="315" font-size="10" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS・動画で直接発信</text>
+    <text x="505" y="335" font-size="10" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長の「素」がわかる</text>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">ホームページ制作費用 価格帯別一覧</text>
+
+  <!-- Price tier 1 -->
+  <g>
+    <rect x="30" y="70" width="160" height="250" rx="8" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="2"/>
+    <text x="110" y="100" text-anchor="middle" fill="#4a9eff" font-size="12" font-weight="bold">格安・テンプレート</text>
+    <text x="110" y="125" text-anchor="middle" fill="#c9a84c" font-size="16" font-weight="bold">～30万円</text>
+    <text x="50" y="155" fill="#ffffff" font-size="9">向く人：</text>
+    <text x="50" y="170" fill="#aaaaaa" font-size="8">・個人事業主</text>
+    <text x="50" y="183" fill="#aaaaaa" font-size="8">・フリーランス</text>
+    <text x="50" y="196" fill="#aaaaaa" font-size="8">・急いで公開したい</text>
+
+    <text x="50" y="225" fill="#50c878" font-size="9" font-weight="bold">✓ 利点：</text>
+    <text x="50" y="240" fill="#c9a84c" font-size="8">スピード重視</text>
+    <text x="50" y="252" fill="#c9a84c" font-size="8">初期費用最小</text>
+
+    <text x="50" y="280" fill="#ff6b6b" font-size="9" font-weight="bold">✗ 課題：</text>
+    <text x="50" y="295" fill="#aaaaaa" font-size="8">カスタマイズ限定</text>
+    <text x="50" y="307" fill="#aaaaaa" font-size="8">競合との差別化難</text>
+  </g>
+
+  <!-- Price tier 2 -->
+  <g>
+    <rect x="210" y="70" width="160" height="250" rx="8" fill="#50c878" opacity="0.15" stroke="#50c878" stroke-width="2"/>
+    <text x="290" y="100" text-anchor="middle" fill="#50c878" font-size="12" font-weight="bold">中価格・オリジナル</text>
+    <text x="290" y="125" text-anchor="middle" fill="#c9a84c" font-size="16" font-weight="bold">30～100万円</text>
+    <text x="230" y="155" fill="#ffffff" font-size="9">向く人：</text>
+    <text x="230" y="170" fill="#aaaaaa" font-size="8">・中小企業</text>
+    <text x="230" y="183" fill="#aaaaaa" font-size="8">・コーポレート</text>
+    <text x="230" y="196" fill="#aaaaaa" font-size="8">・カスタマイズ必要</text>
+
+    <text x="230" y="225" fill="#50c878" font-size="9" font-weight="bold">✓ 利点：</text>
+    <text x="230" y="240" fill="#c9a84c" font-size="8">コスト効率的</text>
+    <text x="230" y="252" fill="#c9a84c" font-size="8">対応範囲広い</text>
+
+    <text x="230" y="280" fill="#ff6b6b" font-size="9" font-weight="bold">✗ 課題：</text>
+    <text x="230" y="295" fill="#aaaaaa" font-size="8">品質にばらつき</text>
+    <text x="230" y="307" fill="#aaaaaa" font-size="8">制作期間3-4ヶ月</text>
+  </g>
+
+  <!-- Price tier 3 -->
+  <g>
+    <rect x="390" y="70" width="160" height="250" rx="8" fill="#e91e63" opacity="0.15" stroke="#e91e63" stroke-width="2"/>
+    <text x="470" y="100" text-anchor="middle" fill="#e91e63" font-size="12" font-weight="bold">高品質・フルオーダー</text>
+    <text x="470" y="125" text-anchor="middle" fill="#c9a84c" font-size="16" font-weight="bold">100～300万円</text>
+    <text x="410" y="155" fill="#ffffff" font-size="9">向く人：</text>
+    <text x="410" y="170" fill="#aaaaaa" font-size="8">・中規模企業</text>
+    <text x="410" y="183" fill="#aaaaaa" font-size="8">・採用強化</text>
+    <text x="410" y="196" fill="#aaaaaa" font-size="8">・複数機能必要</text>
+
+    <text x="410" y="225" fill="#50c878" font-size="9" font-weight="bold">✓ 利点：</text>
+    <text x="410" y="240" fill="#c9a84c" font-size="8">高品質・安定</text>
+    <text x="410" y="252" fill="#c9a84c" font-size="8">サポート充実</text>
+
+    <text x="410" y="280" fill="#ff6b6b" font-size="9" font-weight="bold">✗ 課題：</text>
+    <text x="410" y="295" fill="#aaaaaa" font-size="8">予算が必要</text>
+    <text x="410" y="307" fill="#aaaaaa" font-size="8">時間的余裕必要</text>
+  </g>
+
+  <!-- Price tier 4 -->
+  <g>
+    <rect x="570" y="70" width="160" height="250" rx="8" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="2"/>
+    <text x="650" y="100" text-anchor="middle" fill="#ff9800" font-size="12" font-weight="bold">大規模・エンタープライズ</text>
+    <text x="650" y="125" text-anchor="middle" fill="#c9a84c" font-size="16" font-weight="bold">300万円以上</text>
+    <text x="590" y="155" fill="#ffffff" font-size="9">向く人：</text>
+    <text x="590" y="170" fill="#aaaaaa" font-size="8">・大企業</text>
+    <text x="590" y="183" fill="#aaaaaa" font-size="8">・EC機能</text>
+    <text x="590" y="196" fill="#aaaaaa" font-size="8">・複雑な要件</text>
+
+    <text x="590" y="225" fill="#50c878" font-size="9" font-weight="bold">✓ 利点：</text>
+    <text x="590" y="240" fill="#c9a84c" font-size="8">フル対応</text>
+    <text x="590" y="252" fill="#c9a84c" font-size="8">拡張性高い</text>
+
+    <text x="590" y="280" fill="#ff6b6b" font-size="9" font-weight="bold">✗ 課題：</text>
+    <text x="590" y="295" fill="#aaaaaa" font-size="8">大規模予算</text>
+    <text x="590" y="307" fill="#aaaaaa" font-size="8">1年以上要する</text>
+  </g>
+
+  <!-- Key message -->
+  <rect x="30" y="340" width="700" height="70" rx="6" fill="#c9a84c" opacity="0.15"/>
+  <text x="400" y="365" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">重要：正解は「安い＆良質」ではなく「自社の目的に合った予算配分」</text>
+  <text x="400" y="385" text-anchor="middle" fill="#ffffff" font-size="10">目的が採用強化なら100-300万円。とにかく存在を作る目的なら30万円以下でOK。</text>
+  <text x="400" y="402" text-anchor="middle" fill="#aaaaaa" font-size="9">予算配分を間違えると、期待以上の成果が出ない</text>
+</svg>

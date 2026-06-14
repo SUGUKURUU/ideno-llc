@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長動画制作の意思決定フロー</text>
+
+  <!-- Q1 -->
+  <rect x="150" y="80" width="500" height="60" fill="#c9a84c" rx="5"/>
+  <text x="400" y="115" font-size="12" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">採用・営業・ブランディングに課題があるか？</text>
+
+  <!-- Yes矢印 -->
+  <path d="M 400,145 L 400,180" stroke="#c9a84c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="420" y="165" font-size="11" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YES</text>
+
+  <!-- Q2 -->
+  <rect x="150" y="180" width="500" height="60" fill="#8b7355" rx="5"/>
+  <text x="400" y="215" font-size="12" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「社長の人柄・思想」を届けるアプローチが必要か？</text>
+
+  <!-- Yes矢印 -->
+  <path d="M 400,245 L 400,280" stroke="#8b7355" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="420" y="265" font-size="11" fill="#8b7355" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YES</text>
+
+  <!-- 結論 -->
+  <rect x="150" y="280" width="500" height="100" fill="#c9a84c" rx="5" stroke="#c9a84c" stroke-width="2"/>
+  <text x="400" y="310" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長動画の制作を強く推奨</text>
+  <text x="400" y="335" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">初期投資50-100万、年1-2本の継続で</text>
+  <text x="400" y="355" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1-2年で回収可能。10年後の企業資産として極めて価値が高い</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c9a84c"/>
+    </marker>
+  </defs>
+</svg>

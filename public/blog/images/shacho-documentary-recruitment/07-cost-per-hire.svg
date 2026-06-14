@@ -1,0 +1,45 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">採用手段別の採用コスト比較（1人あたり目安）</text>
+
+  <!-- Y axis -->
+  <line x1="120" y1="58" x2="120" y2="330" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="120" y1="330" x2="760" y2="330" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Scale: max 300万=270px, 1万=0.9px, base y=330 -->
+  <!-- Grid -->
+  <line x1="120" y1="240" x2="760" y2="240" stroke="rgba(255,255,255,0.1)" stroke-dasharray="4,4"/>
+  <line x1="120" y1="150" x2="760" y2="150" stroke="rgba(255,255,255,0.1)" stroke-dasharray="4,4"/>
+  <line x1="120" y1="60" x2="760" y2="60" stroke="rgba(255,255,255,0.1)" stroke-dasharray="4,4"/>
+  <text x="112" y="334" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="end">0</text>
+  <text x="112" y="244" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="end">100万</text>
+  <text x="112" y="154" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="end">200万</text>
+  <text x="112" y="64" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="end">300万</text>
+  <text x="50" y="200" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle" transform="rotate(-90,50,200)">採用コスト（円）</text>
+
+  <!-- Bar 1: 求人媒体(大手) 100〜300万 → low=240 high=60 -->
+  <rect x="150" y="60" width="110" height="180" fill="#c9a84c" opacity="0.35" rx="3"/>
+  <!-- Range label -->
+  <text x="205" y="52" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">100〜300万円</text>
+  <text x="205" y="352" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">求人媒体</text>
+  <text x="205" y="367" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">（大手）</text>
+
+  <!-- Bar 2: エージェント 年収20〜35% ≈ 80〜140万 → 240-(80*0.9)=168 to 240-(140*0.9)=114 -->
+  <rect x="310" y="114" width="110" height="126" fill="#c9a84c" opacity="0.5" rx="3"/>
+  <text x="365" y="106" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">年収の20〜35%</text>
+  <text x="365" y="352" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">エージェント</text>
+  <text x="365" y="367" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">（紹介手数料）</text>
+
+  <!-- Bar 3: 自社採用サイト 20〜50万 → 330-(50*0.9)=285 to 330-(20*0.9)=312 -->
+  <rect x="470" y="285" width="110" height="45" fill="#c9a84c" opacity="0.65" rx="3"/>
+  <text x="525" y="277" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">20〜50万円</text>
+  <text x="525" y="352" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">自社採用サイト</text>
+
+  <!-- Bar 4: 動画採用コンテンツ 5〜15万 → 330-(15*0.9)=316.5 to 330-(5*0.9)=325.5 -->
+  <rect x="630" y="316" width="110" height="14" fill="#c9a84c" rx="3"/>
+  <text x="685" y="308" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">5〜15万円</text>
+  <text x="685" y="352" fill="#c9a84c" font-size="11" font-weight="bold" text-anchor="middle">動画採用コンテンツ</text>
+  <text x="685" y="367" fill="#c9a84c" font-size="10" text-anchor="middle">（長期ROI）</text>
+
+  <text x="400" y="400" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle">※動画は一度制作すれば複数年・複数採用に活用可能なため長期ROIが高い</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.tw{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.tg{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.t{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="t" text-anchor="middle">認知vs集客：使い分け</text>
+  <text x="400" y="55" class="tg" text-anchor="middle">フェーズごとに最適な施策が異なる</text>
+
+  <g>
+    <rect x="50" y="85" width="320" height="310" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="210" y="110" class="gold" text-anchor="middle" font-size="12" font-weight="bold">認知拡大</text>
+    <text x="210" y="135" class="tw" text-anchor="middle" font-size="10">会社・サービスを知ってもらう</text>
+    <line x1="70" y1="145" x2="350" y2="145" stroke="#c9a84c" stroke-width="1"/>
+    <text x="70" y="170" class="tw" font-size="9">目標：フォロワー増加</text>
+    <text x="70" y="190" class="tw" font-size="9">施策：SNS投稿・コンテンツ発信</text>
+    <text x="70" y="210" class="tw" font-size="9">期間：長期（6-12ヶ月）</text>
+    <text x="70" y="230" class="tw" font-size="9">適切なフェーズ：0-2</text>
+    <text x="210" y="280" class="tg" text-anchor="middle" font-size="9">この段階で集客に投資すると</text>
+    <text x="210" y="298" class="tg" text-anchor="middle" font-size="9">効果が薄い</text>
+  </g>
+
+  <g>
+    <rect x="430" y="85" width="320" height="310" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="590" y="110" class="gold" text-anchor="middle" font-size="12" font-weight="bold">集客・問い合わせ</text>
+    <text x="590" y="135" class="tw" text-anchor="middle" font-size="10">興味を持った人を成約に変える</text>
+    <line x1="450" y1="145" x2="730" y2="145" stroke="#c9a84c" stroke-width="1"/>
+    <text x="450" y="170" class="tw" font-size="9">目標：問い合わせ・売上増加</text>
+    <text x="450" y="190" class="tw" font-size="9">施策：LP最適化・広告・HP改善</text>
+    <text x="450" y="210" class="tw" font-size="9">期間：短期（1-3ヶ月）</text>
+    <text x="450" y="230" class="tw" font-size="9">適切なフェーズ：2-3</text>
+    <text x="590" y="280" class="tg" text-anchor="middle" font-size="9">認知がない状態では</text>
+    <text x="590" y="298" class="tg" text-anchor="middle" font-size="9">効果が出ない</text>
+  </g>
+</svg>

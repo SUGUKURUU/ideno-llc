@@ -1,0 +1,52 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">公開後のサポート確認項目チェックリスト</text>
+
+  <!-- 6 items in 2 columns -->
+  <!-- Left -->
+  <rect x="30" y="62" width="368" height="56" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <rect x="30" y="62" width="6" height="56" rx="3" fill="#c9a84c"/>
+  <rect x="46" y="76" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="74" y="88" fill="#ffffff" font-size="13" font-weight="bold">① コンテンツ更新の対応速度</text>
+  <text x="74" y="107" fill="rgba(255,255,255,0.5)" font-size="11">「テキストを変更したい」という依頼に何営業日で対応するか</text>
+
+  <rect x="30" y="128" width="368" height="56" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <rect x="30" y="128" width="6" height="56" rx="3" fill="rgba(201,168,76,0.7)"/>
+  <rect x="46" y="142" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="74" y="154" fill="#ffffff" font-size="13" font-weight="bold">② バックアップ体制</text>
+  <text x="74" y="173" fill="rgba(255,255,255,0.5)" font-size="11">サーバー障害・データ消失時のバックアップ頻度と復旧方法</text>
+
+  <rect x="30" y="194" width="368" height="56" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <rect x="30" y="194" width="6" height="56" rx="3" fill="rgba(201,168,76,0.5)"/>
+  <rect x="46" y="208" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="74" y="220" fill="#ffffff" font-size="13" font-weight="bold">③ セキュリティ対応</text>
+  <text x="74" y="239" fill="rgba(255,255,255,0.5)" font-size="11">WordPressなどCMSのアップデート・SSL証明書更新の対応</text>
+
+  <rect x="30" y="260" width="368" height="56" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <rect x="30" y="260" width="6" height="56" rx="3" fill="rgba(201,168,76,0.3)"/>
+  <rect x="46" y="274" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="74" y="286" fill="#ffffff" font-size="13" font-weight="bold">④ アクセス解析ツール設定</text>
+  <text x="74" y="305" fill="rgba(255,255,255,0.5)" font-size="11">GA4・サーチコンソールの設定・初期レポート提出の有無</text>
+
+  <!-- Right -->
+  <rect x="402" y="62" width="368" height="56" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <rect x="402" y="62" width="6" height="56" rx="3" fill="rgba(201,168,76,0.2)"/>
+  <rect x="418" y="76" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="446" y="88" fill="#ffffff" font-size="13" font-weight="bold">⑤ 問い合わせ対応窓口</text>
+  <text x="446" y="107" fill="rgba(255,255,255,0.5)" font-size="11">電話・メール・チャット等の連絡手段と営業時間</text>
+
+  <rect x="402" y="128" width="368" height="56" rx="6" fill="rgba(201,168,76,0.08)" stroke="#c9a84c" stroke-width="1.5"/>
+  <rect x="402" y="128" width="6" height="56" rx="3" fill="#c9a84c"/>
+  <rect x="418" y="142" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="446" y="154" fill="#c9a84c" font-size="13" font-weight="bold">⑥ 緊急時（サイトダウン）の対応</text>
+  <text x="446" y="173" fill="rgba(255,255,255,0.6)" font-size="11">サイト停止時の対応時間・夜間・休日対応の有無</text>
+
+  <!-- summary box -->
+  <rect x="30" y="332" width="740" height="56" rx="6" fill="rgba(201,168,76,0.07)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <text x="400" y="356" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="13" font-weight="bold">「公開後サポートなし」の制作会社を選ぶとどうなるか</text>
+  <text x="200" y="377" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">✕ 更新のたびに別会社に依頼</text>
+  <text x="400" y="377" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">✕ 障害発生時に対応してもらえない</text>
+  <text x="620" y="377" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">✕ セキュリティ放置でリスク増大</text>
+
+  <text x="400" y="406" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="10">保守費用の相場：月1〜3万円（内容・ページ数による）</text>
+</svg>

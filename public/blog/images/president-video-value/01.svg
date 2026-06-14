@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長動画の5つの価値と時間軸</text>
+
+  <!-- 価値1：採用 -->
+  <g>
+    <circle cx="150" cy="140" r="50" fill="#c9a84c"/>
+    <text x="150" y="135" font-size="11" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1. 採用</text>
+    <text x="150" y="155" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">即時効果</text>
+  </circle>
+  <text x="150" y="215" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">数週間で</text>
+  <text x="150" y="230" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">問い合わせ開始</text>
+
+  <!-- 価値2：文化醸成 -->
+  <g>
+    <circle cx="300" cy="140" r="50" fill="#8b7355"/>
+    <text x="300" y="135" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">2. 文化</text>
+    <text x="300" y="155" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">中期効果</text>
+  </circle>
+  <text x="300" y="215" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3-6ヶ月で</text>
+  <text x="300" y="230" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">浸透開始</text>
+
+  <!-- 価値3：事業承継 -->
+  <g>
+    <circle cx="450" cy="140" r="50" fill="#555555"/>
+    <text x="450" y="135" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3. 承継</text>
+    <text x="450" y="155" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">長期資産</text>
+  </circle>
+  <text x="450" y="215" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">10年後に</text>
+  <text x="450" y="230" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">真価発揮</text>
+
+  <!-- 価値4：信頼構築 -->
+  <g>
+    <circle cx="600" cy="140" r="50" fill="#999999"/>
+    <text x="600" y="135" font-size="11" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">4. 信頼</text>
+    <text x="600" y="155" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">継続効果</text>
+  </circle>
+  <text x="600" y="215" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">毎年</text>
+  <text x="600" y="230" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">蓄積</text>
+
+  <!-- 説明ボックス -->
+  <rect x="80" y="280" width="640" height="100" fill="none" stroke="#333333" stroke-width="1" rx="3"/>
+  <text x="100" y="305" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長動画は「今の用途」だけでなく、長期的な企業資産としての価値が重要</text>
+  <text x="100" y="325" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">採用・営業に即効性があり、同時に10年後の事業承継時に極めて貴重な記録になる</text>
+  <text x="100" y="345" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「完璧なタイミング」を待つより「今この瞬間」を記録することが肝心</text>
+  <text x="100" y="365" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">会社が成長した後で「あの頃の社長の想い」は二度と同じ形では存在しない</text>
+</svg>

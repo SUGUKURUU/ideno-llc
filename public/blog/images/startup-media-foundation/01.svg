@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">0→1フェーズ：発信基盤の構築順序</text>
+
+  <!-- ステップ1 -->
+  <g>
+    <rect x="80" y="90" width="150" height="260" fill="#c9a84c" rx="5"/>
+    <text x="155" y="120" font-size="12" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">Step1</text>
+    <text x="155" y="140" font-size="11" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">メッセージ</text>
+    <text x="155" y="157" font-size="11" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">設計</text>
+    <line x1="100" y1="170" x2="210" y2="170" stroke="#111111" stroke-width="1"/>
+    <text x="155" y="200" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">期間：1-2週</text>
+    <text x="155" y="220" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・誰に</text>
+    <text x="155" y="238" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・何を</text>
+    <text x="155" y="256" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・なぜ</text>
+    <text x="155" y="274" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">を言語化</text>
+  </g>
+
+  <!-- 矢印 -->
+  <path d="M 240,220 L 280,220" stroke="#c9a84c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- ステップ2 -->
+  <g>
+    <rect x="280" y="90" width="150" height="260" fill="#8b7355" rx="5"/>
+    <text x="355" y="120" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">Step2</text>
+    <text x="355" y="140" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">最小限</text>
+    <text x="355" y="157" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">HP制作</text>
+    <line x1="300" y1="170" x2="410" y2="170" stroke="#ffffff" stroke-width="1"/>
+    <text x="355" y="200" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">期間：2-4週</text>
+    <text x="355" y="220" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・1-3ページ</text>
+    <text x="355" y="238" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・信頼の</text>
+    <text x="355" y="256" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">受け皿</text>
+    <text x="355" y="274" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・費用0-10万</text>
+  </g>
+
+  <!-- 矢印 -->
+  <path d="M 440,220 L 480,220" stroke="#8b7355" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- ステップ3 -->
+  <g>
+    <rect x="480" y="90" width="150" height="260" fill="#555555" rx="5"/>
+    <text x="555" y="120" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">Step3</text>
+    <text x="555" y="140" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS</text>
+    <text x="555" y="157" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">発信</text>
+    <line x1="500" y1="170" x2="610" y2="170" stroke="#ffffff" stroke-width="1"/>
+    <text x="555" y="200" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">期間：同時</text>
+    <text x="555" y="220" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・1チャネル</text>
+    <text x="555" y="238" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">のみ</text>
+    <text x="555" y="256" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">・週3-5回</text>
+    <text x="555" y="274" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">投稿</text>
+  </g>
+
+  <text x="400" y="400" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">この順序を守ることで、メッセージの一貫性とチャネル間の相乗効果が生まれる</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c9a84c"/>
+    </marker>
+  </defs>
+</svg>

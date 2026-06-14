@@ -1,0 +1,47 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">密着動画のROI計算（制作1年後）</text>
+
+  <!-- Investment box -->
+  <rect x="40" y="60" width="220" height="120" rx="8" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="150" y="85" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="middle">【投資】</text>
+  <text x="150" y="110" fill="#ffffff" font-size="13" text-anchor="middle">動画制作費</text>
+  <text x="150" y="140" fill="#c9a84c" font-size="22" font-weight="bold" text-anchor="middle">50万円</text>
+  <text x="150" y="168" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">（撮影・編集込み）</text>
+
+  <!-- Arrow -->
+  <text x="275" y="128" fill="#c9a84c" font-size="28" text-anchor="middle">→</text>
+
+  <!-- Returns box -->
+  <rect x="300" y="60" width="460" height="240" rx="8" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="530" y="85" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="middle">【リターン】</text>
+
+  <!-- Return item 1 -->
+  <rect x="320" y="98" width="420" height="46" rx="4" fill="#2a2a1a"/>
+  <text x="340" y="118" fill="rgba(255,255,255,0.8)" font-size="12">採用エージェント不要による削減</text>
+  <text x="720" y="128" fill="#c9a84c" font-size="16" font-weight="bold" text-anchor="end">▲300万円</text>
+  <text x="340" y="136" fill="rgba(255,255,255,0.5)" font-size="11">（エージェント手数料1件分：年収500万 × 30%）</text>
+
+  <!-- Return item 2 -->
+  <rect x="320" y="154" width="420" height="46" rx="4" fill="#2a2a1a"/>
+  <text x="340" y="174" fill="rgba(255,255,255,0.8)" font-size="12">応募率向上・採用人数増加分の効果</text>
+  <text x="720" y="184" fill="#c9a84c" font-size="16" font-weight="bold" text-anchor="end">+200万円</text>
+  <text x="340" y="192" fill="rgba(255,255,255,0.5)" font-size="11">（採用工数削減・早期離職減による生産性向上）</text>
+
+  <!-- Return item 3 -->
+  <rect x="320" y="210" width="420" height="46" rx="4" fill="#2a2a1a"/>
+  <text x="340" y="230" fill="rgba(255,255,255,0.8)" font-size="12">動画の長期活用価値（複数年・複数採用）</text>
+  <text x="720" y="240" fill="#c9a84c" font-size="16" font-weight="bold" text-anchor="end">+100万円</text>
+  <text x="340" y="248" fill="rgba(255,255,255,0.5)" font-size="11">（次年度以降も継続活用できる資産価値）</text>
+
+  <!-- Divider -->
+  <line x1="320" y1="264" x2="740" y2="264" stroke="#c9a84c" stroke-width="1" opacity="0.5"/>
+  <text x="530" y="283" fill="rgba(255,255,255,0.8)" font-size="13" font-weight="bold" text-anchor="middle">合計リターン</text>
+  <text x="720" y="283" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="end">600万円</text>
+
+  <!-- ROI result -->
+  <rect x="40" y="320" width="720" height="70" rx="8" fill="#c9a84c"/>
+  <text x="280" y="350" fill="#111111" font-size="16" font-weight="bold" text-anchor="middle">ROI（投資対効果）</text>
+  <text x="280" y="376" fill="#111111" font-size="13" text-anchor="middle">= (600万 − 50万) ÷ 50万 × 100</text>
+  <text x="580" y="365" fill="#111111" font-size="32" font-weight="bold" text-anchor="middle">= 1,100%</text>
+</svg>

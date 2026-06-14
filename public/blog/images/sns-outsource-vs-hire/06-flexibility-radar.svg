@@ -1,0 +1,70 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="30" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">柔軟性・適応力比較（採用 vs 外注）</text>
+
+  <!-- レーダー中心: cx=400, cy=230, r=150 -->
+  <!-- 5軸: 72deg間隔 0=量の調整(top=270), 72=質の調整, 144=契約変更, 216=解約容易性, 288=専門性強化 -->
+  <!-- 各軸先端:
+    量の調整(270deg):   400, 80
+    質の調整(342deg):   542.4, 173.7
+    契約変更(54deg):    521.1, 351.7
+    解約容易性(126deg): 278.9, 351.7
+    専門性強化(198deg): 257.6, 173.7
+  -->
+
+  <!-- グリッド五角形 r=30,60,90,120,150 -->
+  <polygon points="400,200 428.5,213.5 420.2,246.3 379.8,246.3 371.5,213.5" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,170 457,197 440.4,262.6 359.6,262.6 343,197" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,140 485.5,180.5 460.6,278.9 339.4,278.9 314.5,180.5" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,110 514,164 480.8,295.2 319.2,295.2 286,164" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,80 542.4,173.7 521.1,351.7 278.9,351.7 257.6,173.7" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- 軸線 -->
+  <line x1="400" y1="230" x2="400" y2="80" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="542.4" y2="173.7" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="521.1" y2="351.7" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="278.9" y2="351.7" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="257.6" y2="173.7" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- 外注 (87%平均, r=130.5):
+    量の調整: 400, 99.5
+    質の調整: 524.9, 185.2
+    契約変更: 506.4, 337.3
+    解約容易: 293.6, 337.3
+    専門性:   275.1, 185.2
+  -->
+  <polygon points="400,99.5 524.9,185.2 506.4,337.3 293.6,337.3 275.1,185.2"
+    fill="rgba(201,168,76,0.2)" stroke="#c9a84c" stroke-width="2.5"/>
+
+  <!-- 採用 (30%平均, r=45):
+    量の調整: 400, 185
+    質の調整: 438.9, 208.7
+    契約変更: 434.7, 262.5
+    解約容易: 365.3, 262.5
+    専門性:   361.1, 208.7
+  -->
+  <polygon points="400,185 438.9,208.7 434.7,262.5 365.3,262.5 361.1,208.7"
+    fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- 軸ラベル -->
+  <text x="400" y="68" fill="#ffffff" font-size="12" text-anchor="middle">量の調整</text>
+  <text x="562" y="170" fill="#ffffff" font-size="12" text-anchor="start">質の調整</text>
+  <text x="535" y="360" fill="#ffffff" font-size="12" text-anchor="middle">契約変更</text>
+  <text x="265" y="360" fill="#ffffff" font-size="12" text-anchor="middle">解約容易性</text>
+  <text x="238" y="170" fill="#ffffff" font-size="12" text-anchor="end">専門性強化</text>
+
+  <!-- スコア -->
+  <text x="400" y="88" fill="#c9a84c" font-size="10" text-anchor="middle">87</text>
+  <text x="400" y="180" fill="#f87171" font-size="10" text-anchor="middle">30</text>
+
+  <!-- 凡例 -->
+  <rect x="55" y="55" width="16" height="16" fill="rgba(201,168,76,0.2)" stroke="#c9a84c" stroke-width="2" rx="2"/>
+  <text x="76" y="67" fill="#c9a84c" font-size="12">外注（平均87点）</text>
+  <rect x="55" y="80" width="16" height="16" fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="2" stroke-dasharray="4,2" rx="2"/>
+  <text x="76" y="92" fill="#f87171" font-size="12">正社員採用（平均30点）</text>
+
+  <!-- 解説 -->
+  <rect x="55" y="360" width="310" height="50" fill="#1a1a1a" rx="6"/>
+  <text x="210" y="380" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">外注は業務量・契約・解約すべてで</text>
+  <text x="210" y="398" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">正社員より3倍の柔軟性</text>
+</svg>

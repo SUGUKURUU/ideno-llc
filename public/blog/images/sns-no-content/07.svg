@@ -1,0 +1,86 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">1素材・複数投稿のコンテンツリパーパシング</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">制作コストを下げながら投稿本数を増やす</text>
+
+  <!-- 素材 -->
+  <rect x="300" y="75" width="200" height="60" fill="#c9a84c" opacity="0.2" rx="5" stroke="#c9a84c" stroke-width="2"/>
+  <text x="400" y="105" class="text-white" text-anchor="middle" font-size="14" font-weight="bold">元素材：工場見学動画</text>
+
+  <!-- 矢印 -->
+  <text x="400" y="150" class="gold" text-anchor="middle" font-size="20">↓</text>
+
+  <!-- 派生コンテンツ -->
+  <g>
+    <rect x="50" y="165" width="100" height="110" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="100" y="180" class="gold" text-anchor="middle" font-size="11" font-weight="bold">投稿1</text>
+    <text x="100" y="198" class="text-white" text-anchor="middle" font-size="10">60秒動画</text>
+    <text x="100" y="213" class="text-white" text-anchor="middle" font-size="9">工場製造</text>
+    <text x="100" y="228" class="text-white" text-anchor="middle" font-size="9">工程まとめ</text>
+    <text x="100" y="245" class="text-gray" text-anchor="middle" font-size="9">リール用</text>
+  </g>
+
+  <g>
+    <rect x="180" y="165" width="100" height="110" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="230" y="180" class="gold" text-anchor="middle" font-size="11" font-weight="bold">投稿2</text>
+    <text x="230" y="198" class="text-white" text-anchor="middle" font-size="10">15秒動画</text>
+    <text x="230" y="213" class="text-white" text-anchor="middle" font-size="9">見応えある</text>
+    <text x="230" y="228" class="text-white" text-anchor="middle" font-size="9">工程アップ</text>
+    <text x="230" y="245" class="text-gray" text-anchor="middle" font-size="9">TikTok用</text>
+  </g>
+
+  <g>
+    <rect x="310" y="165" width="100" height="110" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="360" y="180" class="gold" text-anchor="middle" font-size="11" font-weight="bold">投稿3</text>
+    <text x="360" y="198" class="text-white" text-anchor="middle" font-size="10">静止画</text>
+    <text x="360" y="213" class="text-white" text-anchor="middle" font-size="9">完成品の</text>
+    <text x="360" y="228" class="text-white" text-anchor="middle" font-size="9">美しいカット</text>
+    <text x="360" y="245" class="text-gray" text-anchor="middle" font-size="9">Instagram用</text>
+  </g>
+
+  <g>
+    <rect x="440" y="165" width="100" height="110" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="490" y="180" class="gold" text-anchor="middle" font-size="11" font-weight="bold">投稿4</text>
+    <text x="490" y="198" class="text-white" text-anchor="middle" font-size="10">静止画</text>
+    <text x="490" y="213" class="text-white" text-anchor="middle" font-size="9">職人の手元</text>
+    <text x="490" y="228" class="text-white" text-anchor="middle" font-size="9">クローズアップ</text>
+    <text x="490" y="245" class="text-gray" text-anchor="middle" font-size="9">Pinterest用</text>
+  </g>
+
+  <g>
+    <rect x="570" y="165" width="100" height="110" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="620" y="180" class="gold" text-anchor="middle" font-size="11" font-weight="bold">投稿5</text>
+    <text x="620" y="198" class="text-white" text-anchor="middle" font-size="10">テキスト投稿</text>
+    <text x="620" y="213" class="text-white" text-anchor="middle" font-size="9">製品のこだわり</text>
+    <text x="620" y="228" class="text-white" text-anchor="middle" font-size="9">解説</text>
+    <text x="620" y="245" class="text-gray" text-anchor="middle" font-size="9">X用</text>
+  </g>
+
+  <g>
+    <rect x="700" y="165" width="70" height="110" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="735" y="180" class="gold" text-anchor="middle" font-size="11" font-weight="bold">投稿6</text>
+    <text x="735" y="198" class="text-white" text-anchor="middle" font-size="9">カルーセル</text>
+    <text x="735" y="213" class="text-white" text-anchor="middle" font-size="8">工程を</text>
+    <text x="735" y="226" class="text-white" text-anchor="middle" font-size="8">1枚ずつ</text>
+    <text x="735" y="239" class="text-white" text-anchor="middle" font-size="8">解説</text>
+    <text x="735" y="255" class="text-gray" text-anchor="middle" font-size="8">IG用</text>
+  </g>
+
+  <!-- 効果 -->
+  <rect x="80" y="300" width="640" height="100" fill="#c9a84c" opacity="0.15" rx="5"/>
+  <text x="400" y="325" class="gold" text-anchor="middle" font-size="15" font-weight="bold">1回の取材 = 6本の投稿に拡張</text>
+  <text x="400" y="350" class="text-white" text-anchor="middle" font-size="12">制作コストは変わらず、投稿本数は6倍に</text>
+  <text x="400" y="370" class="text-gray" text-anchor="middle" font-size="11">同じ素材でも形式・プラットフォームを変えれば複数の投稿が生まれる</text>
+</svg>

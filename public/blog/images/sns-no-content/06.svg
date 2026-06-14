@@ -1,0 +1,60 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">よくある質問（FAQ）リスト：宝庫のネタ</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">営業現場の質問がコンテンツの源泉</text>
+
+  <!-- 質問収集プロセス -->
+  <rect x="60" y="75" width="280" height="90" fill="#c9a84c" opacity="0.15" rx="5" stroke="#c9a84c" stroke-width="2"/>
+  <text x="200" y="95" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">ステップ1：質問の集約</text>
+  <text x="200" y="115" class="text-white" text-anchor="middle" font-size="11">営業・接客担当者へ</text>
+  <text x="200" y="130" class="text-white" text-anchor="middle" font-size="11">ヒアリング</text>
+  <text x="200" y="150" class="gold" text-anchor="middle" font-size="13" font-weight="bold">20〜30個の質問を書き出す</text>
+
+  <rect x="460" y="75" width="280" height="90" fill="#c9a84c" opacity="0.15" rx="5" stroke="#c9a84c" stroke-width="2"/>
+  <text x="600" y="95" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">ステップ2：答える</text>
+  <text x="600" y="115" class="text-white" text-anchor="middle" font-size="11">それぞれの質問に</text>
+  <text x="600" y="130" class="text-white" text-anchor="middle" font-size="11">詳しく答える</text>
+  <text x="600" y="150" class="gold" text-anchor="middle" font-size="13" font-weight="bold">1投稿 = 1Q&A</text>
+
+  <!-- 矢印 -->
+  <text x="400" y="185" class="gold" text-anchor="middle" font-size="18">↓</text>
+
+  <!-- FAQ例 -->
+  <text x="400" y="215" class="text-white" text-anchor="middle" font-size="13" font-weight="bold">FAQ例（営業現場でよく聞かれる質問）：</text>
+
+  <g>
+    <rect x="50" y="235" width="320" height="140" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="70" y="255" class="gold" font-size="11" font-weight="bold">Q1：価格は相談できますか？</text>
+    <text x="70" y="275" class="text-white" font-size="10">A：基本的には定価ですが、</text>
+    <text x="70" y="290" class="text-white" font-size="10">複数ご利用や長期契約の場合は</text>
+    <text x="70" y="305" class="text-white" font-size="10">ご相談ください...</text>
+    <text x="70" y="330" class="gold" font-size="10" font-weight="bold">→ 投稿：教育系</text>
+    <text x="70" y="345" class="gold" font-size="10" font-weight="bold">→ 削減術を詳しく解説</text>
+  </g>
+
+  <g>
+    <rect x="430" y="235" width="320" height="140" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <text x="450" y="255" class="gold" font-size="11" font-weight="bold">Q2：導入期間はどのくらい？</text>
+    <text x="450" y="275" class="text-white" font-size="10">A：通常2週間〜1ヶ月程度</text>
+    <text x="450" y="290" class="text-white" font-size="10">ですが、準備状況によって</text>
+    <text x="450" y="305" class="text-white" font-size="10">異なる場合があります...</text>
+    <text x="450" y="330" class="gold" font-size="10" font-weight="bold">→ 投稿：実用系</text>
+    <text x="450" y="345" class="gold" font-size="10" font-weight="bold">→ 導入ステップを図解</text>
+  </g>
+
+  <!-- 下部メリット -->
+  <rect x="60" y="390" width="680" height="20" fill="#c9a84c" opacity="0.1" rx="3"/>
+  <text x="400" y="404" class="gold" text-anchor="middle" font-size="12" font-weight="bold">★ なぜ有効か：よくある質問 = ターゲット顧客が本当に知りたいこと</text>
+</svg>

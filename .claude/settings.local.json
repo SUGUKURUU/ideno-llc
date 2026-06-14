@@ -55,7 +55,11 @@
       "Bash(ls ~/.Trash/ | grep WINNERS *)",
       "WebFetch(domain:pachipachiland.hatenadiary.com)",
       "WebFetch(domain:jscss-pachipachiland.s3.ap-northeast-1.amazonaws.com)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git commit -m 'Fix Gemini API key env var lookup for Vercel *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('dependencies',{}\\), indent=2\\)\\)\")",
+      "Bash(mkdir -p /Users/MacBook/Downloads/SNS運用代行会社HP/app/blog/\\\\[slug\\\\])",
+      "Bash(npm run dev > /tmp/dev.log 2>&1 & *)"
     ]
   }
 }

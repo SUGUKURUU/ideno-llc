@@ -1,0 +1,73 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">制作会社選定基準の重要度レーダーチャート</text>
+
+  <!-- Radar chart center: 400, 225, radius steps: 40,80,120 -->
+  <!-- 8 axes at 0°,45°,90°,135°,180°,225°,270°,315° -->
+  <!-- axis labels: 実績,コスト,スピード,コミュニケーション,SEO対応,デザイン,保守体制,CMS -->
+
+  <!-- grid circles -->
+  <polygon points="400,105 505,148 548,253 505,358 400,401 295,358 252,253 295,148" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <polygon points="400,145 466,172 490,253 466,334 400,361 334,334 310,253 334,172" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <polygon points="400,185 427,198 436,253 427,308 400,321 373,308 364,253 373,198" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- axes (8 directions from center 400,225) -->
+  <!-- 0°=up: (400,105), 45°=(484,141), 90°=(520,225), 135°=(484,309), 180°=(400,345), 225°=(316,309), 270°=(280,225), 315°=(316,141) -->
+  <line x1="400" y1="225" x2="400" y2="105" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="513" y2="138" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="520" y2="225" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="513" y2="312" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="400" y2="345" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="287" y2="312" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="280" y2="225" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="287" y2="138" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Data polygon: scores (out of 10): 実績9,コスト7,スピード6,コミュ9,SEO9,デザイン7,保守8,CMS8 -->
+  <!-- radius = score/10 * 120 -->
+  <!-- 実績9: 0°→(400, 225-108)=(400,117) -->
+  <!-- コスト7: 45°→(400+84*sin45, 225-84*cos45)=(400+59,225-59)=(459,166) -->
+  <!-- スピード6: 90°→(400+72,225)=(472,225) -->
+  <!-- コミュ9: 135°→(400+108*sin135,225-108*cos135)=(400+76,225+76)=(476,301) -->
+  <!-- SEO9: 180°→(400,225+108)=(400,333) -->
+  <!-- デザイン7: 225°→(400-84*sin45,225+84*cos45)=(341,284) -->
+  <!-- 保守8: 270°→(400-96,225)=(304,225) -->
+  <!-- CMS8: 315°→(400-96*sin45,225-96*cos45)=(332,157) -->
+  <polygon points="400,117 459,166 472,225 476,301 400,333 341,284 304,225 332,157"
+    fill="rgba(201,168,76,0.2)" stroke="#c9a84c" stroke-width="2"/>
+
+  <!-- data points -->
+  <circle cx="400" cy="117" r="5" fill="#c9a84c"/>
+  <circle cx="459" cy="166" r="5" fill="#c9a84c"/>
+  <circle cx="472" cy="225" r="5" fill="#c9a84c"/>
+  <circle cx="476" cy="301" r="5" fill="#c9a84c"/>
+  <circle cx="400" cy="333" r="5" fill="#c9a84c"/>
+  <circle cx="341" cy="284" r="5" fill="#c9a84c"/>
+  <circle cx="304" cy="225" r="5" fill="#c9a84c"/>
+  <circle cx="332" cy="157" r="5" fill="#c9a84c"/>
+
+  <!-- axis labels -->
+  <text x="400" y="96" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">実績・ポートフォリオ</text>
+  <text x="540" y="130" text-anchor="start" fill="#ffffff" font-size="12">コスト</text>
+  <text x="537" y="225" text-anchor="start" fill="#ffffff" font-size="12">スピード</text>
+  <text x="532" y="318" text-anchor="start" fill="#ffffff" font-size="12">コミュニケーション</text>
+  <text x="400" y="368" text-anchor="middle" fill="#ffffff" font-size="12">SEO対応</text>
+  <text x="218" y="302" text-anchor="end" fill="#ffffff" font-size="12">デザイン</text>
+  <text x="244" y="230" text-anchor="end" fill="#ffffff" font-size="12">保守体制</text>
+  <text x="254" y="145" text-anchor="end" fill="#ffffff" font-size="12">CMS対応</text>
+
+  <!-- score labels -->
+  <text x="390" y="110" text-anchor="end" fill="#c9a84c" font-size="10">9</text>
+  <text x="468" y="162" fill="#c9a84c" font-size="10">7</text>
+  <text x="476" y="222" fill="#c9a84c" font-size="10">6</text>
+  <text x="480" y="305" fill="#c9a84c" font-size="10">9</text>
+  <text x="404" y="340" fill="#c9a84c" font-size="10">9</text>
+  <text x="327" y="292" text-anchor="end" fill="#c9a84c" font-size="10">7</text>
+  <text x="300" y="222" text-anchor="end" fill="#c9a84c" font-size="10">8</text>
+  <text x="328" y="153" text-anchor="end" fill="#c9a84c" font-size="10">8</text>
+
+  <!-- scale labels -->
+  <text x="402" y="183" fill="rgba(255,255,255,0.3)" font-size="9">4</text>
+  <text x="402" y="143" fill="rgba(255,255,255,0.3)" font-size="9">8</text>
+
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">優先度が高いのは「実績・SEO対応・コミュニケーション」の3軸</text>
+</svg>

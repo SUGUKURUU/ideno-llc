@@ -1,0 +1,126 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">動画効果測定：計測すべきKPI指標</text>
+
+  <!-- YouTube Analytics -->
+  <g>
+    <rect x="30" y="50" width="180" height="340" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="120" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">YouTube</text>
+    <text x="120" y="92" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">分析データ</text>
+
+    <text x="50" y="120" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">再生回数</text>
+    <rect x="50" y="128" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="50" y="128" width="104" height="6" rx="3" fill="#ec4899"/>
+    <text x="190" y="134" fill="#f472b6" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">1,250回</text>
+
+    <text x="50" y="155" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">平均視聴時間</text>
+    <text x="50" y="169" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（重要指標）</text>
+    <rect x="50" y="177" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="50" y="177" width="78" height="6" rx="3" fill="#22c55e"/>
+    <text x="190" y="183" fill="#86efac" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">3分24秒</text>
+
+    <text x="50" y="210" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">視聴完了率</text>
+    <rect x="50" y="218" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="50" y="218" width="104" height="6" rx="3" fill="#0ea5e9"/>
+    <text x="190" y="224" fill="#7dd3fc" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">65%</text>
+    <text x="50" y="238" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">目安：40～60%</text>
+
+    <text x="50" y="260" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">流入元</text>
+    <text x="50" y="275" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 検索：320回</text>
+    <text x="50" y="289" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ クリック：580回</text>
+    <text x="50" y="303" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ サイト埋め込み：350回</text>
+
+    <text x="50" y="325" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">視聴者属性</text>
+    <text x="50" y="340" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">年齢: 25～34歳</text>
+    <text x="50" y="353" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">性別: 男性60%</text>
+    <text x="50" y="366" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">地域: 東京</text>
+  </g>
+
+  <!-- Recruitment Impact -->
+  <g>
+    <rect x="230" y="50" width="180" height="340" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="320" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">採用への貢献</text>
+    <text x="320" y="92" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">（重要指標）</text>
+
+    <text x="250" y="120" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">動画経由の</text>
+    <text x="250" y="133" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">応募数</text>
+    <rect x="250" y="141" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="250" y="141" width="91" height="6" rx="3" fill="#f59e0b"/>
+    <text x="390" y="147" fill="#fbbf24" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">23名</text>
+
+    <text x="250" y="170" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">応募者アンケート</text>
+    <text x="250" y="183" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">「動画を見ましたか」</text>
+    <rect x="250" y="191" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="250" y="191" width="117" height="6" rx="3" fill="#22c55e"/>
+    <text x="390" y="197" fill="#86efac" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">90%</text>
+
+    <text x="250" y="225" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">面接通過率</text>
+    <text x="250" y="238" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（動画経由 vs</text>
+    <text x="250" y="251" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">その他経由）</text>
+    <rect x="250" y="259" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="250" y="259" width="91" height="6" rx="3" fill="#0ea5e9"/>
+    <text x="390" y="265" fill="#7dd3fc" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">72%</text>
+
+    <text x="250" y="295" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">定着率</text>
+    <text x="250" y="308" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（3ヶ月後）</text>
+    <rect x="250" y="316" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="250" y="316" width="96" height="6" rx="3" fill="#ec4899"/>
+    <text x="390" y="322" fill="#f472b6" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">83%</text>
+
+    <rect x="245" y="340" width="140" height="40" rx="5" fill="rgba(34,197,94,0.1)" stroke="rgba(34,197,94,0.3)" stroke-width="1"/>
+    <text x="315" y="358" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">✓ ROIが高い</text>
+    <text x="315" y="374" fill="#86efac" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold" text-anchor="middle">指標</text>
+  </g>
+
+  <!-- Inquiry Impact -->
+  <g>
+    <rect x="430" y="50" width="180" height="340" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="520" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">問い合わせ</text>
+    <text x="520" y="92" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">への貢献</text>
+
+    <text x="450" y="120" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">問い合わせフォーム</text>
+    <text x="450" y="133" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">設問追加</text>
+    <text x="450" y="150" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">「どこで知りましたか」</text>
+    <text x="450" y="165" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">→ 動画経由の回答</text>
+    <text x="450" y="180" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">を集計</text>
+
+    <text x="450" y="210" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">動画URLの</text>
+    <text x="450" y="223" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">クリック数</text>
+    <text x="450" y="240" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">GA4・URLパラメータ</text>
+    <text x="450" y="255" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（UTM）で計測</text>
+
+    <text x="450" y="285" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">CVR</text>
+    <text x="450" y="298" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（動画視聴→</text>
+    <text x="450" y="311" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">問い合わせ率）</text>
+    <rect x="450" y="319" width="130" height="6" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <rect x="450" y="319" width="78" height="6" rx="3" fill="#06b6d4"/>
+    <text x="590" y="325" fill="#67e8f9" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">3.2%</text>
+  </g>
+
+  <!-- Implementation -->
+  <g>
+    <rect x="630" y="50" width="140" height="340" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="700" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">実装方法</text>
+
+    <text x="650" y="105" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ YouTube</text>
+    <text x="650" y="119" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">Studio</text>
+    <text x="650" y="131" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（分析タブ）</text>
+
+    <text x="650" y="155" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ Google</text>
+    <text x="650" y="169" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">Analytics 4</text>
+    <text x="650" y="181" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（イベント設定）</text>
+
+    <text x="650" y="205" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ UTM</text>
+    <text x="650" y="219" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">パラメータ</text>
+    <text x="650" y="231" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">（URL追跡）</text>
+
+    <text x="650" y="255" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ Googleフォーム</text>
+    <text x="650" y="269" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">設問追加</text>
+
+    <rect x="640" y="300" width="120" height="70" rx="5" fill="rgba(201,168,76,0.08)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="700" y="320" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold" text-anchor="middle">定期確認</text>
+    <text x="700" y="336" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">月1回は</text>
+    <text x="700" y="349" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">数値確認を</text>
+    <text x="700" y="362" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">推奨</text>
+  </g>
+</svg>

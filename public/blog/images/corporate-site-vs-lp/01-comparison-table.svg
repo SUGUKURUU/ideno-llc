@@ -1,0 +1,61 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="38" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="18" font-weight="bold" text-anchor="middle">コーポレートサイト vs LP の特性比較</text>
+  <!-- Header row -->
+  <rect x="20" y="55" width="220" height="36" fill="#1a1a1a" stroke="#c9a84c" stroke-width="1"/>
+  <rect x="240" y="55" width="270" height="36" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1"/>
+  <rect x="510" y="55" width="270" height="36" fill="#c9a84c" fill-opacity="0.08" stroke="#c9a84c" stroke-width="1"/>
+  <text x="130" y="78" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="13" font-weight="bold" text-anchor="middle">比較項目</text>
+  <text x="375" y="78" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="13" font-weight="bold" text-anchor="middle">コーポレートサイト</text>
+  <text x="645" y="78" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="13" font-weight="bold" text-anchor="middle">LP（ランディングページ）</text>
+  <!-- Rows -->
+  <!-- Row 1 -->
+  <rect x="20" y="91" width="220" height="44" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="91" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <rect x="510" y="91" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <text x="130" y="117" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" text-anchor="middle">目的</text>
+  <text x="375" y="117" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">企業の信頼・ブランド構築</text>
+  <text x="645" y="117" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">単一アクションへの誘導</text>
+  <!-- Row 2 -->
+  <rect x="20" y="135" width="220" height="44" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="135" width="270" height="44" fill="#181818" stroke="#333" stroke-width="0.5"/>
+  <rect x="510" y="135" width="270" height="44" fill="#181818" stroke="#333" stroke-width="0.5"/>
+  <text x="130" y="161" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" text-anchor="middle">ページ数</text>
+  <text x="375" y="161" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">複数（会社概要・サービス・採用等）</text>
+  <text x="645" y="161" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">基本的に1ページ完結</text>
+  <!-- Row 3 -->
+  <rect x="20" y="179" width="220" height="44" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="179" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <rect x="510" y="179" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <text x="130" y="205" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" text-anchor="middle">SEO効果</text>
+  <text x="375" y="205" fill="#4caf50" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">高い（多様なコンテンツで検索流入）</text>
+  <text x="645" y="205" fill="#ff7043" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">低め（単一テーマのみ）</text>
+  <!-- Row 4 -->
+  <rect x="20" y="223" width="220" height="44" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="223" width="270" height="44" fill="#181818" stroke="#333" stroke-width="0.5"/>
+  <rect x="510" y="223" width="270" height="44" fill="#181818" stroke="#333" stroke-width="0.5"/>
+  <text x="130" y="249" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" text-anchor="middle">CVR（転換率）</text>
+  <text x="375" y="249" fill="#ff7043" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">低め（回遊型）</text>
+  <text x="645" y="249" fill="#4caf50" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">高い（一点集中型）</text>
+  <!-- Row 5 -->
+  <rect x="20" y="267" width="220" height="44" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="267" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <rect x="510" y="267" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <text x="130" y="293" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" text-anchor="middle">制作費</text>
+  <text x="375" y="293" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">50万円〜数百万円</text>
+  <text x="645" y="293" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">10〜50万円程度</text>
+  <!-- Row 6 -->
+  <rect x="20" y="311" width="220" height="44" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="311" width="270" height="44" fill="#181818" stroke="#333" stroke-width="0.5"/>
+  <rect x="510" y="311" width="270" height="44" fill="#181818" stroke="#333" stroke-width="0.5"/>
+  <text x="130" y="337" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" text-anchor="middle">更新頻度</text>
+  <text x="375" y="337" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">定期的に必要（ブログ・実績等）</text>
+  <text x="645" y="337" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">キャンペーン単位で差し替え</text>
+  <!-- Row 7 -->
+  <rect x="20" y="355" width="220" height="44" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="355" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <rect x="510" y="355" width="270" height="44" fill="#161616" stroke="#333" stroke-width="0.5"/>
+  <text x="130" y="381" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" text-anchor="middle">維持コスト</text>
+  <text x="375" y="381" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">中〜高（保守・コンテンツ更新）</text>
+  <text x="645" y="381" fill="rgba(255,255,255,0.85)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">低め（広告費除く）</text>
+</svg>

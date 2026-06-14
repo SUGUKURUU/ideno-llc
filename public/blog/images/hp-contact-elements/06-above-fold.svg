@@ -1,0 +1,59 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">ファーストビューの理想構成</text>
+
+  <!-- Browser mock -->
+  <rect x="40" y="42" width="720" height="360" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <!-- Browser bar -->
+  <rect x="40" y="42" width="720" height="28" rx="6" fill="rgba(255,255,255,0.07)"/>
+  <circle cx="62" cy="56" r="5" fill="rgba(255,80,60,0.5)"/>
+  <circle cx="80" cy="56" r="5" fill="rgba(255,200,0,0.5)"/>
+  <circle cx="98" cy="56" r="5" fill="rgba(74,222,128,0.5)"/>
+  <rect x="120" y="48" width="480" height="16" rx="8" fill="rgba(255,255,255,0.06)"/>
+  <text x="360" y="60" fill="rgba(255,255,255,0.3)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">https://your-company.com</text>
+
+  <!-- Header nav -->
+  <rect x="40" y="70" width="720" height="36" rx="0" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+  <text x="80" y="93" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold">LOGO</text>
+  <text x="460" y="93" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">サービス</text>
+  <text x="530" y="93" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">実績</text>
+  <text x="590" y="93" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">会社概要</text>
+  <rect x="660" y="80" width="88" height="18" rx="9" fill="#c9a84c"/>
+  <text x="704" y="93" fill="#111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold" text-anchor="middle">無料相談する</text>
+
+  <!-- Left: Copy + CTA -->
+  <rect x="52" y="114" width="360" height="290" rx="4" fill="rgba(201,168,76,0.04)" stroke="rgba(201,168,76,0.2)" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <text x="72" y="144" fill="rgba(255,255,255,0.35)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">① キャッチコピー（大見出し）</text>
+  <text x="72" y="168" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="18" font-weight="bold">SNS運用を</text>
+  <text x="72" y="194" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="18" font-weight="bold">プロに任せて</text>
+  <text x="72" y="220" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="18" font-weight="bold">集客を3倍に。</text>
+
+  <text x="72" y="246" fill="rgba(255,255,255,0.35)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">② サブコピー</text>
+  <text x="72" y="264" fill="rgba(255,255,255,0.65)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11">SNS担当者がいない中小企業向けに</text>
+  <text x="72" y="280" fill="rgba(255,255,255,0.65)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11">戦略立案から投稿・分析まで一括代行。</text>
+
+  <text x="72" y="306" fill="rgba(255,255,255,0.35)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">③ CTAボタン</text>
+  <rect x="72" y="312" width="200" height="38" rx="8" fill="#c9a84c"/>
+  <text x="172" y="336" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="13" font-weight="bold" text-anchor="middle">まずは無料相談する</text>
+  <text x="285" y="332" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">30分・オンライン</text>
+
+  <!-- Right: Visual + stats -->
+  <rect x="424" y="114" width="324" height="290" rx="4" fill="rgba(74,143,212,0.06)" stroke="rgba(74,143,212,0.2)" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="586" y="138" fill="rgba(255,255,255,0.35)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">④ メインビジュアル（人物・実績画像）</text>
+  <rect x="444" y="146" width="284" height="160" rx="6" fill="rgba(74,143,212,0.12)" stroke="rgba(74,143,212,0.3)" stroke-width="1"/>
+  <text x="586" y="222" fill="rgba(74,143,212,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="32" text-anchor="middle">👤</text>
+  <text x="586" y="250" fill="rgba(255,255,255,0.3)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">代表者写真 or サービスイメージ</text>
+
+  <!-- Stats row -->
+  <text x="586" y="328" fill="rgba(255,255,255,0.35)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">⑤ 実績数値（信頼の根拠）</text>
+  <rect x="444" y="334" width="84" height="58" rx="4" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="486" y="356" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="15" font-weight="bold" text-anchor="middle">100社+</text>
+  <text x="486" y="372" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">支援実績</text>
+  <rect x="542" y="334" width="84" height="58" rx="4" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="584" y="356" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="15" font-weight="bold" text-anchor="middle">98%</text>
+  <text x="584" y="372" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">継続率</text>
+  <rect x="640" y="334" width="84" height="58" rx="4" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="682" y="356" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="15" font-weight="bold" text-anchor="middle">平均3倍</text>
+  <text x="682" y="372" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">集客増加</text>
+</svg>

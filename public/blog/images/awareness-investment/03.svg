@@ -1,0 +1,50 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.text-white{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.text-gray{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.title{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="title" text-anchor="middle">認知フェーズの判定</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">あなたの会社はどのフェーズ？</text>
+
+  <g>
+    <rect x="50" y="85" width="150" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="125" y="110" class="gold" text-anchor="middle" font-size="11" font-weight="bold">フェーズ0</text>
+    <text x="125" y="130" class="text-white" text-anchor="middle" font-size="10">認知ゼロ</text>
+    <text x="125" y="160" class="text-white" text-anchor="middle" font-size="9">創業直後・新規事業</text>
+    <text x="125" y="180" class="text-white" text-anchor="middle" font-size="9">誰も知らない</text>
+    <text x="125" y="210" class="text-gray" text-anchor="middle" font-size="9">基盤作り</text>
+    <text x="125" y="230" class="text-gray" text-anchor="middle" font-size="9">最優先</text>
+    <text x="125" y="370" class="gold" text-anchor="middle" font-size="10" font-weight="bold">自力発信</text>
+  </g>
+
+  <g>
+    <rect x="220" y="85" width="150" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="295" y="110" class="gold" text-anchor="middle" font-size="11" font-weight="bold">フェーズ1</text>
+    <text x="295" y="130" class="text-white" text-anchor="middle" font-size="10">小さな認知</text>
+    <text x="295" y="160" class="text-white" text-anchor="middle" font-size="9">フォロワー100-1000</text>
+    <text x="295" y="180" class="text-white" text-anchor="middle" font-size="9">一部に知られている</text>
+    <text x="295" y="210" class="text-gray" text-anchor="middle" font-size="9">認知の輪を</text>
+    <text x="295" y="230" class="text-gray" text-anchor="middle" font-size="9">広げる</text>
+    <text x="295" y="370" class="gold" text-anchor="middle" font-size="10" font-weight="bold">SNS代行</text>
+  </g>
+
+  <g>
+    <rect x="390" y="85" width="150" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="465" y="110" class="gold" text-anchor="middle" font-size="11" font-weight="bold">フェーズ2</text>
+    <text x="465" y="130" class="text-white" text-anchor="middle" font-size="10">中程度の認知</text>
+    <text x="465" y="160" class="text-white" text-anchor="middle" font-size="9">フォロワー1000-1万</text>
+    <text x="465" y="180" class="text-white" text-anchor="middle" font-size="9">一定の認知あり</text>
+    <text x="465" y="210" class="text-gray" text-anchor="middle" font-size="9">信頼・転換</text>
+    <text x="465" y="230" class="text-gray" text-anchor="middle" font-size="9">を深める</text>
+    <text x="465" y="370" class="gold" text-anchor="middle" font-size="10" font-weight="bold">HP強化</text>
+  </g>
+
+  <g>
+    <rect x="560" y="85" width="190" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="655" y="110" class="gold" text-anchor="middle" font-size="11" font-weight="bold">フェーズ3</text>
+    <text x="655" y="130" class="text-white" text-anchor="middle" font-size="10">認知十分</text>
+    <text x="655" y="160" class="text-white" text-anchor="middle" font-size="9">フォロワー1万人以上</text>
+    <text x="655" y="180" class="text-white" text-anchor="middle" font-size="9">月間PV 5000以上</text>
+    <text x="655" y="210" class="text-gray" text-anchor="middle" font-size="9">転換率改善</text>
+    <text x="655" y="230" class="text-gray" text-anchor="middle" font-size="9">がカギ</text>
+    <text x="655" y="370" class="gold" text-anchor="middle" font-size="10" font-weight="bold">広告・LP最適化</text>
+  </g>
+</svg>

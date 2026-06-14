@@ -1,0 +1,69 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">社員インタビュー掲載時のチェックリスト</text>
+
+  <!-- Left column - Content -->
+  <text x="50" y="75" fill="#c9a84c" font-size="12" font-weight="bold">掲載すべき内容</text>
+
+  <g>
+    <circle cx="50" cy="105" r="4" fill="#c9a84c"/>
+    <text x="70" y="110" fill="#ffffff" font-size="10">入社前の仕事・職種は何か</text>
+  </g>
+
+  <g>
+    <circle cx="50" cy="130" r="4" fill="#c9a84c"/>
+    <text x="70" y="135" fill="#ffffff" font-size="10">なぜこの会社を選んだか（決め手）</text>
+  </g>
+
+  <g>
+    <circle cx="50" cy="155" r="4" fill="#c9a84c"/>
+    <text x="70" y="160" fill="#ffffff" font-size="10">入社してよかったこと（具体的に）</text>
+  </g>
+
+  <g>
+    <circle cx="50" cy="180" r="4" fill="#c9a84c"/>
+    <text x="70" y="185" fill="#ffffff" font-size="10">大変だったこと・現在の課題</text>
+  </g>
+
+  <g>
+    <circle cx="50" cy="205" r="4" fill="#c9a84c"/>
+    <text x="70" y="210" fill="#ffffff" font-size="10">仕事のやりがい・面白いと感じる瞬間</text>
+  </g>
+
+  <g>
+    <circle cx="50" cy="230" r="4" fill="#c9a84c"/>
+    <text x="70" y="235" fill="#ffffff" font-size="10">1日の仕事の流れ</text>
+  </g>
+
+  <g>
+    <circle cx="50" cy="255" r="4" fill="#c9a84c"/>
+    <text x="70" y="260" fill="#ffffff" font-size="10">今後の目標・キャリアの希望</text>
+  </g>
+
+  <g>
+    <circle cx="50" cy="280" r="4" fill="#c9a84c"/>
+    <text x="70" y="285" fill="#ffffff" font-size="10">職場の雰囲気・文化について</text>
+  </g>
+
+  <!-- Right column - Important points -->
+  <text x="450" y="75" fill="#50c878" font-size="12" font-weight="bold">掲載時の工夫</text>
+
+  <rect x="430" y="100" width="330" height="280" rx="6" fill="#c9a84c" opacity="0.05"/>
+
+  <text x="450" y="125" fill="#ff9800" font-size="11" font-weight="bold">⚠ 避けるべき表現</text>
+  <text x="450" y="145" fill="#aaaaaa" font-size="9">「この会社に入って本当に良かった！」</text>
+  <text x="450" y="160" fill="#aaaaaa" font-size="9">（良い点だけだと信頼性がない）</text>
+
+  <text x="450" y="185" fill="#50c878" font-size="11" font-weight="bold">✓ おすすめの表現</text>
+  <text x="450" y="205" fill="#c9a84c" font-size="9">良い点＋大変だったこと</text>
+  <text x="450" y="220" fill="#c9a84c" font-size="9">→ リアルな職場イメージが伝わる</text>
+
+  <text x="450" y="250" fill="#c9a84c" font-size="11" font-weight="bold">多様性が重要</text>
+  <text x="450" y="270" fill="#ffffff" font-size="9">年齢・入社経緯（新卒/中途）</text>
+  <text x="450" y="285" fill="#ffffff" font-size="9">職種・性別など異なる属性の社員</text>
+  <text x="450" y="300" fill="#ffffff" font-size="9">複数掲載することで、より多くの</text>
+  <text x="450" y="315" fill="#ffffff" font-size="9">候補者が「自分もここで働けそう」</text>
+  <text x="450" y="330" fill="#ffffff" font-size="9">と感じやすくなる</text>
+
+  <text x="450" y="360" fill="#4a9eff" font-size="10" font-weight="bold">💡 目安：最低3-5人の社員インタビューを掲載</text>
+</svg>

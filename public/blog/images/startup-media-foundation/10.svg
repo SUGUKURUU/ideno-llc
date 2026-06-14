@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">最初の1ヶ月：実装チェックリスト</text>
+
+  <rect x="80" y="80" width="640" height="300" fill="none" stroke="#333333" stroke-width="1" rx="3"/>
+
+  <text x="100" y="115" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">Week1-2: メッセージ設計</text>
+  <text x="130" y="135" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ ターゲット顧客の具体化</text>
+  <text x="130" y="152" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 課題・解決策・差別化ポイントの言語化</text>
+  <text x="130" y="169" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ メッセージシート完成</text>
+
+  <text x="100" y="205" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">Week3: HP制作・公開</text>
+  <text x="130" y="225" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ STUDIO or Notion でHP制作開始</text>
+  <text x="130" y="242" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 問い合わせフォーム設置</text>
+  <text x="130" y="259" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ HP公開（1-3ページ最小限で可）</text>
+
+  <text x="100" y="295" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">Week4: SNS開設・初投稿</text>
+  <text x="130" y="315" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ チャネル1つ選定・アカウント開設</text>
+  <text x="130" y="332" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ プロフィール設定（HP URL必須）</text>
+  <text x="130" y="349" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 初投稿5-10本ストック作成</text>
+  <text x="130" y="366" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 週3-5回の投稿開始</text>
+</svg>

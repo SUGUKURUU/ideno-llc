@@ -1,0 +1,59 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">SNS先行 vs HP先行 ― 6ヶ月後の成果比較</text>
+  <!-- Axes -->
+  <line x1="80" y1="60" x2="80" y2="360" stroke="#444" stroke-width="1.5"/>
+  <line x1="80" y1="360" x2="750" y2="360" stroke="#444" stroke-width="1.5"/>
+  <!-- Y axis labels -->
+  <text x="72" y="64" text-anchor="end" fill="#aaaaaa" font-size="10">100</text>
+  <text x="72" y="124" text-anchor="end" fill="#aaaaaa" font-size="10">80</text>
+  <text x="72" y="184" text-anchor="end" fill="#aaaaaa" font-size="10">60</text>
+  <text x="72" y="244" text-anchor="end" fill="#aaaaaa" font-size="10">40</text>
+  <text x="72" y="304" text-anchor="end" fill="#aaaaaa" font-size="10">20</text>
+  <!-- Grid lines -->
+  <line x1="80" y1="60" x2="750" y2="60" stroke="#222" stroke-width="1"/>
+  <line x1="80" y1="120" x2="750" y2="120" stroke="#222" stroke-width="1"/>
+  <line x1="80" y1="180" x2="750" y2="180" stroke="#222" stroke-width="1"/>
+  <line x1="80" y1="240" x2="750" y2="240" stroke="#222" stroke-width="1"/>
+  <line x1="80" y1="300" x2="750" y2="300" stroke="#222" stroke-width="1"/>
+  <!-- X axis months -->
+  <text x="130" y="380" text-anchor="middle" fill="#aaaaaa" font-size="11">1ヶ月</text>
+  <text x="240" y="380" text-anchor="middle" fill="#aaaaaa" font-size="11">2ヶ月</text>
+  <text x="350" y="380" text-anchor="middle" fill="#aaaaaa" font-size="11">3ヶ月</text>
+  <text x="460" y="380" text-anchor="middle" fill="#aaaaaa" font-size="11">4ヶ月</text>
+  <text x="570" y="380" text-anchor="middle" fill="#aaaaaa" font-size="11">5ヶ月</text>
+  <text x="680" y="380" text-anchor="middle" fill="#aaaaaa" font-size="11">6ヶ月</text>
+  <!-- SNS先行 line (認知指数) - starts fast -->
+  <polyline points="80,340 130,290 240,240 350,190 460,155 570,125 680,100" fill="none" stroke="#c9a84c" stroke-width="3"/>
+  <!-- HP先行 line (認知指数) - starts slow -->
+  <polyline points="80,350 130,345 240,335 350,310 460,270 570,220 680,175" fill="none" stroke="#4a7fa5" stroke-width="3"/>
+  <!-- SNS先行 dots -->
+  <circle cx="130" cy="290" r="5" fill="#c9a84c"/>
+  <circle cx="240" cy="240" r="5" fill="#c9a84c"/>
+  <circle cx="350" cy="190" r="5" fill="#c9a84c"/>
+  <circle cx="460" cy="155" r="5" fill="#c9a84c"/>
+  <circle cx="570" cy="125" r="5" fill="#c9a84c"/>
+  <circle cx="680" cy="100" r="5" fill="#c9a84c"/>
+  <!-- HP先行 dots -->
+  <circle cx="130" cy="345" r="5" fill="#4a7fa5"/>
+  <circle cx="240" cy="335" r="5" fill="#4a7fa5"/>
+  <circle cx="350" cy="310" r="5" fill="#4a7fa5"/>
+  <circle cx="460" cy="270" r="5" fill="#4a7fa5"/>
+  <circle cx="570" cy="220" r="5" fill="#4a7fa5"/>
+  <circle cx="680" cy="175" r="5" fill="#4a7fa5"/>
+  <!-- Labels at end -->
+  <text x="690" y="96" fill="#c9a84c" font-size="12" font-weight="bold">SNS先行</text>
+  <text x="690" y="171" fill="#4a7fa5" font-size="12" font-weight="bold">HP先行</text>
+  <!-- Y label -->
+  <text x="20" y="220" text-anchor="middle" fill="#aaaaaa" font-size="11" transform="rotate(-90,20,220)">認知・問合せ指数</text>
+  <!-- Annotation -->
+  <rect x="300" y="80" width="200" height="50" rx="6" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1"/>
+  <text x="400" y="101" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">SNS先行は初速が圧倒的</text>
+  <text x="400" y="120" text-anchor="middle" fill="#aaaaaa" font-size="11">6ヶ月で約2倍の差が開く</text>
+  <line x1="400" y1="130" x2="400" y2="155" stroke="#c9a84c" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Legend -->
+  <line x1="240" y1="408" x2="268" y2="408" stroke="#c9a84c" stroke-width="3"/>
+  <text x="280" y="413" fill="#aaaaaa" font-size="12">SNS先行（認知優先）</text>
+  <line x1="450" y1="408" x2="478" y2="408" stroke="#4a7fa5" stroke-width="3"/>
+  <text x="490" y="413" fill="#aaaaaa" font-size="12">HP先行（信頼優先）</text>
+</svg>

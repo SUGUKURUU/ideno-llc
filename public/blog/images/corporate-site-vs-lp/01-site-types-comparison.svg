@@ -1,0 +1,74 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="500" fill="#111111"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="500" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="500" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="500" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">コーポレートサイト vs LP 比較表</text>
+  <!-- Header row -->
+  <rect x="20" y="55" width="200" height="38" fill="rgba(201,168,76,0.15)" rx="4"/>
+  <rect x="230" y="55" width="255" height="38" fill="rgba(201,168,76,0.2)" rx="4"/>
+  <rect x="495" y="55" width="285" height="38" fill="rgba(201,168,76,0.2)" rx="4"/>
+  <text x="120" y="79" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">比較軸</text>
+  <text x="357" y="79" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">コーポレートサイト</text>
+  <text x="637" y="79" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">LP（ランディングページ）</text>
+  <!-- Row 1 -->
+  <rect x="20" y="100" width="200" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <rect x="230" y="100" width="255" height="50" fill="rgba(255,255,255,0.02)" rx="2"/>
+  <rect x="495" y="100" width="285" height="50" fill="rgba(255,255,255,0.02)" rx="2"/>
+  <text x="120" y="122" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12">主な目的</text>
+  <text x="357" y="122" text-anchor="middle" fill="#4ade80" font-size="11">信頼・ブランド構築</text>
+  <text x="357" y="140" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">企業の信頼性・認知度を高める</text>
+  <text x="637" y="122" text-anchor="middle" fill="#4ade80" font-size="11">即時コンバージョン</text>
+  <text x="637" y="140" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">購入・申込・問い合わせへ誘導</text>
+  <!-- Row 2 -->
+  <rect x="20" y="155" width="200" height="50" fill="rgba(255,255,255,0.05)" rx="2"/>
+  <rect x="230" y="155" width="255" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <rect x="495" y="155" width="285" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <text x="120" y="177" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12">ページ数</text>
+  <text x="357" y="177" text-anchor="middle" fill="#ffffff" font-size="11">複数ページ（5〜20ページ以上）</text>
+  <text x="357" y="195" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">会社概要・サービス・採用など</text>
+  <text x="637" y="177" text-anchor="middle" fill="#ffffff" font-size="11">基本的に1ページ完結</text>
+  <text x="637" y="195" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">縦長レイアウトで全情報を網羅</text>
+  <!-- Row 3 -->
+  <rect x="20" y="210" width="200" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <rect x="230" y="210" width="255" height="50" fill="rgba(255,255,255,0.02)" rx="2"/>
+  <rect x="495" y="210" width="285" height="50" fill="rgba(255,255,255,0.02)" rx="2"/>
+  <text x="120" y="232" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12">SEO効果</text>
+  <text x="357" y="232" text-anchor="middle" fill="#4ade80" font-size="11">◎ 高い</text>
+  <text x="357" y="250" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">多数コンテンツで長期流入</text>
+  <text x="637" y="232" text-anchor="middle" fill="#f87171" font-size="11">△ 低め</text>
+  <text x="637" y="250" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">広告流入との組み合わせが前提</text>
+  <!-- Row 4 -->
+  <rect x="20" y="265" width="200" height="50" fill="rgba(255,255,255,0.05)" rx="2"/>
+  <rect x="230" y="265" width="255" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <rect x="495" y="265" width="285" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <text x="120" y="287" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12">制作費用</text>
+  <text x="357" y="287" text-anchor="middle" fill="#c9a84c" font-size="11">50万円〜数百万円</text>
+  <text x="357" y="305" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">規模・機能により変動</text>
+  <text x="637" y="287" text-anchor="middle" fill="#c9a84c" font-size="11">10万円〜50万円</text>
+  <text x="637" y="305" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">シンプルなものは安価に制作可能</text>
+  <!-- Row 5 -->
+  <rect x="20" y="320" width="200" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <rect x="230" y="320" width="255" height="50" fill="rgba(255,255,255,0.02)" rx="2"/>
+  <rect x="495" y="320" width="285" height="50" fill="rgba(255,255,255,0.02)" rx="2"/>
+  <text x="120" y="342" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12">更新頻度</text>
+  <text x="357" y="342" text-anchor="middle" fill="#ffffff" font-size="11">定期的に必要</text>
+  <text x="357" y="360" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">ブログ・実績更新が必要</text>
+  <text x="637" y="342" text-anchor="middle" fill="#ffffff" font-size="11">キャンペーン単位で差し替え</text>
+  <text x="637" y="360" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">期間限定プロモーションに最適</text>
+  <!-- Row 6 -->
+  <rect x="20" y="375" width="200" height="50" fill="rgba(255,255,255,0.05)" rx="2"/>
+  <rect x="230" y="375" width="255" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <rect x="495" y="375" width="285" height="50" fill="rgba(255,255,255,0.03)" rx="2"/>
+  <text x="120" y="397" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12">向いているフェーズ</text>
+  <text x="357" y="397" text-anchor="middle" fill="#4ade80" font-size="11">中長期的な集客・採用・信頼</text>
+  <text x="637" y="397" text-anchor="middle" fill="#4ade80" font-size="11">短期的なコンバージョン最大化</text>
+  <!-- Footer note -->
+  <text x="400" y="465" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">※ 制作費用はページ数・機能・制作会社の規模によって大きく変動します</text>
+</svg>

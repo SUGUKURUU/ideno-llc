@@ -1,0 +1,74 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">SNS運用代行ROIの計算方法（具体例）</text>
+
+  <!-- Flow: 費用 → リード → 成約 → 売上 → ROI -->
+  <!-- Step boxes -->
+
+  <!-- Step 1 -->
+  <rect x="30" y="70" width="130" height="90" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+  <text x="95" y="100" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">月額費用</text>
+  <text x="95" y="126" text-anchor="middle" fill="#c9a84c" font-size="20" font-weight="bold">12.5万円</text>
+  <text x="95" y="148" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">スタンダードプラン</text>
+
+  <!-- arrow -->
+  <polygon points="170,115 160,108 160,122" fill="rgba(201,168,76,0.6)"/>
+  <line x1="160" y1="115" x2="178" y2="115" stroke="rgba(201,168,76,0.6)" stroke-width="2"/>
+
+  <!-- Step 2 -->
+  <rect x="178" y="70" width="130" height="90" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+  <text x="243" y="100" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">月間獲得リード数</text>
+  <text x="243" y="126" text-anchor="middle" fill="#c9a84c" font-size="20" font-weight="bold">5件</text>
+  <text x="243" y="148" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">問い合わせ</text>
+
+  <!-- arrow -->
+  <polygon points="318,115 308,108 308,122" fill="rgba(201,168,76,0.6)"/>
+  <line x1="308" y1="115" x2="326" y2="115" stroke="rgba(201,168,76,0.6)" stroke-width="2"/>
+
+  <!-- Step 3 -->
+  <rect x="326" y="70" width="130" height="90" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+  <text x="391" y="100" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">成約率</text>
+  <text x="391" y="126" text-anchor="middle" fill="#c9a84c" font-size="20" font-weight="bold">20%</text>
+  <text x="391" y="148" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">→ 月1件成約</text>
+
+  <!-- arrow -->
+  <polygon points="466,115 456,108 456,122" fill="rgba(201,168,76,0.6)"/>
+  <line x1="456" y1="115" x2="474" y2="115" stroke="rgba(201,168,76,0.6)" stroke-width="2"/>
+
+  <!-- Step 4 -->
+  <rect x="474" y="70" width="130" height="90" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+  <text x="539" y="100" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">平均客単価</text>
+  <text x="539" y="126" text-anchor="middle" fill="#c9a84c" font-size="20" font-weight="bold">50万円</text>
+  <text x="539" y="148" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">サービス単価</text>
+
+  <!-- arrow -->
+  <polygon points="614,115 604,108 604,122" fill="rgba(201,168,76,0.6)"/>
+  <line x1="604" y1="115" x2="622" y2="115" stroke="rgba(201,168,76,0.6)" stroke-width="2"/>
+
+  <!-- Step 5: 売上貢献 -->
+  <rect x="622" y="70" width="148" height="90" rx="8" fill="rgba(201,168,76,0.12)" stroke="#c9a84c" stroke-width="2"/>
+  <text x="696" y="100" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11">月間売上貢献</text>
+  <text x="696" y="126" text-anchor="middle" fill="#c9a84c" font-size="20" font-weight="bold">50万円</text>
+  <text x="696" y="148" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">5件×20%×50万円</text>
+
+  <!-- ROI calculation box -->
+  <rect x="80" y="200" width="640" height="110" rx="10" fill="rgba(201,168,76,0.08)" stroke="#c9a84c" stroke-width="2"/>
+  <text x="400" y="230" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="13">ROI（投資対効果）の計算式</text>
+  <line x1="100" y1="240" x2="700" y2="240" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="400" y="268" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="14">（売上貢献額 − 投資額）÷ 投資額 × 100</text>
+  <text x="400" y="295" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">（50万 − 12.5万）÷ 12.5万 × 100 ＝</text>
+  <text x="580" y="295" text-anchor="middle" fill="#c9a84c" font-size="26" font-weight="bold">300%</text>
+
+  <!-- insight cards -->
+  <rect x="80" y="330" width="190" height="60" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="175" y="354" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">投資した費用の</text>
+  <text x="175" y="374" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">3倍の売上を創出</text>
+
+  <rect x="305" y="330" width="190" height="60" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="400" y="354" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">SNSからの問い合わせが</text>
+  <text x="400" y="374" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">月5件あれば黒字化</text>
+
+  <rect x="530" y="330" width="190" height="60" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="625" y="354" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">6ヶ月継続で</text>
+  <text x="625" y="374" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">効果が安定化</text>
+</svg>

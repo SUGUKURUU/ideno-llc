@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTube採用への影響分析</text>
+
+  <!-- パイチャート -->
+  <circle cx="250" cy="220" r="120" fill="none" stroke="#333333" stroke-width="1"/>
+
+  <!-- セグメント1：YouTube経由 72度 -->
+  <path d="M 250,100 A 120,120 0 0,1 363,156" fill="#c9a84c" stroke="none"/>
+  <text x="320" y="130" font-size="14" font-weight="bold" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">20%</text>
+
+  <!-- セグメント2：従来媒体 129度 -->
+  <path d="M 363,156 A 120,120 0 0,1 180,330" fill="#8b7355" stroke="none"/>
+  <text x="300" y="290" font-size="14" font-weight="bold" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">36%</text>
+
+  <!-- セグメント3：紹介 108度 -->
+  <path d="M 180,330 A 120,120 0 0,1 60,245" fill="#555555" stroke="none"/>
+  <text x="100" y="320" font-size="14" font-weight="bold" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">30%</text>
+
+  <!-- セグメント4：その他 51度 -->
+  <path d="M 60,245 A 120,120 0 0,1 250,100" fill="#999999" stroke="none"/>
+  <text x="130" y="160" font-size="14" font-weight="bold" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">14%</text>
+
+  <!-- 凡例 -->
+  <rect x="500" y="100" width="15" height="15" fill="#c9a84c"/>
+  <text x="525" y="112" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTube経由: 20%</text>
+
+  <rect x="500" y="140" width="15" height="15" fill="#8b7355"/>
+  <text x="525" y="152" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">従来媒体: 36%</text>
+
+  <rect x="500" y="180" width="15" height="15" fill="#555555"/>
+  <text x="525" y="192" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">人紹介: 30%</text>
+
+  <rect x="500" y="220" width="15" height="15" fill="#999999"/>
+  <text x="525" y="232" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">その他: 14%</text>
+
+  <text x="400" y="405" font-size="12" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1年間での採用応募経路分析：YouTubeが次第に増加</text>
+</svg>

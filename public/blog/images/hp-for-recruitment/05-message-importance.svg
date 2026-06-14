@@ -1,0 +1,44 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">代表メッセージ作成のポイント</text>
+
+  <!-- Left side - Bad example -->
+  <rect x="30" y="70" width="330" height="290" rx="8" fill="#ff6b6b" opacity="0.1" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="195" y="100" text-anchor="middle" fill="#ff6b6b" font-size="13" font-weight="bold">❌ よくある悪い例</text>
+
+  <text x="50" y="130" fill="#aaaaaa" font-size="11" font-weight="bold">抽象的な言葉の羅列</text>
+  <rect x="50" y="140" width="280" height="190" rx="4" fill="#1a1a1a" stroke="#ff6b6b" stroke-width="1"/>
+
+  <text x="65" y="160" fill="#ffffff" font-size="9">「経営理念」</text>
+  <text x="65" y="180" fill="#ffffff" font-size="9">「ビジョン」</text>
+  <text x="65" y="200" fill="#ffffff" font-size="9">「社員を大切にしています」</text>
+  <text x="65" y="220" fill="#ffffff" font-size="9">「チャレンジできる環境」</text>
+  <text x="65" y="240" fill="#ffffff" font-size="9">「アットホームな職場」</text>
+  <text x="65" y="260" fill="#aaaaaa" font-size="8" style="font-style:italic">→ 候補者には何も伝わらない</text>
+  <text x="65" y="278" fill="#aaaaaa" font-size="8" style="font-style:italic">→ 他社と差別化できない</text>
+
+  <!-- Right side - Good example -->
+  <rect x="440" y="70" width="330" height="290" rx="8" fill="#50c878" opacity="0.1" stroke="#50c878" stroke-width="2"/>
+  <text x="605" y="100" text-anchor="middle" fill="#50c878" font-size="13" font-weight="bold">✓ 採用につながる例</text>
+
+  <text x="460" y="130" fill="#c9a84c" font-size="11" font-weight="bold">具体的で人間らしい内容</text>
+  <rect x="460" y="140" width="280" height="190" rx="4" fill="#1a1a1a" stroke="#50c878" stroke-width="1"/>
+
+  <text x="475" y="160" fill="#c9a84c" font-size="9" font-weight="bold">① 創業ストーリー</text>
+  <text x="475" y="173" fill="#ffffff" font-size="8">何が課題だったのか</text>
+  <text x="475" y="186" fill="#ffffff" font-size="8">どんな思いで起業したか</text>
+
+  <text x="475" y="205" fill="#c9a84c" font-size="9" font-weight="bold">② 失敗・苦労の経験</text>
+  <text x="475" y="218" fill="#ffffff" font-size="8">うまくいかなかった時期の話</text>
+  <text x="475" y="231" fill="#ffffff" font-size="8">人間らしさと信頼感が生まれる</text>
+
+  <text x="475" y="250" fill="#c9a84c" font-size="9" font-weight="bold">③ 社員への考え方</text>
+  <text x="475" y="263" fill="#ffffff" font-size="8">具体的にどう大切にしているか</text>
+
+  <text x="475" y="282" fill="#c9a84c" font-size="9" font-weight="bold">④ 会社の目指す方向</text>
+  <text x="475" y="295" fill="#ffffff" font-size="8">5年後・10年後のビジョンと現在の取り組み</text>
+
+  <!-- Photo tip -->
+  <rect x="30" y="380" width="740" height="25" rx="4" fill="#c9a84c" opacity="0.15"/>
+  <text x="50" y="397" fill="#c9a84c" font-size="10" font-weight="bold">💡 写真も重要：プロフィール写真（スーツ・白背景）より職場での自然な表情を使う → 親近感が生まれやすい</text>
+</svg>

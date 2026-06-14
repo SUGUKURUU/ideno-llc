@@ -1,0 +1,101 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="30" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">担当者離職リスクシナリオ比較</text>
+
+  <!-- 上段: 採用ルート -->
+  <text x="40" y="65" fill="#f87171" font-size="13" font-weight="bold">採用ルート（リスクあり）</text>
+
+  <!-- ステップボックス: 採用→育成→離職→消失→再採用→リセット -->
+  <!-- y=80-130, x間隔=110 -->
+  <!-- 採用 x=40 -->
+  <rect x="40" y="78" width="85" height="44" fill="#2a1010" stroke="#f87171" stroke-width="1.5" rx="6"/>
+  <text x="82" y="98" fill="#ffffff" font-size="11" text-anchor="middle">採用</text>
+  <text x="82" y="113" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">コスト50〜100万</text>
+  <line x1="125" y1="100" x2="148" y2="100" stroke="#f87171" stroke-width="1.5"/>
+  <polygon points="145,95 158,100 145,105" fill="#f87171"/>
+
+  <!-- 育成 x=155 -->
+  <rect x="155" y="78" width="85" height="44" fill="#2a1010" stroke="#f87171" stroke-width="1.5" rx="6"/>
+  <text x="197" y="98" fill="#ffffff" font-size="11" text-anchor="middle">育成</text>
+  <text x="197" y="113" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">6ヶ月〜1年</text>
+  <line x1="240" y1="100" x2="263" y2="100" stroke="#f87171" stroke-width="1.5"/>
+  <polygon points="260,95 273,100 260,105" fill="#f87171"/>
+
+  <!-- 離職 x=270 -->
+  <rect x="270" y="78" width="85" height="44" fill="#3a0000" stroke="#ef4444" stroke-width="2" rx="6"/>
+  <text x="312" y="98" fill="#ef4444" font-size="12" font-weight="bold" text-anchor="middle">⚠ 離職</text>
+  <text x="312" y="113" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">業界離職率20%/年</text>
+  <line x1="355" y1="100" x2="378" y2="100" stroke="#f87171" stroke-width="1.5"/>
+  <polygon points="375,95 388,100 375,105" fill="#f87171"/>
+
+  <!-- ノウハウ消失 x=385 -->
+  <rect x="385" y="78" width="95" height="44" fill="#3a0000" stroke="#ef4444" stroke-width="2" rx="6"/>
+  <text x="432" y="95" fill="#ef4444" font-size="11" font-weight="bold" text-anchor="middle">ノウハウ</text>
+  <text x="432" y="110" fill="#ef4444" font-size="11" font-weight="bold" text-anchor="middle">消失</text>
+  <line x1="480" y1="100" x2="503" y2="100" stroke="#f87171" stroke-width="1.5"/>
+  <polygon points="500,95 513,100 500,105" fill="#f87171"/>
+
+  <!-- 再採用 x=510 -->
+  <rect x="510" y="78" width="85" height="44" fill="#2a1010" stroke="#f87171" stroke-width="1.5" rx="6"/>
+  <text x="552" y="98" fill="#ffffff" font-size="11" text-anchor="middle">再採用</text>
+  <text x="552" y="113" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">3〜6ヶ月ロス</text>
+  <line x1="595" y1="100" x2="618" y2="100" stroke="#f87171" stroke-width="1.5"/>
+  <polygon points="615,95 628,100 615,105" fill="#f87171"/>
+
+  <!-- リセット x=625 -->
+  <rect x="625" y="78" width="85" height="44" fill="#3a0000" stroke="#ef4444" stroke-width="2" rx="6"/>
+  <text x="667" y="98" fill="#ef4444" font-size="12" font-weight="bold" text-anchor="middle">リセット</text>
+  <text x="667" y="113" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">ゼロから再開</text>
+
+  <!-- 戻り矢印 -->
+  <path d="M 667,122 L 667,148 L 82,148 L 82,122" fill="none" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="77,122 82,110 87,122" fill="#f87171"/>
+  <text x="380" y="143" fill="#f87171" font-size="11" text-anchor="middle">繰り返しサイクル（毎回100万円以上の損失）</text>
+
+  <!-- 区切り -->
+  <line x1="40" y1="178" x2="760" y2="178" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- 下段: 外注ルート -->
+  <text x="40" y="205" fill="#c9a84c" font-size="13" font-weight="bold">外注ルート（安定継続）</text>
+
+  <!-- 契約 x=40 -->
+  <rect x="40" y="218" width="85" height="44" fill="#0e1a0a" stroke="#c9a84c" stroke-width="1.5" rx="6"/>
+  <text x="82" y="238" fill="#c9a84c" font-size="11" font-weight="bold" text-anchor="middle">契約</text>
+  <text x="82" y="253" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">最短2〜3週</text>
+  <line x1="125" y1="240" x2="148" y2="240" stroke="#c9a84c" stroke-width="1.5"/>
+  <polygon points="145,235 158,240 145,245" fill="#c9a84c"/>
+
+  <!-- キックオフ x=155 -->
+  <rect x="155" y="218" width="95" height="44" fill="#0e1a0a" stroke="#c9a84c" stroke-width="1.5" rx="6"/>
+  <text x="202" y="238" fill="#c9a84c" font-size="11" font-weight="bold" text-anchor="middle">キックオフ</text>
+  <text x="202" y="253" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">即引き継ぎ</text>
+  <line x1="250" y1="240" x2="273" y2="240" stroke="#c9a84c" stroke-width="1.5"/>
+  <polygon points="270,235 283,240 270,245" fill="#c9a84c"/>
+
+  <!-- 安定運用 x=280 -->
+  <rect x="280" y="218" width="200" height="44" fill="#0e1a0a" stroke="#c9a84c" stroke-width="2" rx="6"/>
+  <text x="380" y="238" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">継続・安定運用</text>
+  <text x="380" y="253" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">チーム体制でノウハウ維持</text>
+  <line x1="480" y1="240" x2="503" y2="240" stroke="#c9a84c" stroke-width="1.5"/>
+  <polygon points="500,235 513,240 500,245" fill="#c9a84c"/>
+
+  <!-- 成長継続 x=510 -->
+  <rect x="510" y="218" width="210" height="44" fill="#0e1a0a" stroke="#c9a84c" stroke-width="2" rx="6"/>
+  <text x="615" y="238" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">成長継続</text>
+  <text x="615" y="253" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">フォロワー・問合せ増加</text>
+
+  <!-- 比較サマリー -->
+  <rect x="40" y="290" width="720" height="110" fill="#161616" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="8"/>
+  <text x="400" y="315" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">コスト比較サマリー</text>
+  <line x1="60" y1="322" x2="740" y2="322" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <rect x="60" y="330" width="320" height="60" fill="#2a1010" rx="6"/>
+  <text x="220" y="350" fill="#f87171" font-size="12" font-weight="bold" text-anchor="middle">採用ルートの隠れたコスト</text>
+  <text x="220" y="368" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">採用費50万＋空白期間＋再採用リスク</text>
+  <text x="220" y="383" fill="#f87171" font-size="12" font-weight="bold" text-anchor="middle">→ 3年間で200万円以上のロスも</text>
+
+  <rect x="420" y="330" width="320" height="60" fill="#0e1a0a" rx="6"/>
+  <text x="580" y="350" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">外注ルートの安定コスト</text>
+  <text x="580" y="368" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">月額固定費のみ・リスクゼロ</text>
+  <text x="580" y="383" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">→ 予算計画が立てやすい</text>
+</svg>

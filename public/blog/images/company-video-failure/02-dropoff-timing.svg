@@ -1,0 +1,72 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">典型的な動画の視聴離脱タイミング</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="60" x2="100" y2="320" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="100" y1="320" x2="720" y2="320" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Y: 0-100%, height=260 -->
+  <text x="92" y="324" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">0%</text>
+  <text x="92" y="255" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">25%</text>
+  <text x="92" y="190" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">50%</text>
+  <text x="92" y="125" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">75%</text>
+  <text x="92" y="63" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">100%</text>
+  <text x="38" y="190" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle" transform="rotate(-90,38,190)">視聴維持率</text>
+
+  <!-- Grid -->
+  <line x1="100" y1="255" x2="720" y2="255" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="100" y1="190" x2="720" y2="190" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="100" y1="125" x2="720" y2="125" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="100" y1="60" x2="720" y2="60" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+
+  <!-- X: 0 to 3min, width=620, 1min=206px -->
+  <text x="100" y="338" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">0秒</text>
+  <text x="134" y="338" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">5秒</text>
+  <text x="203" y="338" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">30秒</text>
+  <text x="306" y="338" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">1分</text>
+  <text x="512" y="338" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">2分</text>
+  <text x="718" y="338" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">3分</text>
+  <text x="410" y="355" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle">経過時間</text>
+
+  <!-- X tick lines -->
+  <line x1="134" y1="315" x2="134" y2="325" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="203" y1="315" x2="203" y2="325" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="306" y1="315" x2="306" y2="325" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="512" y1="315" x2="512" y2="325" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Drop-off curve: 100%→70%→50%→30%→22% -->
+  <!-- x: 0→100, 5sec→134, 30sec→203, 1min→306, 2min→512, 3min→718 -->
+  <!-- y: 100%=60, 70%=138, 50%=190, 30%=242, 22%=263 -->
+  <polyline points="100,60 134,138 203,190 306,242 512,263 718,275"
+    fill="none" stroke="#c9a84c" stroke-width="3"/>
+
+  <!-- Fill under curve -->
+  <polygon points="100,60 134,138 203,190 306,242 512,263 718,275 718,320 100,320"
+    fill="rgba(201,168,76,0.12)"/>
+
+  <!-- Drop-off annotation points -->
+  <circle cx="134" cy="138" r="5" fill="#c9a84c"/>
+  <line x1="134" y1="138" x2="134" y2="320" stroke="rgba(255,50,50,0.4)" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="60" y="108" width="120" height="38" rx="4" fill="#2a1a1a"/>
+  <text x="120" y="124" fill="#ff6666" font-size="12" font-weight="bold" text-anchor="middle">冒頭5秒で</text>
+  <text x="120" y="140" fill="#ff6666" font-size="12" font-weight="bold" text-anchor="middle">30%が離脱</text>
+
+  <circle cx="203" cy="190" r="5" fill="#c9a84c"/>
+  <line x1="203" y1="190" x2="203" y2="320" stroke="rgba(255,150,50,0.4)" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="148" y="200" width="110" height="38" rx="4" fill="#2a1e1a"/>
+  <text x="203" y="216" fill="#ffaa44" font-size="12" font-weight="bold" text-anchor="middle">30秒で</text>
+  <text x="203" y="232" fill="#ffaa44" font-size="12" font-weight="bold" text-anchor="middle">50%が離脱</text>
+
+  <circle cx="306" cy="242" r="5" fill="#c9a84c"/>
+  <line x1="306" y1="242" x2="306" y2="320" stroke="rgba(255,200,50,0.4)" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="256" y="252" width="100" height="38" rx="4" fill="#2a2a1a"/>
+  <text x="306" y="268" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">1分で</text>
+  <text x="306" y="284" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">70%が離脱</text>
+
+  <!-- Remaining label -->
+  <text x="640" y="265" fill="rgba(255,255,255,0.5)" font-size="12" text-anchor="middle">3分後</text>
+  <text x="640" y="283" fill="rgba(255,255,255,0.5)" font-size="12" text-anchor="middle">残25%</text>
+
+  <text x="400" y="395" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle">冒頭15秒で視聴者を引き込めないと大半が離脱。最初の「つかみ」が最重要。</text>
+</svg>

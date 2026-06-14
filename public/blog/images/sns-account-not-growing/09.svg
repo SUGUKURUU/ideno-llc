@@ -1,0 +1,57 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">SNS伸びない原因：チェックリスト</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">あなたのアカウントはどれに当てはまる？</text>
+
+  <!-- 原因1チェック -->
+  <g>
+    <rect x="50" y="80" width="700" height="50" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <circle cx="75" cy="107" r="7" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="100" y="105" class="text-white" font-size="12">【原因1】ターゲットが曖昧</text>
+    <text x="100" y="123" class="text-gray" font-size="10">□ フォロワーの年齢・性別・職業が不明確 □ 投稿内容がバラバラ □ 「幅広く届けたい」と思っている</text>
+  </g>
+
+  <!-- 原因2チェック -->
+  <g>
+    <rect x="50" y="145" width="700" height="50" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <circle cx="75" cy="172" r="7" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="100" y="170" class="text-white" font-size="12">【原因2】冒頭のフックが弱い</text>
+    <text x="100" y="188" class="text-gray" font-size="10">□ 動画の視聴完了率20%以下 □ 冒頭に「こんにちは」と書いている □ 最初の3秒で離脱されている</text>
+  </g>
+
+  <!-- 原因3チェック -->
+  <g>
+    <rect x="50" y="210" width="700" height="50" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <circle cx="75" cy="237" r="7" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="100" y="235" class="text-white" font-size="12">【原因3】投稿頻度と品質のバランス崩れ</text>
+    <text x="100" y="253" class="text-gray" font-size="10">□ 毎日投稿しなければと思っている □ 投稿頻度にムラがある □ 低品質な投稿をしている</text>
+  </g>
+
+  <!-- 原因4チェック -->
+  <g>
+    <rect x="50" y="275" width="700" height="50" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <circle cx="75" cy="302" r="7" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="100" y="300" class="text-white" font-size="12">【原因4】プロフィールが最適化されていない</text>
+    <text x="100" y="318" class="text-gray" font-size="10">□ プロフィール文に「公式アカウントです」のみ □ アカウント名に検索キーワードがない □ 価値提案がない</text>
+  </g>
+
+  <!-- 原因5チェック -->
+  <g>
+    <rect x="50" y="340" width="700" height="50" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+    <circle cx="75" cy="367" r="7" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="100" y="365" class="text-white" font-size="12">【原因5】分析をしておらず、PDCAが回っていない</text>
+    <text x="100" y="383" class="text-gray" font-size="10">□ インサイトを見たことがない □ 「いいね数」しか見ていない □ 改善を加えたことがない</text>
+  </g>
+</svg>

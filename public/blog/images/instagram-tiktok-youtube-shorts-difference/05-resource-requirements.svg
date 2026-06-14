@@ -1,0 +1,87 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">企業規模別の推奨プラットフォーム</text>
+
+  <!-- Small -->
+  <g>
+    <rect x="30" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">小規模</text>
+    <text x="150" y="92" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">（担当者1名）</text>
+
+    <!-- Resource -->
+    <rect x="50" y="110" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="130" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">月額予算</text>
+    <text x="70" y="148" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">5万円以下</text>
+
+    <!-- Recommendation -->
+    <rect x="50" y="170" width="200" height="80" rx="5" fill="rgba(34,197,94,0.1)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="70" y="190" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">推奨</text>
+    <text x="150" y="190" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">Instagram</text>
+    <text x="70" y="208" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ Canvaで手軽に制作</text>
+    <text x="70" y="221" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ フォロワー増→安定リーチ</text>
+    <text x="70" y="234" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ビジュアル重視で対応可</text>
+
+    <!-- Characteristics -->
+    <rect x="50" y="260" width="200" height="70" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="70" y="280" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">運用のコツ</text>
+    <text x="70" y="297" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 週3〜4回の定期投稿</text>
+    <text x="70" y="310" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 1年継続でフォロワー構築</text>
+    <text x="70" y="323" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 高品質ビジュアル優先</text>
+  </g>
+
+  <!-- Medium -->
+  <g>
+    <rect x="290" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">中規模</text>
+    <text x="410" y="92" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">（担当者1〜2名）</text>
+
+    <!-- Resource -->
+    <rect x="310" y="110" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="130" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">月額予算</text>
+    <text x="330" y="148" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">5〜15万円</text>
+
+    <!-- Recommendation -->
+    <rect x="310" y="170" width="200" height="80" rx="5" fill="rgba(34,197,94,0.1)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="330" y="185" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">推奨</text>
+    <text x="330" y="195" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">Instagram</text>
+    <text x="330" y="208" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">+ TikTok</text>
+    <text x="330" y="226" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 同じ素材を両方に投稿</text>
+    <text x="330" y="239" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ただしプラットフォーム</text>
+    <text x="330" y="252" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">ごとに調整が必須</text>
+
+    <!-- Characteristics -->
+    <rect x="310" y="260" width="200" height="70" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="330" y="280" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">運用のコツ</text>
+    <text x="330" y="297" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ キャプション・ハッシュタグ調整</text>
+    <text x="330" y="310" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 投稿時間の最適化</text>
+    <text x="330" y="323" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 分析→改善のサイクル</text>
+  </g>
+
+  <!-- Large -->
+  <g>
+    <rect x="550" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">本格展開</text>
+    <text x="670" y="92" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">（専任チーム or 外注）</text>
+
+    <!-- Resource -->
+    <rect x="570" y="110" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="130" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">月額予算</text>
+    <text x="590" y="148" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">15万円以上</text>
+
+    <!-- Recommendation -->
+    <rect x="570" y="170" width="200" height="80" rx="5" fill="rgba(168,85,247,0.1)" stroke="rgba(168,85,247,0.2)" stroke-width="1"/>
+    <text x="590" y="185" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">推奨</text>
+    <text x="590" y="195" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">3プラット</text>
+    <text x="590" y="208" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">フォーム連携</text>
+    <text x="590" y="226" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ Instagram・TikTok・YouTube</text>
+    <text x="590" y="239" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 各プラットフォームで</text>
+    <text x="590" y="252" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">最適な戦略を展開</text>
+
+    <!-- Characteristics -->
+    <rect x="570" y="260" width="200" height="70" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="590" y="280" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">運用のコツ</text>
+    <text x="590" y="297" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ プラットフォーム別の専任者</text>
+    <text x="590" y="310" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 分析→改善の高速化</text>
+    <text x="590" y="323" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ A/Bテストの継続</text>
+  </g>
+</svg>

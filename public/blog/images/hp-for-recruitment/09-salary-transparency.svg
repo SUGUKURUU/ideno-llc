@@ -1,0 +1,63 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">給与・待遇の「透明性」が採用の決め手になる</text>
+
+  <!-- Salary comparison bars -->
+  <text x="50" y="85" fill="#c9a84c" font-size="12" font-weight="bold">給与・待遇の開示パターン</text>
+
+  <!-- Pattern 1 - Bad -->
+  <text x="50" y="115" fill="#ff6b6b" font-size="11" font-weight="bold">❌ パターン1: 非開示</text>
+  <rect x="50" y="130" width="330" height="60" rx="4" fill="#1a1a1a" stroke="#ff6b6b" stroke-width="1"/>
+  <text x="70" y="155" fill="#aaaaaa" font-size="10">「給与は経験・成績により面接時に相談」</text>
+  <text x="70" y="173" fill="#ff6b6b" font-size="9">→ 候補者は応募をためらう</text>
+
+  <!-- Pattern 2 - Medium -->
+  <text x="50" y="220" fill="#ff9800" font-size="11" font-weight="bold">△ パターン2: 最低額のみ</text>
+  <rect x="50" y="235" width="330" height="60" rx="4" fill="#1a1a1a" stroke="#ff9800" stroke-width="1"/>
+  <text x="70" y="260" fill="#ffffff" font-size="10">「月給 20万円以上」</text>
+  <text x="70" y="278" fill="#aaaaaa" font-size="9">→ 上限がわからず不安</text>
+
+  <!-- Pattern 3 - Good -->
+  <text x="50" y="325" fill="#50c878" font-size="11" font-weight="bold">✓ パターン3: 具体的な幅を開示</text>
+  <rect x="50" y="340" width="330" height="60" rx="4" fill="#1a1a1a" stroke="#50c878" stroke-width="1"/>
+  <text x="70" y="360" fill="#c9a84c" font-size="10">初任給 25万円～　4年目 40万円前後</text>
+  <text x="70" y="378" fill="#c9a84c" font-size="9">昇給実績付き</text>
+
+  <!-- Right side - Additional transparency info -->
+  <text x="420" y="115" fill="#c9a84c" font-size="12" font-weight="bold">その他の透明性要素</text>
+
+  <g>
+    <circle cx="430" cy="150" r="4" fill="#c9a84c"/>
+    <text x="450" y="155" fill="#ffffff" font-size="10">賞与（ボーナス）の支給実績</text>
+  </g>
+
+  <g>
+    <circle cx="430" cy="175" r="4" fill="#c9a84c"/>
+    <text x="450" y="180" fill="#ffffff" font-size="10">昇給の時期・幅（具体的に）</text>
+  </g>
+
+  <g>
+    <circle cx="430" cy="200" r="4" fill="#c9a84c"/>
+    <text x="450" y="205" fill="#ffffff" font-size="10">各職位の給与レンジ</text>
+  </g>
+
+  <g>
+    <circle cx="430" cy="225" r="4" fill="#c9a84c"/>
+    <text x="450" y="230" fill="#ffffff" font-size="10">残業代の計算方法</text>
+  </g>
+
+  <g>
+    <circle cx="430" cy="250" r="4" fill="#c9a84c"/>
+    <text x="450" y="255" fill="#ffffff" font-size="10">福利厚生の詳細（実際の利用状況）</text>
+  </g>
+
+  <g>
+    <circle cx="430" cy="275" r="4" fill="#c9a84c"/>
+    <text x="450" y="280" fill="#ffffff" font-size="10">離職率・平均勤続年数</text>
+  </g>
+
+  <!-- Key insight -->
+  <rect x="30" y="360" width="740" height="50" rx="4" fill="#c9a84c" opacity="0.15"/>
+  <text x="50" y="380" fill="#c9a84c" font-size="11" font-weight="bold">💡 重要：透明性の高い企業は、優秀な候補者から信頼される</text>
+  <text x="50" y="398" fill="#ffffff" font-size="10">給与交渉の時間短縮 → 採用期間が早まり、候補者流出を防げる</text>
+</svg>

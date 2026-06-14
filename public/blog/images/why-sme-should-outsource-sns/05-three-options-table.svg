@@ -1,0 +1,105 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">SNS運用方法3択の総合評価</text>
+
+  <!-- テーブル背景 -->
+  <!-- ヘッダー行 -->
+  <rect x="60" y="55" width="160" height="44" fill="#1a1a1a" rx="0"/>
+  <rect x="220" y="55" width="180" height="44" fill="#222222" rx="0"/>
+  <rect x="400" y="55" width="180" height="44" fill="#1e1a10" rx="0"/>
+  <rect x="580" y="55" width="180" height="44" fill="#1a1e10" rx="0"/>
+
+  <text x="140" y="82" fill="rgba(255,255,255,0.4)" font-size="13" text-anchor="middle">評価項目</text>
+  <text x="310" y="75" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">自社運用</text>
+  <text x="310" y="92" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">（兼務担当）</text>
+  <text x="490" y="75" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">SNS担当採用</text>
+  <text x="490" y="92" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">（正社員）</text>
+  <text x="670" y="75" fill="#c9a84c" font-size="14" font-weight="bold" text-anchor="middle">専門会社外注</text>
+  <text x="670" y="92" fill="#c9a84c" font-size="11" text-anchor="middle">（推奨）</text>
+
+  <!-- 行データ -->
+  <!-- rows: y=99, 155, 211, 267, 323, 379 (h=56) -->
+  <!-- Row 1: コスト -->
+  <rect x="60" y="99" width="160" height="56" fill="#181818"/>
+  <rect x="220" y="99" width="180" height="56" fill="#161616"/>
+  <rect x="400" y="99" width="180" height="56" fill="#161616"/>
+  <rect x="580" y="99" width="180" height="56" fill="#1a1a12"/>
+  <text x="140" y="132" fill="rgba(255,255,255,0.7)" font-size="13" text-anchor="middle">コスト</text>
+  <text x="310" y="125" fill="#f87171" font-size="22" text-anchor="middle">△</text>
+  <text x="310" y="144" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">月7〜15万円相当</text>
+  <text x="490" y="125" fill="#f87171" font-size="22" text-anchor="middle">✕</text>
+  <text x="490" y="144" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">月35〜60万円</text>
+  <text x="670" y="125" fill="#c9a84c" font-size="22" text-anchor="middle">◎</text>
+  <text x="670" y="144" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">月3〜15万円</text>
+
+  <!-- Row 2: 品質 -->
+  <rect x="60" y="155" width="160" height="56" fill="#1a1a1a"/>
+  <rect x="220" y="155" width="180" height="56" fill="#171717"/>
+  <rect x="400" y="155" width="180" height="56" fill="#171717"/>
+  <rect x="580" y="155" width="180" height="56" fill="#1b1b13"/>
+  <text x="140" y="188" fill="rgba(255,255,255,0.7)" font-size="13" text-anchor="middle">品質</text>
+  <text x="310" y="181" fill="#f87171" font-size="22" text-anchor="middle">△</text>
+  <text x="310" y="200" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">ノウハウ不足</text>
+  <text x="490" y="181" fill="#4ade80" font-size="22" text-anchor="middle">○</text>
+  <text x="490" y="200" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">個人スキル依存</text>
+  <text x="670" y="181" fill="#c9a84c" font-size="22" text-anchor="middle">◎</text>
+  <text x="670" y="200" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">チームで高品質</text>
+
+  <!-- Row 3: 継続性 -->
+  <rect x="60" y="211" width="160" height="56" fill="#181818"/>
+  <rect x="220" y="211" width="180" height="56" fill="#161616"/>
+  <rect x="400" y="211" width="180" height="56" fill="#161616"/>
+  <rect x="580" y="211" width="180" height="56" fill="#1a1a12"/>
+  <text x="140" y="244" fill="rgba(255,255,255,0.7)" font-size="13" text-anchor="middle">継続性</text>
+  <text x="310" y="237" fill="#f87171" font-size="22" text-anchor="middle">✕</text>
+  <text x="310" y="256" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">挫折リスク高</text>
+  <text x="490" y="237" fill="#f87171" font-size="22" text-anchor="middle">△</text>
+  <text x="490" y="256" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">離職リスクあり</text>
+  <text x="670" y="237" fill="#c9a84c" font-size="22" text-anchor="middle">◎</text>
+  <text x="670" y="256" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">チーム体制で安定</text>
+
+  <!-- Row 4: スピード -->
+  <rect x="60" y="267" width="160" height="56" fill="#1a1a1a"/>
+  <rect x="220" y="267" width="180" height="56" fill="#171717"/>
+  <rect x="400" y="267" width="180" height="56" fill="#171717"/>
+  <rect x="580" y="267" width="180" height="56" fill="#1b1b13"/>
+  <text x="140" y="300" fill="rgba(255,255,255,0.7)" font-size="13" text-anchor="middle">スピード</text>
+  <text x="310" y="293" fill="#4ade80" font-size="22" text-anchor="middle">○</text>
+  <text x="310" y="312" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">即日開始可</text>
+  <text x="490" y="293" fill="#f87171" font-size="22" text-anchor="middle">✕</text>
+  <text x="490" y="312" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">採用〜習熟1年</text>
+  <text x="670" y="293" fill="#c9a84c" font-size="22" text-anchor="middle">◎</text>
+  <text x="670" y="312" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">2〜4週で開始</text>
+
+  <!-- Row 5: 専門性 -->
+  <rect x="60" y="323" width="160" height="56" fill="#181818"/>
+  <rect x="220" y="323" width="180" height="56" fill="#161616"/>
+  <rect x="400" y="323" width="180" height="56" fill="#161616"/>
+  <rect x="580" y="323" width="180" height="56" fill="#1a1a12"/>
+  <text x="140" y="356" fill="rgba(255,255,255,0.7)" font-size="13" text-anchor="middle">専門性</text>
+  <text x="310" y="349" fill="#f87171" font-size="22" text-anchor="middle">✕</text>
+  <text x="310" y="368" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">学習コスト大</text>
+  <text x="490" y="349" fill="#4ade80" font-size="22" text-anchor="middle">○</text>
+  <text x="490" y="368" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">1名分のスキル</text>
+  <text x="670" y="349" fill="#c9a84c" font-size="22" text-anchor="middle">◎</text>
+  <text x="670" y="368" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">複数専門家が対応</text>
+
+  <!-- Row 6: リスク -->
+  <rect x="60" y="379" width="160" height="40" fill="#1a1a1a"/>
+  <rect x="220" y="379" width="180" height="40" fill="#171717"/>
+  <rect x="400" y="379" width="180" height="40" fill="#171717"/>
+  <rect x="580" y="379" width="180" height="40" fill="#1b1b13"/>
+  <text x="140" y="404" fill="rgba(255,255,255,0.7)" font-size="13" text-anchor="middle">リスク</text>
+  <text x="310" y="404" fill="#f87171" font-size="20" text-anchor="middle">✕ 高</text>
+  <text x="490" y="404" fill="#f87171" font-size="20" text-anchor="middle">△ 中</text>
+  <text x="670" y="404" fill="#c9a84c" font-size="20" text-anchor="middle">◎ 低</text>
+
+  <!-- 外枠 -->
+  <rect x="60" y="55" width="700" height="364" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- 列区切り -->
+  <line x1="220" y1="55" x2="220" y2="419" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="400" y1="55" x2="400" y2="419" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="580" y1="55" x2="580" y2="419" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- 外注列を強調 -->
+  <rect x="580" y="55" width="180" height="364" fill="none" stroke="#c9a84c" stroke-width="1.5" rx="2"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="34" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="17" font-weight="bold" text-anchor="middle">高CVRのLPセクション構成</text>
+
+  <!-- LP画面のモック枠 -->
+  <rect x="60" y="52" width="680" height="340" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- セクション1: ファーストビュー -->
+  <rect x="68" y="60" width="664" height="42" rx="4" fill="rgba(201,168,76,0.3)" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="200" y="76" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">① ファーストビュー</text>
+  <text x="500" y="76" fill="rgba(255,255,255,0.75)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">キャッチコピー・サブコピー・CTA・実績数値</text>
+  <text x="710" y="76" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">最重要</text>
+  <text x="200" y="91" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">5秒で離脱防止</text>
+
+  <!-- セクション2: 問題提起 -->
+  <rect x="68" y="108" width="664" height="36" rx="4" fill="rgba(74,143,212,0.15)" stroke="#4a8fd4" stroke-width="1"/>
+  <text x="200" y="122" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">② 問題提起・共感</text>
+  <text x="500" y="122" fill="rgba(255,255,255,0.65)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">「こんなお悩みはありませんか？」顧客の痛みを言語化</text>
+  <text x="200" y="137" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">共感を生む</text>
+
+  <!-- セクション3: 解決策 -->
+  <rect x="68" y="150" width="664" height="36" rx="4" fill="rgba(74,143,212,0.15)" stroke="#4a8fd4" stroke-width="1"/>
+  <text x="200" y="164" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">③ 解決策の提示</text>
+  <text x="500" y="164" fill="rgba(255,255,255,0.65)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">自社サービスの紹介・特徴・他社との差別化ポイント</text>
+  <text x="200" y="179" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">「なぜ自社か」を伝える</text>
+
+  <!-- セクション4: 実績・証拠 -->
+  <rect x="68" y="192" width="664" height="36" rx="4" fill="rgba(74,143,212,0.15)" stroke="#4a8fd4" stroke-width="1"/>
+  <text x="200" y="206" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">④ 実績・社会的証明</text>
+  <text x="500" y="206" fill="rgba(255,255,255,0.65)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">導入事例・お客様の声・メディア掲載・受賞歴</text>
+  <text x="200" y="221" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">信頼・安心を醸成</text>
+
+  <!-- セクション5: 価格 -->
+  <rect x="68" y="234" width="664" height="36" rx="4" fill="rgba(74,143,212,0.15)" stroke="#4a8fd4" stroke-width="1"/>
+  <text x="200" y="248" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">⑤ 料金・プラン</text>
+  <text x="500" y="248" fill="rgba(255,255,255,0.65)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">価格帯・プラン比較・「まずは相談」導線</text>
+  <text x="200" y="263" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">不安の解消</text>
+
+  <!-- セクション6: FAQ -->
+  <rect x="68" y="276" width="664" height="36" rx="4" fill="rgba(74,143,212,0.12)" stroke="#4a8fd4" stroke-width="1"/>
+  <text x="200" y="290" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">⑥ よくある質問</text>
+  <text x="500" y="290" fill="rgba(255,255,255,0.65)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">問い合わせ前の疑問・不安を解消するFAQ</text>
+  <text x="200" y="305" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">直前離脱を防ぐ</text>
+
+  <!-- セクション7: CTA -->
+  <rect x="68" y="318" width="664" height="66" rx="4" fill="rgba(74,222,128,0.2)" stroke="#4ade80" stroke-width="2"/>
+  <text x="200" y="340" fill="#4ade80" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="13" font-weight="bold" text-anchor="middle">⑦ 最終CTA</text>
+  <text x="500" y="340" fill="rgba(255,255,255,0.75)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">「まずは無料相談」「今すぐ申し込む」ボタン</text>
+  <text x="200" y="360" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">コンバージョン</text>
+  <text x="500" y="360" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">対応時間・安心メッセージを添える</text>
+
+  <!-- 矢印（右側） -->
+  <text x="755" y="158" fill="rgba(255,255,255,0.3)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="28" text-anchor="middle">↓</text>
+  <text x="755" y="248" fill="rgba(255,255,255,0.3)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="28" text-anchor="middle">↓</text>
+  <text x="755" y="338" fill="rgba(255,255,255,0.3)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="28" text-anchor="middle">↓</text>
+
+  <!-- CVR label -->
+  <text x="755" y="395" fill="rgba(201,168,76,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">CVR</text>
+  <text x="755" y="408" fill="rgba(201,168,76,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">最大化</text>
+</svg>

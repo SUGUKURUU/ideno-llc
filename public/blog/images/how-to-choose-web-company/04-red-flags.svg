@@ -1,0 +1,51 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">避けるべき制作会社の7つのサイン</text>
+
+  <!-- Warning banner -->
+  <rect x="30" y="52" width="740" height="30" rx="5" fill="rgba(255,80,80,0.08)" stroke="rgba(255,80,80,0.25)" stroke-width="1"/>
+  <text x="400" y="72" text-anchor="middle" fill="rgba(255,150,150,0.8)" font-size="12">これらのサインが見られる制作会社は、後悔する可能性が高いです</text>
+
+  <!-- 7 items in 2 columns (4 left, 3 right) -->
+  <!-- Left column -->
+  <rect x="30" y="92" width="370" height="52" rx="6" fill="rgba(255,50,50,0.05)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="56" y="114" fill="rgba(255,120,120,0.9)" font-size="18">🚩</text>
+  <text x="80" y="114" fill="#ffffff" font-size="13" font-weight="bold">見積もりが「一式」で内訳なし</text>
+  <text x="80" y="133" fill="rgba(255,255,255,0.5)" font-size="11">後から追加費用を請求されるトラブルの典型パターン</text>
+
+  <rect x="30" y="152" width="370" height="52" rx="6" fill="rgba(255,50,50,0.05)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="56" y="174" fill="rgba(255,120,120,0.9)" font-size="18">🚩</text>
+  <text x="80" y="174" fill="#ffffff" font-size="13" font-weight="bold">ポートフォリオが古い・少ない</text>
+  <text x="80" y="193" fill="rgba(255,255,255,0.5)" font-size="11">最新の実績がないのは現在の技術力・活動状況に不安</text>
+
+  <rect x="30" y="212" width="370" height="52" rx="6" fill="rgba(255,50,50,0.05)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="56" y="234" fill="rgba(255,120,120,0.9)" font-size="18">🚩</text>
+  <text x="80" y="234" fill="#ffffff" font-size="13" font-weight="bold">著作権・データ納品の話を避ける</text>
+  <text x="80" y="253" fill="rgba(255,255,255,0.5)" font-size="11">ソースコード未納品で他社への乗り換えを阻むケースも</text>
+
+  <rect x="30" y="272" width="370" height="52" rx="6" fill="rgba(255,50,50,0.05)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="56" y="294" fill="rgba(255,120,120,0.9)" font-size="18">🚩</text>
+  <text x="80" y="294" fill="#ffffff" font-size="13" font-weight="bold">保守費が異常に高い（月3万円〜）</text>
+  <text x="80" y="313" fill="rgba(255,255,255,0.5)" font-size="11">CMS未導入で更新のたびに費用を取る設計の可能性</text>
+
+  <!-- Right column -->
+  <rect x="420" y="92" width="370" height="52" rx="6" fill="rgba(255,50,50,0.05)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="446" y="114" fill="rgba(255,120,120,0.9)" font-size="18">🚩</text>
+  <text x="470" y="114" fill="#ffffff" font-size="13" font-weight="bold">担当者がすぐ変わる・連絡が遅い</text>
+  <text x="470" y="133" fill="rgba(255,255,255,0.5)" font-size="11">制作中の引き継ぎミスや品質低下につながりやすい</text>
+
+  <rect x="420" y="152" width="370" height="52" rx="6" fill="rgba(255,50,50,0.05)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="446" y="174" fill="rgba(255,120,120,0.9)" font-size="18">🚩</text>
+  <text x="470" y="174" fill="#ffffff" font-size="13" font-weight="bold">「SEOは公開後に」と言う</text>
+  <text x="470" y="193" fill="rgba(255,255,255,0.5)" font-size="11">SEOはサイト設計段階から組み込まないと効果が出ない</text>
+
+  <rect x="420" y="212" width="370" height="52" rx="6" fill="rgba(255,50,50,0.05)" stroke="rgba(255,100,100,0.2)" stroke-width="1"/>
+  <text x="446" y="234" fill="rgba(255,120,120,0.9)" font-size="18">🚩</text>
+  <text x="470" y="234" fill="#ffffff" font-size="13" font-weight="bold">自分でコンテンツ更新できない仕様</text>
+  <text x="470" y="253" fill="rgba(255,255,255,0.5)" font-size="11">CMS未導入で公開後の更新が全て有料になる設計</text>
+
+  <!-- Summary box -->
+  <rect x="30" y="338" width="740" height="52" rx="6" fill="rgba(201,168,76,0.08)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="400" y="360" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">これらのサインが複数見られる場合は発注を見送ることを強くおすすめします</text>
+  <text x="400" y="380" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">「安さ」や「デザインの好み」だけで選ぶと後悔するリスクが高まります</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.tw{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.tg{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.t{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="t" text-anchor="middle">認知拡大の投資目安</text>
+  <text x="400" y="55" class="tg" text-anchor="middle">業種・フェーズ別の参考値</text>
+
+  <rect x="50" y="85" width="700" height="300" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+
+  <text x="70" y="110" class="gold" font-size="11" font-weight="bold">最小限の基盤整備：月1-3万円</text>
+  <text x="70" y="130" class="tw" font-size="9">ノーコードHP（月額5000円-1万円）＋ 自力SNS運用</text>
+  <text x="70" y="150" class="tg" font-size="9">→ 完全自力、最小投資で開始</text>
+
+  <line x1="50" y1="165" x2="750" y2="165" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="70" y="190" class="gold" font-size="11" font-weight="bold">SNS運用代行の活用：月5-15万円</text>
+  <text x="70" y="210" class="tw" font-size="9">SNS代行（月5-15万円）で継続性・品質を確保</text>
+  <text x="70" y="230" class="tg" font-size="9">→ 最もROI高い投資帯</text>
+
+  <line x1="50" y1="245" x2="750" y2="245" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="70" y="270" class="gold" font-size="11" font-weight="bold">HP＋SNS＋少額広告：月15-30万円</text>
+  <text x="70" y="290" class="tw" font-size="9">SNS代行（5-15万）＋ HP改善（3-10万）＋ 広告テスト（1-3万）</text>
+  <text x="70" y="310" class="tg" font-size="9">→ 本格的な認知拡大フェーズ</text>
+
+  <line x1="50" y1="325" x2="750" y2="325" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="70" y="350" class="gold" font-size="11" font-weight="bold">本格的認知拡大投資：月30万円以上</text>
+  <text x="70" y="370" class="tw" font-size="9">複数プラットフォーム対応＋ コンテンツ制作＋ SNS・検索広告</text>
+  <text x="70" y="390" class="tg" font-size="9">→ 年商1億円以上の企業向け</text>
+</svg>

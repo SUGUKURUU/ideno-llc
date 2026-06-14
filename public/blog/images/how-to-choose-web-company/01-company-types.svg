@@ -1,0 +1,78 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">Web制作会社の種類と特徴比較</text>
+
+  <!-- Header -->
+  <rect x="20" y="55" width="760" height="32" rx="4" fill="rgba(201,168,76,0.15)"/>
+  <text x="108" y="76" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">比較項目</text>
+  <text x="248" y="76" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">大手制作会社</text>
+  <text x="388" y="76" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">中小専門会社</text>
+  <text x="528" y="76" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">フリーランス</text>
+  <text x="668" y="76" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">海外会社</text>
+
+  <!-- vertical dividers -->
+  <line x1="175" y1="55" x2="175" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="315" y1="55" x2="315" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="455" y1="55" x2="455" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="595" y1="55" x2="595" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Row 1: 価格 -->
+  <rect x="20" y="87" width="760" height="46" rx="0" fill="rgba(255,255,255,0.02)"/>
+  <text x="108" y="116" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">💰 価格</text>
+  <text x="248" y="116" text-anchor="middle" fill="rgba(255,150,150,0.8)" font-size="13" font-weight="bold">高い（100万〜）</text>
+  <text x="388" y="116" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">中（30〜150万）</text>
+  <text x="528" y="116" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">安い（10〜80万）</text>
+  <text x="668" y="116" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="13" font-weight="bold">最安（5〜30万）</text>
+  <line x1="20" y1="133" x2="780" y2="133" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Row 2: 品質 -->
+  <rect x="20" y="133" width="760" height="46" rx="0"/>
+  <text x="108" y="162" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">⭐ 品質</text>
+  <text x="248" y="162" text-anchor="middle" fill="#c9a84c" font-size="13">◎ 高品質・安定</text>
+  <text x="388" y="162" text-anchor="middle" fill="#c9a84c" font-size="13">○ 専門性が高い</text>
+  <text x="528" y="162" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="13">△ スキル差あり</text>
+  <text x="668" y="162" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="13">△ 品質管理が難</text>
+  <line x1="20" y1="179" x2="780" y2="179" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Row 3: スピード -->
+  <rect x="20" y="179" width="760" height="46" rx="0" fill="rgba(255,255,255,0.02)"/>
+  <text x="108" y="208" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">⚡ スピード</text>
+  <text x="248" y="208" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="13">△ 遅い（3〜6ヶ月）</text>
+  <text x="388" y="208" text-anchor="middle" fill="#c9a84c" font-size="13">○ 普通（2〜4ヶ月）</text>
+  <text x="528" y="208" text-anchor="middle" fill="#c9a84c" font-size="13">◎ 早い（1〜3ヶ月）</text>
+  <text x="668" y="208" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="13">○ 早め</text>
+  <line x1="20" y1="225" x2="780" y2="225" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Row 4: コミュニケーション -->
+  <rect x="20" y="225" width="760" height="46" rx="0"/>
+  <text x="108" y="254" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">💬 コミュニケーション</text>
+  <text x="248" y="254" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="13">△ 担当者が変わりやすい</text>
+  <text x="388" y="254" text-anchor="middle" fill="#c9a84c" font-size="13">○ 窓口が安定</text>
+  <text x="528" y="254" text-anchor="middle" fill="#c9a84c" font-size="13">◎ 直接やり取り</text>
+  <text x="668" y="254" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="13">✕ 言語・時差あり</text>
+  <line x1="20" y1="271" x2="780" y2="271" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Row 5: 保守 -->
+  <rect x="20" y="271" width="760" height="46" rx="0" fill="rgba(255,255,255,0.02)"/>
+  <text x="108" y="300" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">🔧 保守体制</text>
+  <text x="248" y="300" text-anchor="middle" fill="#c9a84c" font-size="13">◎ 専門チームあり</text>
+  <text x="388" y="300" text-anchor="middle" fill="#c9a84c" font-size="13">○ 対応可能</text>
+  <text x="528" y="300" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="13">△ 個人依存</text>
+  <text x="668" y="300" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="13">✕ 対応困難</text>
+  <line x1="20" y1="317" x2="780" y2="317" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Row 6: 推奨 -->
+  <rect x="20" y="317" width="760" height="50" rx="0" fill="rgba(201,168,76,0.04)"/>
+  <text x="108" y="346" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">向いている企業</text>
+  <text x="248" y="340" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">上場・大手企業</text>
+  <text x="248" y="356" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">ブランド重視</text>
+  <rect x="323" y="322" width="124" height="40" rx="5" fill="rgba(201,168,76,0.12)" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="388" y="340" text-anchor="middle" fill="#c9a84c" font-size="10" font-weight="bold">★ 中小企業に</text>
+  <text x="388" y="356" text-anchor="middle" fill="#c9a84c" font-size="10" font-weight="bold">おすすめ</text>
+  <text x="528" y="340" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">予算が限られる</text>
+  <text x="528" y="356" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">小規模サイト</text>
+  <text x="668" y="340" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">コスト最優先</text>
+  <text x="668" y="356" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">（リスク覚悟）</text>
+
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">中小企業には「中小専門会社」が価格・品質・サポートのバランスで最もおすすめ</text>
+</svg>

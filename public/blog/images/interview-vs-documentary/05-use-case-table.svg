@@ -1,0 +1,70 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="34" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">目的別どちらの動画形式を選ぶか</text>
+
+  <!-- Table header -->
+  <rect x="40" y="50" width="720" height="38" fill="#1e1e1e" rx="4"/>
+  <text x="260" y="74" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="middle">目的</text>
+  <line x1="420" y1="50" x2="420" y2="88" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="550" y="74" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="middle">インタビュー</text>
+  <line x1="660" y1="50" x2="660" y2="88" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="730" y="74" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="middle">密着</text>
+
+  <!-- Rows -->
+  <!-- Row 1 -->
+  <rect x="40" y="88" width="720" height="44" fill="#181818"/>
+  <text x="260" y="115" fill="#ffffff" font-size="13" text-anchor="middle">採用ブランディング</text>
+  <line x1="420" y1="88" x2="420" y2="132" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="550" y="115" fill="rgba(255,255,255,0.5)" font-size="18" text-anchor="middle">○</text>
+  <line x1="660" y1="88" x2="660" y2="132" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="730" y="115" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">◎</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="132" width="720" height="44" fill="#141414"/>
+  <text x="260" y="159" fill="#ffffff" font-size="13" text-anchor="middle">会社ブランディング全般</text>
+  <line x1="420" y1="132" x2="420" y2="176" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="550" y="159" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">◎</text>
+  <line x1="660" y1="132" x2="660" y2="176" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="730" y="159" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">◎</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="176" width="720" height="44" fill="#181818"/>
+  <text x="260" y="203" fill="#ffffff" font-size="13" text-anchor="middle">BtoB信頼構築・投資家向け</text>
+  <line x1="420" y1="176" x2="420" y2="220" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="550" y="203" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">◎</text>
+  <line x1="660" y1="176" x2="660" y2="220" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="730" y="203" fill="rgba(255,255,255,0.5)" font-size="18" text-anchor="middle">○</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="220" width="720" height="44" fill="#141414"/>
+  <text x="260" y="247" fill="#ffffff" font-size="13" text-anchor="middle">Instagram / TikTok 拡散</text>
+  <line x1="420" y1="220" x2="420" y2="264" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="550" y="247" fill="rgba(255,255,255,0.35)" font-size="18" text-anchor="middle">△</text>
+  <line x1="660" y1="220" x2="660" y2="264" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="730" y="247" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">◎</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="264" width="720" height="44" fill="#181818"/>
+  <text x="260" y="291" fill="#ffffff" font-size="13" text-anchor="middle">YouTube SEO対策</text>
+  <line x1="420" y1="264" x2="420" y2="308" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="550" y="291" fill="rgba(255,255,255,0.5)" font-size="18" text-anchor="middle">○</text>
+  <line x1="660" y1="264" x2="660" y2="308" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="730" y="291" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">◎</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="308" width="720" height="44" fill="#141414"/>
+  <text x="260" y="335" fill="#ffffff" font-size="13" text-anchor="middle">会社説明会補助・短期制作</text>
+  <line x1="420" y1="308" x2="420" y2="352" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="550" y="335" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">◎</text>
+  <line x1="660" y1="308" x2="660" y2="352" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="730" y="335" fill="rgba(255,255,255,0.35)" font-size="18" text-anchor="middle">△</text>
+
+  <!-- Vertical dividers full height -->
+  <line x1="420" y1="50" x2="420" y2="352" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="660" y1="50" x2="660" y2="352" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Legend -->
+  <text x="200" y="390" fill="#c9a84c" font-size="13" text-anchor="middle">◎ 特に向いている</text>
+  <text x="400" y="390" fill="rgba(255,255,255,0.6)" font-size="13" text-anchor="middle">○ 有効</text>
+  <text x="570" y="390" fill="rgba(255,255,255,0.35)" font-size="13" text-anchor="middle">△ やや不向き</text>
+</svg>

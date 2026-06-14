@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">よくある失敗：社長動画編</text>
+
+  <!-- 失敗1 -->
+  <rect x="80" y="80" width="300" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="230" y="105" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗1：制作後に放置</text>
+  <text x="100" y="130" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTubeに上げただけで、SNS告知もHP掲載もしない</text>
+  <text x="100" y="148" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">→動画は「複数チャネルでの活用」が前提</text>
+
+  <!-- 失敗2 -->
+  <rect x="420" y="80" width="300" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="570" y="105" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗2：「完璧に話す」を目指す</text>
+  <text x="440" y="130" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">台本を覚えて完璧に演技しようとする</text>
+  <text x="440" y="148" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">→「生の想い」「自然な語り」のほうが信頼を生む</text>
+
+  <!-- 失敗3 -->
+  <rect x="80" y="240" width="300" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="230" y="265" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗3：コスパを過度に重視</text>
+  <text x="100" y="290" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「今すぐの効果」だけで判断して制作を先送り</text>
+  <text x="100" y="308" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">→10年後の価値を含めて評価することが重要</text>
+
+  <!-- 失敗4 -->
+  <rect x="420" y="240" width="300" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="570" y="265" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗4：一本制作して満足</text>
+  <text x="440" y="290" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「社長動画を作った」という事実に満足して継続発信しない</text>
+  <text x="440" y="308" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">→年1-2本の継続制作が「ブランド資産」を作る</text>
+</svg>

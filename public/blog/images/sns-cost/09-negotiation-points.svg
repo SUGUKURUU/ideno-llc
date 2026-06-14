@@ -1,0 +1,67 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">費用を適正化するための交渉ポイント</text>
+
+  <!-- 4 negotiation cards with before/after -->
+  <!-- Card 1 -->
+  <rect x="30" y="60" width="355" height="155" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="30" y="60" width="355" height="6" rx="3" fill="#c9a84c"/>
+  <text x="207" y="87" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">① 契約期間を長くする</text>
+  <line x1="50" y1="97" x2="365" y2="97" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <rect x="45" y="107" width="145" height="44" rx="5" fill="rgba(255,255,255,0.05)"/>
+  <text x="117" y="124" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">3ヶ月契約</text>
+  <text x="117" y="143" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="14" font-weight="bold">月12万円</text>
+  <text x="207" y="129" text-anchor="middle" fill="#c9a84c" font-size="18">→</text>
+  <rect x="225" y="107" width="145" height="44" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="297" y="124" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">12ヶ月契約</text>
+  <text x="297" y="143" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">月9.5万円</text>
+  <text x="207" y="177" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="11">長期契約で約20%割引が期待できる</text>
+  <text x="207" y="196" text-anchor="middle" fill="#c9a84c" font-size="11">▼ 年間削減額: 約30万円</text>
+
+  <!-- Card 2 -->
+  <rect x="415" y="60" width="355" height="155" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="415" y="60" width="355" height="6" rx="3" fill="rgba(201,168,76,0.7)"/>
+  <text x="592" y="87" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">② 撮影素材を自社提供する</text>
+  <line x1="435" y1="97" x2="750" y2="97" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <rect x="430" y="107" width="145" height="44" rx="5" fill="rgba(255,255,255,0.05)"/>
+  <text x="502" y="124" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">撮影込みプラン</text>
+  <text x="502" y="143" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="14" font-weight="bold">月20万円</text>
+  <text x="592" y="129" text-anchor="middle" fill="#c9a84c" font-size="18">→</text>
+  <rect x="610" y="107" width="145" height="44" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="682" y="124" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">素材提供プラン</text>
+  <text x="682" y="143" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">月13万円</text>
+  <text x="592" y="177" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="11">動画・写真素材を自社で用意することで削減</text>
+  <text x="592" y="196" text-anchor="middle" fill="#c9a84c" font-size="11">▼ 月間削減額: 約7万円</text>
+
+  <!-- Card 3 -->
+  <rect x="30" y="235" width="355" height="155" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="30" y="235" width="355" height="6" rx="3" fill="rgba(201,168,76,0.4)"/>
+  <text x="207" y="262" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">③ レポート頻度を減らす</text>
+  <line x1="50" y1="272" x2="365" y2="272" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <rect x="45" y="282" width="145" height="44" rx="5" fill="rgba(255,255,255,0.05)"/>
+  <text x="117" y="299" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">週次レポートあり</text>
+  <text x="117" y="318" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="14" font-weight="bold">月15万円</text>
+  <text x="207" y="304" text-anchor="middle" fill="#c9a84c" font-size="18">→</text>
+  <rect x="225" y="282" width="145" height="44" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="297" y="299" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">月次レポートのみ</text>
+  <text x="297" y="318" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">月12万円</text>
+  <text x="207" y="352" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="11">報告頻度を月1回にすることで工数削減</text>
+  <text x="207" y="371" text-anchor="middle" fill="#c9a84c" font-size="11">▼ 月間削減額: 約3万円</text>
+
+  <!-- Card 4 -->
+  <rect x="415" y="235" width="355" height="155" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="415" y="235" width="355" height="6" rx="3" fill="rgba(201,168,76,0.2)"/>
+  <text x="592" y="262" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">④ 投稿本数を絞る</text>
+  <line x1="435" y1="272" x2="750" y2="272" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <rect x="430" y="282" width="145" height="44" rx="5" fill="rgba(255,255,255,0.05)"/>
+  <text x="502" y="299" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">月20本投稿</text>
+  <text x="502" y="318" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="14" font-weight="bold">月18万円</text>
+  <text x="592" y="304" text-anchor="middle" fill="#c9a84c" font-size="18">→</text>
+  <rect x="610" y="282" width="145" height="44" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="682" y="299" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">月12本投稿</text>
+  <text x="682" y="318" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">月12万円</text>
+  <text x="592" y="352" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="11">量より質を重視し、本数を適正化する</text>
+  <text x="592" y="371" text-anchor="middle" fill="#c9a84c" font-size="11">▼ 月間削減額: 約6万円</text>
+
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">複数の交渉を組み合わせると月5〜10万円のコスト削減が可能</text>
+</svg>

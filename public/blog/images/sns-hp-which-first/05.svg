@@ -1,0 +1,54 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">予算別 最適選択チャート</text>
+  <!-- Budget tier 1 -->
+  <rect x="40" y="60" width="220" height="310" rx="10" fill="#1a1a1a" stroke="#c9a84c" stroke-width="2"/>
+  <rect x="40" y="60" width="220" height="50" rx="10" fill="#c9a84c"/>
+  <rect x="40" y="95" width="220" height="15" fill="#c9a84c"/>
+  <text x="150" y="92" text-anchor="middle" fill="#111111" font-size="15" font-weight="bold">〜30万円</text>
+  <text x="150" y="135" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">▶ SNS先行</text>
+  <text x="150" y="162" text-anchor="middle" fill="#ffffff" font-size="12">・SNS自社運用（無料）</text>
+  <text x="150" y="184" text-anchor="middle" fill="#ffffff" font-size="12">・簡易LP自作</text>
+  <text x="150" y="206" text-anchor="middle" fill="#ffffff" font-size="12">・運用代行を検討</text>
+  <line x1="60" y1="225" x2="240" y2="225" stroke="#333" stroke-width="1"/>
+  <text x="150" y="250" text-anchor="middle" fill="#aaaaaa" font-size="11">優先チャネル</text>
+  <text x="150" y="272" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">Instagram / X</text>
+  <text x="150" y="295" text-anchor="middle" fill="#aaaaaa" font-size="11">HP</text>
+  <text x="150" y="315" text-anchor="middle" fill="#555555" font-size="12">ノーコードで最低限</text>
+  <text x="150" y="340" text-anchor="middle" fill="#aaaaaa" font-size="11">広告</text>
+  <text x="150" y="360" text-anchor="middle" fill="#555555" font-size="12">まだ不要</text>
+  <!-- Budget tier 2 -->
+  <rect x="290" y="60" width="220" height="310" rx="10" fill="#1a1a1a" stroke="#c9a84c" stroke-width="2"/>
+  <rect x="290" y="60" width="220" height="50" rx="10" fill="#c9a84c"/>
+  <rect x="290" y="95" width="220" height="15" fill="#c9a84c"/>
+  <text x="400" y="92" text-anchor="middle" fill="#111111" font-size="15" font-weight="bold">30〜100万円</text>
+  <text x="400" y="135" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">▶ SNS+HP並行</text>
+  <text x="400" y="162" text-anchor="middle" fill="#ffffff" font-size="12">・SNS運用代行を活用</text>
+  <text x="400" y="184" text-anchor="middle" fill="#ffffff" font-size="12">・HP本格制作を依頼</text>
+  <text x="400" y="206" text-anchor="middle" fill="#ffffff" font-size="12">・少額広告テスト</text>
+  <line x1="310" y1="225" x2="490" y2="225" stroke="#333" stroke-width="1"/>
+  <text x="400" y="250" text-anchor="middle" fill="#aaaaaa" font-size="11">優先チャネル</text>
+  <text x="400" y="272" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">SNS運用代行</text>
+  <text x="400" y="295" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">HP制作</text>
+  <text x="400" y="320" text-anchor="middle" fill="#aaaaaa" font-size="11">広告</text>
+  <text x="400" y="340" text-anchor="middle" fill="#555555" font-size="12">月1〜3万円でテスト</text>
+  <text x="400" y="360" text-anchor="middle" fill="#555555" font-size="11">両チャネル連携が重要</text>
+  <!-- Budget tier 3 -->
+  <rect x="540" y="60" width="220" height="310" rx="10" fill="#1a1a1a" stroke="#c9a84c" stroke-width="2"/>
+  <rect x="540" y="60" width="220" height="50" rx="10" fill="#c9a84c"/>
+  <rect x="540" y="95" width="220" height="15" fill="#c9a84c"/>
+  <text x="650" y="92" text-anchor="middle" fill="#111111" font-size="15" font-weight="bold">100万円以上</text>
+  <text x="650" y="135" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">▶ 統合運用</text>
+  <text x="650" y="162" text-anchor="middle" fill="#ffffff" font-size="12">・複数SNS並行運用</text>
+  <text x="650" y="184" text-anchor="middle" fill="#ffffff" font-size="12">・SEOコンテンツ制作</text>
+  <text x="650" y="206" text-anchor="middle" fill="#ffffff" font-size="12">・広告+SNS+HP連携</text>
+  <line x1="560" y1="225" x2="740" y2="225" stroke="#333" stroke-width="1"/>
+  <text x="650" y="250" text-anchor="middle" fill="#aaaaaa" font-size="11">優先チャネル</text>
+  <text x="650" y="272" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">全チャネル本格運用</text>
+  <text x="650" y="295" text-anchor="middle" fill="#aaaaaa" font-size="11">動画制作を追加</text>
+  <text x="650" y="315" text-anchor="middle" fill="#555555" font-size="12">三位一体戦略へ</text>
+  <text x="650" y="340" text-anchor="middle" fill="#aaaaaa" font-size="11">広告</text>
+  <text x="650" y="360" text-anchor="middle" fill="#555555" font-size="12">月10万円以上で本格展開</text>
+  <!-- footer -->
+  <text x="400" y="408" text-anchor="middle" fill="#555555" font-size="11">※予算は月額目安。フェーズに応じて配分の見直しを推奨</text>
+</svg>

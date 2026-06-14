@@ -1,0 +1,71 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">月1回撮影モデルでの12ヶ月成長シミュレーション</text>
+
+  <!-- axes -->
+  <line x1="80" y1="60" x2="80" y2="340" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="80" y1="340" x2="760" y2="340" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+
+  <!-- Y axis labels (followers) -->
+  <text x="72" y="344" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">0</text>
+  <text x="72" y="288" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">1,000</text>
+  <text x="72" y="232" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">2,000</text>
+  <text x="72" y="176" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">3,000</text>
+  <text x="72" y="120" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">4,000</text>
+  <text x="72" y="64" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">5,000</text>
+
+  <!-- grid lines -->
+  <line x1="80" y1="288" x2="760" y2="288" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="80" y1="232" x2="760" y2="232" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="80" y1="176" x2="760" y2="176" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="80" y1="120" x2="760" y2="120" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="80" y1="64" x2="760" y2="64" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- X axis months: 0〜12, step=56 -->
+  <!-- x positions: 0→80, 1→136, 2→192, 3→248, 4→304, 5→360, 6→416, 7→472, 8→528, 9→584, 10→640, 11→696, 12→752 -->
+  <!-- followers: 0→0, 1→50, 2→100, 3→200, 4→350, 5→550, 6→800, 7→1100, 8→1500, 9→2000, 10→2800, 11→3500, 12→4200 -->
+  <!-- y = 340 - (followers/5000)*280 -->
+  <!-- 0→340, 50→337.2, 100→334.4, 200→328.8, 350→320.4, 550→309.2, 800→295.2, 1100→278.4, 1500→256, 2000→228, 2800→183.2, 3500→144, 4200→105.6 -->
+
+  <!-- follower growth line -->
+  <polyline points="80,340 136,337 192,334 248,329 304,320 360,309 416,295 472,278 528,256 584,228 640,183 696,144 752,106"
+    fill="none" stroke="#c9a84c" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- area fill under line -->
+  <polygon points="80,340 136,337 192,334 248,329 304,320 360,309 416,295 472,278 528,256 584,228 640,183 696,144 752,106 752,340"
+    fill="rgba(201,168,76,0.08)"/>
+
+  <!-- engagement rate line (roughly flat around 4-5%) -->
+  <!-- y = 340 - (rate/10)*280, rate~4.5% → y=214, with slight variation -->
+  <polyline points="80,214 136,210 192,216 248,208 304,212 360,205 416,210 472,207 528,209 584,205 640,208 696,204 752,206"
+    fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- data point dots -->
+  <circle cx="80" cy="340" r="4" fill="#c9a84c"/>
+  <circle cx="248" cy="329" r="4" fill="#c9a84c"/>
+  <circle cx="416" cy="295" r="4" fill="#c9a84c"/>
+  <circle cx="584" cy="228" r="4" fill="#c9a84c"/>
+  <circle cx="752" cy="106" r="6" fill="#c9a84c"/>
+
+  <!-- callout labels -->
+  <text x="248" y="320" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">3ヶ月:200人</text>
+  <text x="416" y="286" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">6ヶ月:800人</text>
+  <text x="584" y="219" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">9ヶ月:2,000人</text>
+  <text x="752" y="96" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">12ヶ月:4,000人</text>
+
+  <!-- X axis labels -->
+  <text x="80" y="357" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">0</text>
+  <text x="248" y="357" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">3ヶ月</text>
+  <text x="416" y="357" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">6ヶ月</text>
+  <text x="584" y="357" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">9ヶ月</text>
+  <text x="752" y="357" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">12ヶ月</text>
+
+  <!-- Y axis title -->
+  <text x="20" y="200" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12" transform="rotate(-90,20,200)">フォロワー数（人）</text>
+
+  <!-- legend -->
+  <line x1="480" y1="380" x2="510" y2="380" stroke="#c9a84c" stroke-width="2.5"/>
+  <text x="515" y="384" fill="rgba(255,255,255,0.7)" font-size="11">フォロワー数</text>
+  <line x1="620" y1="380" x2="650" y2="380" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="655" y="384" fill="rgba(255,255,255,0.7)" font-size="11">エンゲージメント率（安定）</text>
+</svg>

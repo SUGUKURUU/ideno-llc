@@ -1,0 +1,91 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="30" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">あなたが作るべきサイトタイプ判断フロー</text>
+
+  <!-- START -->
+  <rect x="320" y="44" width="160" height="36" rx="18" fill="rgba(201,168,76,0.3)" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="400" y="67" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">スタート</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="80" x2="400" y2="100" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <polygon points="395,98 405,98 400,106" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Q1: 単一商品・サービスを売りたい？ -->
+  <rect x="270" y="106" width="260" height="40" rx="6" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+  <text x="400" y="122" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">Q1. 単一商品・サービスを</text>
+  <text x="400" y="138" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">集中的に売りたいですか？</text>
+
+  <!-- Yes → LP (右) -->
+  <line x1="530" y1="126" x2="600" y2="126" stroke="#c9a84c" stroke-width="1.5"/>
+  <polygon points="597,121 607,126 597,131" fill="#c9a84c"/>
+  <text x="562" y="120" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">Yes</text>
+  <rect x="607" y="108" width="110" height="36" rx="8" fill="rgba(201,168,76,0.25)" stroke="#c9a84c" stroke-width="2"/>
+  <text x="662" y="122" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">LP を選ぶ</text>
+  <text x="662" y="137" fill="rgba(255,255,255,0.55)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">広告×LP で即CV</text>
+
+  <!-- No → down -->
+  <line x1="400" y1="146" x2="400" y2="168" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <polygon points="395,166 405,166 400,174" fill="rgba(255,255,255,0.4)"/>
+  <text x="415" y="160" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">No</text>
+
+  <!-- Q2: 採用・信頼醸成が目的？ -->
+  <rect x="270" y="174" width="260" height="40" rx="6" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+  <text x="400" y="190" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">Q2. 採用強化・信頼醸成</text>
+  <text x="400" y="206" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">が主な目的ですか？</text>
+
+  <!-- Yes → コーポレート (右) -->
+  <line x1="530" y1="194" x2="600" y2="194" stroke="#4a8fd4" stroke-width="1.5"/>
+  <polygon points="597,189 607,194 597,199" fill="#4a8fd4"/>
+  <text x="562" y="188" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">Yes</text>
+  <rect x="607" y="176" width="110" height="36" rx="8" fill="rgba(74,143,212,0.25)" stroke="#4a8fd4" stroke-width="2"/>
+  <text x="662" y="190" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">コーポレート</text>
+  <text x="662" y="205" fill="rgba(255,255,255,0.55)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">採用・BtoB商談向け</text>
+
+  <!-- No → down -->
+  <line x1="400" y1="214" x2="400" y2="236" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <polygon points="395,234 405,234 400,242" fill="rgba(255,255,255,0.4)"/>
+  <text x="415" y="228" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">No</text>
+
+  <!-- Q3: SEO長期投資したい？ -->
+  <rect x="270" y="242" width="260" height="40" rx="6" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+  <text x="400" y="258" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">Q3. SEOで長期的に</text>
+  <text x="400" y="274" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">オーガニック流入を増やしたい？</text>
+
+  <!-- Yes → コーポレート (右) -->
+  <line x1="530" y1="262" x2="600" y2="262" stroke="#4a8fd4" stroke-width="1.5"/>
+  <polygon points="597,257 607,262 597,267" fill="#4a8fd4"/>
+  <text x="562" y="256" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">Yes</text>
+  <rect x="607" y="244" width="110" height="36" rx="8" fill="rgba(74,143,212,0.25)" stroke="#4a8fd4" stroke-width="2"/>
+  <text x="662" y="258" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">コーポレート</text>
+  <text x="662" y="273" fill="rgba(255,255,255,0.55)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">ブログ×SEOで長期資産</text>
+
+  <!-- No → down -->
+  <line x1="400" y1="282" x2="400" y2="304" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <polygon points="395,302 405,302 400,310" fill="rgba(255,255,255,0.4)"/>
+  <text x="415" y="296" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">No</text>
+
+  <!-- Q4: 広告ランディングが目的？ -->
+  <rect x="270" y="310" width="260" height="40" rx="6" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+  <text x="400" y="326" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">Q4. 広告のランディング先</text>
+  <text x="400" y="342" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" text-anchor="middle">として使いたいですか？</text>
+
+  <!-- Yes → LP (右) -->
+  <line x1="530" y1="330" x2="600" y2="330" stroke="#c9a84c" stroke-width="1.5"/>
+  <polygon points="597,325 607,330 597,335" fill="#c9a84c"/>
+  <text x="562" y="324" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">Yes</text>
+  <rect x="607" y="312" width="110" height="36" rx="8" fill="rgba(201,168,76,0.25)" stroke="#c9a84c" stroke-width="2"/>
+  <text x="662" y="326" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">LP を選ぶ</text>
+  <text x="662" y="341" fill="rgba(255,255,255,0.55)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">CVR最大化に集中</text>
+
+  <!-- No → 両方 (下) -->
+  <line x1="400" y1="350" x2="400" y2="372" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <polygon points="395,370 405,370 400,378" fill="rgba(255,255,255,0.4)"/>
+  <text x="415" y="364" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">No</text>
+  <rect x="270" y="378" width="260" height="36" rx="8" fill="rgba(74,222,128,0.15)" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="400" y="392" fill="#4ade80" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">コーポレート＋LP 両方</text>
+  <text x="400" y="407" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">段階的に整備するのがベスト</text>
+
+  <!-- Left Y-line connecting Q boxes -->
+  <line x1="270" y1="126" x2="200" y2="126" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="80" y="130" fill="rgba(255,255,255,0.25)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" text-anchor="middle">判断フロー</text>
+</svg>

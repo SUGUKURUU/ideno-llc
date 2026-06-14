@@ -1,0 +1,88 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">業種・目的別：最適なプラットフォーム</text>
+
+  <!-- Row 1: Food & Beverage -->
+  <g>
+    <rect x="30" y="50" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="72" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">飲食店</text>
+    <text x="150" y="88" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（認知・集客）</text>
+    <rect x="50" y="98" width="180" height="30" rx="5" fill="rgba(236,72,153,0.2)" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="140" y="118" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Instagram 推奨</text>
+    <text x="150" y="138" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">料理の見た目が重要</text>
+  </g>
+
+  <g>
+    <rect x="290" y="50" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="72" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">美容・ファッション</text>
+    <text x="410" y="88" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（EC・認知）</text>
+    <rect x="310" y="98" width="180" height="30" rx="5" fill="rgba(236,72,153,0.2)" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="400" y="118" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Instagram 推奨</text>
+    <text x="410" y="138" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">購買意欲の高いユーザー</text>
+  </g>
+
+  <g>
+    <rect x="550" y="50" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="72" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">採用強化</text>
+    <text x="670" y="88" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（新卒向け）</text>
+    <rect x="570" y="98" width="180" height="30" rx="5" fill="rgba(34,197,94,0.2)" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="660" y="118" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">TikTok 推奨</text>
+    <text x="670" y="138" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">10〜20代へのリーチ</text>
+  </g>
+
+  <!-- Row 2: Recruitment mid-career -->
+  <g>
+    <rect x="30" y="155" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="177" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">採用強化</text>
+    <text x="150" y="193" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（転職・中途層）</text>
+    <rect x="50" y="203" width="180" height="30" rx="5" fill="rgba(236,72,153,0.2)" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="140" y="223" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Instagram 推奨</text>
+    <text x="150" y="243" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">25〜40代の転職検討層</text>
+  </g>
+
+  <g>
+    <rect x="290" y="155" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="177" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">専門サービス</text>
+    <text x="410" y="193" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（士業・コンサル）</text>
+    <rect x="310" y="203" width="180" height="30" rx="5" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="400" y="223" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">YouTube 推奨</text>
+    <text x="410" y="243" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">解説系コンテンツが資産化</text>
+  </g>
+
+  <g>
+    <rect x="550" y="155" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="177" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">製造業・B2B</text>
+    <text x="670" y="193" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（認知・採用）</text>
+    <rect x="570" y="203" width="180" height="30" rx="5" fill="rgba(59,130,246,0.2)" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="660" y="223" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">YouTube+Instagram</text>
+    <text x="670" y="243" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">技術力と企業文化を発信</text>
+  </g>
+
+  <!-- Row 3: E-commerce & Startups -->
+  <g>
+    <rect x="30" y="260" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="282" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">スタートアップ</text>
+    <text x="150" y="298" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（認知拡大）</text>
+    <rect x="50" y="308" width="180" height="30" rx="5" fill="rgba(34,197,94,0.2)" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="140" y="328" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">TikTok 推奨</text>
+    <text x="150" y="348" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">バズのポテンシャルが高い</text>
+  </g>
+
+  <g>
+    <rect x="290" y="260" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="282" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">BtoB 営業・広報</text>
+    <text x="410" y="298" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（信頼構築）</text>
+    <rect x="310" y="308" width="180" height="30" rx="5" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="400" y="328" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Instagram＋YouTube</text>
+    <text x="410" y="348" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">社長顔出し・ノウハウ発信</text>
+  </g>
+
+  <g>
+    <rect x="550" y="260" width="240" height="85" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="282" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">教育・オンライン</text>
+    <text x="670" y="298" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">スクール</text>
+    <rect x="570" y="308" width="180" height="30" rx="5" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="660" y="328" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">YouTube 推奨</text>
+    <text x="670" y="348" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">長尺で信頼性・専門性構築</text>
+  </g>
+</svg>

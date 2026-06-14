@@ -1,0 +1,66 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">各形式の最適配信戦略</text>
+
+  <!-- Left: インタビュー -->
+  <rect x="40" y="56" width="340" height="38" rx="6" fill="#c9a84c"/>
+  <text x="210" y="80" fill="#111111" font-size="14" font-weight="bold" text-anchor="middle">インタビュー動画の配信戦略</text>
+
+  <!-- Channel items -->
+  <rect x="40" y="104" width="340" height="50" rx="4" fill="#1e1e1e"/>
+  <rect x="52" y="114" width="28" height="28" rx="14" fill="#c9a84c" opacity="0.8"/>
+  <text x="66" y="133" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">01</text>
+  <text x="92" y="129" fill="#ffffff" font-size="13">採用サイト・コーポレートサイト</text>
+  <text x="92" y="145" fill="rgba(255,255,255,0.5)" font-size="11">訪問者の理解促進・信頼構築</text>
+
+  <rect x="40" y="164" width="340" height="50" rx="4" fill="#1a1a1a"/>
+  <rect x="52" y="174" width="28" height="28" rx="14" fill="#c9a84c" opacity="0.7"/>
+  <text x="66" y="193" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">02</text>
+  <text x="92" y="189" fill="#ffffff" font-size="13">YouTube 公式チャンネル</text>
+  <text x="92" y="205" fill="rgba(255,255,255,0.5)" font-size="11">SEO・長期的な検索流入</text>
+
+  <rect x="40" y="224" width="340" height="50" rx="4" fill="#1e1e1e"/>
+  <rect x="52" y="234" width="28" height="28" rx="14" fill="#c9a84c" opacity="0.6"/>
+  <text x="66" y="253" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">03</text>
+  <text x="92" y="249" fill="#ffffff" font-size="13">スライドショー・資料に転用</text>
+  <text x="92" y="265" fill="rgba(255,255,255,0.5)" font-size="11">投資家・取引先向け説明資料へ</text>
+
+  <rect x="40" y="284" width="340" height="50" rx="4" fill="#1a1a1a"/>
+  <rect x="52" y="294" width="28" height="28" rx="14" fill="#c9a84c" opacity="0.5"/>
+  <text x="66" y="313" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">04</text>
+  <text x="92" y="309" fill="#ffffff" font-size="13">商談前メール添付</text>
+  <text x="92" y="325" fill="rgba(255,255,255,0.5)" font-size="11">初回面談前の事前理解を促進</text>
+
+  <!-- Right: 密着 -->
+  <rect x="420" y="56" width="340" height="38" rx="6" fill="rgba(255,255,255,0.82)"/>
+  <text x="590" y="80" fill="#111111" font-size="14" font-weight="bold" text-anchor="middle">密着ドキュメンタリーの配信戦略</text>
+
+  <rect x="420" y="104" width="340" height="50" rx="4" fill="#1e1e1e"/>
+  <rect x="432" y="114" width="28" height="28" rx="14" fill="rgba(255,255,255,0.7)"/>
+  <text x="446" y="133" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">01</text>
+  <text x="472" y="129" fill="#ffffff" font-size="13">SNS縦型クリップ（リール/TikTok）</text>
+  <text x="472" y="145" fill="rgba(255,255,255,0.5)" font-size="11">1〜2分のハイライトで認知獲得</text>
+
+  <rect x="420" y="164" width="340" height="50" rx="4" fill="#1a1a1a"/>
+  <rect x="432" y="174" width="28" height="28" rx="14" fill="rgba(255,255,255,0.6)"/>
+  <text x="446" y="193" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">02</text>
+  <text x="472" y="189" fill="#ffffff" font-size="13">YouTube フル版（10〜20分）</text>
+  <text x="472" y="205" fill="rgba(255,255,255,0.5)" font-size="11">深いファン化・チャンネル登録促進</text>
+
+  <rect x="420" y="224" width="340" height="50" rx="4" fill="#1e1e1e"/>
+  <rect x="432" y="234" width="28" height="28" rx="14" fill="rgba(255,255,255,0.5)"/>
+  <text x="446" y="253" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">03</text>
+  <text x="472" y="249" fill="#ffffff" font-size="13">採用ページ埋め込み</text>
+  <text x="472" y="265" fill="rgba(255,255,255,0.5)" font-size="11">応募直前の意思決定を後押し</text>
+
+  <rect x="420" y="284" width="340" height="50" rx="4" fill="#1a1a1a"/>
+  <rect x="432" y="294" width="28" height="28" rx="14" fill="rgba(255,255,255,0.4)"/>
+  <text x="446" y="313" fill="#111111" font-size="11" font-weight="bold" text-anchor="middle">04</text>
+  <text x="472" y="309" fill="#ffffff" font-size="13">会社説明会・面接前配布</text>
+  <text x="472" y="325" fill="rgba(255,255,255,0.5)" font-size="11">事前にリアルな社風を体験させる</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="56" x2="400" y2="344" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="5,4"/>
+
+  <text x="400" y="390" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle">どちらも「単体公開」より複数チャネルへの展開で効果が最大化する</text>
+</svg>

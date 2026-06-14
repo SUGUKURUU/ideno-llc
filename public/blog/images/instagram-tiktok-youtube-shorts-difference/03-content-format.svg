@@ -1,0 +1,94 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">コンテンツの最適フォーマット比較</text>
+
+  <!-- Instagram -->
+  <g>
+    <rect x="30" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Instagram Reels</text>
+
+    <!-- Duration -->
+    <rect x="50" y="95" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">推奨時間</text>
+    <text x="70" y="133" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">15〜60秒</text>
+
+    <!-- Format -->
+    <rect x="50" y="155" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="175" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">アスペクト比</text>
+    <text x="70" y="193" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">9:16 推奨</text>
+
+    <!-- Key Points -->
+    <text x="70" y="225" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">重要ポイント</text>
+    <text x="70" y="243" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ビジュアルクオリティ</text>
+    <text x="70" y="256" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ トレンド音楽・エフェクト</text>
+    <text x="70" y="269" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ キャプション（テキスト）</text>
+    <text x="70" y="282" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 編集の丁寧さ</text>
+
+    <!-- Edit quality -->
+    <rect x="50" y="305" width="200" height="80" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="70" y="323" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">編集基準</text>
+    <text x="70" y="340" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">高品質な映像・音声</text>
+    <text x="70" y="353" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">洗練されたエフェクト</text>
+    <text x="70" y="366" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">カラーグレーディング</text>
+  </g>
+
+  <!-- TikTok -->
+  <g>
+    <rect x="290" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">TikTok</text>
+
+    <!-- Duration -->
+    <rect x="310" y="95" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">推奨時間</text>
+    <text x="330" y="133" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">15〜60秒</text>
+
+    <!-- Format -->
+    <rect x="310" y="155" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="175" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">アスペクト比</text>
+    <text x="330" y="193" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">9:16 必須</text>
+
+    <!-- Key Points -->
+    <text x="330" y="225" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">重要ポイント</text>
+    <text x="330" y="243" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 最初の1秒フック</text>
+    <text x="330" y="256" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ トレンド音源・チャレンジ</text>
+    <text x="330" y="269" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ リアルさ・粗削り感</text>
+    <text x="330" y="282" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ エンタメ性重視</text>
+
+    <!-- Edit quality -->
+    <rect x="310" y="305" width="200" height="80" rx="5" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="330" y="323" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">編集基準</text>
+    <text x="330" y="340" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">テンポ感・リズム重視</text>
+    <text x="330" y="353" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">シンプルエフェクト</text>
+    <text x="330" y="366" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">速度・カット感が重要</text>
+  </g>
+
+  <!-- YouTube Shorts -->
+  <g>
+    <rect x="550" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">YouTube Shorts</text>
+
+    <!-- Duration -->
+    <rect x="570" y="95" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">推奨時間</text>
+    <text x="590" y="133" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">30〜60秒</text>
+
+    <!-- Format -->
+    <rect x="570" y="155" width="200" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="175" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">アスペクト比</text>
+    <text x="590" y="193" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">9:16 推奨</text>
+
+    <!-- Key Points -->
+    <text x="590" y="225" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">重要ポイント</text>
+    <text x="590" y="243" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ SEO対策（タイトル）</text>
+    <text x="590" y="256" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ キーワード設定</text>
+    <text x="590" y="269" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 冒頭が最重要</text>
+    <text x="590" y="282" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 長尺への導線</text>
+
+    <!-- Edit quality -->
+    <rect x="570" y="305" width="200" height="80" rx="5" fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.2)" stroke-width="1"/>
+    <text x="590" y="323" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">編集基準</text>
+    <text x="590" y="340" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">情報密度・わかりやすさ</text>
+    <text x="590" y="353" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">テロップ・図解活用</text>
+    <text x="590" y="366" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">専門性・信頼性重視</text>
+  </g>
+</svg>

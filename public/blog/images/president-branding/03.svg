@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">継続のための仕組み：3つの工夫</text>
+
+  <rect x="80" y="90" width="300" height="290" fill="none" stroke="#c9a84c" stroke-width="2" rx="3"/>
+  <text x="230" y="120" font-size="11" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1. 投稿頻度ルール化</text>
+  <text x="100" y="160" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">週2-3回など守れる頻度を先に決める</text>
+  <text x="100" y="190" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">多すぎると続かないので無理のない範囲から</text>
+
+  <rect x="420" y="90" width="300" height="290" fill="none" stroke="#8b7355" stroke-width="2" rx="3"/>
+  <text x="570" y="120" font-size="11" font-weight="bold" text-anchor="middle" fill="#8b7355" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">2. ストックシステム</text>
+  <text x="440" y="160" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">思いついたネタをメモアプリに記録</text>
+  <text x="440" y="190" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">10本以上のストックができたら投稿開始</text>
+
+  <rect x="250" y="220" width="300" height="160" fill="none" stroke="#555555" stroke-width="2" rx="3"/>
+  <text x="400" y="250" font-size="11" font-weight="bold" text-anchor="middle" fill="#555555" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3. 外注・代行の活用</text>
+  <text x="270" y="290" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「話すこと」を提供し、形にする作業は外注</text>
+  <text x="270" y="310" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS運用代行で多忙でも継続が可能</text>
+</svg>

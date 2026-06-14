@@ -1,0 +1,69 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="30" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">採用 vs 外注：メリット・デメリット比較</text>
+
+  <!-- 左列: 採用 -->
+  <rect x="40" y="50" width="340" height="44" fill="#2a1010" stroke="#f87171" stroke-width="1.5" rx="6"/>
+  <text x="210" y="77" fill="#f87171" font-size="15" font-weight="bold" text-anchor="middle">採用（正社員）</text>
+
+  <!-- 採用メリット -->
+  <text x="55" y="115" fill="rgba(255,255,255,0.5)" font-size="11">メリット</text>
+  <line x1="55" y1="120" x2="370" y2="120" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="55" y="142" fill="#4ade80" font-size="14">✓</text>
+  <text x="74" y="142" fill="#ffffff" font-size="13">社内情報にリアルタイムアクセス</text>
+  <text x="55" y="165" fill="#4ade80" font-size="14">✓</text>
+  <text x="74" y="165" fill="#ffffff" font-size="13">会社文化の深い理解</text>
+  <text x="55" y="188" fill="#4ade80" font-size="14">✓</text>
+  <text x="74" y="188" fill="#ffffff" font-size="13">突発的イベントの即時対応</text>
+
+  <!-- 採用デメリット -->
+  <text x="55" y="218" fill="rgba(255,255,255,0.5)" font-size="11">デメリット</text>
+  <line x1="55" y1="223" x2="370" y2="223" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="55" y="245" fill="#f87171" font-size="14">✗</text>
+  <text x="74" y="245" fill="rgba(255,255,255,0.8)" font-size="13">月35〜60万円の高コスト</text>
+  <text x="55" y="268" fill="#f87171" font-size="14">✗</text>
+  <text x="74" y="268" fill="rgba(255,255,255,0.8)" font-size="13">採用〜習熟まで6ヶ月〜1年</text>
+  <text x="55" y="291" fill="#f87171" font-size="14">✗</text>
+  <text x="74" y="291" fill="rgba(255,255,255,0.8)" font-size="13">担当離職でノウハウ消失</text>
+  <text x="55" y="314" fill="#f87171" font-size="14">✗</text>
+  <text x="74" y="314" fill="rgba(255,255,255,0.8)" font-size="13">一人でスキル全域をカバー困難</text>
+
+  <!-- 採用総評 -->
+  <rect x="55" y="333" width="310" height="60" fill="#1e1010" rx="6"/>
+  <text x="210" y="356" fill="#f87171" font-size="12" text-anchor="middle">総合評価</text>
+  <text x="210" y="375" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">規模拡大後・SNS主力フェーズに適合</text>
+  <text x="210" y="390" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">初期投資リスクが高い</text>
+
+  <!-- 右列: 外注 -->
+  <rect x="420" y="50" width="340" height="44" fill="#0e1a0e" stroke="#c9a84c" stroke-width="1.5" rx="6"/>
+  <text x="590" y="77" fill="#c9a84c" font-size="15" font-weight="bold" text-anchor="middle">外注（運用代行）推奨</text>
+
+  <!-- 外注メリット -->
+  <text x="435" y="115" fill="rgba(255,255,255,0.5)" font-size="11">メリット</text>
+  <line x1="435" y1="120" x2="750" y2="120" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="435" y="142" fill="#c9a84c" font-size="14">✓</text>
+  <text x="454" y="142" fill="#ffffff" font-size="13">月3〜15万円の低コスト</text>
+  <text x="435" y="165" fill="#c9a84c" font-size="14">✓</text>
+  <text x="454" y="165" fill="#ffffff" font-size="13">2〜3週間で即戦力稼働</text>
+  <text x="435" y="188" fill="#c9a84c" font-size="14">✓</text>
+  <text x="454" y="188" fill="#ffffff" font-size="13">チームで複合スキルをカバー</text>
+  <text x="435" y="211" fill="#c9a84c" font-size="14">✓</text>
+  <text x="454" y="211" fill="#ffffff" font-size="13">担当交代でも品質が維持される</text>
+
+  <!-- 外注デメリット -->
+  <text x="435" y="241" fill="rgba(255,255,255,0.5)" font-size="11">デメリット</text>
+  <line x1="435" y1="246" x2="750" y2="246" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="435" y="268" fill="#f87171" font-size="14">△</text>
+  <text x="454" y="268" fill="rgba(255,255,255,0.8)" font-size="13">社内ノウハウ蓄積に時間がかかる</text>
+  <text x="435" y="291" fill="#f87171" font-size="14">△</text>
+  <text x="454" y="291" fill="rgba(255,255,255,0.8)" font-size="13">リアルタイム素材は自社提供が必要</text>
+
+  <!-- 外注総評 -->
+  <rect x="435" y="333" width="310" height="60" fill="#0e1a0a" rx="6"/>
+  <text x="590" y="356" fill="#c9a84c" font-size="12" text-anchor="middle">総合評価</text>
+  <text x="590" y="375" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">年商5億以下・社員50名以下の企業に最適</text>
+  <text x="590" y="390" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">低リスクで本格SNS運用を開始できる</text>
+
+  <!-- 中央区切り -->
+  <line x1="400" y1="50" x2="400" y2="400" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</svg>

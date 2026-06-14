@@ -1,0 +1,68 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">ネタ切れの失敗パターンと対策</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">よくある間違いから学ぶ</text>
+
+  <!-- 失敗パターン1 -->
+  <g>
+    <rect x="50" y="75" width="320" height="120" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="210" y="95" class="gold" text-anchor="middle" font-size="12" font-weight="bold">失敗1：バズネタを追いかける</text>
+    <text x="210" y="115" class="text-white" text-anchor="middle" font-size="10">流行のトレンドばかり投稿</text>
+    <text x="210" y="135" class="text-white" text-anchor="middle" font-size="10">→「何の専門家か」がわからない</text>
+    <text x="210" y="155" class="text-white" text-anchor="middle" font-size="10">→フォロワーが増えても</text>
+    <text x="210" y="170" class="text-white" text-anchor="middle" font-size="10">サービス興味に繋がらない</text>
+    <text x="210" y="185" class="gold" text-anchor="middle" font-size="11" font-weight="bold">✓ 対策：自社の専門領域と</text>
+    <text x="210" y="200" class="gold" text-anchor="middle" font-size="11" font-weight="bold">絡めてトレンドを活用</text>
+  </g>
+
+  <!-- 失敗パターン2 -->
+  <g>
+    <rect x="430" y="75" width="320" height="120" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="590" y="95" class="gold" text-anchor="middle" font-size="12" font-weight="bold">失敗2：毎回「新しいネタ」に執着</text>
+    <text x="590" y="115" class="text-white" text-anchor="middle" font-size="10">過去投稿の再利用は恥ずかしい</text>
+    <text x="590" y="135" class="text-white" text-anchor="middle" font-size="10">→常に新規制作で消耗</text>
+    <text x="590" y="155" class="text-white" text-anchor="middle" font-size="10">→3ヶ月で燃え尽きる</text>
+    <text x="590" y="170" class="text-white" text-anchor="middle" font-size="10"></text>
+    <text x="590" y="185" class="gold" text-anchor="middle" font-size="11" font-weight="bold">✓ 対策：人気投稿は定期的に</text>
+    <text x="590" y="200" class="gold" text-anchor="middle" font-size="11" font-weight="bold">切り口変えて再掲載OK</text>
+  </g>
+
+  <!-- 失敗パターン3 -->
+  <g>
+    <rect x="50" y="210" width="320" height="120" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="210" y="230" class="gold" text-anchor="middle" font-size="12" font-weight="bold">失敗3：品質にこだわりすぎ</text>
+    <text x="210" y="250" class="text-white" text-anchor="middle" font-size="10">「もっといい写真から」</text>
+    <text x="210" y="270" class="text-white" text-anchor="middle" font-size="10">「編集スキルが上がったら」</text>
+    <text x="210" y="290" class="text-white" text-anchor="middle" font-size="10">→投稿が先延ばしに</text>
+    <text x="210" y="310" class="text-white" text-anchor="middle" font-size="10">→習慣が途切れる</text>
+    <text x="210" y="330" class="gold" text-anchor="middle" font-size="11" font-weight="bold">✓ 対策：「完璧」より「継続」</text>
+  </g>
+
+  <!-- 失敗パターン4 -->
+  <g>
+    <rect x="430" y="210" width="320" height="120" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="590" y="230" class="gold" text-anchor="middle" font-size="12" font-weight="bold">失敗4：設計なしのアドホック運用</text>
+    <text x="590" y="250" class="text-white" text-anchor="middle" font-size="10">思いついたものを投稿するだけ</text>
+    <text x="590" y="270" class="text-white" text-anchor="middle" font-size="10">→毎週「何を投稿しよう」</text>
+    <text x="590" y="290" class="text-white" text-anchor="middle" font-size="10">という消耗戦</text>
+    <text x="590" y="310" class="text-white" text-anchor="middle" font-size="10"></text>
+    <text x="590" y="330" class="gold" text-anchor="middle" font-size="11" font-weight="bold">✓ 対策：テーマ軸を先に設計</text>
+  </g>
+
+  <!-- まとめ -->
+  <rect x="60" y="350" width="680" height="50" fill="#c9a84c" opacity="0.15" rx="5"/>
+  <text x="400" y="370" class="gold" text-anchor="middle" font-size="13" font-weight="bold">ネタ切れ解決の本質：仕組みづくり</text>
+  <text x="400" y="390" class="text-white" text-anchor="middle" font-size="11">「ネタがない」ではなく「ネタの見つけ方を知らない」だけ</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">業種別おすすめ優先順位ランキング</text>
+  <!-- Column headers -->
+  <rect x="40" y="55" width="200" height="36" rx="4" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1"/>
+  <text x="140" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">業種</text>
+  <rect x="248" y="55" width="160" height="36" rx="4" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1"/>
+  <text x="328" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">第1優先</text>
+  <rect x="416" y="55" width="160" height="36" rx="4" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1"/>
+  <text x="496" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">第2優先</text>
+  <rect x="584" y="55" width="176" height="36" rx="4" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1"/>
+  <text x="672" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">理由</text>
+  <!-- Row 1 -->
+  <rect x="40" y="99" width="200" height="48" rx="4" fill="#1a2a1a" stroke="#333" stroke-width="1"/>
+  <text x="140" y="128" text-anchor="middle" fill="#ffffff" font-size="13">B2C（飲食・美容・小売）</text>
+  <rect x="248" y="99" width="160" height="48" rx="4" fill="#1a2a1a" stroke="#333" stroke-width="1"/>
+  <text x="328" y="128" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">SNS</text>
+  <rect x="416" y="99" width="160" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="496" y="128" text-anchor="middle" fill="#aaaaaa" font-size="13">HP</text>
+  <rect x="584" y="99" width="176" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="672" y="123" text-anchor="middle" fill="#aaaaaa" font-size="11">ビジュアル拡散で</text>
+  <text x="672" y="140" text-anchor="middle" fill="#aaaaaa" font-size="11">認知獲得が最速</text>
+  <!-- Row 2 -->
+  <rect x="40" y="155" width="200" height="48" rx="4" fill="#1a1a2a" stroke="#333" stroke-width="1"/>
+  <text x="140" y="184" text-anchor="middle" fill="#ffffff" font-size="13">BtoB（IT・コンサル）</text>
+  <rect x="248" y="155" width="160" height="48" rx="4" fill="#1a1a2a" stroke="#333" stroke-width="1"/>
+  <text x="328" y="184" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">HP</text>
+  <rect x="416" y="155" width="160" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="496" y="184" text-anchor="middle" fill="#aaaaaa" font-size="13">LinkedIn/X</text>
+  <rect x="584" y="155" width="176" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="672" y="179" text-anchor="middle" fill="#aaaaaa" font-size="11">商談前の信頼確認に</text>
+  <text x="672" y="196" text-anchor="middle" fill="#aaaaaa" font-size="11">HPが必須</text>
+  <!-- Row 3 -->
+  <rect x="40" y="211" width="200" height="48" rx="4" fill="#2a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="140" y="240" text-anchor="middle" fill="#ffffff" font-size="13">士業（税理士・弁護士）</text>
+  <rect x="248" y="211" width="160" height="48" rx="4" fill="#2a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="328" y="240" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">HP</text>
+  <rect x="416" y="211" width="160" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="496" y="240" text-anchor="middle" fill="#aaaaaa" font-size="13">note/X</text>
+  <rect x="584" y="211" width="176" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="672" y="235" text-anchor="middle" fill="#aaaaaa" font-size="11">専門性・実績を</text>
+  <text x="672" y="252" text-anchor="middle" fill="#aaaaaa" font-size="11">体系的に示す必要あり</text>
+  <!-- Row 4 -->
+  <rect x="40" y="267" width="200" height="48" rx="4" fill="#1a2a2a" stroke="#333" stroke-width="1"/>
+  <text x="140" y="296" text-anchor="middle" fill="#ffffff" font-size="13">スタートアップ（採用重視）</text>
+  <rect x="248" y="267" width="160" height="48" rx="4" fill="#1a2a2a" stroke="#333" stroke-width="1"/>
+  <text x="328" y="296" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">SNS+HP並行</text>
+  <rect x="416" y="267" width="160" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="496" y="296" text-anchor="middle" fill="#aaaaaa" font-size="13">動画</text>
+  <rect x="584" y="267" width="176" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="672" y="291" text-anchor="middle" fill="#aaaaaa" font-size="11">求職者はSNS・HP</text>
+  <text x="672" y="308" text-anchor="middle" fill="#aaaaaa" font-size="11">両方を確認する</text>
+  <!-- Row 5 -->
+  <rect x="40" y="323" width="200" height="48" rx="4" fill="#2a2a1a" stroke="#333" stroke-width="1"/>
+  <text x="140" y="352" text-anchor="middle" fill="#ffffff" font-size="13">製造業・地方中小企業</text>
+  <rect x="248" y="323" width="160" height="48" rx="4" fill="#2a2a1a" stroke="#333" stroke-width="1"/>
+  <text x="328" y="352" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">HP</text>
+  <rect x="416" y="323" width="160" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="496" y="352" text-anchor="middle" fill="#aaaaaa" font-size="13">Instagram</text>
+  <rect x="584" y="323" width="176" height="48" rx="4" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="672" y="347" text-anchor="middle" fill="#aaaaaa" font-size="11">取引先・求職者への</text>
+  <text x="672" y="364" text-anchor="middle" fill="#aaaaaa" font-size="11">信頼提示が優先</text>
+  <!-- footer -->
+  <text x="400" y="408" text-anchor="middle" fill="#555555" font-size="11">※業種・目的・予算によって最適解は異なります</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.tw{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.tg{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.t{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="t" text-anchor="middle">最初の10万円をどこに使うべきか</text>
+  <text x="400" y="55" class="tg" text-anchor="middle">スタートアップ・中小企業の最適配分</text>
+
+  <g>
+    <rect x="80" y="90" width="300" height="100" fill="#c9a84c" opacity="0.15" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="230" y="115" class="gold" text-anchor="middle" font-size="12" font-weight="bold">推奨配分</text>
+    <text x="230" y="140" class="tw" text-anchor="middle" font-size="11">SNS運用代行：7万円</text>
+    <text x="230" y="160" class="tw" text-anchor="middle" font-size="11">HP最小限整備：3万円</text>
+    <text x="230" y="180" class="tw" text-anchor="middle" font-size="11">広告費：0円</text>
+  </g>
+
+  <g>
+    <rect x="420" y="90" width="300" height="100" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="2" stroke-dasharray="5,5" rx="5"/>
+    <text x="570" y="115" class="gold" text-anchor="middle" font-size="12" font-weight="bold">❌ 推奨しない配分</text>
+    <text x="570" y="140" class="tw" text-anchor="middle" font-size="11">広告費：10万円</text>
+    <text x="570" y="160" class="tw" text-anchor="middle" font-size="11">（着地先整備なし）</text>
+    <text x="570" y="180" class="tw" text-anchor="middle" font-size="11">→ 大きな無駄</text>
+  </g>
+
+  <!-- メリット -->
+  <rect x="60" y="230" width="680" height="170" fill="#c9a84c" opacity="0.1" rx="5"/>
+  <text x="400" y="260" class="gold" text-anchor="middle" font-size="13" font-weight="bold">SNS運用代行に7万円を投じる理由</text>
+
+  <g>
+    <circle cx="130" cy="310" r="25" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="130" y="315" class="tw" text-anchor="middle" font-size="16">✓</text>
+  </g>
+  <text x="180" y="310" class="tw" font-size="11">品質・クオリティが保証される</text>
+
+  <g>
+    <circle cx="130" cy="345" r="25" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="130" y="350" class="tw" text-anchor="middle" font-size="16">✓</text>
+  </g>
+  <text x="180" y="345" class="tw" font-size="11">継続性が確保される</text>
+
+  <g>
+    <circle cx="450" cy="310" r="25" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="450" y="315" class="tw" text-anchor="middle" font-size="16">✓</text>
+  </g>
+  <text x="500" y="310" class="tw" font-size="11">6ヶ月で問い合わせ10倍の事例</text>
+
+  <g>
+    <circle cx="450" cy="345" r="25" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="450" y="350" class="tw" text-anchor="middle" font-size="16">✓</text>
+  </g>
+  <text x="500" y="345" class="tw" font-size="11">ROI（費用対効果）が最高</text>
+</svg>

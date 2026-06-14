@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">企業YouTube：失敗パターン vs 成功パターン</text>
+
+  <!-- 失敗パターン -->
+  <g>
+    <rect x="80" y="80" width="280" height="240" fill="#333333" stroke="#555555" stroke-width="2" rx="5"/>
+    <text x="220" y="110" font-size="14" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗パターン</text>
+
+    <text x="100" y="145" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">✗ 最初だけ気合を入れる</text>
+    <text x="100" y="165" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">✗ 再生数最大化を目標に</text>
+    <text x="100" y="185" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">✗ コメント返信を放置</text>
+    <text x="100" y="205" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">✗ 動画の「出口」なし</text>
+    <text x="100" y="225" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">✗ SNS・HP連携なし</text>
+    <text x="100" y="245" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">✗ メッセージが曖昧</text>
+
+    <text x="220" y="295" font-size="12" font-weight="bold" text-anchor="middle" fill="#888888" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">再生数一桁〜二桁で終わる</text>
+  </g>
+
+  <!-- 成功パターン -->
+  <g>
+    <rect x="440" y="80" width="280" height="240" fill="#222222" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="580" y="110" font-size="14" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">成功パターン</text>
+
+    <text x="460" y="145" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">○ 月2本、6ヶ月継続</text>
+    <text x="460" y="165" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">○ KPI：問い合わせ数</text>
+    <text x="460" y="185" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">○ 全コメント48時間返信</text>
+    <text x="460" y="205" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">○ 終了画面で次のアクション</text>
+    <text x="460" y="225" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">○ SNS・HP・採用と連動</text>
+    <text x="460" y="245" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">○ ニッチな強みを映像化</text>
+
+    <text x="580" y="295" font-size="12" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">月数件の問い合わせ獲得</text>
+  </g>
+
+  <text x="400" y="405" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">継続と戦略が、YouTube運用の成否を大きく分ける</text>
+</svg>

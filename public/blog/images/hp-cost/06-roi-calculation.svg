@@ -1,0 +1,48 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">ホームページ制作費用のROI試算</text>
+
+  <!-- Scenario 1 -->
+  <text x="50" y="80" fill="#c9a84c" font-size="12" font-weight="bold">事例1：BtoB（営業代理）企業</text>
+
+  <rect x="30" y="95" width="330" height="230" rx="6" fill="#4a9eff" opacity="0.08"/>
+
+  <text x="50" y="120" fill="#ffffff" font-size="10" font-weight="bold">投資</text>
+  <text x="50" y="138" fill="#c9a84c" font-size="10">・制作費用：100万円</text>
+  <text x="50" y="153" fill="#c9a84c" font-size="10">・月額保守：2万円×12ヶ月</text>
+  <text x="50" y="168" fill="#c9a84c" font-size="10">・初年度合計：124万円</text>
+
+  <text x="50" y="200" fill="#ffffff" font-size="10" font-weight="bold">効果（12ヶ月後）</text>
+  <text x="50" y="218" fill="#c9a84c" font-size="10">・月の問い合わせ：8件（従来:2件）</text>
+  <text x="50" y="233" fill="#c9a84c" font-size="10">・成約率：40%（営業がフォロー）</text>
+  <text x="50" y="248" fill="#c9a84c" font-size="10">・月の新規売上：約120万円増加</text>
+  <text x="50" y="263" fill="#c9a84c" font-size="10">・年間売上増加：1,440万円</text>
+
+  <text x="50" y="295" fill="#50c878" font-size="11" font-weight="bold">✓ ROI: 11.6倍（初年度）</text>
+  <text x="50" y="313" fill="#aaaaaa" font-size="9">1,440万円 ÷ 124万円 = 11.6</text>
+
+  <!-- Scenario 2 -->
+  <text x="450" y="80" fill="#c9a84c" font-size="12" font-weight="bold">事例2：採用強化（中小製造業）</text>
+
+  <rect x="430" y="95" width="330" height="230" rx="6" fill="#50c878" opacity="0.08"/>
+
+  <text x="450" y="120" fill="#ffffff" font-size="10" font-weight="bold">投資</text>
+  <text x="450" y="138" fill="#c9a84c" font-size="10">・制作費用：200万円</text>
+  <text x="450" y="153" fill="#c9a84c" font-size="10">・月額保守：3万円×12ヶ月</text>
+  <text x="450" y="168" fill="#c9a84c" font-size="10">・初年度合計：236万円</text>
+
+  <text x="450" y="200" fill="#ffffff" font-size="10" font-weight="bold">効果（12ヶ月後）</text>
+  <text x="450" y="218" fill="#c9a84c" font-size="10">・採用応募数：月3件→月12件</text>
+  <text x="450" y="233" fill="#c9a84c" font-size="10">・採用費用削減：月20万→3万</text>
+  <text x="450" y="248" fill="#c9a84c" font-size="10">・月間削減：約17万円</text>
+  <text x="450" y="263" fill="#c9a84c" font-size="10">・年間削減：204万円</text>
+
+  <text x="450" y="295" fill="#50c878" font-size="11" font-weight="bold">✓ ROI: 0.86倍（初年度）</text>
+  <text x="450" y="313" fill="#aaaaaa" font-size="9">204万円 ÷ 236万円 = 0.86（2年目以降で黒字）</text>
+
+  <!-- Key insights -->
+  <rect x="30" y="350" width="730" height="60" rx="4" fill="#c9a84c" opacity="0.15"/>
+  <text x="50" y="368" fill="#c9a84c" font-size="11" font-weight="bold">💡 ROI計算のポイント</text>
+  <text x="50" y="385" fill="#ffffff" font-size="9">・BtoBの場合：営業効果で2-3年で回収可能なケースが多い</text>
+  <text x="50" y="400" fill="#ffffff" font-size="9">・採用目的：短期的には赤字、3年目以降で大きなリターン。継続が鍵</text>
+</svg>

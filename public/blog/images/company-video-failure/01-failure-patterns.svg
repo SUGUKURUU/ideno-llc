@@ -1,0 +1,73 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">会社紹介動画が効果なしの原因 TOP6</text>
+
+  <!-- Pie chart center=280,230 radius=160 -->
+  <!-- Segments (cumulative degrees):
+    誰向けか不明確 28% → 0° to 100.8°
+    自社自慢 22% → 100.8° to 180°
+    CTAがない 18% → 180° to 244.8°
+    長すぎる 16% → 244.8° to 302.4°
+    品質が低い 10% → 302.4° to 338.4°
+    配信戦略なし 6% → 338.4° to 360°
+  -->
+  <!-- Using path arcs. center=280,225 r=150 -->
+
+  <!-- Segment 1: 誰向けか不明確 28% (0→100.8deg) gold -->
+  <path d="M280,225 L280,75 A150,150 0 0,1 426,301 Z" fill="#c9a84c"/>
+  <!-- Segment 2: 自社自慢 22% (100.8→180deg) gold 0.75 -->
+  <path d="M280,225 L426,301 A150,150 0 0,1 130,225 Z" fill="#c9a84c" opacity="0.72"/>
+  <!-- Segment 3: CTAがない 18% (180→244.8deg) gold 0.55 -->
+  <path d="M280,225 L130,225 A150,150 0 0,1 215,96 Z" fill="#c9a84c" opacity="0.55"/>
+  <!-- Segment 4: 長すぎる 16% (244.8→302.4deg) gold 0.40 -->
+  <path d="M280,225 L215,96 A150,150 0 0,1 348,79 Z" fill="#c9a84c" opacity="0.38"/>
+  <!-- Segment 5: 品質が低い 10% (302.4→338.4deg) gold 0.25 -->
+  <path d="M280,225 L348,79 A150,150 0 0,1 406,125 Z" fill="#c9a84c" opacity="0.22"/>
+  <!-- Segment 6: 配信戦略なし 6% (338.4→360deg) white 0.3 -->
+  <path d="M280,225 L406,125 A150,150 0 0,1 280,75 Z" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- Dividers -->
+  <line x1="280" y1="225" x2="280" y2="75" stroke="#111111" stroke-width="2"/>
+  <line x1="280" y1="225" x2="426" y2="301" stroke="#111111" stroke-width="2"/>
+  <line x1="280" y1="225" x2="130" y2="225" stroke="#111111" stroke-width="2"/>
+  <line x1="280" y1="225" x2="215" y2="96" stroke="#111111" stroke-width="2"/>
+  <line x1="280" y1="225" x2="348" y2="79" stroke="#111111" stroke-width="2"/>
+  <line x1="280" y1="225" x2="406" y2="125" stroke="#111111" stroke-width="2"/>
+
+  <!-- Center label -->
+  <circle cx="280" cy="225" r="48" fill="#111111"/>
+  <text x="280" y="220" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">失敗の</text>
+  <text x="280" y="238" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">原因分析</text>
+
+  <!-- Legend -->
+  <rect x="470" y="70" width="16" height="14" fill="#c9a84c" rx="2"/>
+  <text x="494" y="82" fill="#ffffff" font-size="13">誰向けか不明確</text>
+  <text x="690" y="82" fill="#c9a84c" font-size="13" font-weight="bold">28%</text>
+
+  <rect x="470" y="98" width="16" height="14" fill="#c9a84c" opacity="0.72" rx="2"/>
+  <text x="494" y="110" fill="#ffffff" font-size="13">自社自慢に終始</text>
+  <text x="690" y="110" fill="#c9a84c" font-size="13" font-weight="bold">22%</text>
+
+  <rect x="470" y="126" width="16" height="14" fill="#c9a84c" opacity="0.55" rx="2"/>
+  <text x="494" y="138" fill="#ffffff" font-size="13">CTAがない</text>
+  <text x="690" y="138" fill="#c9a84c" font-size="13" font-weight="bold">18%</text>
+
+  <rect x="470" y="154" width="16" height="14" fill="#c9a84c" opacity="0.38" rx="2"/>
+  <text x="494" y="166" fill="#ffffff" font-size="13">長すぎる</text>
+  <text x="690" y="166" fill="#c9a84c" font-size="13" font-weight="bold">16%</text>
+
+  <rect x="470" y="182" width="16" height="14" fill="#c9a84c" opacity="0.22" rx="2"/>
+  <text x="494" y="194" fill="#ffffff" font-size="13">品質が低い</text>
+  <text x="690" y="194" fill="#c9a84c" font-size="13" font-weight="bold">10%</text>
+
+  <rect x="470" y="210" width="16" height="14" fill="rgba(255,255,255,0.25)" rx="2"/>
+  <text x="494" y="222" fill="#ffffff" font-size="13">配信戦略なし</text>
+  <text x="690" y="222" fill="#c9a84c" font-size="13" font-weight="bold">6%</text>
+
+  <!-- Key insight -->
+  <rect x="470" y="260" width="290" height="100" rx="8" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1"/>
+  <text x="615" y="285" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="middle">最大の問題</text>
+  <text x="615" y="307" fill="#ffffff" font-size="12" text-anchor="middle">約7割の失敗は</text>
+  <text x="615" y="325" fill="#ffffff" font-size="12" text-anchor="middle">「設計段階のミス」が原因</text>
+  <text x="615" y="346" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">制作前の戦略設計が最重要</text>
+</svg>

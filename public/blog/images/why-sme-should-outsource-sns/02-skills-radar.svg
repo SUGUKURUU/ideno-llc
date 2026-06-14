@@ -1,0 +1,46 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">SNS運用に必要なスキル比較</text>
+
+  <!-- レーダーチャート中心 -->
+  <!-- cx=400, cy=230, r=150 -->
+  <!-- 6軸: 0=動画撮影(top), 60=動画編集, 120=コピーライティング, 180=データ分析(bottom), 240=トレンド把握, 300=企画力 -->
+
+  <!-- グリッド六角形 (20%, 40%, 60%, 80%, 100%) -->
+  <!-- r=30,60,90,120,150 -->
+  <polygon points="400,80 529.9,155 529.9,305 400,380 270.1,305 270.1,155" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,110 503.9,172.5 503.9,297.5 400,360 296.1,297.5 296.1,172.5" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,140 477.9,190 477.9,290 400,340 322.1,290 322.1,190" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,170 451.9,207.5 451.9,282.5 400,320 348.1,282.5 348.1,207.5" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <polygon points="400,200 425.9,225 425.9,275 400,300 374.1,275 374.1,225" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- 軸線 -->
+  <line x1="400" y1="230" x2="400" y2="80" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="529.9" y2="155" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="529.9" y2="305" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="400" y2="380" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="270.1" y2="305" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="400" y1="230" x2="270.1" y2="155" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- 外注チーム (各軸90点程度, r=135) -->
+  <!-- 0deg(top): 400,95  60deg: 516.9,162.5  120deg: 516.9,297.5  180deg: 400,365  240deg: 283.1,297.5  300deg: 283.1,162.5 -->
+  <polygon points="400,95 516.9,162.5 511.9,300.5 400,365 283.1,297.5 288.1,159.5" fill="rgba(201,168,76,0.25)" stroke="#c9a84c" stroke-width="2"/>
+
+  <!-- 一人担当者 (各軸40点程度, r=60) -->
+  <!-- 0deg: 400,170  60deg: 451.9,200  120deg: 451.9,260  180deg: 400,290  240deg: 348.1,260  300deg: 348.1,200 -->
+  <polygon points="400,180 448,202 455,268 400,290 345,265 352,200" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- 軸ラベル -->
+  <text x="400" y="68" fill="#ffffff" font-size="12" text-anchor="middle">動画撮影</text>
+  <text x="548" y="152" fill="#ffffff" font-size="12" text-anchor="start">動画編集</text>
+  <text x="548" y="312" fill="#ffffff" font-size="12" text-anchor="start">コピーライティング</text>
+  <text x="400" y="398" fill="#ffffff" font-size="12" text-anchor="middle">データ分析</text>
+  <text x="252" y="312" fill="#ffffff" font-size="12" text-anchor="end">トレンド把握</text>
+  <text x="252" y="152" fill="#ffffff" font-size="12" text-anchor="end">企画力</text>
+
+  <!-- 凡例 -->
+  <rect x="560" y="55" width="16" height="16" fill="rgba(201,168,76,0.25)" stroke="#c9a84c" stroke-width="2" rx="2"/>
+  <text x="582" y="67" fill="#c9a84c" font-size="12">外注チーム（85〜95点）</text>
+  <rect x="560" y="80" width="16" height="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-dasharray="4,2" rx="2"/>
+  <text x="582" y="92" fill="rgba(255,255,255,0.7)" font-size="12">一人担当者（25〜50点）</text>
+</svg>

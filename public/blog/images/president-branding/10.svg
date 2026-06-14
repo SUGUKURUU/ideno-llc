@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長ブランディング：チェックリスト</text>
+  <rect x="80" y="80" width="640" height="310" fill="none" stroke="#333333" stroke-width="1" rx="3"/>
+  <text x="100" y="110" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">開始前の準備</text>
+  <text x="130" y="135" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 発信コンセプト（誰に・何を・どう）を言語化</text>
+  <text x="130" y="155" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 1-2チャネルに絞る（複数手出しは禁物）</text>
+  <text x="130" y="175" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 週2-3回の継続可能な頻度を決定</text>
+
+  <text x="100" y="215" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">運用開始後</text>
+  <text x="130" y="240" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ コンテンツカレンダーで投稿計画を立てる</text>
+  <text x="130" y="260" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 8:2ルール（教育80% 宣伝20%）を守る</text>
+  <text x="130" y="280" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ 月次でKPI検証、6ヶ月で効果判定</text>
+  <text x="130" y="300" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">□ HP・SNS・採用ページとの連携を忘れずに</text>
+
+  <text x="400" y="385" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">最小6ヶ月の継続で初めて効果が現れる。焦らず、着実に続けることが成功の鍵</text>
+</svg>

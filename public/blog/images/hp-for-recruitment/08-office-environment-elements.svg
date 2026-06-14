@@ -1,0 +1,59 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">職場環境の「見える化」に欠かせない要素</text>
+
+  <!-- Category 1 -->
+  <g>
+    <rect x="30" y="70" width="170" height="110" rx="6" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="1.5"/>
+    <text x="115" y="95" text-anchor="middle" fill="#4a9eff" font-size="11" font-weight="bold">📸 オフィス写真</text>
+    <text x="50" y="120" fill="#ffffff" font-size="9">・デスク配置</text>
+    <text x="50" y="135" fill="#ffffff" font-size="9">・休憩スペース</text>
+    <text x="50" y="150" fill="#ffffff" font-size="9">・ミーティング風景</text>
+    <text x="50" y="165" fill="#aaaaaa" font-size="8">（スタジオ撮影より</text>
+    <text x="50" y="175" fill="#aaaaaa" font-size="8">　日常の風景）</text>
+  </g>
+
+  <!-- Category 2 -->
+  <g>
+    <rect x="210" y="70" width="170" height="110" rx="6" fill="#50c878" opacity="0.15" stroke="#50c878" stroke-width="1.5"/>
+    <text x="295" y="95" text-anchor="middle" fill="#50c878" font-size="11" font-weight="bold">🎥 動画コンテンツ</text>
+    <text x="230" y="120" fill="#ffffff" font-size="9">・1日の流れ</text>
+    <text x="230" y="135" fill="#ffffff" font-size="9">・チームワーク</text>
+    <text x="230" y="150" fill="#ffffff" font-size="9">・社員インタビュー</text>
+    <text x="230" y="165" fill="#aaaaaa" font-size="8">（30秒〜3分程度）</text>
+  </g>
+
+  <!-- Category 3 -->
+  <g>
+    <rect x="390" y="70" width="170" height="110" rx="6" fill="#e91e63" opacity="0.15" stroke="#e91e63" stroke-width="1.5"/>
+    <text x="475" y="95" text-anchor="middle" fill="#e91e63" font-size="11" font-weight="bold">🗣️ 社員の声</text>
+    <text x="410" y="120" fill="#ffffff" font-size="9">・インタビュー</text>
+    <text x="410" y="135" fill="#ffffff" font-size="9">・リアルな感想</text>
+    <text x="410" y="150" fill="#ffffff" font-size="9">・キャリア形成</text>
+    <text x="410" y="165" fill="#ffffff" font-size="9">・職場の良さ悪さ両方</text>
+  </g>
+
+  <!-- Category 4 -->
+  <g>
+    <rect x="570" y="70" width="170" height="110" rx="6" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="1.5"/>
+    <text x="655" y="95" text-anchor="middle" fill="#ff9800" font-size="11" font-weight="bold">📊 数値データ</text>
+    <text x="590" y="120" fill="#ffffff" font-size="9">・従業員数・配置</text>
+    <text x="590" y="135" fill="#ffffff" font-size="9">・年齢構成</text>
+    <text x="590" y="150" fill="#ffffff" font-size="9">・男女比</text>
+    <text x="590" y="165" fill="#ffffff" font-size="9">・離職率</text>
+  </g>
+
+  <!-- Avoid section -->
+  <text x="30" y="210" fill="#ff6b6b" font-size="12" font-weight="bold">❌ 避けるべき表現・素材</text>
+
+  <rect x="30" y="225" width="710" height="130" rx="6" fill="#ff6b6b" opacity="0.05" stroke="#ff6b6b" stroke-width="1"/>
+
+  <text x="50" y="250" fill="#ffffff" font-size="10">✗ 「アットホームな職場」という言葉だけ</text>
+  <text x="50" y="270" fill="#aaaaaa" font-size="9">→ 曖昧で信頼性がない。「月1回の社内ランチ」「定期的なチームビルディング」など具体的に</text>
+
+  <text x="50" y="295" fill="#ffffff" font-size="10">✗ スタジオで撮影した、完璧にメイクアップされた社員写真ばかり</text>
+  <text x="50" y="315" fill="#aaaaaa" font-size="9">→ 現実とのギャップで信頼を失う。仕事している自然な表情の写真を使う</text>
+
+  <text x="50" y="340" fill="#ffffff" font-size="10">✗ ポジティブな情報だけ</text>
+  <text x="50" y="360" fill="#aaaaaa" font-size="9">→ 課題や改善中の取り組みも含める。リアルさが説得力につながる</text>
+</svg>

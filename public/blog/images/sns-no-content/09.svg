@@ -1,0 +1,64 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">ネタ切れ解決：実行チェックリスト</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">今日から始められる7つの方法</text>
+
+  <!-- チェックリスト -->
+  <g>
+    <rect x="60" y="75" width="680" height="300" fill="none" stroke="#c9a84c" stroke-width="1" rx="5"/>
+
+    <!-- 項目1 -->
+    <circle cx="85" cy="100" r="8" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="110" y="105" class="text-white" font-size="12" font-weight="bold">テーマ軸を3〜5個設計する</text>
+    <text x="130" y="122" class="text-gray" font-size="10">教育系・実用系・信頼系・Q&A系・タイムリー系など</text>
+
+    <!-- 項目2 -->
+    <circle cx="85" cy="155" r="8" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="110" y="160" class="text-white" font-size="12" font-weight="bold">ネタメモ帳を作る（スマートフォンメモアプリ）</text>
+    <text x="130" y="177" class="text-gray" font-size="10">毎日気づいたことを1行でメモ、1ヶ月で20〜30個溜まる</text>
+
+    <!-- 項目3 -->
+    <circle cx="85" cy="210" r="8" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="110" y="215" class="text-white" font-size="12" font-weight="bold">よくある質問リストを20〜30個洗い出す</text>
+    <text x="130" y="232" class="text-gray" font-size="10">営業・接客スタッフにヒアリング、同じ質問で複数投稿可能</text>
+
+    <!-- 項目4 -->
+    <circle cx="85" cy="265" r="8" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="110" y="270" class="text-white" font-size="12" font-weight="bold">月1回の社員インタビューを予定に入れる</text>
+    <text x="130" y="287" class="text-gray" font-size="10">30分のインタビュー = 年間12本の信頼系コンテンツ</text>
+
+    <!-- 項目5 -->
+    <circle cx="85" cy="320" r="8" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="110" y="325" class="text-white" font-size="12" font-weight="bold">季節・イベントカレンダーを1年分先に作る</text>
+    <text x="130" y="342" class="text-gray" font-size="10">24〜30本分のタイムリーコンテンツ枠が自動確保される</text>
+  </g>
+
+  <!-- 右側：残り2項目 -->
+  <g>
+    <circle cx="85" cy="375" r="8" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="110" y="380" class="text-white" font-size="12" font-weight="bold">競合の人気投稿を週1回チェック</text>
+    <text x="130" y="397" class="text-gray" font-size="10">「保存数が多い投稿」からアイデアをもらう（真似ではなく参考に）</text>
+  </g>
+
+  <g>
+    <circle cx="575" cy="100" r="8" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="600" y="105" class="text-white" font-size="12" font-weight="bold">1素材・複数投稿を活用する</text>
+    <text x="620" y="122" class="text-gray" font-size="10">動画・静止画・テキスト・カルーセルに形式を変えて複数投稿</text>
+  </g>
+
+  <!-- 下部：効果 -->
+  <rect x="60" y="360" width="680" height="40" fill="#c9a84c" opacity="0.15" rx="5"/>
+  <text x="400" y="382" class="gold" text-anchor="middle" font-size="12" font-weight="bold">この7つを組み合わせれば、1年間のコンテンツカレンダーが埋まる</text>
+</svg>

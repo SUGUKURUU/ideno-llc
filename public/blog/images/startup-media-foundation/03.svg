@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">HP制作ツール比較：コスト vs スピード</text>
+
+  <!-- STUDIO -->
+  <g>
+    <rect x="80" y="90" width="150" height="280" fill="#c9a84c" rx="5"/>
+    <text x="155" y="120" font-size="11" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">STUDIO</text>
+    <text x="155" y="140" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">月額5,500円</text>
+    <line x1="95" y1="155" x2="215" y2="155" stroke="#111111" stroke-width="1"/>
+    <text x="155" y="185" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">高デザイン性</text>
+    <text x="155" y="202" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">ノーコード</text>
+    <text x="155" y="219" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">制作期間：1-2週</text>
+    <text x="155" y="236" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">おすすめ度</text>
+    <text x="155" y="253" font-size="10" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">★★★★★</text>
+  </g>
+
+  <!-- WordPress -->
+  <g>
+    <rect x="260" y="90" width="150" height="280" fill="#8b7355" rx="5"/>
+    <text x="335" y="120" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">WordPress</text>
+    <text x="335" y="140" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">月額1-3k円</text>
+    <line x1="275" y1="155" x2="395" y2="155" stroke="#ffffff" stroke-width="1"/>
+    <text x="335" y="185" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">カスタマイズ性高</text>
+    <text x="335" y="202" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SEOに強い</text>
+    <text x="335" y="219" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">制作期間：2-3週</text>
+    <text x="335" y="236" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">おすすめ度</text>
+    <text x="335" y="253" font-size="10" font-weight="bold" text-anchor="middle" fill="#8b7355" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">★★★★☆</text>
+  </g>
+
+  <!-- Notion -->
+  <g>
+    <rect x="440" y="90" width="150" height="280" fill="#555555" rx="5"/>
+    <text x="515" y="120" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">Notion</text>
+    <text x="515" y="140" font-size="10" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">無料〜2k円</text>
+    <line x1="455" y1="155" x2="575" y2="155" stroke="#ffffff" stroke-width="1"/>
+    <text x="515" y="185" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">最高速</text>
+    <text x="515" y="202" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">最小限構成</text>
+    <text x="515" y="219" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">制作期間：数日</text>
+    <text x="515" y="236" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">おすすめ度</text>
+    <text x="515" y="253" font-size="10" font-weight="bold" text-anchor="middle" fill="#555555" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">★★★★☆</text>
+  </g>
+
+  <!-- 制作会社 -->
+  <g>
+    <rect x="620" y="90" width="140" height="280" fill="#999999" rx="5"/>
+    <text x="690" y="120" font-size="11" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">制作会社</text>
+    <text x="690" y="140" font-size="10" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">初期30-80万</text>
+    <line x1="635" y1="155" x2="745" y2="155" stroke="#111111" stroke-width="1"/>
+    <text x="690" y="185" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">最高品質</text>
+    <text x="690" y="202" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SEO最適化</text>
+    <text x="690" y="219" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">制作期間：3-6週</text>
+    <text x="690" y="236" font-size="9" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">おすすめ度</text>
+    <text x="690" y="253" font-size="10" font-weight="bold" text-anchor="middle" fill="#999999" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">★★★★★</text>
+  </g>
+
+  <text x="400" y="395" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">0→1フェーズではSTUDIOやNotionでの高速公開→後から本格化が現実的</text>
+</svg>

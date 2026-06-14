@@ -1,0 +1,65 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">標準的なHP制作スケジュール（2ヶ月モデル）</text>
+
+  <!-- Week ruler: 8 weeks, x: 80〜750, step=(670/8)=83.75 -->
+  <!-- w1=80, w2=164, w3=248, w4=331, w5=415, w6=499, w7=582, w8=666, end=750 -->
+  <line x1="80" y1="70" x2="750" y2="70" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="80"  y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W1</text>
+  <text x="164" y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W2</text>
+  <text x="248" y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W3</text>
+  <text x="331" y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W4</text>
+  <text x="415" y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W5</text>
+  <text x="499" y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W6</text>
+  <text x="582" y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W7</text>
+  <text x="666" y="65" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">W8</text>
+  <text x="122" y="58" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="10">← 1ヶ月目 →</text>
+  <text x="582" y="58" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="10">← 2ヶ月目 →</text>
+  <line x1="415" y1="55" x2="415" y2="380" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Phase bars (7 phases) -->
+  <!-- Phase 1: ヒアリング W1〜W1.5 x=80 w=125 -->
+  <rect x="80"  y="88" width="125" height="42" rx="5" fill="#c9a84c"/>
+  <text x="142" y="114" text-anchor="middle" fill="#111" font-size="12" font-weight="bold">① ヒアリング</text>
+
+  <!-- Phase 2: 設計 W2〜W3 x=164 w=168 -->
+  <rect x="164" y="148" width="168" height="42" rx="5" fill="rgba(201,168,76,0.75)"/>
+  <text x="248" y="174" text-anchor="middle" fill="#111" font-size="12" font-weight="bold">② サイト設計・IA</text>
+
+  <!-- Phase 3: デザイン W3〜W5 x=248 w=251 -->
+  <rect x="248" y="208" width="251" height="42" rx="5" fill="rgba(201,168,76,0.55)"/>
+  <text x="373" y="234" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">③ デザイン制作</text>
+
+  <!-- Phase 4: コーディング W4〜W6 x=331 w=251 -->
+  <rect x="331" y="268" width="251" height="42" rx="5" fill="rgba(201,168,76,0.4)"/>
+  <text x="456" y="294" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">④ コーディング</text>
+
+  <!-- Phase 5: コンテンツ入稿 W5〜W7 x=415 w=251 -->
+  <rect x="415" y="148" width="168" height="42" rx="5" fill="rgba(201,168,76,0.3)"/>
+  <text x="499" y="174" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">⑤ コンテンツ入稿</text>
+
+  <!-- Phase 6: テスト W7〜W8 x=582 w=84 -->
+  <rect x="582" y="208" width="84" height="42" rx="5" fill="rgba(201,168,76,0.2)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="624" y="234" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">⑥ テスト</text>
+
+  <!-- Phase 7: 公開 W8 x=666 w=84 -->
+  <rect x="666" y="268" width="84" height="42" rx="5" fill="#c9a84c"/>
+  <text x="708" y="294" text-anchor="middle" fill="#111" font-size="12" font-weight="bold">⑦ 公開</text>
+
+  <!-- milestone marker -->
+  <circle cx="750" cy="289" r="10" fill="#c9a84c"/>
+  <text x="750" y="294" text-anchor="middle" fill="#111" font-size="14" font-weight="bold">✓</text>
+
+  <!-- dependency arrows -->
+  <line x1="205" y1="109" x2="205" y2="148" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="332" y1="169" x2="332" y2="208" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="499" y1="229" x2="499" y2="268" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="582" y1="249" x2="582" y2="208" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- notes -->
+  <text x="80" y="348" fill="rgba(255,255,255,0.55)" font-size="11">✓ ヒアリング〜設計でサイトの成否が決まる</text>
+  <text x="80" y="366" fill="rgba(255,255,255,0.55)" font-size="11">✓ コンテンツ（文章・写真）の準備が遅れると全体が遅延する</text>
+  <text x="80" y="384" fill="rgba(255,255,255,0.55)" font-size="11">✓ ページ数・機能追加によりさらに1〜2ヶ月延びることがある</text>
+
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="10">※一般的なコーポレートサイト（5〜10ページ）の目安。機能の複雑さにより変動あり</text>
+</svg>

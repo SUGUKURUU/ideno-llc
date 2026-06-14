@@ -1,0 +1,85 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">外注3大メリット</text>
+
+  <!-- カラム1: コスト最適化 -->
+  <rect x="40" y="55" width="220" height="340" fill="#161616" stroke="#c9a84c" stroke-width="1.5" rx="8"/>
+  <rect x="40" y="55" width="220" height="60" fill="#c9a84c" rx="8"/>
+  <rect x="40" y="95" width="220" height="20" fill="#c9a84c"/>
+  <text x="150" y="80" fill="#111111" font-size="15" font-weight="bold" text-anchor="middle">コスト最適化</text>
+  <text x="150" y="105" fill="#111111" font-size="11" text-anchor="middle">正社員比 60%削減</text>
+
+  <circle cx="150" cy="145" r="22" fill="rgba(201,168,76,0.15)" stroke="#c9a84c" stroke-width="1"/>
+  <text x="150" y="150" fill="#c9a84c" font-size="20" text-anchor="middle">¥</text>
+
+  <text x="150" y="188" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">月額費用が明確</text>
+  <text x="150" y="206" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">予算計画が立てやすい</text>
+
+  <line x1="70" y1="220" x2="230" y2="220" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="150" y="244" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">見えないコストゼロ</text>
+  <text x="150" y="262" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">人件費・教育費不要</text>
+
+  <line x1="70" y1="276" x2="230" y2="276" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="150" y="300" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">採用コストゼロ</text>
+  <text x="150" y="318" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">求人・研修費が不要</text>
+
+  <line x1="70" y1="332" x2="230" y2="332" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="150" y="358" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">月3〜15万円から</text>
+  <text x="150" y="375" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">スタートプラン有</text>
+
+  <!-- カラム2: プロ品質 -->
+  <rect x="290" y="55" width="220" height="340" fill="#161616" stroke="#c9a84c" stroke-width="1.5" rx="8"/>
+  <rect x="290" y="55" width="220" height="60" fill="#c9a84c" rx="8"/>
+  <rect x="290" y="95" width="220" height="20" fill="#c9a84c"/>
+  <text x="400" y="80" fill="#111111" font-size="15" font-weight="bold" text-anchor="middle">プロ品質</text>
+  <text x="400" y="105" fill="#111111" font-size="11" text-anchor="middle">専門チームが対応</text>
+
+  <circle cx="400" cy="145" r="22" fill="rgba(201,168,76,0.15)" stroke="#c9a84c" stroke-width="1"/>
+  <text x="400" y="152" fill="#c9a84c" font-size="18" text-anchor="middle">★</text>
+
+  <text x="400" y="188" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">即戦力チーム</text>
+  <text x="400" y="206" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">初日から高品質な運用</text>
+
+  <line x1="320" y1="220" x2="480" y2="220" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="400" y="244" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">複合スキル対応</text>
+  <text x="400" y="262" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">撮影・編集・分析・企画</text>
+
+  <line x1="320" y1="276" x2="480" y2="276" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="400" y="300" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">最新トレンド対応</text>
+  <text x="400" y="318" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">アルゴリズム変化に即応</text>
+
+  <line x1="320" y1="332" x2="480" y2="332" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="400" y="358" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">複数社実績を活用</text>
+  <text x="400" y="375" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">成功パターンを転用</text>
+
+  <!-- カラム3: 継続安定 -->
+  <rect x="540" y="55" width="220" height="340" fill="#161616" stroke="#c9a84c" stroke-width="1.5" rx="8"/>
+  <rect x="540" y="55" width="220" height="60" fill="#c9a84c" rx="8"/>
+  <rect x="540" y="95" width="220" height="20" fill="#c9a84c"/>
+  <text x="650" y="80" fill="#111111" font-size="15" font-weight="bold" text-anchor="middle">継続安定</text>
+  <text x="650" y="105" fill="#111111" font-size="11" text-anchor="middle">担当離職リスクゼロ</text>
+
+  <circle cx="650" cy="145" r="22" fill="rgba(201,168,76,0.15)" stroke="#c9a84c" stroke-width="1"/>
+  <text x="650" y="152" fill="#c9a84c" font-size="18" text-anchor="middle">∞</text>
+
+  <text x="650" y="188" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">チーム体制で安定</text>
+  <text x="650" y="206" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">担当交代でも品質維持</text>
+
+  <line x1="570" y1="220" x2="730" y2="220" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="650" y="244" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">ノウハウ蓄積継続</text>
+  <text x="650" y="262" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">属人化しない運用体制</text>
+
+  <line x1="570" y1="276" x2="730" y2="276" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="650" y="300" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">本業に集中できる</text>
+  <text x="650" y="318" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">経営者の時間が増える</text>
+
+  <line x1="570" y1="332" x2="730" y2="332" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="650" y="358" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">月次レポートで安心</text>
+  <text x="650" y="375" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">成果を数字で確認</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.tw{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.tg{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.t{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="t" text-anchor="middle">認知拡大の戦略：まとめ</text>
+  <text x="400" y="55" class="tg" text-anchor="middle">3ステップで実現</text>
+
+  <line x1="80" y1="110" x2="720" y2="110" stroke="#c9a84c" stroke-width="2"/>
+
+  <g>
+    <circle cx="100" cy="110" r="15" fill="#c9a84c"/>
+    <text x="100" y="118" class="tw" text-anchor="middle" font-size="16" font-weight="bold">1</text>
+  </g>
+  <text x="100" y="160" class="tw" text-anchor="middle" font-size="12" font-weight="bold">基盤を整える</text>
+  <text x="100" y="185" class="tw" text-anchor="middle" font-size="10">最低限のHP・SNS・</text>
+  <text x="100" y="200" class="tw" text-anchor="middle" font-size="10">発信コンセプト</text>
+  <text x="100" y="230" class="tg" text-anchor="middle" font-size="9">着地先がないと広告は無駄</text>
+  <rect x="50" y="260" width="100" height="120" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+  <text x="100" y="285" class="tw" text-anchor="middle" font-size="9">投資：3-10万円</text>
+  <text x="100" y="305" class="tw" text-anchor="middle" font-size="9">期間：1-2週間</text>
+  <text x="100" y="325" class="tw" text-anchor="middle" font-size="9">優先度：最優先</text>
+
+  <g>
+    <circle cx="400" cy="110" r="15" fill="#c9a84c"/>
+    <text x="400" y="118" class="tw" text-anchor="middle" font-size="16" font-weight="bold">2</text>
+  </g>
+  <text x="400" y="160" class="tw" text-anchor="middle" font-size="12" font-weight="bold">SNS運用に投資</text>
+  <text x="400" y="185" class="tw" text-anchor="middle" font-size="10">継続的なコンテンツ</text>
+  <text x="400" y="200" class="tw" text-anchor="middle" font-size="10">発信で自然流入を作る</text>
+  <text x="400" y="230" class="tg" text-anchor="middle" font-size="9">時間がかかるが資産化される</text>
+  <rect x="350" y="260" width="100" height="120" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+  <text x="400" y="285" class="tw" text-anchor="middle" font-size="9">投資：5-15万円</text>
+  <text x="400" y="305" class="tw" text-anchor="middle" font-size="9">期間：6-12ヶ月</text>
+  <text x="400" y="325" class="tw" text-anchor="middle" font-size="9">最高ROI</text>
+
+  <g>
+    <circle cx="700" cy="110" r="15" fill="#c9a84c"/>
+    <text x="700" y="118" class="tw" text-anchor="middle" font-size="16" font-weight="bold">3</text>
+  </g>
+  <text x="700" y="160" class="tw" text-anchor="middle" font-size="12" font-weight="bold">広告で加速</text>
+  <text x="700" y="185" class="tw" text-anchor="middle" font-size="10">基盤が整った後に</text>
+  <text x="700" y="200" class="tw" text-anchor="middle" font-size="10">広告で拡張する</text>
+  <text x="700" y="230" class="tg" text-anchor="middle" font-size="9">効果が最大化される</text>
+  <rect x="650" y="260" width="100" height="120" fill="none" stroke="#c9a84c" stroke-width="1" rx="3"/>
+  <text x="700" y="285" class="tw" text-anchor="middle" font-size="9">投資：10-20万円</text>
+  <text x="700" y="305" class="tw" text-anchor="middle" font-size="9">期間：継続</text>
+  <text x="700" y="325" class="tw" text-anchor="middle" font-size="9">加速段階</text>
+</svg>

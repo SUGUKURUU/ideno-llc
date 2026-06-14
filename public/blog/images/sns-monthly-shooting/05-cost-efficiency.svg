@@ -1,0 +1,48 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">撮影頻度別コスト効率比較（1コンテンツあたり単価）</text>
+
+  <!-- axes -->
+  <line x1="80" y1="60" x2="80" y2="340" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="80" y1="340" x2="760" y2="340" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+
+  <!-- Y axis labels -->
+  <text x="74" y="344" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">0円</text>
+  <text x="74" y="287" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">5,000円</text>
+  <text x="74" y="230" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">10,000円</text>
+  <text x="74" y="173" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">15,000円</text>
+
+  <!-- grid lines -->
+  <line x1="80" y1="287" x2="760" y2="287" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="80" y1="230" x2="760" y2="230" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="80" y1="173" x2="760" y2="173" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- Bar 1: 月1回撮影 3,000円 → height = (3000/17000)*280 = 49.4, y = 340-49 = 291 -->
+  <rect x="160" y="306" width="140" height="34" rx="4" fill="#c9a84c"/>
+  <text x="230" y="296" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">3,000円/本</text>
+  <text x="230" y="370" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="13">月1回撮影</text>
+  <text x="230" y="388" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">（まとめ撮り）</text>
+  <!-- best badge -->
+  <rect x="176" y="272" width="108" height="24" rx="12" fill="rgba(201,168,76,0.3)" stroke="#c9a84c" stroke-width="1"/>
+  <text x="230" y="288" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">★ 最もコスパ良</text>
+
+  <!-- Bar 2: 週1回撮影 8,000円 → height=(8000/17000)*280=131.8, y=340-132=208 -->
+  <rect x="380" y="208" width="140" height="132" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="450" y="198" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="14" font-weight="bold">8,000円/本</text>
+  <text x="450" y="370" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="13">週1回撮影</text>
+  <text x="450" y="388" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">（外注カメラマン）</text>
+
+  <!-- Bar 3: 毎日投稿内製 15,000円 → height=(15000/17000)*280=247, y=340-247=93 -->
+  <rect x="600" y="93" width="140" height="247" rx="4" fill="rgba(255,100,100,0.2)" stroke="rgba(255,100,100,0.3)" stroke-width="1"/>
+  <text x="670" y="83" text-anchor="middle" fill="rgba(255,150,150,0.9)" font-size="14" font-weight="bold">15,000円/本</text>
+  <text x="670" y="370" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="13">毎日投稿（内製）</text>
+  <text x="670" y="388" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">（人件費換算）</text>
+
+  <!-- cost difference annotations -->
+  <line x1="300" y1="306" x2="380" y2="208" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="340" y="248" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">2.7倍</text>
+  <line x1="520" y1="208" x2="600" y2="93" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="560" y="140" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">1.9倍</text>
+
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">※月1撮影は事前設計と分解術により1素材から複数コンテンツを生成した場合の試算</text>
+</svg>

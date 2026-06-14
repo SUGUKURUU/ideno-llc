@@ -1,0 +1,103 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">3プラットフォームのアルゴリズムの違い</text>
+
+  <!-- Instagram -->
+  <g>
+    <rect x="30" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Instagram Reels</text>
+
+    <text x="50" y="105" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">特徴</text>
+
+    <!-- Feature 1 -->
+    <rect x="50" y="115" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="135" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">フォロワー関係型</text>
+    <text x="70" y="150" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">フォロワーとの相互作用を重視</text>
+    <text x="70" y="162" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">フォロワー数↑ = リーチ↑</text>
+
+    <!-- Feature 2 -->
+    <rect x="50" y="175" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="195" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">エンゲージメント重視</text>
+    <text x="70" y="210" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">保存・シェア数が高評価</text>
+    <text x="70" y="222" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">いいね数よりも質が重要</text>
+
+    <!-- Feature 3 -->
+    <rect x="50" y="235" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="255" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">安定性が高い</text>
+    <text x="70" y="270" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">フォロワー数が増えると</text>
+    <text x="70" y="282" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">着実に成長できる</text>
+
+    <!-- Strategy -->
+    <rect x="50" y="305" width="210" height="80" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="70" y="323" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">推奨戦略</text>
+    <text x="70" y="340" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ フォロワー数を増やす</text>
+    <text x="70" y="353" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 保存・シェア促進</text>
+    <text x="70" y="366" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ブランド世界観構築</text>
+  </g>
+
+  <!-- TikTok -->
+  <g>
+    <rect x="290" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">TikTok</text>
+
+    <text x="310" y="105" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">特徴</text>
+
+    <!-- Feature 1 -->
+    <rect x="310" y="115" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="135" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">フラットなアルゴリズム</text>
+    <text x="330" y="150" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">フォロワー0でもバズる可能</text>
+    <text x="330" y="162" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">完全動画が最優先</text>
+
+    <!-- Feature 2 -->
+    <rect x="310" y="175" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="195" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">視聴完了率が最重要</text>
+    <text x="330" y="210" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">最後まで見てもらえるか</text>
+    <text x="330" y="222" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">が最大評価指標</text>
+
+    <!-- Feature 3 -->
+    <rect x="310" y="235" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="255" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">バズる可能性が最高</text>
+    <text x="330" y="270" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">シェア数が拡散に大きく影響</text>
+    <text x="330" y="282" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">急激な成長も夢ではない</text>
+
+    <!-- Strategy -->
+    <rect x="310" y="305" width="210" height="80" rx="5" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="330" y="323" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">推奨戦略</text>
+    <text x="330" y="340" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 毎日投稿を継続</text>
+    <text x="330" y="353" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ フック・完全視聴率優先</text>
+    <text x="330" y="366" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ トレンド・音源活用</text>
+  </g>
+
+  <!-- YouTube Shorts -->
+  <g>
+    <rect x="550" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">YouTube Shorts</text>
+
+    <text x="570" y="105" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">特徴</text>
+
+    <!-- Feature 1 -->
+    <rect x="570" y="115" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="135" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">検索エンジン連動</text>
+    <text x="590" y="150" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">キーワード・SEOが重要</text>
+    <text x="590" y="162" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">長期資産化が可能</text>
+
+    <!-- Feature 2 -->
+    <rect x="570" y="175" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="195" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">チャネル権威性を反映</text>
+    <text x="590" y="210" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">既存チャンネル評価が有利</text>
+    <text x="590" y="222" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">長尺動画への導線が強い</text>
+
+    <!-- Feature 3 -->
+    <rect x="570" y="235" width="210" height="50" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="255" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">高評価率が評価される</text>
+    <text x="590" y="270" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">コンテンツの質が問われる</text>
+    <text x="590" y="282" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">Shortsから長尺への流れ</text>
+
+    <!-- Strategy -->
+    <rect x="570" y="305" width="210" height="80" rx="5" fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.2)" stroke-width="1"/>
+    <text x="590" y="323" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">推奨戦略</text>
+    <text x="590" y="340" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ SEO対策（タイトル・説明）</text>
+    <text x="590" y="353" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 長尺動画への導線</text>
+    <text x="590" y="366" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 専門的・信頼性重視</text>
+  </g>
+</svg>

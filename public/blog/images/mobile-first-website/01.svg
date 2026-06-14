@@ -1,0 +1,42 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.tw{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.tg{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.t{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="t" text-anchor="middle">モバイルファースト：スマホ非対応が失うもの</text>
+  <text x="400" y="55" class="tg" text-anchor="middle">3つの大きな損失</text>
+
+  <g>
+    <rect x="50" y="85" width="220" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <circle cx="160" cy="125" r="25" fill="#c9a84c"/>
+    <text x="160" y="135" class="tw" text-anchor="middle" font-size="20">📱</text>
+    <text x="160" y="165" class="tw" text-anchor="middle" font-size="12" font-weight="bold">訪問者の</text>
+    <text x="160" y="180" class="tw" text-anchor="middle" font-size="12" font-weight="bold">50〜70%を失う</text>
+    <text x="160" y="210" class="tg" text-anchor="middle" font-size="9">スマートフォン利用者が</text>
+    <text x="160" y="225" class="tg" text-anchor="middle" font-size="9">多数派の時代</text>
+    <text x="160" y="250" class="tw" text-anchor="middle" font-size="10">使いにくい→離脱</text>
+    <text x="160" y="370" class="gold" text-anchor="middle" font-size="11" font-weight="bold">即座に対応必須</text>
+  </g>
+
+  <g>
+    <rect x="290" y="85" width="220" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <circle cx="400" cy="125" r="25" fill="#c9a84c"/>
+    <text x="400" y="135" class="tw" text-anchor="middle" font-size="20">📊</text>
+    <text x="400" y="165" class="tw" text-anchor="middle" font-size="12" font-weight="bold">検索順位</text>
+    <text x="400" y="180" class="tw" text-anchor="middle" font-size="12" font-weight="bold">が大幅低下</text>
+    <text x="400" y="210" class="tg" text-anchor="middle" font-size="9">Google「モバイル</text>
+    <text x="400" y="225" class="tg" text-anchor="middle" font-size="9">ファーストインデックス」</text>
+    <text x="400" y="250" class="tw" text-anchor="middle" font-size="10">スマホ対応が必須</text>
+    <text x="400" y="370" class="gold" text-anchor="middle" font-size="11" font-weight="bold">SEO評価低下</text>
+  </g>
+
+  <g>
+    <rect x="530" y="85" width="220" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <circle cx="640" cy="125" r="25" fill="#c9a84c"/>
+    <text x="640" y="135" class="tw" text-anchor="middle" font-size="20">💬</text>
+    <text x="640" y="165" class="tw" text-anchor="middle" font-size="12" font-weight="bold">問い合わせ・</text>
+    <text x="640" y="180" class="tw" text-anchor="middle" font-size="12" font-weight="bold">購入機会を失う</text>
+    <text x="640" y="210" class="tg" text-anchor="middle" font-size="9">フォーム入力が</text>
+    <text x="640" y="225" class="tg" text-anchor="middle" font-size="9">困難→離脱</text>
+    <text x="640" y="250" class="tw" text-anchor="middle" font-size="10">直前での離脱が多い</text>
+    <text x="640" y="370" class="gold" text-anchor="middle" font-size="11" font-weight="bold">売上機会損失</text>
+  </g>
+</svg>

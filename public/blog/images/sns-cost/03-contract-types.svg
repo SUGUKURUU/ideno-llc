@@ -1,0 +1,63 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">契約形態3種類の特徴比較</text>
+
+  <!-- Column headers -->
+  <rect x="20" y="55" width="235" height="36" rx="4" fill="rgba(201,168,76,0.15)"/>
+  <text x="137" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">月額固定制</text>
+  <rect x="282" y="55" width="235" height="36" rx="4" fill="rgba(201,168,76,0.15)"/>
+  <text x="399" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">成果報酬型</text>
+  <rect x="545" y="55" width="235" height="36" rx="4" fill="rgba(201,168,76,0.15)"/>
+  <text x="662" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">スポット契約</text>
+
+  <!-- Row labels -->
+  <text x="12" y="118" fill="rgba(255,255,255,0.45)" font-size="11" text-anchor="start">月額費用</text>
+  <text x="12" y="168" fill="rgba(255,255,255,0.45)" font-size="11" text-anchor="start">予算管理</text>
+  <text x="12" y="218" fill="rgba(255,255,255,0.45)" font-size="11" text-anchor="start">成果連動</text>
+  <text x="12" y="268" fill="rgba(255,255,255,0.45)" font-size="11" text-anchor="start">継続性</text>
+  <text x="12" y="318" fill="rgba(255,255,255,0.45)" font-size="11" text-anchor="start">メリット</text>
+  <text x="12" y="368" fill="rgba(255,255,255,0.45)" font-size="11" text-anchor="start">注意点</text>
+
+  <!-- Horizontal lines -->
+  <line x1="20" y1="130" x2="780" y2="130" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="20" y1="180" x2="780" y2="180" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="20" y1="230" x2="780" y2="230" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="20" y1="280" x2="780" y2="280" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="20" y1="330" x2="780" y2="330" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- Vertical dividers -->
+  <line x1="255" y1="55" x2="255" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="518" y1="55" x2="518" y2="390" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Col 1: 月額固定 -->
+  <text x="137" y="118" text-anchor="middle" fill="#ffffff" font-size="12">5〜30万円/月</text>
+  <text x="137" y="168" text-anchor="middle" fill="#c9a84c" font-size="12">◎ 予測しやすい</text>
+  <text x="137" y="218" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">△ 成果に関係なし</text>
+  <text x="137" y="268" text-anchor="middle" fill="#c9a84c" font-size="12">◎ 長期継続向き</text>
+  <text x="137" y="315" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11">安定した運用が可能</text>
+  <text x="137" y="331" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11">担当者との関係構築</text>
+  <text x="137" y="362" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">成果ゼロでも費用発生</text>
+  <text x="137" y="378" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">形骸化リスクあり</text>
+
+  <!-- Col 2: 成果報酬型 -->
+  <text x="399" y="118" text-anchor="middle" fill="#ffffff" font-size="12">成果に応じて変動</text>
+  <text x="399" y="168" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="12">△ 高額になる可能性</text>
+  <text x="399" y="218" text-anchor="middle" fill="#c9a84c" font-size="12">◎ 完全連動</text>
+  <text x="399" y="268" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">○ 目的共有しやすい</text>
+  <text x="399" y="315" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11">初期リスクが低い</text>
+  <text x="399" y="331" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11">代行社と目標共有</text>
+  <text x="399" y="362" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">グレー手法リスク</text>
+  <text x="399" y="378" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">フォロワー質が低い場合も</text>
+
+  <!-- Col 3: スポット -->
+  <text x="662" y="118" text-anchor="middle" fill="#ffffff" font-size="12">10〜30万円/回</text>
+  <text x="662" y="168" text-anchor="middle" fill="#c9a84c" font-size="12">◎ 単発なので明確</text>
+  <text x="662" y="218" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">— 指標なし</text>
+  <text x="662" y="268" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="12">✕ 継続サポートなし</text>
+  <text x="662" y="315" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11">初期リスクが低い</text>
+  <text x="662" y="331" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11">品質を試せる</text>
+  <text x="662" y="362" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">中長期戦略と連動しにくい</text>
+  <text x="662" y="378" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">単発では成果が出にくい</text>
+
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">中小企業には月額固定制での3〜6ヶ月継続がもっとも成果につながりやすい</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <line x1="0" y1="60" x2="800" y2="60" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="200" y1="60" x2="200" y2="420" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="400" y1="60" x2="400" y2="420" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="600" y1="60" x2="600" y2="420" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="400" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#c9a84c">撮影素材の活用内訳｜コンテンツタイプ別比率</text>
+  <!-- Donut chart using arc paths -->
+  <!-- Total: Reels/動画(35%), 静止画フィード(25%), Stories(20%), テキスト(15%), その他(5%) -->
+  <!-- Circle center: 240, 240; r=130 -->
+  <!-- Reels 35%: 0 → 126deg (#c9a84c) -->
+  <path d="M240,240 L240,110 A130,130 0 0,1 361.4,176.5 Z" fill="#c9a84c" opacity="0.85"/>
+  <!-- 静止画 25%: 126→216deg (blue-ish) -->
+  <path d="M240,240 L361.4,176.5 A130,130 0 0,1 287.3,363.4 Z" fill="#4ade80" opacity="0.8"/>
+  <!-- Stories 20%: 216→288deg -->
+  <path d="M240,240 L287.3,363.4 A130,130 0 0,1 139.8,337.8 Z" fill="#60a5fa" opacity="0.8"/>
+  <!-- テキスト 15%: 288→342deg -->
+  <path d="M240,240 L139.8,337.8 A130,130 0 0,1 118.7,174.3 Z" fill="#f87171" opacity="0.8"/>
+  <!-- その他 5%: 342→360deg -->
+  <path d="M240,240 L118.7,174.3 A130,130 0 0,1 240,110 Z" fill="rgba(255,255,255,0.3)"/>
+  <!-- Center hole -->
+  <circle cx="240" cy="240" r="70" fill="#111111"/>
+  <text x="240" y="234" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.7)">コンテンツ</text>
+  <text x="240" y="252" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.7)">種別比率</text>
+  <!-- Legend right side -->
+  <rect x="440" y="95" width="16" height="16" fill="#c9a84c" opacity="0.85" rx="3"/>
+  <text x="465" y="108" font-size="14" fill="#ffffff">Reels・TikTok動画</text>
+  <text x="730" y="108" text-anchor="end" font-size="16" font-weight="bold" fill="#c9a84c">35%</text>
+  <text x="465" y="126" font-size="12" fill="rgba(255,255,255,0.5)">月4〜6本｜最優先で活用</text>
+  <rect x="440" y="145" width="16" height="16" fill="#4ade80" opacity="0.8" rx="3"/>
+  <text x="465" y="158" font-size="14" fill="#ffffff">フィード静止画</text>
+  <text x="730" y="158" text-anchor="end" font-size="16" font-weight="bold" fill="#4ade80">25%</text>
+  <text x="465" y="176" font-size="12" fill="rgba(255,255,255,0.5)">月3〜4本｜アーカイブ閲覧に有効</text>
+  <rect x="440" y="195" width="16" height="16" fill="#60a5fa" opacity="0.8" rx="3"/>
+  <text x="465" y="208" font-size="14" fill="#ffffff">Stories（日常・舞台裏）</text>
+  <text x="730" y="208" text-anchor="end" font-size="16" font-weight="bold" fill="#60a5fa">20%</text>
+  <text x="465" y="226" font-size="12" fill="rgba(255,255,255,0.5)">月5〜8本｜親近感・フォロワー維持</text>
+  <rect x="440" y="245" width="16" height="16" fill="#f87171" opacity="0.8" rx="3"/>
+  <text x="465" y="258" font-size="14" fill="#ffffff">テキスト・グラフィック</text>
+  <text x="730" y="258" text-anchor="end" font-size="16" font-weight="bold" fill="#f87171">15%</text>
+  <text x="465" y="276" font-size="12" fill="rgba(255,255,255,0.5)">月3〜5本｜知識・ノウハウ発信</text>
+  <rect x="440" y="295" width="16" height="16" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <text x="465" y="308" font-size="14" fill="#ffffff">YouTube・ブログ全編</text>
+  <text x="730" y="308" text-anchor="end" font-size="16" font-weight="bold" fill="rgba(255,255,255,0.7)">5%</text>
+  <text x="465" y="326" font-size="12" fill="rgba(255,255,255,0.5)">月1本｜SEO・長尺コンテンツ</text>
+  <!-- Note -->
+  <rect x="440" y="360" width="320" height="44" rx="8" fill="#1a1a1a" stroke="#c9a84c" stroke-width="1"/>
+  <text x="600" y="378" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.7)">1回の撮影素材を5種類に分解することで</text>
+  <text x="600" y="395" text-anchor="middle" font-size="13" font-weight="bold" fill="#c9a84c">月15〜25本の投稿素材を確保</text>
+</svg>

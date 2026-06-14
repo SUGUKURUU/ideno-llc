@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS初期3ヶ月の投稿設計（月12投稿の場合）</text>
+
+  <rect x="80" y="80" width="640" height="300" fill="none" stroke="#333333" stroke-width="1" rx="3"/>
+
+  <text x="100" y="110" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">コンテンツカレンダー：テーマ別配分</text>
+  <line x1="100" y1="125" x2="700" y2="125" stroke="#333333" stroke-width="1"/>
+
+  <text x="100" y="155" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">業界の豆知識・ノウハウ：4投稿</text>
+  <rect x="100" y="165" width="400" height="15" fill="#c9a84c" rx="2"/>
+  <text x="520" y="177" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">33%</text>
+
+  <text x="100" y="200" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">サービスの活用事例：3投稿</text>
+  <rect x="100" y="210" width="300" height="15" fill="#8b7355" rx="2"/>
+  <text x="420" y="222" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">25%</text>
+
+  <text x="100" y="245" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">スタッフ・チームの紹介：2投稿</text>
+  <rect x="100" y="255" width="200" height="15" fill="#555555" rx="2"/>
+  <text x="320" y="267" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">17%</text>
+
+  <text x="100" y="290" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">日常・舞台裏：2投稿</text>
+  <rect x="100" y="300" width="200" height="15" fill="#999999" rx="2"/>
+  <text x="320" y="312" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">17%</text>
+
+  <text x="100" y="335" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">告知・お知らせ：1投稿</text>
+  <rect x="100" y="345" width="100" height="15" fill="#666666" rx="2"/>
+  <text x="220" y="357" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">8%</text>
+
+  <text x="400" y="395" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「価値提供8割：宣伝2割」の黄金比で、フォロワー獲得と信頼形成を実現</text>
+</svg>

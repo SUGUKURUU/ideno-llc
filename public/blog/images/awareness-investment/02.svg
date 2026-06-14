@@ -1,0 +1,63 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <text x="400" y="35" class="title" text-anchor="middle">予算別最適投資配分</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">月額予算に応じた戦略</text>
+
+  <!-- 3万円以下 -->
+  <rect x="40" y="80" width="170" height="310" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="125" y="105" class="gold" text-anchor="middle" font-size="11" font-weight="bold">月額3万円以下</text>
+  <text x="125" y="125" class="text-white" text-anchor="middle" font-size="10">自力発信で基盤構築</text>
+  <line x1="50" y1="135" x2="210" y2="135" stroke="#c9a84c" stroke-width="1"/>
+  <text x="125" y="155" class="text-white" text-anchor="middle" font-size="9">✓ HP：無料テンプレ</text>
+  <text x="125" y="172" class="text-white" text-anchor="middle" font-size="9">✓ SNS：自力運用</text>
+  <text x="125" y="189" class="text-white" text-anchor="middle" font-size="9">✓ 素材：スマホ撮影</text>
+  <text x="125" y="220" class="text-gray" text-anchor="middle" font-size="9">投資：主に時間</text>
+  <text x="125" y="360" class="gold" text-anchor="middle" font-size="10" font-weight="bold">継続が最優先</text>
+
+  <!-- 5-10万円 -->
+  <rect x="230" y="80" width="170" height="310" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="315" y="105" class="gold" text-anchor="middle" font-size="11" font-weight="bold">月額5-10万円</text>
+  <text x="315" y="125" class="text-white" text-anchor="middle" font-size="10">SNS運用代行推奨</text>
+  <line x1="240" y1="135" x2="400" y2="135" stroke="#c9a84c" stroke-width="1"/>
+  <text x="315" y="155" class="text-white" text-anchor="middle" font-size="9">✓ SNS代行：3-7万円</text>
+  <text x="315" y="172" class="text-white" text-anchor="middle" font-size="9">✓ HP維持：1-2万円</text>
+  <text x="315" y="189" class="text-white" text-anchor="middle" font-size="9">✓ コンテンツ制作：</text>
+  <text x="315" y="202" class="text-white" text-anchor="middle" font-size="9">1-2万円</text>
+  <text x="315" y="235" class="text-gray" text-anchor="middle" font-size="9">最もROI高い</text>
+  <text x="315" y="360" class="gold" text-anchor="middle" font-size="10" font-weight="bold">品質と継続両立</text>
+
+  <!-- 10-30万円 -->
+  <rect x="420" y="80" width="170" height="310" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="505" y="105" class="gold" text-anchor="middle" font-size="11" font-weight="bold">月額10-30万円</text>
+  <text x="505" y="125" class="text-white" text-anchor="middle" font-size="10">HP+SNS統合戦略</text>
+  <line x1="430" y1="135" x2="590" y2="135" stroke="#c9a84c" stroke-width="1"/>
+  <text x="505" y="155" class="text-white" text-anchor="middle" font-size="8">✓ SNS代行：5-10万</text>
+  <text x="505" y="169" class="text-white" text-anchor="middle" font-size="8">✓ HP改善：3-10万</text>
+  <text x="505" y="183" class="text-white" text-anchor="middle" font-size="8">✓ コンテンツ：2-5万</text>
+  <text x="505" y="197" class="text-white" text-anchor="middle" font-size="8">✓ 広告テスト：1-3万</text>
+  <text x="505" y="230" class="text-gray" text-anchor="middle" font-size="9">認知と信頼同時</text>
+  <text x="505" y="360" class="gold" text-anchor="middle" font-size="10" font-weight="bold">本格的な展開</text>
+
+  <!-- 30万円以上 -->
+  <rect x="610" y="80" width="150" height="310" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="685" y="105" class="gold" text-anchor="middle" font-size="11" font-weight="bold">月額30万円+</text>
+  <text x="685" y="125" class="text-white" text-anchor="middle" font-size="10">加速フェーズ</text>
+  <line x1="620" y1="135" x2="760" y2="135" stroke="#c9a84c" stroke-width="1"/>
+  <text x="685" y="155" class="text-white" text-anchor="middle" font-size="8">✓ SNS代行：10-20万</text>
+  <text x="685" y="169" class="text-white" text-anchor="middle" font-size="8">✓ HP・コンテンツ：</text>
+  <text x="685" y="183" class="text-white" text-anchor="middle" font-size="8">5-10万</text>
+  <text x="685" y="197" class="text-white" text-anchor="middle" font-size="8">✓ SNS・検索広告：</text>
+  <text x="685" y="211" class="text-white" text-anchor="middle" font-size="8">10-20万</text>
+  <text x="685" y="360" class="gold" text-anchor="middle" font-size="10" font-weight="bold">認知を爆速化</text>
+</svg>

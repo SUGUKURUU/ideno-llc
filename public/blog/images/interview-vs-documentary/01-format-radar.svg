@@ -1,0 +1,57 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">インタビュー vs 密着動画の特性比較</text>
+
+  <!-- Radar center -->
+  <!-- 6 axes, center=400,225, radius=150 -->
+  <!-- Angles: 0=top(270°), then 60° each -->
+  <!-- Axis 0: 制作コスト(低が良) → top: 400,75 -->
+  <!-- Axis 1: リアリティ → top-right: 530,150 -->
+  <!-- Axis 2: 共感度 → bottom-right: 530,300 -->
+  <!-- Axis 3: 制作難易度(低が良) → bottom: 400,375 -->
+  <!-- Axis 4: 拡散力 → bottom-left: 270,300 -->
+  <!-- Axis 5: 信頼醸成 → top-left: 270,150 -->
+
+  <!-- Grid circles -->
+  <polygon points="400,125 530,175 530,275 400,325 270,275 270,175" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <polygon points="400,150 505,188 505,263 400,300 295,263 295,188" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <polygon points="400,175 480,200 480,250 400,275 320,250 320,200" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Axes -->
+  <line x1="400" y1="225" x2="400" y2="75" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="530" y2="150" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="530" y2="300" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="400" y2="375" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="270" y2="300" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="400" y1="225" x2="270" y2="150" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- Axis labels -->
+  <text x="400" y="65" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">制作コスト（低が良）</text>
+  <text x="550" y="148" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="start">リアリティ</text>
+  <text x="550" y="304" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="start">共感度</text>
+  <text x="400" y="392" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">制作難易度（低が良）</text>
+  <text x="250" y="304" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="end">拡散力</text>
+  <text x="250" y="148" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="end">信頼醸成</text>
+
+  <!-- インタビュー scores (out of 5): コスト4, リアリティ2, 共感2, 難易度4, 拡散2, 信頼3 -->
+  <!-- scale: 5=150px from center -->
+  <!-- コスト4 → 400, 225-120=105 -->
+  <!-- リアリティ2 → 400+60=460, 225-30=195 wait let me recalc -->
+  <!-- axis vectors (unit*150): top=(0,-150), tr=(130,-75), br=(130,75), bot=(0,150), bl=(-130,75), tl=(-130,-75) -->
+  <!-- インタビュー: コスト4/5=0.8→(0,-120), リアリティ2/5=0.4→(52,-30), 共感2/5=0.4→(52,30), 難易度4/5=0.8→(0,120), 拡散2/5=0.4→(-52,30), 信頼3/5=0.6→(-78,-45) -->
+  <polygon
+    points="400,105 452,195 452,255 400,345 348,255 322,180"
+    fill="rgba(201,168,76,0.25)" stroke="#c9a84c" stroke-width="2"/>
+
+  <!-- 密着動画 scores: コスト2, リアリティ5, 共感5, 難易度2, 拡散4, 信頼5 -->
+  <!-- コスト2/5=0.4→(0,-60)=400,165, リアリティ5/5→(130,-75)=530,150, 共感5/5→(130,75)=530,300, 難易度2/5=0.4→(0,60)=400,285, 拡散4/5→(-104,60)=296,285, 信頼5/5→(-130,-75)=270,150 -->
+  <polygon
+    points="400,165 530,150 530,300 400,285 296,285 270,150"
+    fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.8)" stroke-width="2"/>
+
+  <!-- Legend -->
+  <line x1="100" y1="395" x2="130" y2="395" stroke="#c9a84c" stroke-width="2"/>
+  <text x="138" y="399" fill="#c9a84c" font-size="12">インタビュー動画</text>
+  <line x1="310" y1="395" x2="340" y2="395" stroke="rgba(255,255,255,0.8)" stroke-width="2"/>
+  <text x="348" y="399" fill="rgba(255,255,255,0.8)" font-size="12">密着ドキュメンタリー</text>
+</svg>

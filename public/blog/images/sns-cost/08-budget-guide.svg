@@ -1,0 +1,62 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">売上規模別 推奨月額SNS運用代行予算</text>
+
+  <!-- axes -->
+  <line x1="100" y1="60" x2="100" y2="340" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+  <line x1="100" y1="340" x2="760" y2="340" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+
+  <!-- Y axis labels (万円) -->
+  <text x="92" y="344" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="11">0</text>
+  <text x="92" y="290" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="11">10万</text>
+  <text x="92" y="236" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="11">20万</text>
+  <text x="92" y="182" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="11">30万</text>
+  <text x="92" y="128" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="11">40万</text>
+  <text x="92" y="74" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="11">50万</text>
+
+  <!-- grid -->
+  <line x1="100" y1="290" x2="760" y2="290" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="100" y1="236" x2="760" y2="236" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="100" y1="182" x2="760" y2="182" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="100" y1="128" x2="760" y2="128" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="100" y1="74" x2="760" y2="74" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Bar group 1: 〜1,000万 → 5〜10万 → min y=313 max y=290, center bar at mid=301 -->
+  <!-- min bar: h=(5/50)*280=28, y=340-28=312 -->
+  <!-- max bar: h=(10/50)*280=56, y=340-56=284 -->
+  <rect x="140" y="284" width="110" height="56" rx="4" fill="rgba(201,168,76,0.3)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+  <rect x="140" y="312" width="110" height="28" rx="4" fill="#c9a84c"/>
+  <text x="195" y="360" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">〜1,000万</text>
+  <text x="195" y="376" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">年商規模</text>
+  <text x="195" y="272" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">5〜10万円</text>
+
+  <!-- Bar group 2: 1,000〜5,000万 → 10〜20万 -->
+  <!-- min h=56 y=284, max h=112 y=228 -->
+  <rect x="310" y="228" width="110" height="112" rx="4" fill="rgba(201,168,76,0.3)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+  <rect x="310" y="284" width="110" height="56" rx="4" fill="#c9a84c"/>
+  <text x="365" y="360" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">1,000〜5,000万</text>
+  <text x="365" y="376" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">年商規模</text>
+  <text x="365" y="216" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">10〜20万円</text>
+
+  <!-- Bar group 3: 5,000万〜1億 → 20〜40万 -->
+  <!-- min h=112 y=228, max h=224 y=116 -->
+  <rect x="480" y="116" width="110" height="224" rx="4" fill="rgba(201,168,76,0.3)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+  <rect x="480" y="228" width="110" height="112" rx="4" fill="#c9a84c"/>
+  <text x="535" y="360" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">5,000万〜1億</text>
+  <text x="535" y="376" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">年商規模</text>
+  <text x="535" y="104" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">20〜40万円</text>
+
+  <!-- Bar group 4: 1億〜 → 40万〜 -->
+  <!-- min h=224 y=116 -->
+  <rect x="650" y="90" width="110" height="250" rx="4" fill="rgba(201,168,76,0.5)" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="705" y="360" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">1億円〜</text>
+  <text x="705" y="376" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">年商規模</text>
+  <text x="705" y="78" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">40万円〜</text>
+
+  <!-- legend -->
+  <rect x="200" y="396" width="14" height="10" rx="2" fill="#c9a84c"/>
+  <text x="220" y="406" fill="rgba(255,255,255,0.6)" font-size="10">推奨下限</text>
+  <rect x="310" y="396" width="14" height="10" rx="2" fill="rgba(201,168,76,0.3)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+  <text x="330" y="406" fill="rgba(255,255,255,0.6)" font-size="10">推奨上限（成果拡大時）</text>
+  <text x="570" y="406" fill="rgba(255,255,255,0.35)" font-size="10">※広告費は別途</text>
+</svg>

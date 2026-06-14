@@ -1,0 +1,52 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">1素材の多チャネル展開戦略</text>
+
+  <!-- Center source box -->
+  <rect x="300" y="155" width="200" height="80" rx="8" fill="rgba(201,168,76,0.18)" stroke="#c9a84c" stroke-width="2"/>
+  <text x="400" y="186" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">📹 撮影した動画</text>
+  <text x="400" y="206" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">1本（3〜5分）</text>
+  <text x="400" y="223" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">月1回撮影の素材</text>
+
+  <!-- Output 1: リール（縦長カット） top-left -->
+  <rect x="40" y="58" width="170" height="58" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="125" y="82" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">縦長カット</text>
+  <text x="125" y="100" text-anchor="middle" fill="#c9a84c" font-size="11">リール / TikTok</text>
+  <line x1="210" y1="87" x2="300" y2="175" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="305,170 292,172 298,183" fill="#c9a84c"/>
+
+  <!-- Output 2: YouTube（横長カット） top-right -->
+  <rect x="590" y="58" width="170" height="58" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="675" y="82" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">横長カット</text>
+  <text x="675" y="100" text-anchor="middle" fill="#c9a84c" font-size="11">YouTube 全編</text>
+  <line x1="590" y1="87" x2="500" y2="175" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="495,170 502,181 508,170" fill="#c9a84c"/>
+
+  <!-- Output 3: サムネ静止画 left -->
+  <rect x="40" y="185" width="170" height="58" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="125" y="209" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">サムネ静止画</text>
+  <text x="125" y="227" text-anchor="middle" fill="#c9a84c" font-size="11">フィード投稿用</text>
+  <line x1="210" y1="214" x2="300" y2="200" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="305,197 292,196 296,207" fill="#c9a84c"/>
+
+  <!-- Output 4: テキスト引用 right -->
+  <rect x="590" y="185" width="170" height="58" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="675" y="209" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">テキスト引用</text>
+  <text x="675" y="227" text-anchor="middle" fill="#c9a84c" font-size="11">名言・キーフレーズ投稿</text>
+  <line x1="590" y1="214" x2="500" y2="200" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="503,197 508,208 495,203" fill="#c9a84c"/>
+
+  <!-- Output 5: ブログ埋め込み bottom -->
+  <rect x="315" y="320" width="170" height="58" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="400" y="344" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">ブログ埋め込み</text>
+  <text x="400" y="362" text-anchor="middle" fill="#c9a84c" font-size="11">SEO記事との連携</text>
+  <line x1="400" y1="235" x2="400" y2="320" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="400,325 394,312 406,312" fill="#c9a84c"/>
+
+  <!-- total badge -->
+  <rect x="620" y="310" width="150" height="60" rx="8" fill="rgba(201,168,76,0.15)" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="695" y="336" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">1本から生まれる</text>
+  <text x="695" y="358" text-anchor="middle" fill="#c9a84c" font-size="20" font-weight="bold">5展開</text>
+
+  <text x="400" y="400" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">1素材を徹底的に分解・再利用することで投稿コストを最小化する</text>
+</svg>

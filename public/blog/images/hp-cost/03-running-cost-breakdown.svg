@@ -1,0 +1,75 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">制作後の月額ランニングコスト内訳</text>
+
+  <!-- Server costs -->
+  <g>
+    <rect x="30" y="70" width="160" height="130" rx="6" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="1.5"/>
+    <text x="110" y="95" text-anchor="middle" fill="#4a9eff" font-size="11" font-weight="bold">サーバー費用</text>
+    <text x="50" y="120" fill="#c9a84c" font-size="11" font-weight="bold">月500～5万円</text>
+    <text x="50" y="140" fill="#aaaaaa" font-size="9">・共有サーバー</text>
+    <text x="50" y="153" fill="#aaaaaa" font-size="9">  （月500-3,000円）</text>
+    <text x="50" y="166" fill="#aaaaaa" font-size="9">・専用サーバー</text>
+    <text x="50" y="179" fill="#aaaaaa" font-size="9">  （月1-5万円）</text>
+  </g>
+
+  <!-- Domain -->
+  <g>
+    <rect x="210" y="70" width="160" height="130" rx="6" fill="#50c878" opacity="0.15" stroke="#50c878" stroke-width="1.5"/>
+    <text x="290" y="95" text-anchor="middle" fill="#50c878" font-size="11" font-weight="bold">ドメイン費用</text>
+    <text x="230" y="120" fill="#c9a84c" font-size="11" font-weight="bold">年1,000～5,000円</text>
+    <text x="230" y="140" fill="#aaaaaa" font-size="9">（月換算80-400円）</text>
+    <text x="230" y="160" fill="#aaaaaa" font-size="9">・.com .jp .co.jp</text>
+    <text x="230" y="173" fill="#aaaaaa" font-size="9">・年払い割引あり</text>
+  </g>
+
+  <!-- SSL Certificate -->
+  <g>
+    <rect x="390" y="70" width="160" height="130" rx="6" fill="#e91e63" opacity="0.15" stroke="#e91e63" stroke-width="1.5"/>
+    <text x="470" y="95" text-anchor="middle" fill="#e91e63" font-size="11" font-weight="bold">SSL証明書</text>
+    <text x="410" y="120" fill="#c9a84c" font-size="11" font-weight="bold">無料～年5万円</text>
+    <text x="410" y="140" fill="#aaaaaa" font-size="9">・Let's Encrypt</text>
+    <text x="410" y="153" fill="#aaaaaa" font-size="9">  （無料推奨）</text>
+    <text x="410" y="166" fill="#aaaaaa" font-size="9">・有料版は</text>
+    <text x="410" y="179" fill="#aaaaaa" font-size="9">  企業認証用</text>
+  </g>
+
+  <!-- Maintenance -->
+  <g>
+    <rect x="570" y="70" width="160" height="130" rx="6" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="1.5"/>
+    <text x="650" y="95" text-anchor="middle" fill="#ff9800" font-size="11" font-weight="bold">保守・更新費用</text>
+    <text x="590" y="120" fill="#c9a84c" font-size="11" font-weight="bold">月1-10万円</text>
+    <text x="590" y="140" fill="#aaaaaa" font-size="9">・バグ修正</text>
+    <text x="590" y="153" fill="#aaaaaa" font-size="9">・セキュリティ更新</text>
+    <text x="590" y="166" fill="#aaaaaa" font-size="9">・コンテンツ更新</text>
+    <text x="590" y="179" fill="#aaaaaa" font-size="9">・プラグイン更新</text>
+  </g>
+
+  <!-- Additional costs -->
+  <text x="30" y="225" fill="#c9a84c" font-size="12" font-weight="bold">その他の月額費用</text>
+
+  <g>
+    <circle cx="40" cy="255" r="3" fill="#c9a84c"/>
+    <text x="55" y="260" fill="#ffffff" font-size="10">WordPressプラグイン・テーマ費用：月100～5,000円</text>
+  </g>
+
+  <g>
+    <circle cx="40" cy="280" r="3" fill="#c9a84c"/>
+    <text x="55" y="285" fill="#ffffff" font-size="10">メール配信サービス：月1,000～5,000円（フォーム・メルマガ）</text>
+  </g>
+
+  <g>
+    <circle cx="40" cy="305" r="3" fill="#c9a84c"/>
+    <text x="55" y="310" fill="#ffffff" font-size="10">アクセス解析・SEOツール：月1,000～3,000円</text>
+  </g>
+
+  <g>
+    <circle cx="40" cy="330" r="3" fill="#c9a84c"/>
+    <text x="55" y="335" fill="#ffffff" font-size="10">バックアップサービス：月500～2,000円</text>
+  </g>
+
+  <!-- Warning -->
+  <rect x="30" y="360" width="700" height="50" rx="4" fill="#ff6b6b" opacity="0.1" stroke="#ff6b6b" stroke-width="1"/>
+  <text x="50" y="378" fill="#ff6b6b" font-size="10" font-weight="bold">⚠ 注意：制作費用だけで予算を使い切ると危険</text>
+  <text x="50" y="395" fill="#aaaaaa" font-size="9">運用資金がなくなり、セキュリティリスク増加・成果が出ない状況に陥るケースが多い</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">契約前に確認すべき10項目チェックリスト</text>
+
+  <!-- 2 columns of 5 items each -->
+  <!-- Left col -->
+  <!-- item 1 -->
+  <rect x="30" y="58" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="38" y="70" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="65" y="82" fill="#ffffff" font-size="13" font-weight="bold">① 著作権の帰属先</text>
+  <text x="65" y="93" fill="rgba(255,255,255,0.5)" font-size="10">制作物の著作権は自社に帰属するか確認</text>
+
+  <rect x="30" y="105" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="38" y="117" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="65" y="129" fill="#ffffff" font-size="13" font-weight="bold">② ソースコード納品の有無</text>
+  <text x="65" y="140" fill="rgba(255,255,255,0.5)" font-size="10">HTML/CSS/JS等の全データを納品してもらえるか</text>
+
+  <rect x="30" y="152" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="38" y="164" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="65" y="176" fill="#ffffff" font-size="13" font-weight="bold">③ 保守・更新費用（月額）</text>
+  <text x="65" y="187" fill="rgba(255,255,255,0.5)" font-size="10">月額保守費の内容と金額を書面で確認</text>
+
+  <rect x="30" y="199" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="38" y="211" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="65" y="223" fill="#ffffff" font-size="13" font-weight="bold">④ 追加修正費の基準</text>
+  <text x="65" y="234" fill="rgba(255,255,255,0.5)" font-size="10">修正は何回まで無料か・有料の場合の単価</text>
+
+  <rect x="30" y="246" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="38" y="258" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="65" y="270" fill="#ffffff" font-size="13" font-weight="bold">⑤ ドメイン・サーバーの管理主体</text>
+  <text x="65" y="281" fill="rgba(255,255,255,0.5)" font-size="10">自社管理か制作会社管理か明確にする</text>
+
+  <!-- Right col -->
+  <rect x="420" y="58" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="428" y="70" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="455" y="82" fill="#ffffff" font-size="13" font-weight="bold">⑥ 最低契約期間・解約条件</text>
+  <text x="455" y="93" fill="rgba(255,255,255,0.5)" font-size="10">途中解約できるか・違約金の有無</text>
+
+  <rect x="420" y="105" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="428" y="117" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="455" y="129" fill="#ffffff" font-size="13" font-weight="bold">⑦ SEO対応の範囲</text>
+  <text x="455" y="140" fill="rgba(255,255,255,0.5)" font-size="10">メタ情報・URL設計・表示速度最適化が含まれるか</text>
+
+  <rect x="420" y="152" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="428" y="164" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="455" y="176" fill="#ffffff" font-size="13" font-weight="bold">⑧ CMS（管理画面）の提供有無</text>
+  <text x="455" y="187" fill="rgba(255,255,255,0.5)" font-size="10">自社でコンテンツ更新できる仕組みがあるか</text>
+
+  <rect x="420" y="199" width="370" height="40" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+  <rect x="428" y="211" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="455" y="223" fill="#ffffff" font-size="13" font-weight="bold">⑨ アナリティクス設定の有無</text>
+  <text x="455" y="234" fill="rgba(255,255,255,0.5)" font-size="10">GA4・サーチコンソールの初期設定が含まれるか</text>
+
+  <rect x="420" y="246" width="370" height="40" rx="5" fill="rgba(201,168,76,0.08)" stroke="#c9a84c" stroke-width="1.5"/>
+  <rect x="428" y="258" width="18" height="18" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="455" y="270" fill="#c9a84c" font-size="13" font-weight="bold">⑩ 実際の担当者を確認</text>
+  <text x="455" y="281" fill="rgba(255,255,255,0.5)" font-size="10">窓口と実作業者が同じか・経験年数・ポートフォリオ</text>
+
+  <!-- Summary -->
+  <rect x="30" y="302" width="760" height="72" rx="6" fill="rgba(201,168,76,0.07)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <text x="400" y="326" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="13" font-weight="bold">契約前確認のポイント</text>
+  <text x="200" y="350" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">必ず書面（契約書・仕様書）で確認</text>
+  <text x="400" y="350" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">口頭の約束は後でトラブルの原因に</text>
+  <text x="610" y="350" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">不明点は遠慮せず質問する</text>
+  <text x="200" y="366" text-anchor="middle" fill="#c9a84c" font-size="11">→ 不明確な会社は避ける</text>
+  <text x="400" y="366" text-anchor="middle" fill="#c9a84c" font-size="11">→ 口頭は証拠にならない</text>
+  <text x="610" y="366" text-anchor="middle" fill="#c9a84c" font-size="11">→ 回答が曖昧な会社は危険</text>
+</svg>

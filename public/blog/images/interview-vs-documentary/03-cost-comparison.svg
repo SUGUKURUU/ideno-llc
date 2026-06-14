@@ -1,0 +1,43 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">制作コスト比較（スタジオ品質の場合）</text>
+
+  <!-- Horizontal bar chart -->
+  <!-- Scale: max=150万, 1万=3.2px, base x=260 -->
+  <line x1="260" y1="58" x2="260" y2="350" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="260" y1="350" x2="740" y2="350" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- X grid + labels -->
+  <line x1="420" y1="58" x2="420" y2="350" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="580" y1="58" x2="580" y2="350" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="740" y1="58" x2="740" y2="350" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <text x="260" y="368" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">0万円</text>
+  <text x="420" y="368" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">50万円</text>
+  <text x="580" y="368" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">100万円</text>
+  <text x="740" y="368" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">150万円</text>
+
+  <!-- Bar 1: インタビュー5分 20-50万 -->
+  <rect x="260" y="90" width="64" height="44" fill="#c9a84c" opacity="0.4" rx="3"/>
+  <rect x="260" y="90" width="160" height="44" fill="#c9a84c" opacity="0.2" rx="3"/>
+  <text x="248" y="118" fill="rgba(255,255,255,0.8)" font-size="12" text-anchor="end">インタビュー動画</text>
+  <text x="248" y="134" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">（5分）</text>
+  <text x="428" y="118" fill="rgba(255,255,255,0.7)" font-size="12" text-anchor="start"> 20〜50万円</text>
+
+  <!-- Bar 2: インタビュー10分 30-80万 -->
+  <rect x="260" y="174" width="96" height="44" fill="#c9a84c" opacity="0.5" rx="3"/>
+  <rect x="260" y="174" width="256" height="44" fill="#c9a84c" opacity="0.2" rx="3"/>
+  <text x="248" y="202" fill="rgba(255,255,255,0.8)" font-size="12" text-anchor="end">インタビュー動画</text>
+  <text x="248" y="218" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">（10分）</text>
+  <text x="524" y="202" fill="rgba(255,255,255,0.7)" font-size="12" text-anchor="start"> 30〜80万円</text>
+
+  <!-- Bar 3: 密着1日 50-150万 -->
+  <rect x="260" y="258" width="160" height="44" fill="#c9a84c" opacity="0.7" rx="3"/>
+  <rect x="260" y="258" width="480" height="44" fill="#c9a84c" opacity="0.25" rx="3"/>
+  <text x="248" y="286" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="end">密着ドキュメンタリー</text>
+  <text x="248" y="302" fill="rgba(201,168,76,0.7)" font-size="11" text-anchor="end">（1日密着）</text>
+  <text x="748" y="286" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="start"> 50〜150万円</text>
+
+  <!-- Note -->
+  <rect x="40" y="390" width="720" height="22" rx="4" fill="#1e1e1e"/>
+  <text x="400" y="405" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">※費用は制作会社・撮影日数・編集工数により異なります。コスト差以上のROI差が採用効果に出るケースが多い。</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="30" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">会社規模・フェーズ別の最適解</text>
+
+  <!-- フェーズ1: スタートアップ -->
+  <rect x="40" y="50" width="220" height="340" fill="#161616" stroke="#c9a84c" stroke-width="2" rx="8"/>
+  <rect x="40" y="50" width="220" height="54" fill="#c9a84c" rx="8"/>
+  <rect x="40" y="90" width="220" height="14" fill="#c9a84c"/>
+  <text x="150" y="74" fill="#111111" font-size="13" font-weight="bold" text-anchor="middle">フェーズ1</text>
+  <text x="150" y="92" fill="#111111" font-size="11" text-anchor="middle">スタートアップ（年商〜1億）</text>
+
+  <text x="150" y="128" fill="#c9a84c" font-size="22" font-weight="bold" text-anchor="middle">外注 推奨</text>
+  <text x="150" y="148" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">★★★★★</text>
+
+  <line x1="60" y1="162" x2="240" y2="162" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="150" y="182" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">おすすめの理由</text>
+  <text x="150" y="202" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・採用コストを抑えたい</text>
+  <text x="150" y="220" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・本業への集中が必要</text>
+  <text x="150" y="238" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・リソースが限られている</text>
+  <text x="150" y="256" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・SNSの方向性が未確定</text>
+
+  <line x1="60" y1="270" x2="240" y2="270" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="150" y="292" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">月額目安</text>
+  <text x="150" y="312" fill="#c9a84c" font-size="15" font-weight="bold" text-anchor="middle">3〜8万円</text>
+  <text x="150" y="332" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">エントリー〜スタンダード</text>
+
+  <rect x="60" y="350" width="160" height="30" fill="rgba(201,168,76,0.15)" rx="4"/>
+  <text x="140" y="370" fill="#c9a84c" font-size="12" text-anchor="middle">外注一択</text>
+
+  <!-- フェーズ2: 成長期 -->
+  <rect x="290" y="50" width="220" height="340" fill="#161616" stroke="#c9a84c" stroke-width="1.5" rx="8"/>
+  <rect x="290" y="50" width="220" height="54" fill="rgba(201,168,76,0.7)" rx="8"/>
+  <rect x="290" y="90" width="220" height="14" fill="rgba(201,168,76,0.7)"/>
+  <text x="400" y="74" fill="#111111" font-size="13" font-weight="bold" text-anchor="middle">フェーズ2</text>
+  <text x="400" y="92" fill="#111111" font-size="11" text-anchor="middle">成長期（年商1〜10億）</text>
+
+  <text x="400" y="128" fill="#c9a84c" font-size="17" font-weight="bold" text-anchor="middle">外注＋内製ハイブリッド</text>
+  <text x="400" y="148" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">★★★★☆</text>
+
+  <line x1="310" y1="162" x2="490" y2="162" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="400" y="182" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">おすすめの理由</text>
+  <text x="400" y="202" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・社内で素材提供を担当</text>
+  <text x="400" y="220" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・戦略・分析は外注継続</text>
+  <text x="400" y="238" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・外注×社員でスキルアップ</text>
+  <text x="400" y="256" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・将来の内製化を準備</text>
+
+  <line x1="310" y1="270" x2="490" y2="270" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="400" y="292" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">月額目安</text>
+  <text x="400" y="312" fill="#c9a84c" font-size="15" font-weight="bold" text-anchor="middle">8〜20万円</text>
+  <text x="400" y="332" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">スタンダード〜プレミアム</text>
+
+  <rect x="310" y="350" width="160" height="30" fill="rgba(201,168,76,0.15)" rx="4"/>
+  <text x="390" y="370" fill="#c9a84c" font-size="12" text-anchor="middle">外注＋社内担当の併用</text>
+
+  <!-- フェーズ3: 安定期 -->
+  <rect x="540" y="50" width="220" height="340" fill="#161616" stroke="rgba(255,255,255,0.2)" stroke-width="1" rx="8"/>
+  <rect x="540" y="50" width="220" height="54" fill="#2a2a2a" rx="8"/>
+  <rect x="540" y="90" width="220" height="14" fill="#2a2a2a"/>
+  <text x="650" y="74" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">フェーズ3</text>
+  <text x="650" y="92" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">安定期（年商10億〜）</text>
+
+  <text x="650" y="128" fill="#ffffff" font-size="17" font-weight="bold" text-anchor="middle">内製チーム構築</text>
+  <text x="650" y="148" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">★★★☆☆</text>
+
+  <line x1="560" y1="162" x2="740" y2="162" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="650" y="182" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">おすすめの理由</text>
+  <text x="650" y="202" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・SNSが主要集客チャネルに</text>
+  <text x="650" y="220" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・外注費&gt;採用コストになった</text>
+  <text x="650" y="238" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・リアルタイム性が重要</text>
+  <text x="650" y="256" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">・専任チーム体制が必要</text>
+
+  <line x1="560" y1="270" x2="740" y2="270" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="650" y="292" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">月額目安</text>
+  <text x="650" y="312" fill="rgba(255,255,255,0.7)" font-size="15" font-weight="bold" text-anchor="middle">30〜60万円＋</text>
+  <text x="650" y="332" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">専任2〜3名の人件費</text>
+
+  <rect x="560" y="350" width="160" height="30" fill="rgba(255,255,255,0.05)" rx="4"/>
+  <text x="640" y="370" fill="rgba(255,255,255,0.6)" font-size="12" text-anchor="middle">採用＋外注サポート</text>
+
+  <!-- 成長矢印 -->
+  <line x1="260" y1="220" x2="290" y2="220" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <polygon points="286,215 298,220 286,225" fill="rgba(255,255,255,0.3)"/>
+  <line x1="510" y1="220" x2="540" y2="220" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <polygon points="536,215 548,220 536,225" fill="rgba(255,255,255,0.3)"/>
+</svg>

@@ -1,0 +1,94 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">コンテンツ制作コスト・運用コスト比較</text>
+
+  <!-- Instagram -->
+  <g>
+    <rect x="30" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Instagram</text>
+
+    <!-- Production Cost -->
+    <rect x="50" y="95" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">制作コスト</text>
+    <text x="70" y="133" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">中程度</text>
+    <text x="70" y="148" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">ビジュアル品質が求められる</text>
+
+    <!-- Management Cost -->
+    <rect x="50" y="165" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="185" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">運用コスト</text>
+    <text x="70" y="203" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">中程度</text>
+    <text x="70" y="218" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">ストーリーズ・フィード・リール</text>
+
+    <!-- Analysis -->
+    <rect x="50" y="235" width="200" height="60" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="70" y="255" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">分析の容易さ</text>
+    <text x="70" y="273" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">高い</text>
+    <text x="70" y="288" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">インサイト機能が充実</text>
+
+    <!-- Learning -->
+    <rect x="50" y="305" width="200" height="70" rx="5" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="70" y="325" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">学習コスト</text>
+    <text x="70" y="343" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">中程度</text>
+    <text x="70" y="358" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">アルゴリズム変化に対応</text>
+  </g>
+
+  <!-- TikTok -->
+  <g>
+    <rect x="290" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">TikTok</text>
+
+    <!-- Production Cost -->
+    <rect x="310" y="95" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">制作コスト</text>
+    <text x="330" y="133" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">中〜高</text>
+    <text x="330" y="148" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">フックに力を入れる必要</text>
+
+    <!-- Management Cost -->
+    <rect x="310" y="165" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="185" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">運用コスト</text>
+    <text x="330" y="203" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">高い</text>
+    <text x="330" y="218" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">毎日1〜2本投稿推奨</text>
+
+    <!-- Analysis -->
+    <rect x="310" y="235" width="200" height="60" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="330" y="255" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">分析の容易さ</text>
+    <text x="330" y="273" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">やや難</text>
+    <text x="330" y="288" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">アナリティクスが専門的</text>
+
+    <!-- Learning -->
+    <rect x="310" y="305" width="200" height="70" rx="5" fill="rgba(220,38,38,0.08)" stroke="rgba(220,38,38,0.2)" stroke-width="1"/>
+    <text x="330" y="325" fill="#dc2626" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">学習コスト</text>
+    <text x="330" y="343" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">高い</text>
+    <text x="330" y="358" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">「TikTokらしさ」習得困難</text>
+  </g>
+
+  <!-- YouTube -->
+  <g>
+    <rect x="550" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">YouTube Shorts</text>
+
+    <!-- Production Cost -->
+    <rect x="570" y="95" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">制作コスト</text>
+    <text x="590" y="133" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">中程度</text>
+    <text x="590" y="148" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">動画編集スキル必要</text>
+
+    <!-- Management Cost -->
+    <rect x="570" y="165" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="185" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">運用コスト</text>
+    <text x="590" y="203" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">低〜中</text>
+    <text x="590" y="218" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">投稿頻度は低くても成長</text>
+
+    <!-- Analysis -->
+    <rect x="570" y="235" width="200" height="60" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="590" y="255" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">分析の容易さ</text>
+    <text x="590" y="273" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">高い</text>
+    <text x="590" y="288" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">YouTubeStudioが充実</text>
+
+    <!-- Learning -->
+    <rect x="570" y="305" width="200" height="70" rx="5" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="590" y="325" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">学習コスト</text>
+    <text x="590" y="343" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">中</text>
+    <text x="590" y="358" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">SEO知識があると有利</text>
+  </g>
+</svg>

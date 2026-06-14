@@ -1,0 +1,63 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="30" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">初年度コスト比較（年間）</text>
+
+  <!-- 2本の棒グラフ: 外注150万 vs 正社員480万 -->
+  <!-- y: 60-360 = 300px, max=500万 → 1万=0.6px -->
+
+  <!-- グリッド -->
+  <line x1="120" y1="60" x2="120" y2="360" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="120" y1="360" x2="700" y2="360" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="120" y1="60" x2="700" y2="60" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="120" y1="120" x2="700" y2="120" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="120" y1="180" x2="700" y2="180" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="120" y1="240" x2="700" y2="240" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="120" y1="300" x2="700" y2="300" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Y軸 -->
+  <text x="112" y="64" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">500万</text>
+  <text x="112" y="124" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">400万</text>
+  <text x="112" y="184" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">300万</text>
+  <text x="112" y="244" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">200万</text>
+  <text x="112" y="304" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">100万</text>
+  <text x="112" y="364" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">0</text>
+  <text x="55" y="210" fill="rgba(255,255,255,0.5)" font-size="12" text-anchor="middle" transform="rotate(-90,55,210)">年間コスト（円）</text>
+
+  <!-- 外注バー: 150万 → h=150*0.6=90, y=360-90=270 -->
+  <rect x="180" y="270" width="160" height="90" fill="#c9a84c" rx="4"/>
+  <text x="260" y="262" fill="#c9a84c" font-size="20" font-weight="bold" text-anchor="middle">150万円</text>
+  <text x="260" y="378" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">専門会社外注</text>
+  <text x="260" y="396" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">（月12.5万×12）</text>
+
+  <!-- 正社員バー: 積み上げ 480万 → h=480*0.6=288, y=360-288=72 -->
+  <!-- 年収350万(h=210), 社保50万(h=30), 研修30万(h=18), 求人50万(h=30) -->
+  <!-- 下から: 年収→社保→研修→求人 -->
+  <!-- 年収: y=150, h=210 -->
+  <rect x="460" y="150" width="160" height="210" fill="#b91c1c" rx="0"/>
+  <!-- 社保: y=120, h=30 -->
+  <rect x="460" y="120" width="160" height="30" fill="#dc2626" rx="0"/>
+  <!-- 研修: y=102, h=18 -->
+  <rect x="460" y="102" width="160" height="18" fill="#ef4444" rx="0"/>
+  <!-- 求人: y=72, h=30 -->
+  <rect x="460" y="72" width="160" height="30" fill="#f87171" rx="4"/>
+  <!-- 区切り線 -->
+  <line x1="460" y1="120" x2="620" y2="120" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>
+  <line x1="460" y1="102" x2="620" y2="102" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>
+  <line x1="460" y1="150" x2="620" y2="150" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>
+
+  <!-- 積み上げラベル -->
+  <text x="636" y="93" fill="#f87171" font-size="11">求人広告 50万</text>
+  <text x="636" y="113" fill="#f87171" font-size="11">研修費 30万</text>
+  <text x="636" y="135" fill="#f87171" font-size="11">社保等 50万</text>
+  <text x="636" y="240" fill="#f87171" font-size="11">年収 350万</text>
+
+  <text x="540" y="64" fill="#f87171" font-size="20" font-weight="bold" text-anchor="middle">480万円</text>
+  <text x="540" y="378" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">正社員採用</text>
+  <text x="540" y="396" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">（全コスト合計）</text>
+
+  <!-- 差額表示 -->
+  <line x1="260" y1="270" x2="540" y2="72" stroke="rgba(201,168,76,0.4)" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="330" y="150" width="140" height="36" fill="#1a1a0a" stroke="#c9a84c" stroke-width="1.5" rx="6"/>
+  <text x="400" y="166" fill="#c9a84c" font-size="12" font-weight="bold" text-anchor="middle">差額 330万円</text>
+  <text x="400" y="180" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">外注が約68%安い</text>
+</svg>

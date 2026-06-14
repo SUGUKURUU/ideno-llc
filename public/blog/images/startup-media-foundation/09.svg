@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">資金調達中のスタートアップ：優先順位</text>
+
+  <g>
+    <rect x="80" y="90" width="640" height="280" fill="none" stroke="#333333" stroke-width="1" rx="3"/>
+
+    <text x="100" y="120" font-size="12" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">発信基盤整備 vs 資金調達：どちらを優先？</text>
+    <line x1="100" y1="135" x2="700" y2="135" stroke="#333333" stroke-width="1"/>
+
+    <text x="100" y="165" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">✓ 答え：並行して進める</text>
+
+    <text x="100" y="195" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">投資家は HP・SNS・発信から「この創業者・会社が本当に信頼できるか」を確認</text>
+
+    <text x="100" y="220" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">HP に「創業者のビジョン・事業概要・チームの実績」が掲載されていることは、</text>
+    <text x="100" y="240" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">資金調達の信頼性向上に直結</text>
+
+    <text x="100" y="270" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS での継続的な発信 = 「真剣に事業を進めている」の証拠になる</text>
+  </g>
+</svg>

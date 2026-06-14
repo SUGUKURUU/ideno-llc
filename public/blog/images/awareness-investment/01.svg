@@ -1,0 +1,55 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <text x="400" y="35" class="title" text-anchor="middle">認知拡大の投資順序</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">最優先：①基盤→②SNS→③広告</text>
+
+  <!-- ステップ1 -->
+  <rect x="50" y="85" width="220" height="280" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <circle cx="160" cy="120" r="20" fill="#c9a84c"/>
+  <text x="160" y="128" class="text-white" text-anchor="middle" font-size="18" font-weight="bold">1️⃣</text>
+  <text x="160" y="165" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">コンテンツ基盤</text>
+  <text x="160" y="185" class="text-white" text-anchor="middle" font-size="9">HP・SNS</text>
+  <text x="160" y="200" class="text-white" text-anchor="middle" font-size="9">アカウント整備</text>
+  <text x="160" y="225" class="text-gray" text-anchor="middle" font-size="10">必須・最優先</text>
+  <text x="160" y="245" class="text-gray" text-anchor="middle" font-size="9">投資：主に</text>
+  <text x="160" y="258" class="text-gray" text-anchor="middle" font-size="9">時間コスト</text>
+  <text x="160" y="330" class="gold" text-anchor="middle" font-size="11" font-weight="bold">着地先を</text>
+  <text x="160" y="343" class="gold" text-anchor="middle" font-size="11" font-weight="bold">整備する</text>
+
+  <!-- ステップ2 -->
+  <rect x="290" y="85" width="220" height="280" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <circle cx="400" cy="120" r="20" fill="#c9a84c"/>
+  <text x="400" y="128" class="text-white" text-anchor="middle" font-size="18" font-weight="bold">2️⃣</text>
+  <text x="400" y="165" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">有機的SNS</text>
+  <text x="400" y="185" class="text-white" text-anchor="middle" font-size="9">コンテンツ発信</text>
+  <text x="400" y="200" class="text-white" text-anchor="middle" font-size="9">継続運用</text>
+  <text x="400" y="225" class="text-gray" text-anchor="middle" font-size="10">認知拡大フェーズ</text>
+  <text x="400" y="245" class="text-gray" text-anchor="middle" font-size="9">投資：時間+</text>
+  <text x="400" y="258" class="text-gray" text-anchor="middle" font-size="9">運用代行費</text>
+  <text x="400" y="330" class="gold" text-anchor="middle" font-size="11" font-weight="bold">信頼を</text>
+  <text x="400" y="343" class="gold" text-anchor="middle" font-size="11" font-weight="bold">構築する</text>
+
+  <!-- ステップ3 -->
+  <rect x="530" y="85" width="220" height="280" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <circle cx="640" cy="120" r="20" fill="#c9a84c"/>
+  <text x="640" y="128" class="text-white" text-anchor="middle" font-size="18" font-weight="bold">3️⃣</text>
+  <text x="640" y="165" class="text-white" text-anchor="middle" font-size="12" font-weight="bold">広告で加速</text>
+  <text x="640" y="185" class="text-white" text-anchor="middle" font-size="9">SNS・検索</text>
+  <text x="640" y="200" class="text-white" text-anchor="middle" font-size="9">広告投下</text>
+  <text x="640" y="225" class="text-gray" text-anchor="middle" font-size="10">加速フェーズ</text>
+  <text x="640" y="245" class="text-gray" text-anchor="middle" font-size="9">投資：広告費</text>
+  <text x="640" y="258" class="text-gray" text-anchor="middle" font-size="9">10〜20万円</text>
+  <text x="640" y="330" class="gold" text-anchor="middle" font-size="11" font-weight="bold">認知を</text>
+  <text x="640" y="343" class="gold" text-anchor="middle" font-size="11" font-weight="bold">加速する</text>
+</svg>

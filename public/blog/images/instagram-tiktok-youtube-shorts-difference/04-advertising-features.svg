@@ -1,0 +1,82 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">広告・マネタイズ機能の比較</text>
+
+  <!-- Instagram -->
+  <g>
+    <rect x="30" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="150" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Instagram</text>
+
+    <!-- Organic -->
+    <rect x="50" y="95" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="70" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">オーガニック</text>
+    <text x="70" y="133" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ショッピング機能</text>
+    <text x="70" y="146" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 商品タグ</text>
+
+    <!-- Ad formats -->
+    <rect x="50" y="165" width="200" height="80" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="70" y="185" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">広告フォーマット</text>
+    <text x="70" y="203" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ストーリーズ広告</text>
+    <text x="70" y="216" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ リール広告</text>
+    <text x="70" y="229" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ フィード広告</text>
+
+    <!-- Influencer -->
+    <rect x="50" y="255" width="200" height="80" rx="5" fill="rgba(236,72,153,0.08)" stroke="rgba(236,72,153,0.2)" stroke-width="1"/>
+    <text x="70" y="275" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">インフルエンサー</text>
+    <text x="70" y="293" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 多数のインフルエンサー</text>
+    <text x="70" y="306" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ BtoC商材向け</text>
+    <text x="70" y="319" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 購買への導線強い</text>
+  </g>
+
+  <!-- TikTok -->
+  <g>
+    <rect x="290" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="410" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">TikTok</text>
+
+    <!-- Organic -->
+    <rect x="310" y="95" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="330" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">オーガニック</text>
+    <text x="330" y="133" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ TikTok Shop</text>
+    <text x="330" y="146" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ライブコマース</text>
+
+    <!-- Ad formats -->
+    <rect x="310" y="165" width="200" height="80" rx="5" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="330" y="185" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">広告フォーマット</text>
+    <text x="330" y="203" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ インフィード広告</text>
+    <text x="330" y="216" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ブランドエフェクト</text>
+    <text x="330" y="229" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ ハッシュタグチャレンジ</text>
+
+    <!-- Target -->
+    <rect x="310" y="255" width="200" height="80" rx="5" fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.2)" stroke-width="1"/>
+    <text x="330" y="275" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">ターゲット</text>
+    <text x="330" y="293" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 若年層へのリーチ</text>
+    <text x="330" y="306" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 爆発的拡散狙い</text>
+    <text x="330" y="319" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 認知拡大向け</text>
+  </g>
+
+  <!-- YouTube -->
+  <g>
+    <rect x="550" y="50" width="240" height="350" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="670" y="75" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">YouTube</text>
+
+    <!-- Organic -->
+    <rect x="570" y="95" width="200" height="60" rx="5" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="1"/>
+    <text x="590" y="115" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">オーガニック</text>
+    <text x="590" y="133" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 長尺動画が中心</text>
+    <text x="590" y="146" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ Shortsは収益化限定</text>
+
+    <!-- Ad formats -->
+    <rect x="570" y="165" width="200" height="80" rx="5" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+    <text x="590" y="185" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">広告フォーマット</text>
+    <text x="590" y="203" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ インストリーム広告</text>
+    <text x="590" y="216" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ バンパー広告</text>
+    <text x="590" y="229" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 検索連動型広告</text>
+
+    <!-- Strengths -->
+    <rect x="570" y="255" width="200" height="80" rx="5" fill="rgba(14,165,233,0.08)" stroke="rgba(14,165,233,0.2)" stroke-width="1"/>
+    <text x="590" y="275" fill="#0ea5e9" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold">特徴</text>
+    <text x="590" y="293" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 長期資産化可能</text>
+    <text x="590" y="306" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ Google広告連携</text>
+    <text x="590" y="319" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">✓ 高い信頼性</text>
+  </g>
+</svg>

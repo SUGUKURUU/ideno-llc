@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTube運用にかかる月別コスト比較</text>
+
+  <!-- グリッド -->
+  <line x1="100" y1="350" x2="720" y2="350" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="280" x2="720" y2="280" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="210" x2="720" y2="210" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="140" x2="720" y2="140" stroke="#333333" stroke-width="1"/>
+
+  <!-- Y軸ラベル -->
+  <text x="50" y="355" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">0万</text>
+  <text x="50" y="285" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">20万</text>
+  <text x="50" y="215" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">40万</text>
+  <text x="50" y="145" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">60万</text>
+
+  <!-- 月1本（撮影・編集外注） -->
+  <rect x="120" y="245" width="60" height="105" fill="#c9a84c"/>
+  <text x="150" y="370" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">月1本</text>
+  <text x="150" y="385" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">外注</text>
+
+  <!-- 月2本（撮影・編集外注） -->
+  <rect x="210" y="175" width="60" height="175" fill="#8b7355"/>
+  <text x="240" y="370" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">月2本</text>
+  <text x="240" y="385" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">外注</text>
+
+  <!-- SNS運用代行 -->
+  <rect x="300" y="280" width="60" height="70" fill="#555555"/>
+  <text x="330" y="370" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS運用</text>
+  <text x="330" y="385" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">代行</text>
+
+  <!-- YouTube広告費 -->
+  <rect x="390" y="210" width="60" height="140" fill="#999999"/>
+  <text x="420" y="370" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTube</text>
+  <text x="420" y="385" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">広告費</text>
+
+  <!-- 比較：従来媒体 -->
+  <rect x="480" y="70" width="60" height="280" fill="#666666"/>
+  <text x="510" y="370" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">従来採用</text>
+  <text x="510" y="385" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">媒体</text>
+
+  <text x="400" y="405" font-size="12" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTube運用は従来媒体より効率的</text>
+</svg>

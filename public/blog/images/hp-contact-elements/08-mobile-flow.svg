@@ -1,0 +1,86 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">スマホでの問い合わせ導線最適化フロー</text>
+
+  <!-- Step 1: ヘッダー固定CTA -->
+  <rect x="40" y="50" width="160" height="300" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <!-- phone screen header -->
+  <rect x="40" y="50" width="160" height="32" rx="10" fill="rgba(0,0,0,0.5)"/>
+  <rect x="40" y="66" width="160" height="16" rx="0" fill="rgba(0,0,0,0.5)"/>
+  <rect x="48" y="56" width="80" height="14" rx="3" fill="rgba(201,168,76,0.3)" stroke="#c9a84c" stroke-width="0.8"/>
+  <text x="88" y="67" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">LOGO</text>
+  <!-- fixed CTA button in header -->
+  <rect x="134" y="56" width="58" height="16" rx="8" fill="#c9a84c"/>
+  <text x="163" y="67" fill="#111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="7" font-weight="bold" text-anchor="middle">無料相談</text>
+  <!-- content area -->
+  <rect x="48" y="90" width="144" height="50" rx="3" fill="rgba(255,255,255,0.05)"/>
+  <rect x="56" y="96" width="80" height="8" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <rect x="56" y="108" width="120" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="56" y="118" width="100" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="48" y="148" width="144" height="40" rx="3" fill="rgba(255,255,255,0.04)"/>
+  <rect x="56" y="154" width="90" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="56" y="164" width="110" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="48" y="196" width="144" height="40" rx="3" fill="rgba(255,255,255,0.04)"/>
+  <rect x="56" y="202" width="70" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="56" y="212" width="100" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <!-- fixed bottom bar -->
+  <rect x="40" y="322" width="160" height="28" rx="0" fill="rgba(201,168,76,0.2)" stroke="#c9a84c" stroke-width="0.8"/>
+  <rect x="50" y="326" width="66" height="18" rx="9" fill="#c9a84c"/>
+  <text x="83" y="339" fill="#111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">📞 電話する</text>
+  <rect x="124" y="326" width="66" height="18" rx="9" fill="rgba(201,168,76,0.4)" stroke="#c9a84c" stroke-width="0.8"/>
+  <text x="157" y="339" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">✉ 相談する</text>
+  <text x="120" y="368" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">① ヘッダー固定CTA</text>
+  <text x="120" y="384" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">スクロール中も常時表示</text>
+
+  <!-- Arrow 1 -->
+  <line x1="210" y1="200" x2="248" y2="200" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="244,195 254,200 244,205" fill="#c9a84c"/>
+
+  <!-- Step 2: フォームページ -->
+  <rect x="258" y="50" width="160" height="300" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <rect x="258" y="50" width="160" height="24" rx="10" fill="rgba(0,0,0,0.5)"/>
+  <rect x="258" y="62" width="160" height="12" rx="0" fill="rgba(0,0,0,0.5)"/>
+  <text x="338" y="70" fill="rgba(255,255,255,0.4)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">無料相談フォーム</text>
+  <!-- Form -->
+  <text x="338" y="98" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">お名前</text>
+  <rect x="270" y="103" width="136" height="20" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="338" y="138" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">メールアドレス</text>
+  <rect x="270" y="143" width="136" height="20" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="338" y="178" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">ご相談内容</text>
+  <rect x="270" y="183" width="136" height="50" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <!-- Submit -->
+  <rect x="270" y="248" width="136" height="28" rx="8" fill="#c9a84c"/>
+  <text x="338" y="267" fill="#111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">送信する</text>
+  <text x="338" y="295" fill="rgba(255,255,255,0.35)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">スクロール不要で完結</text>
+  <text x="338" y="368" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">② フォームページ</text>
+  <text x="338" y="384" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">入力3項目・1画面完結</text>
+
+  <!-- Arrow 2 -->
+  <line x1="428" y1="200" x2="466" y2="200" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="462,195 472,200 462,205" fill="#c9a84c"/>
+
+  <!-- Step 3: 送信完了 -->
+  <rect x="476" y="50" width="160" height="300" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <rect x="476" y="50" width="160" height="24" rx="10" fill="rgba(0,0,0,0.5)"/>
+  <rect x="476" y="62" width="160" height="12" rx="0" fill="rgba(0,0,0,0.5)"/>
+  <text x="556" y="160" fill="#4ade80" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="32" text-anchor="middle">✓</text>
+  <text x="556" y="195" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="12" font-weight="bold" text-anchor="middle">送信完了！</text>
+  <text x="556" y="218" fill="rgba(255,255,255,0.55)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">ありがとうございます</text>
+  <rect x="490" y="234" width="132" height="40" rx="5" fill="rgba(74,222,128,0.1)" stroke="rgba(74,222,128,0.3)" stroke-width="1"/>
+  <text x="556" y="251" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">担当者より</text>
+  <text x="556" y="265" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">1営業日以内にご連絡</text>
+  <text x="556" y="368" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">③ 送信完了</text>
+  <text x="556" y="384" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">次のアクションを明示</text>
+
+  <!-- Arrow 3 -->
+  <line x1="646" y1="200" x2="684" y2="200" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="680,195 690,200 680,205" fill="#c9a84c"/>
+
+  <!-- Step 4: 即レスポンス -->
+  <rect x="694" y="120" width="90" height="110" rx="10" fill="rgba(201,168,76,0.1)" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="739" y="150" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="20" text-anchor="middle">📧</text>
+  <text x="739" y="172" fill="rgba(255,255,255,0.8)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">自動返信</text>
+  <text x="739" y="186" fill="rgba(255,255,255,0.8)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">メール</text>
+  <text x="739" y="202" fill="rgba(201,168,76,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">即時配信</text>
+  <text x="739" y="220" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">④ 即レスポンス</text>
+</svg>

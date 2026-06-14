@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">ビジネスモデル別：推奨SNSチャネル</text>
+
+  <!-- B2C -->
+  <rect x="80" y="80" width="300" height="300" fill="#c9a84c" opacity="0.1" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="230" y="115" font-size="13" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">B2C（消費者向け）</text>
+  <line x1="100" y1="130" x2="360" y2="130" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="100" y="165" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">推奨チャネル</text>
+  <text x="130" y="190" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">① Instagram</text>
+  <text x="130" y="210" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">② TikTok</text>
+  <text x="130" y="230" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">③ YouTube Shorts</text>
+
+  <text x="100" y="270" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">理由：ビジュアル重視、20-40代女性層</text>
+  <text x="100" y="290" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">拡散力が高く、ショート動画に最適</text>
+
+  <!-- B2B -->
+  <rect x="420" y="80" width="300" height="300" fill="#8b7355" opacity="0.1" stroke="#8b7355" stroke-width="2" rx="5"/>
+  <text x="570" y="115" font-size="13" font-weight="bold" text-anchor="middle" fill="#8b7355" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">B2B（企業向け）</text>
+  <line x1="440" y1="130" x2="700" y2="130" stroke="#8b7355" stroke-width="1"/>
+
+  <text x="440" y="165" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">推奨チャネル</text>
+  <text x="470" y="190" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">① X（旧Twitter）</text>
+  <text x="470" y="210" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">② LinkedIn</text>
+  <text x="470" y="230" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">③ note</text>
+
+  <text x="440" y="270" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">理由：テキスト重視、意思決定者層</text>
+  <text x="440" y="290" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">リアルタイム性が高く、知見共有に最適</text>
+</svg>

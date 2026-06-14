@@ -1,0 +1,69 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">成功事例：改善で成果が出た企業</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">共通するパターンを分析</text>
+
+  <!-- 共通点1 -->
+  <g>
+    <circle cx="90" cy="110" r="30" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="90" y="110" class="text-white" text-anchor="middle" font-size="22">1</text>
+  </g>
+  <text x="140" y="105" class="text-white" text-anchor="start" font-size="12" font-weight="bold">ターゲットを徹底的に絞り込んだ</text>
+  <text x="140" y="125" class="text-gray" text-anchor="start" font-size="10">「全員に届ける」→「この1人に届ける」への転換</text>
+
+  <!-- 共通点2 -->
+  <g>
+    <circle cx="90" cy="170" r="30" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="90" y="170" class="text-white" text-anchor="middle" font-size="22">2</text>
+  </g>
+  <text x="140" y="165" class="text-white" text-anchor="start" font-size="12" font-weight="bold">最初の3秒への投資を増やした</text>
+  <text x="140" y="185" class="text-gray" text-anchor="start" font-size="10">冒頭のフックに最も時間をかけ、何度も改稿</text>
+
+  <!-- 共通点3 -->
+  <g>
+    <circle cx="90" cy="230" r="30" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="90" y="230" class="text-white" text-anchor="middle" font-size="22">3</text>
+  </g>
+  <text x="140" y="225" class="text-white" text-anchor="start" font-size="12" font-weight="bold">保存数を最重要KPIにした</text>
+  <text x="140" y="245" class="text-gray" text-anchor="start" font-size="10">「保存されるコンテンツ」＝「永続的に価値を持つコンテンツ」</text>
+
+  <!-- 共通点4 -->
+  <g>
+    <circle cx="90" cy="290" r="30" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="90" y="290" class="text-white" text-anchor="middle" font-size="22">4</text>
+  </g>
+  <text x="140" y="285" class="text-white" text-anchor="start" font-size="12" font-weight="bold">月次で必ず振り返りを実施</text>
+  <text x="140" y="305" class="text-gray" text-anchor="start" font-size="10">感覚ではなく数字でPDCAを回す習慣を持った</text>
+
+  <!-- 共通点5 -->
+  <g>
+    <circle cx="90" cy="350" r="30" fill="none" stroke="#c9a84c" stroke-width="2"/>
+    <text x="90" y="350" class="text-white" text-anchor="middle" font-size="22">5</text>
+  </g>
+  <text x="140" y="345" class="text-white" text-anchor="start" font-size="12" font-weight="bold">半年以上継続した</text>
+  <text x="140" y="365" class="text-gray" text-anchor="start" font-size="10">成果が出る前に諦めなかった（最低6ヶ月）</text>
+
+  <!-- 右側：結果 -->
+  <rect x="480" y="100" width="300" height="260" fill="#c9a84c" opacity="0.15" stroke="#c9a84c" stroke-width="2" rx="5"/>
+  <text x="630" y="130" class="gold" text-anchor="middle" font-size="13" font-weight="bold">実現した成果</text>
+
+  <text x="630" y="165" class="text-white" text-anchor="middle" font-size="11">✓ フォロワーが3〜5倍に増加</text>
+  <text x="630" y="188" class="text-white" text-anchor="middle" font-size="11">✓ エンゲージメント率が2倍以上</text>
+  <text x="630" y="211" class="text-white" text-anchor="middle" font-size="11">✓ 問い合わせ・売上が増加</text>
+  <text x="630" y="234" class="text-white" text-anchor="middle" font-size="11">✓ SNS流入からの</text>
+  <text x="630" y="250" class="text-white" text-anchor="middle" font-size="11">コンバージョン率が改善</text>
+  <text x="630" y="273" class="text-white" text-anchor="middle" font-size="11">✓ SNSが営業・採用</text>
+  <text x="630" y="289" class="text-white" text-anchor="middle" font-size="11">ツールとして機能</text>
+</svg>

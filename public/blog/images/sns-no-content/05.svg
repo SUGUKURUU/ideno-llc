@@ -1,0 +1,82 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">社内インタビュー：定期的なコンテンツ化</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">社員が語る、自然なコンテンツ</text>
+
+  <!-- インタビュープロセス -->
+  <text x="400" y="90" class="text-white" text-anchor="middle" font-size="14" font-weight="bold">月1回の社員インタビュー = 年間12本の信頼系コンテンツ</text>
+
+  <!-- ステップ1 -->
+  <g>
+    <circle cx="100" cy="160" r="40" fill="#c9a84c" opacity="0.2" stroke="#c9a84c" stroke-width="2"/>
+    <text x="100" y="165" class="text-white" text-anchor="middle" font-size="24">1️⃣</text>
+    <text x="100" y="220" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">社員選定</text>
+    <text x="100" y="235" class="text-gray" text-anchor="middle" font-size="10">異なる職種・</text>
+    <text x="100" y="247" class="text-gray" text-anchor="middle" font-size="10">入社経緯の人</text>
+  </g>
+
+  <!-- ステップ2 -->
+  <g>
+    <circle cx="260" cy="160" r="40" fill="#c9a84c" opacity="0.2" stroke="#c9a84c" stroke-width="2"/>
+    <text x="260" y="165" class="text-white" text-anchor="middle" font-size="24">2️⃣</text>
+    <text x="260" y="220" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">インタビュー</text>
+    <text x="260" y="235" class="text-gray" text-anchor="middle" font-size="10">30〜60分</text>
+    <text x="260" y="247" class="text-gray" text-anchor="middle" font-size="10">スマートフォン撮影</text>
+  </g>
+
+  <!-- ステップ3 -->
+  <g>
+    <circle cx="420" cy="160" r="40" fill="#c9a84c" opacity="0.2" stroke="#c9a84c" stroke-width="2"/>
+    <text x="420" y="165" class="text-white" text-anchor="middle" font-size="24">3️⃣</text>
+    <text x="420" y="220" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">編集・加工</text>
+    <text x="420" y="235" class="text-gray" text-anchor="middle" font-size="10">動画/文字起こし</text>
+    <text x="420" y="247" class="text-gray" text-anchor="middle" font-size="10">まとめ記事化</text>
+  </g>
+
+  <!-- ステップ4 -->
+  <g>
+    <circle cx="580" cy="160" r="40" fill="#c9a84c" opacity="0.2" stroke="#c9a84c" stroke-width="2"/>
+    <text x="580" y="165" class="text-white" text-anchor="middle" font-size="24">4️⃣</text>
+    <text x="580" y="220" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">投稿・発信</text>
+    <text x="580" y="235" class="text-gray" text-anchor="middle" font-size="10">SNS・ブログで</text>
+    <text x="580" y="247" class="text-gray" text-anchor="middle" font-size="10">複数回転用</text>
+  </g>
+
+  <!-- ステップ5 -->
+  <g>
+    <circle cx="740" cy="160" r="40" fill="#c9a84c" opacity="0.2" stroke="#c9a84c" stroke-width="2"/>
+    <text x="740" y="165" class="text-white" text-anchor="middle" font-size="24">5️⃣</text>
+    <text x="740" y="220" class="text-white" text-anchor="middle" font-size="11" font-weight="bold">採用への活用</text>
+    <text x="740" y="235" class="text-gray" text-anchor="middle" font-size="10">採用ページ</text>
+    <text x="740" y="247" class="text-gray" text-anchor="middle" font-size="10">にも掲載</text>
+  </g>
+
+  <!-- インタビュー質問例 -->
+  <text x="50" y="285" class="text-white" font-size="12" font-weight="bold">よく聞かれるインタビュー質問：</text>
+
+  <text x="70" y="305" class="text-white" font-size="11">✓ この仕事を始めたきっかけ</text>
+  <text x="70" y="320" class="text-white" font-size="11">✓ 一番大変だった経験と学び</text>
+  <text x="70" y="335" class="text-white" font-size="11">✓ お客様に感謝されたエピソード</text>
+  <text x="70" y="350" class="text-white" font-size="11">✓ 仕事で大切にしている信念</text>
+  <text x="70" y="365" class="text-white" font-size="11">✓ 最近の面白かった出来事</text>
+
+  <!-- 効果 -->
+  <rect x="500" y="280" width="280" height="100" fill="#c9a84c" opacity="0.1" rx="5" stroke="#c9a84c" stroke-width="1"/>
+  <text x="640" y="300" class="gold" text-anchor="middle" font-size="12" font-weight="bold">社員インタビューの価値</text>
+  <text x="640" y="320" class="text-white" text-anchor="middle" font-size="11">✓ 「人間らしさ」を伝えられる</text>
+  <text x="640" y="337" class="text-white" text-anchor="middle" font-size="11">✓ 採用応募増加に直結</text>
+  <text x="640" y="354" class="text-white" text-anchor="middle" font-size="11">✓ 質問者側は「答えるだけ」</text>
+  <text x="640" y="371" class="text-white" text-anchor="middle" font-size="11">✓ 年間12本の自動生成</text>
+</svg>

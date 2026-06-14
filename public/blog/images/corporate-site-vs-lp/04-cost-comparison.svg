@@ -1,0 +1,42 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <line x1="80" y1="60" x2="80" y2="330" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="80" y1="330" x2="750" y2="330" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="80" y1="272" x2="750" y2="272" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="80" y1="214" x2="750" y2="214" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="80" y1="156" x2="750" y2="156" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="80" y1="98" x2="750" y2="98" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="400" y="30" text-anchor="middle" fill="#c9a84c" font-size="17" font-weight="bold">制作コスト・運用コスト比較（万円）</text>
+  <!-- Y axis -->
+  <text x="72" y="334" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">0</text>
+  <text x="72" y="276" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">50</text>
+  <text x="72" y="218" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">100</text>
+  <text x="72" y="160" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">150</text>
+  <text x="72" y="102" text-anchor="end" fill="rgba(255,255,255,0.5)" font-size="11">200</text>
+  <!-- Category: 制作費 初回 -->
+  <text x="175" y="355" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10">制作費（初回）</text>
+  <!-- LP bar: 30万 -->
+  <rect x="120" y="200" width="55" height="130" fill="#c9a84c" opacity="0.85" rx="3"/>
+  <text x="147" y="194" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">30万</text>
+  <!-- Corporate bar: 150万 -->
+  <rect x="185" y="156" width="55" height="174" fill="#4ade80" opacity="0.75" rx="3"/>
+  <text x="212" y="150" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">150万</text>
+  <!-- Category: 年間運用費 -->
+  <text x="380" y="355" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10">年間運用費</text>
+  <rect x="330" y="270" width="55" height="60" fill="#c9a84c" opacity="0.85" rx="3"/>
+  <text x="357" y="264" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">5万</text>
+  <rect x="395" y="214" width="55" height="116" fill="#4ade80" opacity="0.75" rx="3"/>
+  <text x="422" y="208" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">60万</text>
+  <!-- Category: 広告費 -->
+  <text x="570" y="355" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10">月間広告費（推奨）</text>
+  <rect x="520" y="156" width="55" height="174" fill="#c9a84c" opacity="0.85" rx="3"/>
+  <text x="547" y="150" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">150万</text>
+  <rect x="585" y="298" width="55" height="32" fill="#4ade80" opacity="0.75" rx="3"/>
+  <text x="612" y="292" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">20万</text>
+  <!-- Legend -->
+  <rect x="230" y="378" width="14" height="12" fill="#c9a84c" rx="2"/>
+  <text x="250" y="389" fill="rgba(255,255,255,0.7)" font-size="12">LP（ランディングページ）</text>
+  <rect x="440" y="378" width="14" height="12" fill="#4ade80" opacity="0.75" rx="2"/>
+  <text x="460" y="389" fill="rgba(255,255,255,0.7)" font-size="12">コーポレートサイト</text>
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="10">※ 広告費はLPと組み合わせる場合の目安。コーポレートはSEOでオーガニック流入を目指す。</text>
+</svg>

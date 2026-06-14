@@ -1,0 +1,65 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">編集スタイルの違いと視聴者印象</text>
+
+  <!-- Left column: インタビュー -->
+  <rect x="40" y="56" width="340" height="44" rx="6" fill="#c9a84c"/>
+  <text x="210" y="84" fill="#111111" font-size="15" font-weight="bold" text-anchor="middle">インタビュー編集</text>
+
+  <rect x="40" y="112" width="340" height="42" rx="4" fill="#1e1e1e"/>
+  <text x="60" y="132" fill="#c9a84c" font-size="13">✦</text>
+  <text x="82" y="132" fill="#ffffff" font-size="13">カット中心の構成</text>
+  <text x="82" y="148" fill="rgba(255,255,255,0.5)" font-size="11">無駄を削ぎ落とし要点だけ残す</text>
+
+  <rect x="40" y="164" width="340" height="42" rx="4" fill="#1a1a1a"/>
+  <text x="60" y="184" fill="#c9a84c" font-size="13">✦</text>
+  <text x="82" y="184" fill="#ffffff" font-size="13">テロップ・字幕を重視</text>
+  <text x="82" y="200" fill="rgba(255,255,255,0.5)" font-size="11">話した言葉を文字で補強</text>
+
+  <rect x="40" y="216" width="340" height="42" rx="4" fill="#1e1e1e"/>
+  <text x="60" y="236" fill="#c9a84c" font-size="13">✦</text>
+  <text x="82" y="236" fill="#ffffff" font-size="13">静的・落ち着いた映像</text>
+  <text x="82" y="252" fill="rgba(255,255,255,0.5)" font-size="11">固定カメラ・スタジオライク</text>
+
+  <rect x="40" y="268" width="340" height="42" rx="4" fill="#1a1a1a"/>
+  <text x="60" y="288" fill="#c9a84c" font-size="13">✦</text>
+  <text x="82" y="288" fill="#ffffff" font-size="13">BGMは控えめ</text>
+  <text x="82" y="304" fill="rgba(255,255,255,0.5)" font-size="11">声・内容を聞かせることを優先</text>
+
+  <!-- Viewer impression: インタビュー -->
+  <rect x="40" y="326" width="340" height="54" rx="6" fill="#1e1e1e" stroke="#c9a84c" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="210" y="348" fill="rgba(255,255,255,0.7)" font-size="12" text-anchor="middle">視聴者の印象</text>
+  <text x="210" y="368" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="middle">「誠実」「わかりやすい」「信頼できそう」</text>
+
+  <!-- Right column: 密着 -->
+  <rect x="420" y="56" width="340" height="44" rx="6" fill="rgba(255,255,255,0.85)"/>
+  <text x="590" y="84" fill="#111111" font-size="15" font-weight="bold" text-anchor="middle">密着編集</text>
+
+  <rect x="420" y="112" width="340" height="42" rx="4" fill="#1e1e1e"/>
+  <text x="440" y="132" fill="rgba(255,255,255,0.8)" font-size="13">✦</text>
+  <text x="462" y="132" fill="#ffffff" font-size="13">BGM・効果音を積極活用</text>
+  <text x="462" y="148" fill="rgba(255,255,255,0.5)" font-size="11">感情を引き出すサウンドデザイン</text>
+
+  <rect x="420" y="164" width="340" height="42" rx="4" fill="#1a1a1a"/>
+  <text x="440" y="184" fill="rgba(255,255,255,0.8)" font-size="13">✦</text>
+  <text x="462" y="184" fill="#ffffff" font-size="13">カラーグレーディング</text>
+  <text x="462" y="200" fill="rgba(255,255,255,0.5)" font-size="11">映像の色調でトーン・世界観を演出</text>
+
+  <rect x="420" y="216" width="340" height="42" rx="4" fill="#1e1e1e"/>
+  <text x="440" y="236" fill="rgba(255,255,255,0.8)" font-size="13">✦</text>
+  <text x="462" y="236" fill="#ffffff" font-size="13">ドラマ的構成・起承転結</text>
+  <text x="462" y="252" fill="rgba(255,255,255,0.5)" font-size="11">視聴者を引き込むストーリー展開</text>
+
+  <rect x="420" y="268" width="340" height="42" rx="4" fill="#1a1a1a"/>
+  <text x="440" y="288" fill="rgba(255,255,255,0.8)" font-size="13">✦</text>
+  <text x="462" y="288" fill="#ffffff" font-size="13">手持ちカメラ・臨場感</text>
+  <text x="462" y="304" fill="rgba(255,255,255,0.5)" font-size="11">リアルな現場感を映像で伝える</text>
+
+  <!-- Viewer impression: 密着 -->
+  <rect x="420" y="326" width="340" height="54" rx="6" fill="#1e1e1e" stroke="rgba(255,255,255,0.5)" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="590" y="348" fill="rgba(255,255,255,0.7)" font-size="12" text-anchor="middle">視聴者の印象</text>
+  <text x="590" y="368" fill="rgba(255,255,255,0.9)" font-size="13" font-weight="bold" text-anchor="middle">「本物」「面白い」「この人を知った気がする」</text>
+
+  <!-- Center divider -->
+  <line x1="400" y1="56" x2="400" y2="390" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="6,4"/>
+</svg>

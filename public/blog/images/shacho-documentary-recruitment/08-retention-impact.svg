@@ -1,0 +1,60 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">動画採用導入後の定着率変化</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="60" x2="100" y2="330" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="100" y1="330" x2="720" y2="330" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Y labels: 0-100%, height=270px, 10%=27px -->
+  <text x="90" y="334" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">0%</text>
+  <text x="90" y="200" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">50%</text>
+  <text x="90" y="63" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">100%</text>
+  <text x="40" y="200" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle" transform="rotate(-90,40,200)">定着率</text>
+
+  <!-- Grid lines -->
+  <line x1="100" y1="200" x2="720" y2="200" stroke="rgba(255,255,255,0.1)" stroke-dasharray="4,4"/>
+  <line x1="100" y1="130" x2="720" y2="130" stroke="rgba(255,255,255,0.1)" stroke-dasharray="4,4"/>
+  <line x1="100" y1="60" x2="720" y2="60" stroke="rgba(255,255,255,0.1)" stroke-dasharray="4,4"/>
+  <text x="90" y="134" fill="rgba(255,255,255,0.3)" font-size="10" text-anchor="end">75%</text>
+
+  <!-- X labels -->
+  <text x="250" y="348" fill="rgba(255,255,255,0.6)" font-size="12" text-anchor="middle">入社1年後</text>
+  <text x="600" y="348" fill="rgba(255,255,255,0.6)" font-size="12" text-anchor="middle">入社3年後</text>
+  <line x1="250" y1="325" x2="250" y2="335" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="600" y1="325" x2="600" y2="335" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Scale: 100%=y60, 0%=y330, so y = 330 - (val/100)*270 -->
+  <!-- 動画なし 1年後 70% → y=141 -->
+  <!-- 動画あり 1年後 88% → y=92 -->
+  <!-- 動画なし 3年後 45% → y=209 -->
+  <!-- 動画あり 3年後 72% → y=136 -->
+
+  <!-- Line: 動画なし (white dashed) -->
+  <line x1="250" y1="141" x2="600" y2="209" stroke="rgba(255,255,255,0.6)" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <circle cx="250" cy="141" r="6" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="600" cy="209" r="6" fill="rgba(255,255,255,0.6)"/>
+  <text x="230" y="138" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="bold" text-anchor="end">70%</text>
+  <text x="614" y="213" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="bold" text-anchor="start">45%</text>
+
+  <!-- Line: 動画あり (gold) -->
+  <line x1="250" y1="92" x2="600" y2="136" stroke="#c9a84c" stroke-width="3"/>
+  <circle cx="250" cy="92" r="7" fill="#c9a84c"/>
+  <circle cx="600" cy="136" r="7" fill="#c9a84c"/>
+  <text x="230" y="89" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="end">88%</text>
+  <text x="614" y="140" fill="#c9a84c" font-size="13" font-weight="bold" text-anchor="start">72%</text>
+
+  <!-- Gap annotations -->
+  <line x1="250" y1="92" x2="250" y2="141" stroke="rgba(201,168,76,0.4)" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="270" y="120" fill="#c9a84c" font-size="11" text-anchor="start">+18pt</text>
+  <line x1="600" y1="136" x2="600" y2="209" stroke="rgba(201,168,76,0.4)" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="620" y="176" fill="#c9a84c" font-size="11" text-anchor="start">+27pt</text>
+
+  <!-- Legend -->
+  <line x1="140" y1="390" x2="180" y2="390" stroke="#c9a84c" stroke-width="3"/>
+  <circle cx="160" cy="390" r="5" fill="#c9a84c"/>
+  <text x="188" y="394" fill="#c9a84c" font-size="12">動画採用あり</text>
+  <line x1="340" y1="390" x2="380" y2="390" stroke="rgba(255,255,255,0.6)" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <circle cx="360" cy="390" r="5" fill="rgba(255,255,255,0.6)"/>
+  <text x="388" y="394" fill="rgba(255,255,255,0.6)" font-size="12">動画採用なし</text>
+</svg>

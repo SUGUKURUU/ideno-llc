@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長動画の3つのターニングポイント</text>
+
+  <!-- TP1：公開時 -->
+  <circle cx="200" cy="160" r="55" fill="#c9a84c" stroke="#c9a84c" stroke-width="2"/>
+  <text x="200" y="150" font-size="12" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">TP1</text>
+  <text x="200" y="170" font-size="11" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">公開時</text>
+
+  <text x="200" y="235" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">採用ページに</text>
+  <text x="200" y="252" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">掲載</text>
+  <text x="200" y="269" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">即座に問い合わせ</text>
+  <text x="200" y="286" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">増加</text>
+
+  <!-- 矢印 -->
+  <path d="M 270,160 L 330,160" stroke="#c9a84c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- TP2：6ヶ月継続 -->
+  <circle cx="480" cy="160" r="55" fill="#8b7355" stroke="#8b7355" stroke-width="2"/>
+  <text x="480" y="150" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">TP2</text>
+  <text x="480" y="170" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">6ヶ月</text>
+
+  <text x="480" y="235" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTube検索</text>
+  <text x="480" y="252" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">での</text>
+  <text x="480" y="269" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">発見が</text>
+  <text x="480" y="286" font-size="10" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">増加</text>
+
+  <!-- 矢印 -->
+  <path d="M 550,160 L 610,160" stroke="#8b7355" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- TP3：1年後 -->
+  <circle cx="680" cy="160" r="55" fill="#555555" stroke="#555555" stroke-width="2"/>
+  <text x="680" y="150" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">TP3</text>
+  <text x="680" y="170" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1年後</text>
+
+  <!-- 説明ボックス -->
+  <rect x="80" y="280" width="640" height="110" fill="none" stroke="#333333" stroke-width="1" rx="3"/>
+  <text x="100" y="305" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">TP1：公開直後の採用問い合わせ増加で即効性を実感</text>
+  <text x="100" y="325" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">TP2：6ヶ月で SEO効果が出始め、検索経由の流入が増える。この段階で「続ける価値」を確信</text>
+  <text x="100" y="345" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">TP3：1年後に営業・信頼構築での効果が明確になり、「資産化」が現実になる</text>
+  <text x="100" y="365" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3つのタイミングで「継続する理由」が新たに生まれ、長期投資の正当性が証明される</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c9a84c"/>
+    </marker>
+  </defs>
+</svg>

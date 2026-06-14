@@ -1,0 +1,72 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">キャリアパスの「見える化」事例</text>
+
+  <!-- Career path example 1 -->
+  <text x="70" y="80" fill="#c9a84c" font-size="12" font-weight="bold">営業職の場合</text>
+
+  <!-- Year 1 -->
+  <rect x="30" y="100" width="70" height="100" rx="4" fill="#4a9eff" opacity="0.2" stroke="#4a9eff" stroke-width="2"/>
+  <text x="65" y="125" text-anchor="middle" fill="#4a9eff" font-size="10" font-weight="bold">1年目</text>
+  <text x="65" y="145" text-anchor="middle" fill="#ffffff" font-size="9">営業基礎</text>
+  <text x="65" y="160" text-anchor="middle" fill="#ffffff" font-size="9">スキル習得</text>
+
+  <path d="M 105 150 L 125 150" stroke="#c9a84c" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Year 2-3 -->
+  <rect x="130" y="100" width="70" height="100" rx="4" fill="#50c878" opacity="0.2" stroke="#50c878" stroke-width="2"/>
+  <text x="165" y="125" text-anchor="middle" fill="#50c878" font-size="10" font-weight="bold">2-3年目</text>
+  <text x="165" y="145" text-anchor="middle" fill="#ffffff" font-size="9">独立した</text>
+  <text x="165" y="160" text-anchor="middle" fill="#ffffff" font-size="9">営業活動</text>
+
+  <path d="M 205 150 L 225 150" stroke="#c9a84c" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Year 4-5 -->
+  <rect x="230" y="100" width="70" height="100" rx="4" fill="#e91e63" opacity="0.2" stroke="#e91e63" stroke-width="2"/>
+  <text x="265" y="125" text-anchor="middle" fill="#e91e63" font-size="10" font-weight="bold">4-5年目</text>
+  <text x="265" y="145" text-anchor="middle" fill="#ffffff" font-size="9">営業推進</text>
+  <text x="265" y="160" text-anchor="middle" fill="#ffffff" font-size="9">リーダー</text>
+
+  <path d="M 305 150 L 325 150" stroke="#c9a84c" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Year 6+ -->
+  <rect x="330" y="100" width="70" height="100" rx="4" fill="#ff9800" opacity="0.2" stroke="#ff9800" stroke-width="2"/>
+  <text x="365" y="125" text-anchor="middle" fill="#ff9800" font-size="10" font-weight="bold">6年目以降</text>
+  <text x="365" y="145" text-anchor="middle" fill="#ffffff" font-size="9">営業部長</text>
+  <text x="365" y="160" text-anchor="middle" fill="#ffffff" font-size="9">マネジメント</text>
+
+  <!-- Salary progression -->
+  <text x="70" y="240" fill="#c9a84c" font-size="12" font-weight="bold">給与推移（参考例）</text>
+
+  <line x1="30" y1="320" x2="400" y2="320" stroke="#aaaaaa" stroke-width="1"/>
+  <text x="30" y="340" fill="#aaaaaa" font-size="9">1年目</text>
+  <text x="30" y="355" fill="#ffffff" font-size="10">月給 25万円</text>
+
+  <text x="125" y="340" fill="#aaaaaa" font-size="9">2-3年目</text>
+  <text x="125" y="355" fill="#ffffff" font-size="10">月給 30-35万円</text>
+
+  <text x="250" y="340" fill="#aaaaaa" font-size="9">4-5年目</text>
+  <text x="250" y="355" fill="#ffffff" font-size="10">月給 40-50万円</text>
+
+  <!-- Right side - What candidates want -->
+  <rect x="450" y="80" width="310" height="290" rx="6" fill="#c9a84c" opacity="0.08"/>
+  <text x="605" y="110" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">候補者が知りたい詳細情報</text>
+
+  <text x="470" y="145" fill="#50c878" font-size="11" font-weight="bold">✓ 成功事例を掲載</text>
+  <text x="470" y="165" fill="#ffffff" font-size="10">「営業経験なしで入社した社員が</text>
+  <text x="470" y="180" fill="#ffffff" font-size="10">3年で営業推進リーダーになった」</text>
+
+  <text x="470" y="210" fill="#50c878" font-size="11" font-weight="bold">✓ 研修・サポート体制</text>
+  <text x="470" y="230" fill="#ffffff" font-size="10">新人研修期間：3ヶ月</text>
+  <text x="470" y="245" fill="#ffffff" font-size="10">メンター制度あり</text>
+  <text x="470" y="260" fill="#ffffff" font-size="10">定期的なスキルアップセミナー</text>
+
+  <text x="470" y="290" fill="#ff9800" font-size="10">「やる気次第でどんな仕事も任せます」</text>
+  <text x="470" y="305" fill="#aaaaaa" font-size="9">✗ では何も伝わらない</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c9a84c"/>
+    </marker>
+  </defs>
+</svg>

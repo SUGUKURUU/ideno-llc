@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長ブランド vs 企業ブランド：成長カーブ</text>
+
+  <!-- グリッド -->
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="280" x2="700" y2="280" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="210" x2="700" y2="210" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="140" x2="700" y2="140" stroke="#333333" stroke-width="1"/>
+
+  <!-- 社長ブランドライン -->
+  <polyline points="100,320 180,280 260,220 340,150 420,110 500,80 580,60 660,50"
+            fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 企業ブランドライン -->
+  <polyline points="100,340 180,330 260,320 340,300 420,260 500,200 580,130 660,80"
+            fill="none" stroke="#8b7355" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Y軸ラベル -->
+  <text x="70" y="355" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">低</text>
+  <text x="70" y="145" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">高</text>
+
+  <!-- X軸ラベル -->
+  <text x="100" y="375" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">初期</text>
+  <text x="400" y="375" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">時間経過</text>
+  <text x="700" y="375" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">成長期</text>
+
+  <!-- 凡例 -->
+  <line x1="520" y1="100" x2="560" y2="100" stroke="#c9a84c" stroke-width="2"/>
+  <text x="575" y="105" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長ブランド（立ち上がりが早い）</text>
+
+  <line x1="520" y1="125" x2="560" y2="125" stroke="#8b7355" stroke-width="2"/>
+  <text x="575" y="130" font-size="11" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">企業ブランド（長期で安定）</text>
+
+  <!-- 説明 -->
+  <rect x="100" y="390" width="600" height="20" fill="none" stroke="#333333" stroke-width="0"/>
+  <text x="400" y="405" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+    スタートアップは「社長ブランド」で急速に認知を獲得し、成長段階で「企業ブランド」へシフト
+  </text>
+</svg>

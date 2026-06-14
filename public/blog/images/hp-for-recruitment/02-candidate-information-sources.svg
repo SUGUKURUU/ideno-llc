@@ -1,0 +1,44 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">候補者の情報収集ルート（複数ソースから評価）</text>
+
+  <!-- Central company -->
+  <circle cx="400" cy="210" r="40" fill="#c9a84c" opacity="0.2" stroke="#c9a84c" stroke-width="2"/>
+  <text x="400" y="215" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">企業評価</text>
+
+  <!-- Info sources with connections -->
+  <!-- 1. Job sites -->
+  <circle cx="100" cy="100" r="30" fill="#4a9eff" opacity="0.2" stroke="#4a9eff" stroke-width="2"/>
+  <text x="100" y="105" text-anchor="middle" fill="#4a9eff" font-size="11" font-weight="bold">求人</text>
+  <text x="100" y="120" text-anchor="middle" fill="#4a9eff" font-size="11" font-weight="bold">サイト</text>
+  <line x1="130" y1="130" x2="360" y2="190" stroke="#c9a84c" stroke-width="1" opacity="0.5"/>
+
+  <!-- 2. Official website -->
+  <circle cx="100" cy="320" r="30" fill="#50c878" opacity="0.2" stroke="#50c878" stroke-width="2"/>
+  <text x="100" y="315" text-anchor="middle" fill="#50c878" font-size="11" font-weight="bold">公式</text>
+  <text x="100" y="330" text-anchor="middle" fill="#50c878" font-size="11" font-weight="bold">ホームページ</text>
+  <line x1="130" y1="320" x2="360" y2="240" stroke="#c9a84c" stroke-width="2" opacity="0.8"/>
+
+  <!-- 3. SNS -->
+  <circle cx="400" cy="50" r="30" fill="#e91e63" opacity="0.2" stroke="#e91e63" stroke-width="2"/>
+  <text x="400" y="55" text-anchor="middle" fill="#e91e63" font-size="11" font-weight="bold">SNS</text>
+  <line x1="400" y1="80" x2="400" y2="170" stroke="#c9a84c" stroke-width="1" opacity="0.5"/>
+
+  <!-- 4. Review sites -->
+  <circle cx="700" cy="100" r="30" fill="#ff9800" opacity="0.2" stroke="#ff9800" stroke-width="2"/>
+  <text x="700" y="105" text-anchor="middle" fill="#ff9800" font-size="11" font-weight="bold">口コミ</text>
+  <text x="700" y="120" text-anchor="middle" fill="#ff9800" font-size="11" font-weight="bold">サイト</text>
+  <line x1="670" y1="130" x2="440" y2="200" stroke="#c9a84c" stroke-width="1" opacity="0.5"/>
+
+  <!-- 5. Video -->
+  <circle cx="700" cy="320" r="30" fill="#9c27b0" opacity="0.2" stroke="#9c27b0" stroke-width="2"/>
+  <text x="700" y="315" text-anchor="middle" fill="#9c27b0" font-size="11" font-weight="bold">動画</text>
+  <text x="700" y="330" text-anchor="middle" fill="#9c27b0" font-size="11" font-weight="bold">プラットフォーム</text>
+  <line x1="670" y1="300" x2="440" y2="230" stroke="#c9a84c" stroke-width="1" opacity="0.5"/>
+
+  <!-- Legend -->
+  <rect x="20" y="370" width="760" height="40" rx="4" fill="#c9a84c" opacity="0.1"/>
+  <text x="40" y="388" fill="#c9a84c" font-size="11" font-weight="bold">⚠ 重要なポイント</text>
+  <text x="280" y="388" fill="#ffffff" font-size="10">企業が直接コントロール可能：ホームページとSNS</text>
+  <text x="280" y="402" fill="#ffffff" font-size="10">口コミサイトは第三者が書くため直接制御不可</text>
+</svg>

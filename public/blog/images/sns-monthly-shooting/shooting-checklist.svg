@@ -1,0 +1,66 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="500" fill="#111111"/>
+  <!-- Grid -->
+  <line x1="0" y1="60" x2="800" y2="60" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="400" y1="60" x2="400" y2="500" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="400" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#c9a84c">月1回撮影で用意する素材チェックリスト</text>
+  <!-- Left column: 撮影前準備 -->
+  <text x="30" y="82" font-size="14" font-weight="bold" fill="#c9a84c">【撮影1週間前】事前準備</text>
+  <!-- Items left -->
+  <rect x="24" y="92" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="98" width="20" height="20" rx="4" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="55" y="112" font-size="13" fill="rgba(255,255,255,0.85)">今月のテーマ決定（例：新商品・スタッフ紹介）</text>
+  <rect x="24" y="130" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="136" width="20" height="20" rx="4" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="55" y="150" font-size="13" fill="rgba(255,255,255,0.85)">撮影カットリスト作成（最低20カット）</text>
+  <rect x="24" y="168" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="174" width="20" height="20" rx="4" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="55" y="188" font-size="13" fill="rgba(255,255,255,0.85)">インタビュー台本・Q&amp;A準備</text>
+  <rect x="24" y="206" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="212" width="20" height="20" rx="4" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="55" y="226" font-size="13" fill="rgba(255,255,255,0.85)">機材チェック（バッテリー・メモリ・マイク）</text>
+  <rect x="24" y="244" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="250" width="20" height="20" rx="4" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+  <text x="55" y="264" font-size="13" fill="rgba(255,255,255,0.85)">ロケーション・小道具・衣装の確認</text>
+  <!-- 撮影当日 -->
+  <text x="30" y="300" font-size="14" font-weight="bold" fill="#4ade80">【撮影当日】確保すべき素材</text>
+  <rect x="24" y="310" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="316" width="20" height="20" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="55" y="330" font-size="13" fill="rgba(255,255,255,0.85)">動画（メインコンテンツ）：3〜5本</text>
+  <rect x="24" y="348" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="354" width="20" height="20" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="55" y="368" font-size="13" fill="rgba(255,255,255,0.85)">Bロール（舞台裏・日常）：5〜10カット</text>
+  <rect x="24" y="386" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="392" width="20" height="20" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="55" y="406" font-size="13" fill="rgba(255,255,255,0.85)">静止画：最低15枚（縦・横・正方形）</text>
+  <rect x="24" y="424" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="28" y="430" width="20" height="20" rx="4" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="55" y="444" font-size="13" fill="rgba(255,255,255,0.85)">インタビュー映像：代表・スタッフ各1本</text>
+  <!-- Right column: 投稿設計チェック -->
+  <text x="420" y="82" font-size="14" font-weight="bold" fill="#60a5fa">【編集・投稿設計】コンテンツ分解</text>
+  <rect x="414" y="92" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="418" y="98" width="20" height="20" rx="4" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="445" y="112" font-size="13" fill="rgba(255,255,255,0.85)">Reels用に30〜60秒に切り出す</text>
+  <rect x="414" y="130" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="418" y="136" width="20" height="20" rx="4" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="445" y="150" font-size="13" fill="rgba(255,255,255,0.85)">Stories用にクロップ・テキスト追加（縦型）</text>
+  <rect x="414" y="168" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="418" y="174" width="20" height="20" rx="4" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="445" y="188" font-size="13" fill="rgba(255,255,255,0.85)">フィード用サムネイル・カバー画像を選定</text>
+  <rect x="414" y="206" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="418" y="212" width="20" height="20" rx="4" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="445" y="226" font-size="13" fill="rgba(255,255,255,0.85)">キャプション・ハッシュタグを事前作成</text>
+  <rect x="414" y="244" width="356" height="34" rx="6" fill="#1a1a1a"/>
+  <rect x="418" y="250" width="20" height="20" rx="4" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="445" y="264" font-size="13" fill="rgba(255,255,255,0.85)">月間投稿カレンダーへ予約設定</text>
+  <!-- 重要注意 -->
+  <text x="420" y="300" font-size="14" font-weight="bold" fill="#f87171">【よくある撮り忘れ注意】</text>
+  <rect x="414" y="310" width="356" height="34" rx="6" fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="1"/>
+  <text x="445" y="330" font-size="13" fill="#f87171">縦型（9:16）ショート動画用素材を必ず撮る</text>
+  <rect x="414" y="348" width="356" height="34" rx="6" fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="1"/>
+  <text x="445" y="368" font-size="13" fill="#f87171">自然光・外光が使える時間帯を優先する</text>
+  <rect x="414" y="386" width="356" height="34" rx="6" fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="1"/>
+  <text x="445" y="406" font-size="13" fill="#f87171">音声品質（外付けマイク必須）を確認する</text>
+  <rect x="414" y="424" width="356" height="34" rx="6" fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="1"/>
+  <text x="445" y="444" font-size="13" fill="#f87171">次月テーマのヒント素材も撮っておく</text>
+</svg>

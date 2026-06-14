@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">よくある失敗：三位一体戦略編</text>
+
+  <rect x="80" y="90" width="310" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="235" y="115" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗1：動画を制作したきり放置</text>
+  <text x="100" y="142" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTubeにアップしたが、SNS告知・HP掲載なし</text>
+
+  <rect x="410" y="90" width="310" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="565" y="115" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗2：SNSのプロフィールリンクが古い</text>
+  <text x="430" y="142" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">旧サイトURLのまま→404エラー→離脱</text>
+
+  <rect x="80" y="250" width="310" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="235" y="275" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗3：動画とHPのメッセージが矛盾</text>
+  <text x="100" y="302" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">動画は「丁寧」→HPは「スピード」</text>
+
+  <rect x="410" y="250" width="310" height="130" fill="#333333" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="565" y="275" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">失敗4：モバイル体験を無視</text>
+  <text x="430" y="302" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">動画が重くてスマホで再生できない</text>
+</svg>

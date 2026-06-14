@@ -1,0 +1,45 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.bg{fill:#111111}.gold{fill:#c9a84c}.tw{fill:#fff;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px}.tg{fill:#aaa;font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:12px}.t{font-size:18px;font-weight:bold;fill:#fff}</style></defs>
+  <rect class="bg" width="800" height="420"/>
+  <text x="400" y="35" class="t" text-anchor="middle">Core Web Vitals：モバイル最適化の指標</text>
+  <text x="400" y="55" class="tg" text-anchor="middle">Google公式の3つの評価指標</text>
+
+  <g>
+    <rect x="50" y="85" width="220" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="160" y="110" class="gold" text-anchor="middle" font-size="11" font-weight="bold">LCP</text>
+    <text x="160" y="130" class="tw" text-anchor="middle" font-size="9">Largest Contentful</text>
+    <text x="160" y="143" class="tw" text-anchor="middle" font-size="9">Paint</text>
+    <text x="160" y="170" class="tw" text-anchor="middle" font-size="10" font-weight="bold">メインコンテンツ</text>
+    <text x="160" y="185" class="tw" text-anchor="middle" font-size="10" font-weight="bold">の表示速度</text>
+    <text x="160" y="215" class="tw" text-anchor="middle" font-size="9">目標値：2.5秒以内</text>
+    <text x="160" y="240" class="tg" text-anchor="middle" font-size="9">画像最適化で</text>
+    <text x="160" y="253" class="tg" text-anchor="middle" font-size="9">改善できる</text>
+    <text x="160" y="320" class="gold" text-anchor="middle" font-size="11" font-weight="bold">速度重視</text>
+  </g>
+
+  <g>
+    <rect x="290" y="85" width="220" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="400" y="110" class="gold" text-anchor="middle" font-size="11" font-weight="bold">FID/INP</text>
+    <text x="400" y="130" class="tw" text-anchor="middle" font-size="9">First Input Delay</text>
+    <text x="400" y="143" class="tw" text-anchor="middle" font-size="9">Interaction</text>
+    <text x="400" y="170" class="tw" text-anchor="middle" font-size="10" font-weight="bold">ユーザー入力</text>
+    <text x="400" y="185" class="tw" text-anchor="middle" font-size="10" font-weight="bold">への反応速度</text>
+    <text x="400" y="215" class="tw" text-anchor="middle" font-size="9">目標値：200ms以内</text>
+    <text x="400" y="240" class="tg" text-anchor="middle" font-size="9">JavaScriptの</text>
+    <text x="400" y="253" class="tg" text-anchor="middle" font-size="9">最適化で改善</text>
+    <text x="400" y="320" class="gold" text-anchor="middle" font-size="11" font-weight="bold">反応性重視</text>
+  </g>
+
+  <g>
+    <rect x="530" y="85" width="220" height="300" fill="none" stroke="#c9a84c" stroke-width="2" rx="5"/>
+    <text x="640" y="110" class="gold" text-anchor="middle" font-size="11" font-weight="bold">CLS</text>
+    <text x="640" y="130" class="tw" text-anchor="middle" font-size="9">Cumulative Layout</text>
+    <text x="640" y="143" class="tw" text-anchor="middle" font-size="9">Shift</text>
+    <text x="640" y="170" class="tw" text-anchor="middle" font-size="10" font-weight="bold">ページの</text>
+    <text x="640" y="185" class="tw" text-anchor="middle" font-size="10" font-weight="bold">視覚的安定性</text>
+    <text x="640" y="215" class="tw" text-anchor="middle" font-size="9">目標値：0.1以下</text>
+    <text x="640" y="240" class="tg" text-anchor="middle" font-size="9">広告スクリプト</text>
+    <text x="640" y="253" class="tg" text-anchor="middle" font-size="9">の最適化で改善</text>
+    <text x="640" y="320" class="gold" text-anchor="middle" font-size="11" font-weight="bold">安定性重視</text>
+  </g>
+</svg>

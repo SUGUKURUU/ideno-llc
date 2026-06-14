@@ -1,0 +1,88 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">会社規模別・業種別 予想制作費用</text>
+
+  <!-- Solo/Freelance -->
+  <g>
+    <rect x="30" y="70" width="160" height="280" rx="6" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="2"/>
+    <text x="110" y="95" text-anchor="middle" fill="#4a9eff" font-size="12" font-weight="bold">個人事業主・</text>
+    <text x="110" y="112" text-anchor="middle" fill="#4a9eff" font-size="12" font-weight="bold">フリーランス</text>
+
+    <text x="50" y="145" fill="#c9a84c" font-size="11" font-weight="bold">予想費用</text>
+    <text x="50" y="162" fill="#ffffff" font-size="10">～30万円</text>
+
+    <text x="50" y="190" fill="#50c878" font-size="10" font-weight="bold">推奨構成</text>
+    <text x="50" y="208" fill="#aaaaaa" font-size="9">・STUDIO or Wix</text>
+    <text x="50" y="222" fill="#aaaaaa" font-size="9">・WordPress＋</text>
+    <text x="50" y="236" fill="#aaaaaa" font-size="9">  フリーランス</text>
+
+    <text x="50" y="260" fill="#ffffff" font-size="10">ポートフォリオ/</text>
+    <text x="50" y="273" fill="#ffffff" font-size="10">ブログなど</text>
+
+    <text x="50" y="300" fill="#aaaaaa" font-size="9">月額ランニング:</text>
+    <text x="50" y="315" fill="#c9a84c" font-size="9">月2,000～5,000円</text>
+  </g>
+
+  <!-- Small company -->
+  <g>
+    <rect x="210" y="70" width="160" height="280" rx="6" fill="#50c878" opacity="0.15" stroke="#50c878" stroke-width="2"/>
+    <text x="290" y="95" text-anchor="middle" fill="#50c878" font-size="12" font-weight="bold">小企業</text>
+    <text x="290" y="112" text-anchor="middle" fill="#50c878" font-size="12" font-weight="bold">（5-20名）</text>
+
+    <text x="230" y="145" fill="#c9a84c" font-size="11" font-weight="bold">予想費用</text>
+    <text x="230" y="162" fill="#ffffff" font-size="10">30～80万円</text>
+
+    <text x="230" y="190" fill="#50c878" font-size="10" font-weight="bold">推奨構成</text>
+    <text x="230" y="208" fill="#aaaaaa" font-size="9">・WordPress＋</text>
+    <text x="230" y="222" fill="#aaaaaa" font-size="9">  制作会社</text>
+    <text x="230" y="236" fill="#aaaaaa" font-size="9">・5-10ページ</text>
+
+    <text x="230" y="260" fill="#ffffff" font-size="10">コーポレート</text>
+    <text x="230" y="273" fill="#ffffff" font-size="10">サイト</text>
+
+    <text x="230" y="300" fill="#aaaaaa" font-size="9">月額ランニング:</text>
+    <text x="230" y="315" fill="#c9a84c" font-size="9">月1～3万円</text>
+  </g>
+
+  <!-- Medium company -->
+  <g>
+    <rect x="390" y="70" width="160" height="280" rx="6" fill="#e91e63" opacity="0.15" stroke="#e91e63" stroke-width="2"/>
+    <text x="470" y="95" text-anchor="middle" fill="#e91e63" font-size="12" font-weight="bold">中企業</text>
+    <text x="470" y="112" text-anchor="middle" fill="#e91e63" font-size="12" font-weight="bold">（20-100名）</text>
+
+    <text x="410" y="145" fill="#c9a84c" font-size="11" font-weight="bold">予想費用</text>
+    <text x="410" y="162" fill="#ffffff" font-size="10">100～300万円</text>
+
+    <text x="410" y="190" fill="#50c878" font-size="10" font-weight="bold">推奨構成</text>
+    <text x="410" y="208" fill="#aaaaaa" font-size="9">・フルオーダー</text>
+    <text x="410" y="222" fill="#aaaaaa" font-size="9">・複数機能</text>
+    <text x="410" y="236" fill="#aaaaaa" font-size="9">・採用強化施策</text>
+
+    <text x="410" y="260" fill="#ffffff" font-size="10">採用強化/</text>
+    <text x="410" y="273" fill="#ffffff" font-size="10">ブランド構築</text>
+
+    <text x="410" y="300" fill="#aaaaaa" font-size="9">月額ランニング:</text>
+    <text x="410" y="315" fill="#c9a84c" font-size="9">月3～10万円</text>
+  </g>
+
+  <!-- Large company -->
+  <g>
+    <rect x="570" y="70" width="160" height="280" rx="6" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="2"/>
+    <text x="650" y="95" text-anchor="middle" fill="#ff9800" font-size="12" font-weight="bold">大企業/</text>
+    <text x="650" y="112" text-anchor="middle" fill="#ff9800" font-size="12" font-weight="bold">EC企業</text>
+
+    <text x="590" y="145" fill="#c9a84c" font-size="11" font-weight="bold">予想費用</text>
+    <text x="590" y="162" fill="#ffffff" font-size="10">300万円以上</text>
+
+    <text x="590" y="190" fill="#50c878" font-size="10" font-weight="bold">推奨構成</text>
+    <text x="590" y="208" fill="#aaaaaa" font-size="9">・EC機能搭載</text>
+    <text x="590" y="222" fill="#aaaaaa" font-size="9">・多言語対応</text>
+    <text x="590" y="236" fill="#aaaaaa" font-size="9">・複雑な要件</text>
+
+    <text x="590" y="260" fill="#ffffff" font-size="10">EC/グローバル</text>
+    <text x="590" y="273" fill="#ffffff" font-size="10">展開</text>
+
+    <text x="590" y="300" fill="#aaaaaa" font-size="9">月額ランニング:</text>
+    <text x="590" y="315" fill="#c9a84c" font-size="9">月10～50万円</text>
+  </g>
+</svg>

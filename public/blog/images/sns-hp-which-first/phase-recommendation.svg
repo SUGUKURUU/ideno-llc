@@ -1,0 +1,59 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="500" fill="#111111"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="500" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="500" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="500" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#c9a84c" font-size="20" font-weight="bold">会社フェーズ別 SNS / ホームページ 優先度マトリクス</text>
+  <!-- Header row -->
+  <rect x="40" y="60" width="180" height="50" fill="rgba(201,168,76,0.15)" rx="4"/>
+  <text x="130" y="90" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">フェーズ</text>
+  <rect x="230" y="60" width="160" height="50" fill="rgba(74,222,128,0.1)" rx="4"/>
+  <text x="310" y="90" text-anchor="middle" fill="#4ade80" font-size="13" font-weight="bold">SNS優先度</text>
+  <rect x="400" y="60" width="160" height="50" fill="rgba(201,168,76,0.1)" rx="4"/>
+  <text x="480" y="90" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">HP優先度</text>
+  <rect x="570" y="60" width="190" height="50" fill="rgba(255,255,255,0.05)" rx="4"/>
+  <text x="665" y="90" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="13" font-weight="bold">推奨アクション</text>
+  <!-- Row 1 -->
+  <rect x="40" y="120" width="720" height="60" fill="rgba(255,255,255,0.03)" rx="4"/>
+  <text x="130" y="143" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12" font-weight="bold">フェーズA</text>
+  <text x="130" y="162" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">認知ゼロ・立ち上げ期</text>
+  <text x="310" y="155" text-anchor="middle" fill="#4ade80" font-size="22" font-weight="bold">★★★★★</text>
+  <text x="480" y="155" text-anchor="middle" fill="#c9a84c" font-size="22" font-weight="bold">★★☆☆☆</text>
+  <text x="665" y="155" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="11">SNS先行・簡易HP並行</text>
+  <!-- Row 2 -->
+  <rect x="40" y="190" width="720" height="60" fill="rgba(255,255,255,0.05)" rx="4"/>
+  <text x="130" y="213" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12" font-weight="bold">フェーズB</text>
+  <text x="130" y="232" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">認知あり・信頼が課題</text>
+  <text x="310" y="225" text-anchor="middle" fill="#4ade80" font-size="22" font-weight="bold">★★★☆☆</text>
+  <text x="480" y="225" text-anchor="middle" fill="#c9a84c" font-size="22" font-weight="bold">★★★★☆</text>
+  <text x="665" y="225" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="11">HP本格整備・SNS継続</text>
+  <!-- Row 3 -->
+  <rect x="40" y="260" width="720" height="60" fill="rgba(255,255,255,0.03)" rx="4"/>
+  <text x="130" y="283" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12" font-weight="bold">フェーズC</text>
+  <text x="130" y="302" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">B2B・高単価サービス</text>
+  <text x="310" y="295" text-anchor="middle" fill="#4ade80" font-size="22" font-weight="bold">★★★☆☆</text>
+  <text x="480" y="295" text-anchor="middle" fill="#c9a84c" font-size="22" font-weight="bold">★★★★★</text>
+  <text x="665" y="295" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="11">HP先行・SNS補助</text>
+  <!-- Row 4 -->
+  <rect x="40" y="330" width="720" height="60" fill="rgba(255,255,255,0.05)" rx="4"/>
+  <text x="130" y="353" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12" font-weight="bold">フェーズD</text>
+  <text x="130" y="372" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">採用・資金調達が目的</text>
+  <text x="310" y="365" text-anchor="middle" fill="#4ade80" font-size="22" font-weight="bold">★★★★☆</text>
+  <text x="480" y="365" text-anchor="middle" fill="#c9a84c" font-size="22" font-weight="bold">★★★★★</text>
+  <text x="665" y="365" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="11">両方並行・SNS連携強化</text>
+  <!-- Row 5 -->
+  <rect x="40" y="400" width="720" height="60" fill="rgba(255,255,255,0.03)" rx="4"/>
+  <text x="130" y="423" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="12" font-weight="bold">フェーズE</text>
+  <text x="130" y="442" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">安定・拡大期</text>
+  <text x="310" y="435" text-anchor="middle" fill="#4ade80" font-size="22" font-weight="bold">★★★★★</text>
+  <text x="480" y="435" text-anchor="middle" fill="#c9a84c" font-size="22" font-weight="bold">★★★★★</text>
+  <text x="665" y="435" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="11">統合運用・コンテンツ連携</text>
+  <!-- Legend -->
+  <text x="400" y="490" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="10">★★★★★=最優先 ★★★☆☆=重要 ★★☆☆☆=補助的</text>
+</svg>

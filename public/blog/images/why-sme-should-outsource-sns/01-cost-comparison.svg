@@ -1,0 +1,45 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <!-- グリッド線 -->
+  <line x1="150" y1="60" x2="150" y2="360" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="150" y1="360" x2="720" y2="360" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="150" y1="160" x2="720" y2="160" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="150" y1="260" x2="720" y2="260" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="150" y1="360" x2="720" y2="360" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <!-- X軸目盛り -->
+  <line x1="270" y1="355" x2="270" y2="365" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="390" y1="355" x2="390" y2="365" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="510" y1="355" x2="510" y2="365" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="630" y1="355" x2="630" y2="365" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="270" y="378" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">10万</text>
+  <text x="390" y="378" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">20万</text>
+  <text x="510" y="378" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">30万</text>
+  <text x="630" y="378" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">40万</text>
+  <text x="720" y="378" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">50万</text>
+  <text x="435" y="410" fill="rgba(255,255,255,0.5)" font-size="12" text-anchor="middle">月額費用（円）</text>
+  <!-- タイトル -->
+  <text x="400" y="35" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">SNS運用コスト比較（月額）</text>
+  <!-- バー1: 自社運用 -->
+  <text x="145" y="115" fill="rgba(255,255,255,0.8)" font-size="13" text-anchor="end">自社運用</text>
+  <text x="145" y="130" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="end">（人件費込み）</text>
+  <rect x="150" y="95" width="420" height="40" fill="#f87171" rx="4"/>
+  <text x="578" y="121" fill="#ffffff" font-size="14" font-weight="bold">35万円</text>
+  <!-- バー2: SNS担当者採用 -->
+  <text x="145" y="215" fill="rgba(255,255,255,0.8)" font-size="13" text-anchor="end">SNS担当者採用</text>
+  <text x="145" y="230" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="end">（正社員・全コスト）</text>
+  <rect x="150" y="195" width="576" height="40" fill="#f87171" rx="4"/>
+  <text x="734" y="221" fill="#ffffff" font-size="14" font-weight="bold">48万円</text>
+  <!-- バー3: 外注（強調） -->
+  <text x="145" y="310" fill="rgba(255,255,255,0.8)" font-size="13" text-anchor="end">専門会社外注</text>
+  <rect x="150" y="295" width="150" height="40" fill="#c9a84c" rx="4"/>
+  <text x="308" y="321" fill="#ffffff" font-size="14" font-weight="bold">12.5万円</text>
+  <!-- 節約アイコン -->
+  <rect x="150" y="345" width="576" height="2" fill="rgba(248,113,113,0.3)" rx="1"/>
+  <rect x="150" y="345" width="150" height="2" fill="#c9a84c" rx="1"/>
+  <text x="460" y="342" fill="#c9a84c" font-size="11" text-anchor="middle">▲ 35.5万円の削減</text>
+  <!-- 凡例 -->
+  <rect x="160" y="55" width="14" height="14" fill="#f87171" rx="2"/>
+  <text x="178" y="67" fill="rgba(255,255,255,0.7)" font-size="11">高コスト運用</text>
+  <rect x="270" y="55" width="14" height="14" fill="#c9a84c" rx="2"/>
+  <text x="288" y="67" fill="rgba(255,255,255,0.7)" font-size="11">外注（推奨）</text>
+</svg>

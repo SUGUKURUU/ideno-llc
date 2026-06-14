@@ -1,0 +1,83 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">見積もり比較の際にチェックすべき7つのポイント</text>
+
+  <!-- Point 1 -->
+  <g>
+    <circle cx="60" cy="100" r="20" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="2"/>
+    <text x="60" y="107" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">1</text>
+  </g>
+  <text x="95" y="100" fill="#ffffff" font-size="10" font-weight="bold">ページ数の定義</text>
+  <text x="95" y="115" fill="#aaaaaa" font-size="9">1ページ=1URLか1デザインパターンか</text>
+
+  <!-- Point 2 -->
+  <g>
+    <circle cx="60" cy="145" r="20" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="2"/>
+    <text x="60" y="152" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">2</text>
+  </g>
+  <text x="95" y="145" fill="#ffffff" font-size="10" font-weight="bold">デザイン・コーディング分離</text>
+  <text x="95" y="160" fill="#aaaaaa" font-size="9">デザイン費と実装費が分かれているか</text>
+
+  <!-- Point 3 -->
+  <g>
+    <circle cx="60" cy="190" r="20" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="2"/>
+    <text x="60" y="197" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">3</text>
+  </g>
+  <text x="95" y="190" fill="#ffffff" font-size="10" font-weight="bold">修正費用の範囲</text>
+  <text x="95" y="205" fill="#aaaaaa" font-size="9">公開後の修正は何回まで無料か</text>
+
+  <!-- Point 4 -->
+  <g>
+    <circle cx="60" cy="235" r="20" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="2"/>
+    <text x="60" y="242" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">4</text>
+  </g>
+  <text x="95" y="235" fill="#ffffff" font-size="10" font-weight="bold">保守費用・期間</text>
+  <text x="95" y="250" fill="#aaaaaa" font-size="9">公開後のサポートはどこまでか</text>
+
+  <!-- Point 5 -->
+  <g>
+    <circle cx="60" cy="280" r="20" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="2"/>
+    <text x="60" y="287" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">5</text>
+  </g>
+  <text x="95" y="280" fill="#ffffff" font-size="10" font-weight="bold">スケジュール</text>
+  <text x="95" y="295" fill="#aaaaaa" font-size="9">納期遅延時の対応は</text>
+
+  <!-- Point 6 -->
+  <g>
+    <circle cx="60" cy="325" r="20" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="2"/>
+    <text x="60" y="332" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">6</text>
+  </g>
+  <text x="95" y="325" fill="#ffffff" font-size="10" font-weight="bold">機能・プラグイン費用</text>
+  <text x="95" y="340" fill="#aaaaaa" font-size="9">フォーム・SEOツール等は別料金か</text>
+
+  <!-- Point 7 -->
+  <g>
+    <circle cx="60" cy="370" r="20" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="2"/>
+    <text x="60" y="377" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">7</text>
+  </g>
+  <text x="95" y="370" fill="#ffffff" font-size="10" font-weight="bold">著作権・所有権</text>
+  <text x="95" y="385" fill="#aaaaaa" font-size="9">納品後の所有権は誰にあるか</text>
+
+  <!-- Right side - Comparison template -->
+  <text x="460" y="80" fill="#c9a84c" font-size="12" font-weight="bold">見積もり比較テンプレート</text>
+
+  <rect x="430" y="100" width="330" height="260" rx="4" fill="#1a1a1a" stroke="#c9a84c" stroke-width="1"/>
+
+  <text x="450" y="125" fill="#c9a84c" font-size="10" font-weight="bold">見積項目</text>
+  <line x1="450" y1="130" x2="750" y2="130" stroke="#c9a84c" stroke-width="0.5"/>
+
+  <text x="450" y="150" fill="#aaaaaa" font-size="9">会社A  /  会社B  /  会社C</text>
+
+  <text x="450" y="170" fill="#ffffff" font-size="9">制作費</text>
+  <text x="450" y="185" fill="#ffffff" font-size="9">ページ数定義</text>
+  <text x="450" y="200" fill="#ffffff" font-size="9">修正費用範囲</text>
+  <text x="450" y="215" fill="#ffffff" font-size="9">保守費用</text>
+  <text x="450" y="230" fill="#ffffff" font-size="9">スケジュール</text>
+  <text x="450" y="245" fill="#ffffff" font-size="9">機能・プラグイン</text>
+  <text x="450" y="260" fill="#ffffff" font-size="9">所有権</text>
+  <text x="450" y="275" fill="#ffffff" font-size="9">信頼度・評判</text>
+
+  <text x="450" y="310" fill="#ff9800" font-size="9" font-weight="bold">⚠ 注意：最安値の会社が最適とは限らない</text>
+  <text x="450" y="328" fill="#aaaaaa" font-size="8">3社の見積もりを「価格」だけでなく</text>
+  <text x="450" y="342" fill="#aaaaaa" font-size="8">「条件」「対応」で比較することが重要</text>
+</svg>

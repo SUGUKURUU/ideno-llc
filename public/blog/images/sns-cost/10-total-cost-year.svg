@@ -1,0 +1,76 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">年間総コスト比較（3年間推移）</text>
+
+  <!-- axes -->
+  <line x1="90" y1="60" x2="90" y2="340" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+  <line x1="90" y1="340" x2="750" y2="340" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+
+  <!-- Y axis: 0〜600万, 100万刻み, 280px range -->
+  <!-- 100→293, 200→246, 300→200, 400→153, 500→107, 600→60 -->
+  <text x="82" y="344" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="10">0</text>
+  <text x="82" y="294" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="10">100万</text>
+  <text x="82" y="247" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="10">200万</text>
+  <text x="82" y="200" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="10">300万</text>
+  <text x="82" y="153" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="10">400万</text>
+  <text x="82" y="106" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="10">500万</text>
+  <text x="82" y="62" text-anchor="end" fill="rgba(255,255,255,0.45)" font-size="10">600万</text>
+
+  <!-- grid -->
+  <line x1="90" y1="294" x2="750" y2="294" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="90" y1="247" x2="750" y2="247" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="90" y1="200" x2="750" y2="200" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="90" y1="153" x2="750" y2="153" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="90" y1="106" x2="750" y2="106" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- X axis labels: 1年目, 2年目, 3年目 -->
+  <!-- x: 1年目=230, 2年目=420, 3年目=610 -->
+  <text x="230" y="360" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="13">1年目</text>
+  <text x="420" y="360" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="13">2年目</text>
+  <text x="610" y="360" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="13">3年目</text>
+  <line x1="230" y1="340" x2="230" y2="348" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="420" y1="340" x2="420" y2="348" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="610" y1="340" x2="610" y2="348" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Line 1: 外注継続 150〜180万/年 (stable) -->
+  <!-- 150→y=340-(150/600)*280=270, 165→260, 175→259 -->
+  <polyline points="90,270 230,265 420,262 610,260 750,258"
+    fill="none" stroke="#c9a84c" stroke-width="2.5"/>
+  <circle cx="230" cy="265" r="5" fill="#c9a84c"/>
+  <circle cx="420" cy="262" r="5" fill="#c9a84c"/>
+  <circle cx="610" cy="260" r="5" fill="#c9a84c"/>
+  <text x="755" y="258" fill="#c9a84c" font-size="11" font-weight="bold">〜180万</text>
+
+  <!-- Line 2: 採用（社員） 1年目480万, 2年目420万, 3年目420万 -->
+  <!-- 480→y=340-(480/600)*280=116, 420→y=340-(420/600)*280=144 -->
+  <polyline points="90,200 230,116 420,144 610,144 750,144"
+    fill="none" stroke="rgba(255,100,100,0.8)" stroke-width="2.5"/>
+  <circle cx="230" cy="116" r="5" fill="rgba(255,100,100,0.8)"/>
+  <circle cx="420" cy="144" r="5" fill="rgba(255,100,100,0.8)"/>
+  <circle cx="610" cy="144" r="5" fill="rgba(255,100,100,0.8)"/>
+  <text x="230" y="104" text-anchor="middle" fill="rgba(255,150,150,0.8)" font-size="11">480万</text>
+  <text x="420" y="132" text-anchor="middle" fill="rgba(255,150,150,0.8)" font-size="11">420万</text>
+  <text x="755" y="144" fill="rgba(255,150,150,0.8)" font-size="11">〜420万</text>
+
+  <!-- Line 3: 自社運用（見えないコスト込み）200〜300万 -->
+  <!-- 200→247, 250→200, 290→177 -->
+  <polyline points="90,294 230,247 420,213 610,200 750,193"
+    fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-dasharray="7,4"/>
+  <circle cx="230" cy="247" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="420" cy="213" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="610" cy="200" r="4" fill="rgba(255,255,255,0.5)"/>
+  <text x="755" y="193" fill="rgba(255,255,255,0.6)" font-size="11">〜300万</text>
+
+  <!-- legend -->
+  <line x1="100" y1="385" x2="130" y2="385" stroke="#c9a84c" stroke-width="2.5"/>
+  <circle cx="115" cy="385" r="4" fill="#c9a84c"/>
+  <text x="136" y="389" fill="rgba(255,255,255,0.8)" font-size="11">外注継続（SNS運用代行）</text>
+
+  <line x1="310" y1="385" x2="340" y2="385" stroke="rgba(255,100,100,0.8)" stroke-width="2.5"/>
+  <circle cx="325" cy="385" r="4" fill="rgba(255,100,100,0.8)"/>
+  <text x="346" y="389" fill="rgba(255,255,255,0.8)" font-size="11">社員採用（人件費＋採用コスト）</text>
+
+  <line x1="560" y1="385" x2="590" y2="385" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-dasharray="7,4"/>
+  <circle cx="575" cy="385" r="4" fill="rgba(255,255,255,0.5)"/>
+  <text x="596" y="389" fill="rgba(255,255,255,0.8)" font-size="11">自社運用（機会損失込み）</text>
+</svg>

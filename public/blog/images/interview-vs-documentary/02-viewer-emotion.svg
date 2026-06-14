@@ -1,0 +1,50 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">視聴中の感情変化（視聴時間軸）</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="60" x2="80" y2="310" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="80" y1="310" x2="740" y2="310" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Y labels -->
+  <text x="72" y="64" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">高</text>
+  <text x="72" y="190" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">中</text>
+  <text x="72" y="314" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">低</text>
+  <text x="30" y="190" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle" transform="rotate(-90,30,190)">感情・共感度</text>
+
+  <!-- X labels -->
+  <text x="80" y="330" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">0秒</text>
+  <text x="245" y="330" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">1分</text>
+  <text x="410" y="330" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">2分</text>
+  <text x="575" y="330" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">3分</text>
+  <text x="740" y="330" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle">4分</text>
+  <text x="410" y="350" fill="rgba(255,255,255,0.4)" font-size="11" text-anchor="middle">視聴時間</text>
+
+  <!-- Grid -->
+  <line x1="80" y1="185" x2="740" y2="185" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="245" y1="60" x2="245" y2="310" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="410" y1="60" x2="410" y2="310" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+  <line x1="575" y1="60" x2="575" y2="310" stroke="rgba(255,255,255,0.08)" stroke-dasharray="4,4"/>
+
+  <!-- インタビュー: relatively flat, moderate interest ~160 throughout -->
+  <polyline points="80,250 140,200 200,185 300,180 400,178 500,182 600,185 700,188 740,190"
+    fill="none" stroke="#c9a84c" stroke-width="2.5" stroke-dasharray="6,3"/>
+
+  <!-- 密着動画: peaks and valleys, big emotion -->
+  <polyline points="80,280 120,240 160,200 200,155 250,180 300,120 360,165 410,100 460,145 510,85 560,120 610,95 660,75 720,90 740,100"
+    fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2.5"/>
+
+  <!-- Annotation: peak labels -->
+  <text x="510" y="76" fill="rgba(255,255,255,0.8)" font-size="11" text-anchor="middle">共感ピーク</text>
+  <line x1="510" y1="82" x2="510" y2="88" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+
+  <text x="300" y="112" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">感情の起伏</text>
+
+  <text x="400" y="172" fill="#c9a84c" font-size="11" text-anchor="start">インタビュー（安定）</text>
+
+  <!-- Legend -->
+  <line x1="100" y1="390" x2="140" y2="390" stroke="#c9a84c" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="148" y="394" fill="#c9a84c" font-size="12">インタビュー動画（フラットな関心）</text>
+  <line x1="420" y1="390" x2="460" y2="390" stroke="rgba(255,255,255,0.85)" stroke-width="2.5"/>
+  <text x="468" y="394" fill="rgba(255,255,255,0.8)" font-size="12">密着動画（感情の山と谷）</text>
+</svg>

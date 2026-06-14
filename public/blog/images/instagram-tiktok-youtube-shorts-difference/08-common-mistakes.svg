@@ -1,0 +1,68 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">プラットフォーム選択でやりがちなミス</text>
+
+  <!-- Mistake 1 -->
+  <g>
+    <rect x="30" y="50" width="360" height="160" rx="8" fill="rgba(220,38,38,0.08)" stroke="rgba(220,38,38,0.2)" stroke-width="1.5"/>
+    <text x="210" y="72" fill="#dc2626" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">❌ ミス1：「若者にはTikTok」と思い込む</text>
+
+    <rect x="50" y="85" width="320" height="110" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="70" y="105" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">起きる問題</text>
+    <text x="70" y="122" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・BtoB企業が業界知識解説をTikTokに投稿</text>
+    <text x="70" y="135" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・エンタメ性が低く、全くエンゲージメント無し</text>
+    <text x="70" y="148" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・「TikTokは向かない」と誤った判断</text>
+    <text x="70" y="161" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・その後の運用を放棄</text>
+
+    <text x="70" y="186" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ 解決策：「社長の日常」「ビジネスあるある」など</text>
+    <text x="70" y="200" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">エンタメ性を持たせたコンテンツフォーマットへ</text>
+  </g>
+
+  <!-- Mistake 2 -->
+  <g>
+    <rect x="410" y="50" width="360" height="160" rx="8" fill="rgba(220,38,38,0.08)" stroke="rgba(220,38,38,0.2)" stroke-width="1.5"/>
+    <text x="590" y="72" fill="#dc2626" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">❌ ミス2：全プラットフォームに同じ動画投稿</text>
+
+    <rect x="430" y="85" width="320" height="110" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="450" y="105" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">起きる問題</text>
+    <text x="450" y="122" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・TikTokのウォーターマーク入り動画をそのまま投稿</text>
+    <text x="450" y="135" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・Instagramがウォーターマーク入りをアルゴリズム</text>
+    <text x="450" y="148" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">で低く評価</text>
+    <text x="450" y="161" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・リーチが減少する</text>
+
+    <text x="450" y="186" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ 解決策：プラットフォームごとにウォーターマーク</text>
+    <text x="450" y="200" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">なしで書き出す＆キャプション調整</text>
+  </g>
+
+  <!-- Mistake 3 -->
+  <g>
+    <rect x="30" y="230" width="360" height="160" rx="8" fill="rgba(220,38,38,0.08)" stroke="rgba(220,38,38,0.2)" stroke-width="1.5"/>
+    <text x="210" y="252" fill="#dc2626" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">❌ ミス3：フォロワーゼロから「バズりたい」</text>
+
+    <rect x="50" y="265" width="320" height="110" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="70" y="285" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">起きる問題</text>
+    <text x="70" y="302" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・TikTokに全振りして「バズればいい」と期待</text>
+    <text x="70" y="315" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・バズる動画研究＝制作コスト高</text>
+    <text x="70" y="328" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・バズらずに運用放棄</text>
+    <text x="70" y="341" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・「SNSは効かない」と判断</text>
+
+    <text x="70" y="366" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ 解決策：Instagramから始めてフォロワーを構築</text>
+    <text x="70" y="380" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">してからTikTokへ拡張が現実的</text>
+  </g>
+
+  <!-- Mistake 4 -->
+  <g>
+    <rect x="410" y="230" width="360" height="160" rx="8" fill="rgba(220,38,38,0.08)" stroke="rgba(220,38,38,0.2)" stroke-width="1.5"/>
+    <text x="590" y="252" fill="#dc2626" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">❌ ミス4：「全部やるべき」で中途半端に</text>
+
+    <rect x="430" y="265" width="320" height="110" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="450" y="285" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">起きる問題</text>
+    <text x="450" y="302" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・3プラットフォームに同時投稿開始</text>
+    <text x="450" y="315" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・リソース不足で全部中途半端に</text>
+    <text x="450" y="328" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・数ヶ月で全て運用放棄</text>
+    <text x="450" y="341" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">・結果がほぼゼロ</text>
+
+    <text x="450" y="366" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">✓ 解決策：1つのプラットフォームに集中。成果が</text>
+    <text x="450" y="380" fill="#fca5a5" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" font-weight="bold">出てから次へ拡張する段階的アプローチ</text>
+  </g>
+</svg>

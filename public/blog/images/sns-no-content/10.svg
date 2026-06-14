@@ -1,0 +1,64 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .gold { fill: #c9a84c; }
+      .text-white { fill: #ffffff; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 14px; }
+      .text-gray { fill: #aaaaaa; font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; font-size: 12px; }
+      .title { font-size: 18px; font-weight: bold; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="420"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" class="title" text-anchor="middle">ネタ切れ企業の変化：成功事例パターン</text>
+  <text x="400" y="55" class="text-gray" text-anchor="middle">仕組みづくりで実現した改善</text>
+
+  <!-- 事例1 -->
+  <g>
+    <rect x="50" y="75" width="330" height="150" fill="#c9a84c" opacity="0.1" rx="5" stroke="#c9a84c" stroke-width="1"/>
+    <text x="215" y="95" class="gold" text-anchor="middle" font-size="12" font-weight="bold">事例1：製造業</text>
+    <text x="215" y="115" class="text-white" text-anchor="middle" font-size="10">月次「ネタ出し会議」（30分）を導入</text>
+    <text x="215" y="130" class="text-gray" text-anchor="middle" font-size="9">営業・製造・経営者が参加</text>
+
+    <line x1="70" y1="145" x2="360" y2="145" stroke="#c9a84c" stroke-width="1" stroke-dasharray="3,3"/>
+
+    <text x="70" y="165" class="text-white" font-size="9">✓ 毎月10〜15個のテーマを</text>
+    <text x="70" y="178" class="text-white" font-size="9">リストアップ</text>
+    <text x="70" y="191" class="text-white" font-size="9">✓ 「何を投稿するか」の時間が</text>
+    <text x="70" y="204" class="text-white" font-size="9">ほぼゼロに</text>
+  </g>
+
+  <!-- 事例2 -->
+  <g>
+    <rect x="420" y="75" width="330" height="150" fill="#c9a84c" opacity="0.1" rx="5" stroke="#c9a84c" stroke-width="1"/>
+    <text x="585" y="95" class="gold" text-anchor="middle" font-size="12" font-weight="bold">事例2：美容サロン</text>
+    <text x="585" y="115" class="text-white" text-anchor="middle" font-size="10">施術後のアンケートから</text>
+    <text x="585" y="130" class="text-gray" text-anchor="middle" font-size="9">「お客様の声」をコンテンツ化</text>
+
+    <line x1="440" y1="145" x2="730" y2="145" stroke="#c9a84c" stroke-width="1" stroke-dasharray="3,3"/>
+
+    <text x="440" y="165" class="text-white" font-size="9">✓ 同じ悩みの潜在顧客が</text>
+    <text x="440" y="178" class="text-white" font-size="9">共感・反応</text>
+    <text x="440" y="191" class="text-white" font-size="9">✓ 問い合わせ増加に直結</text>
+    <text x="440" y="204" class="text-white" font-size="9">（継続的なコンテンツ供給）</text>
+  </g>
+
+  <!-- 事例3 -->
+  <g>
+    <rect x="50" y="245" width="700" height="140" fill="#c9a84c" opacity="0.1" rx="5" stroke="#c9a84c" stroke-width="1"/>
+    <text x="400" y="265" class="gold" text-anchor="middle" font-size="12" font-weight="bold">事例3：コンサルタント</text>
+    <text x="400" y="285" class="text-white" text-anchor="middle" font-size="10">毎日の「業務日記」（3行程度）をX（旧Twitter）に投稿</text>
+    <text x="400" y="305" class="text-gray" text-anchor="middle" font-size="10">「気づいたこと・感じたこと」をリアルタイム発信</text>
+
+    <line x1="70" y1="320" x2="730" y2="320" stroke="#c9a84c" stroke-width="1" stroke-dasharray="3,3"/>
+
+    <text x="400" y="345" class="text-white" text-anchor="middle" font-size="10">✓ 反響が大きかった投稿をInstagramの長文に発展</text>
+    <text x="400" y="363" class="text-white" text-anchor="middle" font-size="10">✓ 「二段階コンテンツ化」で効率化</text>
+  </g>
+
+  <!-- 共通点 -->
+  <rect x="60" y="395" width="680" height="20" fill="#c9a84c" opacity="0.15" rx="3"/>
+  <text x="400" y="410" class="gold" text-anchor="middle" font-size="11" font-weight="bold">★ 共通点：「仕組み」を作ることで継続が可能に → ネタ切れが完全に解消</text>
+</svg>

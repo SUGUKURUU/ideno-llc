@@ -1,0 +1,48 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">見積もりに含まれないことがある費用</text>
+
+  <!-- warning icon area -->
+  <rect x="30" y="58" width="740" height="44" rx="6" fill="rgba(255,180,0,0.07)" stroke="rgba(255,180,0,0.25)" stroke-width="1"/>
+  <text x="400" y="77" text-anchor="middle" fill="rgba(255,200,0,0.8)" font-size="13">⚠ 「月額◯万円」に含まれない追加費用を事前に確認することが重要です</text>
+  <text x="400" y="93" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">契約前に「総費用（初期費用＋月額×期間＋オプション）」を必ず書面で確認してください</text>
+
+  <!-- 4 cards in 2x2 grid -->
+  <!-- Card 1: 広告費 -->
+  <rect x="30" y="118" width="355" height="120" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="30" y="118" width="355" height="8" rx="4" fill="#c9a84c"/>
+  <text x="207" y="148" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">📢 広告費（媒体費）</text>
+  <text x="207" y="170" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="22" font-weight="bold">月 5〜50万円</text>
+  <text x="207" y="192" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">Meta広告・X広告などの媒体費は別途</text>
+  <text x="207" y="208" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">運用手数料（広告費の15〜20%）も加算</text>
+  <text x="207" y="228" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">⚠ 必要な場合は必ず事前確認</text>
+
+  <!-- Card 2: ツール費 -->
+  <rect x="415" y="118" width="355" height="120" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="415" y="118" width="355" height="8" rx="4" fill="rgba(201,168,76,0.6)"/>
+  <text x="592" y="148" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">🛠 ツール・アプリ費</text>
+  <text x="592" y="170" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="22" font-weight="bold">月 1〜3万円</text>
+  <text x="592" y="192" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">スケジューリングツール（Buffer・Metricool等）</text>
+  <text x="592" y="208" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">解析ツール・デザインツール（Canva Pro等）</text>
+  <text x="592" y="228" text-anchor="middle" fill="rgba(255,180,0,0.6)" font-size="11">△ 含む会社と別途の会社がある</text>
+
+  <!-- Card 3: 追加修正費 -->
+  <rect x="30" y="255" width="355" height="120" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="30" y="255" width="355" height="8" rx="4" fill="rgba(201,168,76,0.4)"/>
+  <text x="207" y="285" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">✏ 追加修正費</text>
+  <text x="207" y="307" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="22" font-weight="bold">1修正 3,000円〜</text>
+  <text x="207" y="329" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">契約範囲外の修正・変更は有料のケースが多い</text>
+  <text x="207" y="345" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">「修正は月◯回まで無料」を必ず確認</text>
+  <text x="207" y="365" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">⚠ 修正が多い場合は月額を大幅超過する可能性</text>
+
+  <!-- Card 4: 写真素材費 -->
+  <rect x="415" y="255" width="355" height="120" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <rect x="415" y="255" width="355" height="8" rx="4" fill="rgba(201,168,76,0.2)"/>
+  <text x="592" y="285" text-anchor="middle" fill="#c9a84c" font-size="14" font-weight="bold">📷 写真素材費</text>
+  <text x="592" y="307" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="22" font-weight="bold">月 5,000円〜</text>
+  <text x="592" y="329" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">ストック写真・フォト素材サービス費</text>
+  <text x="592" y="345" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="11">自社素材がない場合に発生</text>
+  <text x="592" y="365" text-anchor="middle" fill="rgba(255,180,0,0.6)" font-size="11">△ 撮影込みプランなら不要</text>
+
+  <text x="400" y="408" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">契約前に「初期費用＋月額＋オプション」の総費用を書面で確認することを推奨</text>
+</svg>

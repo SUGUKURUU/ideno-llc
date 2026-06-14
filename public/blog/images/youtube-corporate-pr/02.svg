@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+    コンテンツタイプ別パフォーマンス
+  </text>
+
+  <!-- 凡例 -->
+  <rect x="100" y="55" width="15" height="15" fill="#c9a84c"/>
+  <text x="125" y="67" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長密着</text>
+
+  <rect x="280" y="55" width="15" height="15" fill="#8b7355"/>
+  <text x="305" y="67" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">現場密着</text>
+
+  <rect x="460" y="55" width="15" height="15" fill="#555555"/>
+  <text x="485" y="67" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">How-to解説</text>
+
+  <rect x="640" y="55" width="15" height="15" fill="#999999"/>
+  <text x="665" y="67" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社員インタビュー</text>
+
+  <!-- バー1：社長密着 -->
+  <rect x="100" y="130" width="280" height="50" fill="#c9a84c"/>
+  <text x="90" y="165" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長密着</text>
+  <text x="395" y="165" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">平均視聴継続率: 72%</text>
+
+  <!-- バー2：現場密着 -->
+  <rect x="100" y="200" width="240" height="50" fill="#8b7355"/>
+  <text x="90" y="235" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">現場密着</text>
+  <text x="395" y="235" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">平均視聴継続率: 61%</text>
+
+  <!-- バー3：How-to解説 -->
+  <rect x="100" y="270" width="200" height="50" fill="#555555"/>
+  <text x="90" y="305" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">How-to解説</text>
+  <text x="395" y="305" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">平均視聴継続率: 52%</text>
+
+  <!-- バー4：社員インタビュー -->
+  <rect x="100" y="340" width="220" height="50" fill="#999999"/>
+  <text x="90" y="375" font-size="11" text-anchor="end" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社員インタビュー</text>
+  <text x="395" y="375" font-size="12" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">平均視聴継続率: 58%</text>
+
+  <!-- スケール -->
+  <line x1="100" y1="415" x2="380" y2="415" stroke="#333333" stroke-width="1"/>
+  <text x="100" y="405" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">0%</text>
+  <text x="240" y="405" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">50%</text>
+  <text x="370" y="405" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">100%</text>
+</svg>

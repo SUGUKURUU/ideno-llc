@@ -1,0 +1,33 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="38" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">採用ファネルと動画コンテンツの効果ポイント</text>
+
+  <!-- Funnel layers -->
+  <!-- Layer 1: 認知 -->
+  <polygon points="160,60 640,60 580,110 220,110" fill="#c9a84c" opacity="0.9"/>
+  <text x="400" y="91" fill="#111111" font-size="14" font-weight="bold" text-anchor="middle">認知（SNS/求人）：10,000人</text>
+  <text x="670" y="91" fill="#c9a84c" font-size="11" text-anchor="start">▶ 動画で認知度UP</text>
+
+  <!-- Layer 2: 興味関心 -->
+  <polygon points="220,118 580,118 540,168 260,168" fill="#c9a84c" opacity="0.75"/>
+  <text x="400" y="149" fill="#111111" font-size="14" font-weight="bold" text-anchor="middle">興味関心（サイト訪問）：2,000人</text>
+  <text x="670" y="149" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="start">▶ 動画で深い理解</text>
+
+  <!-- Layer 3: 検討 -->
+  <polygon points="260,176 540,176 510,226 290,226" fill="#c9a84c" opacity="0.6"/>
+  <text x="400" y="207" fill="#111111" font-size="13" font-weight="bold" text-anchor="middle">検討（応募検討）：500人</text>
+  <text x="670" y="207" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="start">▶ 密着動画で決断促進</text>
+
+  <!-- Layer 4: 応募 -->
+  <polygon points="290,234 510,234 488,284 312,284" fill="#c9a84c" opacity="0.45"/>
+  <text x="400" y="265" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">応募：150人 ／ CVR 3倍</text>
+  <text x="670" y="265" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="start">▶ 応募率3倍向上</text>
+
+  <!-- Layer 5: 内定承諾 -->
+  <polygon points="312,292 488,292 470,342 330,342" fill="#c9a84c" opacity="0.3"/>
+  <text x="400" y="323" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">内定承諾：90人</text>
+  <text x="670" y="323" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="start">▶ 定着率UP</text>
+
+  <!-- Bottom label -->
+  <text x="400" y="385" fill="rgba(255,255,255,0.5)" font-size="12" text-anchor="middle">経営者密着動画は採用ファネル全段階で効果を発揮</text>
+</svg>

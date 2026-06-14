@@ -1,0 +1,115 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="30" fill="#c9a84c" font-size="18" font-weight="bold" text-anchor="middle">投資対効果（ROI）比較（12ヶ月）</text>
+
+  <!-- グリッドエリア x:80-740, y:60-360, ROI -100%〜300% → 400px高さ, 0%=y:260 -->
+  <!-- Y変換: y = 260 - (roi/400)*200 -->
+  <!-- グリッド線 -->
+  <line x1="80" y1="60" x2="80" y2="360" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="80" y1="360" x2="740" y2="360" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="80" y1="60" x2="740" y2="60" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="80" y1="110" x2="740" y2="110" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="80" y1="160" x2="740" y2="160" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="80" y1="210" x2="740" y2="210" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <!-- 0%ライン -->
+  <line x1="80" y1="260" x2="740" y2="260" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="310" x2="740" y2="310" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Y軸ラベル (roi: 300,200,100,0,-100) -->
+  <text x="72" y="64" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">300%</text>
+  <text x="72" y="114" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">200%</text>
+  <text x="72" y="164" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">100%</text>
+  <text x="72" y="264" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">0%</text>
+  <text x="72" y="314" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="end">-100%</text>
+  <text x="30" y="210" fill="rgba(255,255,255,0.5)" font-size="11" text-anchor="middle" transform="rotate(-90,30,210)">ROI（投資対効果）</text>
+
+  <!-- X軸ラベル: 1〜12ヶ月, x=80+55*n -->
+  <text x="80" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">0</text>
+  <text x="135" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">1</text>
+  <text x="190" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">2</text>
+  <text x="245" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">3</text>
+  <text x="300" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">4</text>
+  <text x="355" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">5</text>
+  <text x="410" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">6</text>
+  <text x="465" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">7</text>
+  <text x="520" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">8</text>
+  <text x="575" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">9</text>
+  <text x="630" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">10</text>
+  <text x="685" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">11</text>
+  <text x="740" y="378" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">12</text>
+  <text x="410" y="400" fill="rgba(255,255,255,0.5)" font-size="12" text-anchor="middle">経過月数（ヶ月）</text>
+
+  <!-- 黒字転換ゾーン -->
+  <rect x="80" y="210" width="660" height="50" fill="rgba(201,168,76,0.04)"/>
+
+  <!-- 外注ライン (ゴールド): -20,-10,10,30,60,100,145,175,200,220,235,245,250% -->
+  <!-- y=260-(roi/400)*200 -->
+  <polyline points="
+    80,270
+    135,265
+    190,255
+    245,245
+    300,230
+    355,210
+    410,187
+    465,172
+    520,160
+    575,150
+    630,143
+    685,138
+    740,135
+  " fill="none" stroke="#c9a84c" stroke-width="3"/>
+
+  <!-- 自社運用ライン (白): -10,0,5,12,20,30,40,50,58,65,72,76,80% -->
+  <polyline points="
+    80,265
+    135,260
+    190,257
+    245,254
+    300,250
+    355,245
+    410,240
+    465,235
+    520,231
+    575,227
+    630,224
+    685,222
+    740,220
+  " fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+
+  <!-- 採用ライン (赤): -80,-75,-65,-55,-45,-30,-15,5,20,35,45,55,65% -->
+  <polyline points="
+    80,300
+    135,297
+    190,292
+    245,287
+    300,282
+    355,275
+    410,267
+    465,257
+    520,250
+    575,242
+    630,237
+    685,232
+    740,227
+  " fill="none" stroke="#f87171" stroke-width="2"/>
+
+  <!-- 黒字転換マーカー（外注 6ヶ月） -->
+  <circle cx="410" cy="260" r="6" fill="none" stroke="#c9a84c" stroke-width="2"/>
+  <line x1="410" y1="246" x2="410" y2="200" stroke="#c9a84c" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="360" y="182" width="100" height="20" fill="rgba(201,168,76,0.2)" rx="4"/>
+  <text x="410" y="196" fill="#c9a84c" font-size="11" text-anchor="middle">6ヶ月で黒字転換</text>
+
+  <!-- 12ヶ月ラベル -->
+  <text x="748" y="132" fill="#c9a84c" font-size="12" font-weight="bold">250%</text>
+  <text x="748" y="218" fill="rgba(255,255,255,0.6)" font-size="12">80%</text>
+  <text x="748" y="225" fill="#f87171" font-size="12">65%</text>
+
+  <!-- 凡例 -->
+  <line x1="85" y1="55" x2="115" y2="55" stroke="#c9a84c" stroke-width="3"/>
+  <text x="120" y="59" fill="#c9a84c" font-size="12">外注（推奨）</text>
+  <line x1="210" y1="55" x2="240" y2="55" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <text x="245" y="59" fill="rgba(255,255,255,0.7)" font-size="12">自社運用</text>
+  <line x1="330" y1="55" x2="360" y2="55" stroke="#f87171" stroke-width="2"/>
+  <text x="365" y="59" fill="#f87171" font-size="12">正社員採用</text>
+</svg>

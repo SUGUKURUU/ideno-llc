@@ -1,0 +1,84 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="30" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">問い合わせ率を上げる8つの要素とCVRへの影響度</text>
+
+  <!-- Y axis -->
+  <line x1="220" y1="50" x2="220" y2="360" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="220" y1="360" x2="760" y2="360" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <!-- Grid lines -->
+  <line x1="220" y1="360" x2="760" y2="360" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="220" y1="306" x2="760" y2="306" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="220" y1="252" x2="760" y2="252" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="220" y1="198" x2="760" y2="198" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="220" y1="144" x2="760" y2="144" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="220" y1="90" x2="760" y2="90" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- Y labels -->
+  <text x="210" y="364" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="end">低</text>
+  <text x="210" y="256" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="end">中</text>
+  <text x="210" y="94" fill="rgba(255,255,255,0.45)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="end">高</text>
+
+  <!-- Bars: 8要素 -->
+  <!-- bar width=52, gap=14, start x=230 -->
+  <!-- 各要素の影響度(0〜100%): CTA配置90, 信頼バッジ75, フォーム簡潔85, 実績数値80, お客様の声88, FAQ65, レスポンシブ95, 表示速度92 -->
+  <!-- bar height = (val/100)*270 -->
+
+  <!-- 1. CTA配置 90% → h=243, y=117 -->
+  <rect x="230" y="117" width="52" height="243" rx="3" fill="#c9a84c" opacity="0.85"/>
+  <text x="256" y="111" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">90%</text>
+  <text x="256" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">CTA</text>
+  <text x="256" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">配置</text>
+
+  <!-- 2. 信頼バッジ 75% → h=202, y=158 -->
+  <rect x="296" y="158" width="52" height="202" rx="3" fill="#c9a84c" opacity="0.72"/>
+  <text x="322" y="152" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">75%</text>
+  <text x="322" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">信頼</text>
+  <text x="322" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">バッジ</text>
+
+  <!-- 3. フォーム簡潔 85% → h=229, y=131 -->
+  <rect x="362" y="131" width="52" height="229" rx="3" fill="#c9a84c" opacity="0.82"/>
+  <text x="388" y="125" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">85%</text>
+  <text x="388" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">フォーム</text>
+  <text x="388" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">簡潔さ</text>
+
+  <!-- 4. 実績数値 80% → h=216, y=144 -->
+  <rect x="428" y="144" width="52" height="216" rx="3" fill="#4a8fd4" opacity="0.85"/>
+  <text x="454" y="138" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">80%</text>
+  <text x="454" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">実績</text>
+  <text x="454" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">数値</text>
+
+  <!-- 5. お客様の声 88% → h=237, y=123 -->
+  <rect x="494" y="123" width="52" height="237" rx="3" fill="#4a8fd4" opacity="0.82"/>
+  <text x="520" y="117" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">88%</text>
+  <text x="520" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">お客様</text>
+  <text x="520" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">の声</text>
+
+  <!-- 6. FAQ 65% → h=175, y=185 -->
+  <rect x="560" y="185" width="52" height="175" rx="3" fill="#4a8fd4" opacity="0.65"/>
+  <text x="586" y="179" fill="#4a8fd4" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">65%</text>
+  <text x="586" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">FAQ</text>
+  <text x="586" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">設置</text>
+
+  <!-- 7. レスポンシブ 95% → h=256, y=104 -->
+  <rect x="626" y="104" width="52" height="256" rx="3" fill="#4ade80" opacity="0.8"/>
+  <text x="652" y="98" fill="#4ade80" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">95%</text>
+  <text x="652" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">レスポン</text>
+  <text x="652" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">シブ</text>
+
+  <!-- 8. 表示速度 92% → h=248, y=112 -->
+  <rect x="692" y="112" width="52" height="248" rx="3" fill="#4ade80" opacity="0.75"/>
+  <text x="718" y="106" fill="#4ade80" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10" font-weight="bold" text-anchor="middle">92%</text>
+  <text x="718" y="378" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">表示</text>
+  <text x="718" y="390" fill="rgba(255,255,255,0.7)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">速度</text>
+
+  <!-- Legend -->
+  <rect x="60" y="55" width="12" height="12" fill="#c9a84c" opacity="0.85"/>
+  <text x="78" y="66" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">デザイン・導線系</text>
+  <rect x="60" y="75" width="12" height="12" fill="#4a8fd4" opacity="0.85"/>
+  <text x="78" y="86" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">コンテンツ・信頼系</text>
+  <rect x="60" y="95" width="12" height="12" fill="#4ade80" opacity="0.8"/>
+  <text x="78" y="106" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="10">技術・UX系</text>
+
+  <text x="400" y="412" fill="rgba(255,255,255,0.3)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">※ CVRへの影響度は相対的な重要度を示す参考値です</text>
+</svg>

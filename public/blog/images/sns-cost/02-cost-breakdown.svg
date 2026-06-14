@@ -1,0 +1,51 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">月額代行費用の内訳（スタンダードプラン・月10万円の場合）</text>
+
+  <!-- Donut chart center: 280,230 radius outer:130 inner:70 -->
+  <!-- Segment 1: 戦略・企画 25% → 0°〜90° -->
+  <path d="M280,230 L280,100 A130,130 0 0,1 410,230 Z" fill="#c9a84c"/>
+  <path d="M280,230 L280,160 A70,70 0 0,0 350,230 Z" fill="#111111"/>
+
+  <!-- Segment 2: 動画制作・編集 40% → 90°〜234° -->
+  <path d="M280,230 L410,230 A130,130 0 0,1 176,155 Z" fill="rgba(201,168,76,0.6)"/>
+  <path d="M280,230 L350,230 A70,70 0 0,0 245,170 Z" fill="#111111"/>
+
+  <!-- Segment 3: 投稿・コメント対応 15% → 234°〜288° -->
+  <path d="M280,230 L176,155 A130,130 0 0,1 200,107 Z" fill="rgba(201,168,76,0.35)"/>
+  <path d="M280,230 L245,170 A70,70 0 0,0 262,162 Z" fill="#111111"/>
+
+  <!-- Segment 4: 分析・レポート 20% → 288°〜360° -->
+  <path d="M280,230 L200,107 A130,130 0 0,1 280,100 Z" fill="rgba(201,168,76,0.15)"/>
+  <path d="M280,230 L262,162 A70,70 0 0,0 280,160 Z" fill="#111111"/>
+
+  <!-- center text -->
+  <text x="280" y="224" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">月額</text>
+  <text x="280" y="242" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">10万円</text>
+
+  <!-- Legend + detail -->
+  <rect x="460" y="75" width="18" height="18" rx="3" fill="#c9a84c"/>
+  <text x="486" y="89" fill="#ffffff" font-size="13" font-weight="bold">戦略・企画</text>
+  <text x="486" y="108" fill="#c9a84c" font-size="22" font-weight="bold">25%</text>
+  <text x="486" y="126" fill="rgba(255,255,255,0.5)" font-size="11">= 25,000円／月</text>
+  <text x="486" y="142" fill="rgba(255,255,255,0.4)" font-size="10">競合調査・ペルソナ設計・企画立案</text>
+
+  <rect x="460" y="160" width="18" height="18" rx="3" fill="rgba(201,168,76,0.6)"/>
+  <text x="486" y="174" fill="#ffffff" font-size="13" font-weight="bold">動画制作・編集</text>
+  <text x="486" y="193" fill="#c9a84c" font-size="22" font-weight="bold">40%</text>
+  <text x="486" y="211" fill="rgba(255,255,255,0.5)" font-size="11">= 40,000円／月</text>
+  <text x="486" y="227" fill="rgba(255,255,255,0.4)" font-size="10">最も工数がかかる工程</text>
+
+  <rect x="460" y="245" width="18" height="18" rx="3" fill="rgba(201,168,76,0.35)"/>
+  <text x="486" y="259" fill="#ffffff" font-size="13" font-weight="bold">投稿・コメント対応</text>
+  <text x="486" y="278" fill="#c9a84c" font-size="22" font-weight="bold">15%</text>
+  <text x="486" y="296" fill="rgba(255,255,255,0.5)" font-size="11">= 15,000円／月</text>
+  <text x="486" y="312" fill="rgba(255,255,255,0.4)" font-size="10">予約投稿・DM・コメント返信</text>
+
+  <rect x="460" y="328" width="18" height="18" rx="3" fill="rgba(201,168,76,0.15)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+  <text x="486" y="342" fill="#ffffff" font-size="13" font-weight="bold">分析・レポート</text>
+  <text x="486" y="361" fill="#c9a84c" font-size="22" font-weight="bold">20%</text>
+  <text x="486" y="379" fill="rgba(255,255,255,0.5)" font-size="11">= 20,000円／月</text>
+
+  <text x="280" y="400" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">※広告費・撮影費は別途発生する場合あり</text>
+</svg>

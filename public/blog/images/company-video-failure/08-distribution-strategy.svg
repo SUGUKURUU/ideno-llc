@@ -1,0 +1,92 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="28" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="16" font-weight="bold" text-anchor="middle">動画の流通戦略：公開後にすべき施策</text>
+
+  <!-- Center video production -->
+  <rect x="320" y="140" width="160" height="80" rx="8" fill="rgba(201,168,76,0.15)" stroke="#c9a84c" stroke-width="2"/>
+  <text x="400" y="170" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="13" font-weight="bold" text-anchor="middle">🎬 動画制作完了</text>
+  <text x="400" y="188" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9" text-anchor="middle">ここからが本当のスタート</text>
+
+  <!-- Arrow 1: Social Media -->
+  <line x1="320" y1="160" x2="140" y2="100" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="145,95 135,105 148,108" fill="#c9a84c"/>
+
+  <!-- Social Media Distribution -->
+  <rect x="30" y="45" width="110" height="110" rx="8" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.3)" stroke-width="1.5"/>
+  <text x="85" y="68" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">SNS投稿</text>
+  <text x="85" y="85" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">Twitter(X)</text>
+  <text x="85" y="98" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">Instagram</text>
+  <text x="85" y="111" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">LinkedIn</text>
+  <text x="85" y="138" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">サムネイル</text>
+  <text x="85" y="150" fill="#60a5fa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">+解説付き</text>
+
+  <!-- Arrow 2: Job Sites -->
+  <line x1="320" y1="155" x2="140" y2="200" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="145,205 135,195 148,192" fill="#c9a84c"/>
+
+  <!-- Job Board Distribution -->
+  <rect x="30" y="165" width="110" height="110" rx="8" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.3)" stroke-width="1.5"/>
+  <text x="85" y="188" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">求人媒体</text>
+  <text x="85" y="205" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">Indeed</text>
+  <text x="85" y="218" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">wantedly</text>
+  <text x="85" y="231" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">HERP</text>
+  <text x="85" y="258" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">動画URL</text>
+  <text x="85" y="270" fill="#22c55e" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">掲載</text>
+
+  <!-- Arrow 3: Company Site -->
+  <line x1="340" y1="220" x2="270" y2="280" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="275,285 265,275 268,292" fill="#c9a84c"/>
+
+  <!-- Company Site -->
+  <rect x="180" y="265" width="110" height="110" rx="8" fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.3)" stroke-width="1.5"/>
+  <text x="235" y="288" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">会社サイト</text>
+  <text x="235" y="305" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">採用ページに</text>
+  <text x="235" y="318" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">埋め込み</text>
+  <text x="235" y="331" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">SEO最適化</text>
+  <text x="235" y="358" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">タイトル・説明文</text>
+  <text x="235" y="370" fill="#a855f7" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">の設定</text>
+
+  <!-- Arrow 4: Email/Scout -->
+  <line x1="460" y1="220" x2="530" y2="280" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="525,285 535,275 532,292" fill="#c9a84c"/>
+
+  <!-- Email & Scout -->
+  <rect x="510" y="265" width="110" height="110" rx="8" fill="rgba(236,72,153,0.08)" stroke="rgba(236,72,153,0.3)" stroke-width="1.5"/>
+  <text x="565" y="288" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">メール・</text>
+  <text x="565" y="304" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">スカウト</text>
+  <text x="565" y="325" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">メルマガに</text>
+  <text x="565" y="338" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">動画URL</text>
+  <text x="565" y="351" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">を掲載</text>
+  <text x="565" y="368" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">候補者へ</text>
+  <text x="565" y="380" fill="#ec4899" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">送付</text>
+
+  <!-- Arrow 5: Sales -->
+  <line x1="480" y1="160" x2="640" y2="120" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="635,115 650,125 638,130" fill="#c9a84c"/>
+
+  <!-- Sales Materials -->
+  <rect x="660" y="45" width="110" height="110" rx="8" fill="rgba(14,165,233,0.08)" stroke="rgba(14,165,233,0.3)" stroke-width="1.5"/>
+  <text x="715" y="68" fill="#0ea5e9" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold" text-anchor="middle">営業資料</text>
+  <text x="715" y="85" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">商談前・後に</text>
+  <text x="715" y="98" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">視聴を促す</text>
+  <text x="715" y="111" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" text-anchor="middle">（営業サポート）</text>
+  <text x="715" y="138" fill="#0ea5e9" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">YouTube</text>
+  <text x="715" y="150" fill="#0ea5e9" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8" font-weight="bold" text-anchor="middle">確認フロー</text>
+
+  <!-- Performance indicators -->
+  <rect x="30" y="300" width="750" height="100" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="50" y="325" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="11" font-weight="bold">各流通チャネルの計測項目</text>
+
+  <text x="70" y="350" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">📊 SNS:</text>
+  <text x="150" y="350" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">いいね数・シェア・コメント・クリック数</text>
+
+  <text x="70" y="368" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">📊 求人媒体:</text>
+  <text x="200" y="368" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">応募数増加・動画経由率</text>
+
+  <text x="70" y="386" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">📊 YouTube:</text>
+  <text x="165" y="386" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">再生回数・視聴完了率・高評価数</text>
+
+  <text x="70" y="404" fill="rgba(255,255,255,0.6)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="9">📊 全体:</text>
+  <text x="130" y="404" fill="rgba(255,255,255,0.5)" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-size="8">動画からの問い合わせ数・応募者インタビュー（動画を見たか確認）</text>
+</svg>

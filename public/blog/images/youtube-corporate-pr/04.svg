@@ -1,0 +1,49 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">YouTubeチャンネル成長のための5ステップ</text>
+
+  <!-- ステップ1 -->
+  <rect x="60" y="80" width="110" height="110" fill="#c9a84c" rx="5"/>
+  <text x="115" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1</text>
+  <text x="115" y="155" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">コンセプト</text>
+  <text x="115" y="170" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">設計</text>
+
+  <!-- 矢印1 -->
+  <line x1="180" y1="135" x2="230" y2="135" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="235,135 225,130 225,140" fill="#c9a84c"/>
+
+  <!-- ステップ2 -->
+  <rect x="230" y="80" width="110" height="110" fill="#8b7355" rx="5"/>
+  <text x="285" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">2</text>
+  <text x="285" y="155" font-size="11" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">動画企画</text>
+  <text x="285" y="170" font-size="11" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">テンプレート</text>
+
+  <!-- 矢印2 -->
+  <line x1="350" y1="135" x2="400" y2="135" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="405,135 395,130 395,140" fill="#c9a84c"/>
+
+  <!-- ステップ3 -->
+  <rect x="400" y="80" width="110" height="110" fill="#555555" rx="5"/>
+  <text x="455" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3</text>
+  <text x="455" y="155" font-size="11" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">動画SEO</text>
+  <text x="455" y="170" font-size="11" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">最適化</text>
+
+  <!-- 矢印3 -->
+  <line x1="520" y1="135" x2="570" y2="135" stroke="#c9a84c" stroke-width="2"/>
+  <polygon points="575,135 565,130 565,140" fill="#c9a84c"/>
+
+  <!-- ステップ4 -->
+  <rect x="570" y="80" width="110" height="110" fill="#999999" rx="5"/>
+  <text x="625" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">4</text>
+  <text x="625" y="155" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">継続運用</text>
+  <text x="625" y="170" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">の仕組み</text>
+
+  <!-- ステップ5 -->
+  <rect x="240" y="240" width="110" height="110" fill="#c9a84c" rx="5"/>
+  <text x="295" y="275" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">5</text>
+  <text x="295" y="315" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS・HP</text>
+  <text x="295" y="330" font-size="11" text-anchor="middle" fill="#111111" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">との連携</text>
+
+  <!-- 説明テキスト -->
+  <text x="400" y="405" font-size="12" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">中小企業が成功するには、明確なステップとプロセス設計が必須</text>
+</svg>

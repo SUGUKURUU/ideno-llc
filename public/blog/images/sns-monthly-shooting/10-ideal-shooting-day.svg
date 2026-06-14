@@ -1,0 +1,91 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">理想的な撮影Dayのタイムスケジュール</text>
+
+  <!-- Timeline bar background -->
+  <!-- 9:00〜16:30 = 7.5h = 450min, bar width=660, 1min=1.467px, start x=70 -->
+
+  <!-- Time ruler -->
+  <line x1="70" y1="80" x2="730" y2="80" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- hour ticks: 9,10,11,12,13,14,15,16 -->
+  <!-- 9:00→70, 10:00→70+88=158, 11:00→246, 12:00→334, 13:00→422, 14:00→510, 15:00→598, 16:00→686, 16:30→730 -->
+  <line x1="70"  y1="75" x2="70"  y2="85" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <line x1="158" y1="75" x2="158" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="246" y1="75" x2="246" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="334" y1="75" x2="334" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="422" y1="75" x2="422" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="510" y1="75" x2="510" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="598" y1="75" x2="598" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="686" y1="75" x2="686" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="730" y1="75" x2="730" y2="85" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+
+  <text x="70"  y="70" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">9:00</text>
+  <text x="158" y="70" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">10:00</text>
+  <text x="246" y="70" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">11:00</text>
+  <text x="334" y="70" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">12:00</text>
+  <text x="422" y="70" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">13:00</text>
+  <text x="510" y="70" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">14:00</text>
+  <text x="598" y="70" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">15:00</text>
+  <text x="686" y="70" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11">16:00</text>
+  <text x="730" y="70" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">16:30</text>
+
+  <!-- Block 1: 9:00〜9:30 集合・機材セット x=70 w=44 -->
+  <rect x="70"  y="95" width="44"  height="50" rx="4" fill="rgba(201,168,76,0.25)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+  <!-- Block 2: 9:30〜11:30 インタビュー/トーク系撮影 x=114 w=176 -->
+  <rect x="114" y="95" width="176" height="50" rx="4" fill="#c9a84c"/>
+  <!-- Block 3: 12:00〜13:00 休憩 x=334 w=88 -->
+  <rect x="334" y="95" width="88"  height="50" rx="4" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <!-- Block 4: 13:00〜15:30 現場・作業シーン x=422 w=220 -->
+  <rect x="422" y="95" width="220" height="50" rx="4" fill="rgba(201,168,76,0.7)"/>
+  <!-- Block 5: 15:30〜16:30 Bロール x=642 w=88 -->
+  <rect x="642" y="95" width="88"  height="50" rx="4" fill="rgba(201,168,76,0.4)"/>
+
+  <!-- Block labels -->
+  <text x="92"  y="124" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="9">集合</text>
+  <text x="202" y="118" text-anchor="middle" fill="#111111" font-size="12" font-weight="bold">インタビュー・トーク系撮影</text>
+  <text x="202" y="134" text-anchor="middle" fill="rgba(0,0,0,0.7)" font-size="10">2時間（メインコンテンツ）</text>
+  <text x="378" y="118" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">昼休憩</text>
+  <text x="378" y="134" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="10">1時間</text>
+  <text x="532" y="118" text-anchor="middle" fill="#111111" font-size="12" font-weight="bold">現場・作業シーン撮影</text>
+  <text x="532" y="134" text-anchor="middle" fill="rgba(0,0,0,0.7)" font-size="10">2.5時間</text>
+  <text x="686" y="118" text-anchor="middle" fill="#111111" font-size="11" font-weight="bold">Bロール撮影</text>
+  <text x="686" y="134" text-anchor="middle" fill="rgba(0,0,0,0.6)" font-size="10">1時間</text>
+
+  <!-- Detail rows -->
+  <!-- Row 1 details -->
+  <rect x="70" y="165" width="620" height="1" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Detail cards -->
+  <!-- 9:00 -->
+  <rect x="70" y="175" width="130" height="70" rx="5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="135" y="196" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">9:00 集合・準備</text>
+  <text x="135" y="214" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">機材セッティング</text>
+  <text x="135" y="230" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">ライティング確認</text>
+
+  <!-- 9:30 -->
+  <rect x="210" y="175" width="200" height="70" rx="5" fill="rgba(201,168,76,0.06)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <text x="310" y="196" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">9:30〜11:30 メイン撮影</text>
+  <text x="310" y="214" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">社長・スタッフインタビュー</text>
+  <text x="310" y="230" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">サービス解説・Q&amp;A形式</text>
+
+  <!-- 13:00 -->
+  <rect x="420" y="175" width="200" height="70" rx="5" fill="rgba(201,168,76,0.06)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <text x="520" y="196" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">13:00〜15:30 現場撮影</text>
+  <text x="520" y="214" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">実作業・商品・施術シーン</text>
+  <text x="520" y="230" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">静止画も同時に撮影</text>
+
+  <!-- 15:30 -->
+  <rect x="630" y="175" width="100" height="70" rx="5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="680" y="196" text-anchor="middle" fill="#c9a84c" font-size="11" font-weight="bold">15:30〜</text>
+  <text x="680" y="214" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">追加Bロール</text>
+  <text x="680" y="230" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">16:30 撤収</text>
+
+  <!-- summary -->
+  <rect x="70" y="265" width="660" height="44" rx="6" fill="rgba(201,168,76,0.08)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+  <text x="400" y="283" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="12">半日（約7.5時間）の撮影で確保できる素材数の目安</text>
+  <text x="220" y="302" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">動画カット: 15〜20本</text>
+  <text x="400" y="302" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">静止画: 30〜50枚</text>
+  <text x="590" y="302" text-anchor="middle" fill="#c9a84c" font-size="13" font-weight="bold">合計素材: 30本以上</text>
+
+  <text x="400" y="328" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="11">事前に撮影台本を用意することで効率が3〜5倍向上する</text>
+</svg>

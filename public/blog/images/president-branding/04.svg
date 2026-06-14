@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">社長動画：4つの種類と使い分け</text>
+
+  <text x="100" y="95" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">1. 密着ドキュメンタリー</text>
+  <text x="130" y="115" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">採用強化・信頼形成に最高の効果</text>
+
+  <text x="100" y="155" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">2. インタビュー動画</text>
+  <text x="130" y="175" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">ビジョン・理念の発信に適している</text>
+
+  <text x="100" y="215" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">3. 解説・ノウハウ動画</text>
+  <text x="130" y="235" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">業界知識で専門家としての信頼性向上</text>
+
+  <text x="100" y="275" font-size="11" font-weight="bold" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">4. 日常のショート動画</text>
+  <text x="130" y="295" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNSアルゴリズム最適化で拡散力が高い</text>
+
+  <rect x="450" y="90" width="270" height="300" fill="none" stroke="#333333" stroke-width="1" rx="3"/>
+  <text x="585" y="120" font-size="11" font-weight="bold" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">理想的な組み合わせ</text>
+  <line x1="465" y1="135" x2="705" y2="135" stroke="#333333" stroke-width="1"/>
+
+  <text x="470" y="165" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">年2-4本の長尺動画</text>
+  <text x="470" y="185" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">+</text>
+  <text x="470" y="210" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">月複数本のショート動画</text>
+  <text x="470" y="235" font-size="10" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">=</text>
+  <text x="470" y="260" font-size="10" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">費用対効果が最大</text>
+</svg>

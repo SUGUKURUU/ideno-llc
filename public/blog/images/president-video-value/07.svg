@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="35" font-size="24" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">動画による情報伝達の深さ比較</text>
+
+  <!-- 段階1：ホームページ -->
+  <rect x="80" y="90" width="140" height="260" fill="#c9a84c" opacity="0.3" stroke="#c9a84c" stroke-width="1" rx="3"/>
+  <text x="150" y="115" font-size="11" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">ホームページ</text>
+  <text x="150" y="155" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">テキスト・静止画</text>
+  <text x="150" y="175" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">だけでは</text>
+  <text x="150" y="195" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">「人となり」</text>
+  <text x="150" y="215" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">が伝わりにくい</text>
+  <text x="150" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">深さ：★☆☆</text>
+
+  <!-- 段階2：ブログ・note -->
+  <rect x="250" y="90" width="140" height="260" fill="#8b7355" opacity="0.3" stroke="#8b7355" stroke-width="1" rx="3"/>
+  <text x="320" y="115" font-size="11" font-weight="bold" text-anchor="middle" fill="#8b7355" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">ブログ・note</text>
+  <text x="320" y="155" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">文章で思考や</text>
+  <text x="320" y="175" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">経験を深掘りでき</text>
+  <text x="320" y="195" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">るが、読み手の</text>
+  <text x="320" y="215" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">時間がかかる</text>
+  <text x="320" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#8b7355" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">深さ：★★☆</text>
+
+  <!-- 段階3：SNS発信 -->
+  <rect x="420" y="90" width="140" height="260" fill="#555555" opacity="0.3" stroke="#555555" stroke-width="1" rx="3"/>
+  <text x="490" y="115" font-size="11" font-weight="bold" text-anchor="middle" fill="#555555" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">SNS発信</text>
+  <text x="490" y="155" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">日常が見えて</text>
+  <text x="490" y="175" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">親近感が生まれる</text>
+  <text x="490" y="195" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">が、一時的で</text>
+  <text x="490" y="215" font-size="9" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">深さが限定的</text>
+  <text x="490" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#555555" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">深さ：★★☆</text>
+
+  <!-- 段階4：動画 -->
+  <rect x="590" y="90" width="140" height="260" fill="#c9a84c" opacity="0.5" stroke="#c9a84c" stroke-width="2" rx="3"/>
+  <text x="660" y="115" font-size="11" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">動画</text>
+  <text x="660" y="155" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">声・表情・空気感</text>
+  <text x="660" y="175" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">で「人間」が</text>
+  <text x="660" y="195" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">丸ごと伝わり、</text>
+  <text x="660" y="215" font-size="9" text-anchor="middle" fill="#ffffff" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">深い共感を生む</text>
+  <text x="660" y="245" font-size="10" font-weight="bold" text-anchor="middle" fill="#c9a84c" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">深さ：★★★★</text>
+
+  <text x="400" y="395" font-size="11" text-anchor="middle" fill="#aaaaaa" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">動画は、他のメディアでは代替不可能な情報量と感情伝達を実現</text>
+</svg>

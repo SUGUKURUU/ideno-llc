@@ -1,0 +1,68 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect fill="#111111" width="800" height="420"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">価格 vs サービス品質（代行会社の位置関係）</text>
+
+  <!-- axes -->
+  <line x1="100" y1="60" x2="100" y2="360" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="100" y1="360" x2="740" y2="360" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <polygon points="100,55 95,68 105,68" fill="rgba(255,255,255,0.4)"/>
+  <polygon points="745,360 732,355 732,365" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- axis labels -->
+  <text x="88" y="215" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12" transform="rotate(-90,88,215)">サービス品質（低→高）</text>
+  <text x="420" y="395" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="12">月額費用（低→高）</text>
+
+  <!-- grid -->
+  <line x1="100" y1="210" x2="740" y2="210" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="420" y1="60" x2="420" y2="360" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="260" y1="60" x2="260" y2="360" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="580" y1="60" x2="580" y2="360" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- zone labels -->
+  <text x="180" y="80" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11">格安帯</text>
+  <text x="180" y="94" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11">〜5万円</text>
+  <text x="420" y="80" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11">標準帯</text>
+  <text x="420" y="94" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11">5〜20万円</text>
+  <text x="660" y="80" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11">プレミアム帯</text>
+  <text x="660" y="94" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11">20万円〜</text>
+
+  <!-- Data points -->
+  <!-- 格安・低品質クラスター -->
+  <circle cx="150" cy="300" r="8" fill="rgba(255,100,100,0.6)"/>
+  <circle cx="175" cy="280" r="8" fill="rgba(255,100,100,0.6)"/>
+  <circle cx="155" cy="320" r="8" fill="rgba(255,100,100,0.6)"/>
+  <circle cx="200" cy="295" r="8" fill="rgba(255,100,100,0.6)"/>
+  <text x="178" y="340" text-anchor="middle" fill="rgba(255,150,150,0.7)" font-size="11">格安・低品質</text>
+
+  <!-- 標準・中品質クラスター -->
+  <circle cx="330" cy="200" r="9" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="370" cy="185" r="9" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="350" cy="215" r="9" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="400" cy="195" r="9" fill="rgba(255,255,255,0.4)"/>
+  <text x="365" y="235" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="11">標準・中品質</text>
+
+  <!-- 要注意ゾーン：高額・低品質 -->
+  <circle cx="550" cy="290" r="8" fill="rgba(255,180,0,0.5)"/>
+  <circle cx="590" cy="310" r="8" fill="rgba(255,180,0,0.5)"/>
+  <text x="570" y="330" text-anchor="middle" fill="rgba(255,200,0,0.7)" font-size="11">⚠ 高額・低品質</text>
+  <text x="570" y="344" text-anchor="middle" fill="rgba(255,200,0,0.5)" font-size="10">（要注意）</text>
+
+  <!-- 理想ゾーン：標準〜高額・高品質 -->
+  <circle cx="450" cy="130" r="10" fill="#c9a84c"/>
+  <circle cx="510" cy="115" r="10" fill="#c9a84c"/>
+  <circle cx="480" cy="148" r="10" fill="#c9a84c"/>
+  <circle cx="560" cy="125" r="10" fill="#c9a84c"/>
+  <circle cx="630" cy="110" r="12" fill="#c9a84c"/>
+  <text x="535" y="170" text-anchor="middle" fill="#c9a84c" font-size="12" font-weight="bold">★ 高品質・適正価格</text>
+  <text x="535" y="185" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="10">戦略×実績×サポートが揃う</text>
+
+  <!-- axis ticks -->
+  <text x="96" y="364" text-anchor="end" fill="rgba(255,255,255,0.4)" font-size="10">低</text>
+  <text x="96" y="68" text-anchor="end" fill="rgba(255,255,255,0.4)" font-size="10">高</text>
+  <text x="108" y="378" fill="rgba(255,255,255,0.4)" font-size="10">低</text>
+  <text x="720" y="378" fill="rgba(255,255,255,0.4)" font-size="10">高</text>
+
+  <!-- ideal line -->
+  <line x1="110" y1="350" x2="730" y2="70" stroke="rgba(201,168,76,0.2)" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="620" y="95" fill="rgba(201,168,76,0.4)" font-size="10">理想の相関ライン</text>
+</svg>

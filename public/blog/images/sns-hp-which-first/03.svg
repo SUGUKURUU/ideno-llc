@@ -1,0 +1,51 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="800" height="420" fill="#111111"/>
+  <text x="400" y="36" text-anchor="middle" fill="#c9a84c" font-size="18" font-weight="bold">SNS / HPそれぞれの得意領域比較</text>
+  <!-- Y axis label -->
+  <text x="30" y="220" text-anchor="middle" fill="#aaaaaa" font-size="11" transform="rotate(-90,30,220)">効果の高さ</text>
+  <!-- Bars - categories -->
+  <!-- Category labels -->
+  <text x="120" y="390" text-anchor="middle" fill="#aaaaaa" font-size="11">認知拡大</text>
+  <text x="230" y="390" text-anchor="middle" fill="#aaaaaa" font-size="11">拡散力</text>
+  <text x="340" y="390" text-anchor="middle" fill="#aaaaaa" font-size="11">信頼形成</text>
+  <text x="450" y="390" text-anchor="middle" fill="#aaaaaa" font-size="11">詳細説明</text>
+  <text x="560" y="390" text-anchor="middle" fill="#aaaaaa" font-size="11">SEO効果</text>
+  <text x="670" y="390" text-anchor="middle" fill="#aaaaaa" font-size="11">即時性</text>
+  <!-- Grid lines -->
+  <line x1="60" y1="70" x2="730" y2="70" stroke="#222" stroke-width="1"/>
+  <line x1="60" y1="130" x2="730" y2="130" stroke="#222" stroke-width="1"/>
+  <line x1="60" y1="190" x2="730" y2="190" stroke="#222" stroke-width="1"/>
+  <line x1="60" y1="250" x2="730" y2="250" stroke="#222" stroke-width="1"/>
+  <line x1="60" y1="310" x2="730" y2="310" stroke="#222" stroke-width="1"/>
+  <line x1="60" y1="370" x2="730" y2="370" stroke="#333" stroke-width="1"/>
+  <!-- Y axis labels -->
+  <text x="55" y="74" text-anchor="end" fill="#aaaaaa" font-size="10">100</text>
+  <text x="55" y="134" text-anchor="end" fill="#aaaaaa" font-size="10">80</text>
+  <text x="55" y="194" text-anchor="end" fill="#aaaaaa" font-size="10">60</text>
+  <text x="55" y="254" text-anchor="end" fill="#aaaaaa" font-size="10">40</text>
+  <text x="55" y="314" text-anchor="end" fill="#aaaaaa" font-size="10">20</text>
+  <!-- SNS bars (left of each pair) -->
+  <!-- 認知拡大 SNS=90 HP=40 -->
+  <rect x="75" y="100" width="42" height="270" rx="4" fill="#c9a84c" opacity="0.9"/>
+  <rect x="122" y="226" width="42" height="144" rx="4" fill="#4a7fa5" opacity="0.9"/>
+  <!-- 拡散力 SNS=95 HP=20 -->
+  <rect x="185" y="88" width="42" height="282" rx="4" fill="#c9a84c" opacity="0.9"/>
+  <rect x="232" y="310" width="42" height="60" rx="4" fill="#4a7fa5" opacity="0.9"/>
+  <!-- 信頼形成 SNS=50 HP=85 -->
+  <rect x="295" y="220" width="42" height="150" rx="4" fill="#c9a84c" opacity="0.9"/>
+  <rect x="342" y="115" width="42" height="255" rx="4" fill="#4a7fa5" opacity="0.9"/>
+  <!-- 詳細説明 SNS=30 HP=90 -->
+  <rect x="405" y="280" width="42" height="90" rx="4" fill="#c9a84c" opacity="0.9"/>
+  <rect x="452" y="100" width="42" height="270" rx="4" fill="#4a7fa5" opacity="0.9"/>
+  <!-- SEO効果 SNS=25 HP=90 -->
+  <rect x="515" y="295" width="42" height="75" rx="4" fill="#c9a84c" opacity="0.9"/>
+  <rect x="562" y="100" width="42" height="270" rx="4" fill="#4a7fa5" opacity="0.9"/>
+  <!-- 即時性 SNS=90 HP=30 -->
+  <rect x="625" y="100" width="42" height="270" rx="4" fill="#c9a84c" opacity="0.9"/>
+  <rect x="672" y="280" width="42" height="90" rx="4" fill="#4a7fa5" opacity="0.9"/>
+  <!-- Legend -->
+  <rect x="260" y="408" width="16" height="10" rx="2" fill="#c9a84c"/>
+  <text x="282" y="418" fill="#aaaaaa" font-size="12">SNS</text>
+  <rect x="340" y="408" width="16" height="10" rx="2" fill="#4a7fa5"/>
+  <text x="362" y="418" fill="#aaaaaa" font-size="12">ホームページ</text>
+</svg>
