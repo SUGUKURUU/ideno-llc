@@ -63,6 +63,9 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-6">
+            <Link href="/blog" className="text-white/35 hover:text-white/70 text-xs transition-colors tracking-widest uppercase">
+              Blog
+            </Link>
             <Link href="/services" className="text-white/35 hover:text-white/70 text-xs transition-colors tracking-widest uppercase">
               Services →
             </Link>
@@ -105,6 +108,13 @@ export default function Header() {
                   {item.label}
                 </button>
               ))}
+              <Link
+                href="/blog"
+                onClick={() => setMenuOpen(false)}
+                className="block text-left py-5 text-2xl font-medium text-white/60 hover:text-white border-b border-white/[0.04] transition-colors"
+              >
+                ブログ
+              </Link>
               <Link
                 href="/services"
                 onClick={() => setMenuOpen(false)}
