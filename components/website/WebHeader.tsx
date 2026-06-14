@@ -6,9 +6,10 @@ import { motion } from "framer-motion";
 
 const navItems = [
   { label: "Problems", href: "#problems" },
-  { label: "Service", href: "#service" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Flow", href: "#workflow" },
+  { label: "Strength", href: "#differential" },
+  { label: "Portfolio", href: "#portfolio" },
+  { label: "Process", href: "#process" },
+  { label: "FAQ", href: "#faq" },
 ];
 
 export default function WebHeader() {
