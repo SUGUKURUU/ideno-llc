@@ -63,6 +63,12 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-6">
+            <Link href="/faq" className="text-white/35 hover:text-white/70 text-xs transition-colors tracking-widest uppercase">
+              FAQ
+            </Link>
+            <Link href="/services/sns-pricing" className="text-white/35 hover:text-white/70 text-xs transition-colors tracking-widest uppercase">
+              料金
+            </Link>
             <Link href="/blog" className="text-white/35 hover:text-white/70 text-xs transition-colors tracking-widest uppercase">
               Blog
             </Link>
@@ -108,6 +114,20 @@ export default function Header() {
                   {item.label}
                 </button>
               ))}
+              <Link
+                href="/faq"
+                onClick={() => setMenuOpen(false)}
+                className="block text-left py-5 text-2xl font-medium text-white/60 hover:text-white border-b border-white/[0.04] transition-colors"
+              >
+                FAQ
+              </Link>
+              <Link
+                href="/services/sns-pricing"
+                onClick={() => setMenuOpen(false)}
+                className="block text-left py-5 text-2xl font-medium text-white/60 hover:text-white border-b border-white/[0.04] transition-colors"
+              >
+                料金プラン
+              </Link>
               <Link
                 href="/blog"
                 onClick={() => setMenuOpen(false)}

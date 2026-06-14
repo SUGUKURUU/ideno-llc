@@ -59,7 +59,9 @@
       "Bash(git commit -m 'Fix Gemini API key env var lookup for Vercel *)",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('dependencies',{}\\), indent=2\\)\\)\")",
       "Bash(mkdir -p /Users/MacBook/Downloads/SNS運用代行会社HP/app/blog/\\\\[slug\\\\])",
-      "Bash(npm run dev > /tmp/dev.log 2>&1 & *)"
+      "Bash(npm run dev > /tmp/dev.log 2>&1 & *)",
+      "Bash(git commit -m 'Add blog link to header navigation *)",
+      "WebFetch(domain:www.grop.co.jp)"
     ]
   }
 }

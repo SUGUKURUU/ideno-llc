@@ -1,14 +1,23 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, TrendingUp, Users, Award } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.14, duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94] },
+    transition: { delay: i * 0.12, duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94] },
+  }),
+};
+
+const slideInRight = {
+  hidden: { opacity: 0, x: 32 },
+  visible: (i: number) => ({
+    opacity: 1,
+    x: 0,
+    transition: { delay: i * 0.1, duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] },
   }),
 };
 
@@ -16,6 +25,12 @@ export default function Hero() {
   const scrollToContact = () => {
     document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const stats = [
+    { icon: TrendingUp, value: "100+", label: "支援実績", subtext: "企業・経営者" },
+    { icon: Users, value: "3×", label: "平均フォロワー増加", subtext: "初年度実績" },
+    { icon: Award, value: "98%", label: "継続率", subtext: "高い満足度" },
+  ];
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">
@@ -29,6 +44,10 @@ export default function Hero() {
           backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E")`,
         }}
       />
+
+      {/* Animated gradient blobs — background */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[rgba(196,163,90,0.04)] rounded-full blur-3xl pointer-events-none opacity-40" />
+      <div className="absolute bottom-1/3 left-1/4 w-72 h-72 bg-[rgba(196,163,90,0.03)] rounded-full blur-3xl pointer-events-none opacity-30" />
 
       {/* Abstract geometric art — right side */}
       <div className="absolute right-0 top-0 bottom-0 w-[45%] overflow-hidden hidden lg:block pointer-events-none">
@@ -110,89 +129,110 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             variants={fadeUp}
-            className="flex items-center gap-4 mb-12"
+            className="flex items-center gap-4 mb-8"
           >
             <div className="h-px w-8 bg-[#C4A35A]" />
             <span className="text-[#C4A35A] text-[11px] tracking-[0.25em] uppercase font-medium">
-              SNS運用代行 / ショート動画制作
+              SNS運用代行サービス
             </span>
           </motion.div>
 
-          {/* Main headline */}
+          {/* Main headline — stronger messaging */}
           <motion.h1
             custom={1}
             initial="hidden"
             animate="visible"
             variants={fadeUp}
-            className="text-[clamp(3rem,8vw,6.5rem)] font-bold text-white leading-[1.05] tracking-tight mb-8"
+            className="text-[clamp(2.5rem,7.5vw,6.5rem)] font-bold text-white leading-[1.05] tracking-tight mb-6"
           >
-            SNSを
+            SNSを企業の
             <br />
             <span className="font-serif-display italic font-light text-[#C4A35A]">
-              会社の資産に。
+              資産に。
             </span>
           </motion.h1>
 
-          {/* Sub */}
+          {/* Enhanced sub-headline */}
           <motion.p
             custom={2}
             initial="hidden"
             animate="visible"
             variants={fadeUp}
-            className="text-white/45 text-base sm:text-lg leading-relaxed max-w-lg mb-14"
+            className="text-white/50 text-lg sm:text-xl leading-relaxed max-w-2xl mb-4"
           >
             認知拡大、採用強化、ブランド構築まで。
-            <br />
-            経営者と企業の魅力を、映像で世界へ発信します。
           </motion.p>
 
-          {/* CTA */}
+          {/* Supporting copy */}
+          <motion.p
+            custom={2.5}
+            initial="hidden"
+            animate="visible"
+            variants={fadeUp}
+            className="text-white/40 text-base leading-relaxed max-w-xl mb-12"
+          >
+            映像とデータ戦略で、経営者と企業の魅力を世界へ発信します。
+            自社運用では実現できない、競合優位性を手に入れてください。
+          </motion.p>
+
+          {/* CTA — Primary & Secondary */}
           <motion.div
             custom={3}
             initial="hidden"
             animate="visible"
             variants={fadeUp}
-            className="flex flex-col sm:flex-row items-start gap-4 mb-20"
+            className="flex flex-col sm:flex-row items-start gap-4 mb-16"
           >
             <button
               onClick={scrollToContact}
-              className="group flex items-center gap-3 px-8 py-4 rounded-full bg-[#C4A35A] text-black font-semibold text-sm tracking-wide hover:bg-[#d4b36a] transition-all duration-300 shadow-lg shadow-[rgba(196,163,90,0.15)]"
+              className="group flex items-center gap-3 px-8 py-4 rounded-full bg-[#C4A35A] text-black font-semibold text-sm tracking-wide hover:bg-[#d4b36a] transition-all duration-300 shadow-lg shadow-[rgba(196,163,90,0.25)] hover:shadow-[rgba(196,163,90,0.4)]"
             >
-              無料相談する
-              <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform duration-200" />
+              無料相談を申し込む
+              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
             </button>
             <button
-              onClick={() => document.querySelector("#service")?.scrollIntoView({ behavior: "smooth" })}
-              className="flex items-center gap-2 px-6 py-4 text-white/50 text-sm tracking-wide hover:text-white/80 transition-colors duration-200"
+              onClick={() => document.querySelector("#results")?.scrollIntoView({ behavior: "smooth" })}
+              className="flex items-center gap-2 px-6 py-4 text-white/60 text-sm tracking-wide hover:text-white/90 hover:bg-white/[0.05] rounded-full transition-all duration-200 border border-white/[0.1]"
             >
-              サービスを見る
-              <ArrowRight size={14} className="opacity-50" />
+              実績を見る
+              <ArrowRight size={14} />
             </button>
           </motion.div>
 
-          {/* Stats */}
+          {/* Enhanced stats with icons */}
           <motion.div
             custom={4}
             initial="hidden"
             animate="visible"
             variants={fadeUp}
-            className="flex items-center gap-10 sm:gap-14"
+            className="space-y-5"
           >
-            {[
-              { value: "100+", label: "支援実績" },
-              { value: "3×", label: "平均フォロワー増加" },
-              { value: "98%", label: "継続率" },
-            ].map((stat, i) => (
-              <div key={stat.label} className="flex flex-col">
-                {i > 0 && (
-                  <div className="absolute -left-5 sm:-left-7 top-1/2 -translate-y-1/2 w-px h-8 bg-white/[0.08]" />
-                )}
-                <span className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-                  {stat.value}
-                </span>
-                <span className="text-white/35 text-[11px] tracking-wider mt-1">{stat.label}</span>
-              </div>
-            ))}
+            {stats.map((stat, i) => {
+              const Icon = stat.icon;
+              return (
+                <motion.div
+                  key={stat.label}
+                  custom={i}
+                  initial="hidden"
+                  animate="visible"
+                  variants={slideInRight}
+                  className="flex items-center gap-4 p-4 rounded-lg border border-white/[0.06] hover:border-[rgba(196,163,90,0.2)] transition-colors duration-300 group"
+                >
+                  <div className="w-12 h-12 flex items-center justify-center rounded-full bg-[rgba(196,163,90,0.08)] group-hover:bg-[rgba(196,163,90,0.12)] transition-colors">
+                    <Icon size={20} className="text-[#C4A35A]" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-2xl font-bold text-white">
+                        {stat.value}
+                      </span>
+                      <span className="text-[11px] text-white/40">{stat.subtext}</span>
+                    </div>
+                    <span className="text-white/35 text-xs">{stat.label}</span>
+                  </div>
+                </motion.div>
+              );
+            })}
           </motion.div>
         </div>
       </div>
@@ -204,10 +244,15 @@ export default function Hero() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 0.8 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        transition={{ delay: 1.8, duration: 0.8 }}
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
       >
-        <div className="w-px h-10 bg-gradient-to-b from-transparent to-[rgba(196,163,90,0.3)]" />
+        <span className="text-white/30 text-[11px] uppercase tracking-widest">Scroll</span>
+        <motion.div
+          animate={{ y: [0, 8, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          className="w-px h-6 bg-gradient-to-b from-[rgba(196,163,90,0.4)] to-transparent"
+        />
       </motion.div>
     </section>
   );

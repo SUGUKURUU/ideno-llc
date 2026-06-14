@@ -20,9 +20,15 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        // SNS運用代行のLPはトップページが兼ねているため集約
+        // SNS運用代行のLP
         source: "/services/sns",
-        destination: "/",
+        destination: "/services/sns-daiko",
+        permanent: true,
+      },
+      {
+        // 旧URLからの転送
+        source: "/sns",
+        destination: "/services/sns-daiko",
         permanent: true,
       },
     ];
