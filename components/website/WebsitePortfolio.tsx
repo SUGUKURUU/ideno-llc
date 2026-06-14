@@ -3,10 +3,12 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { ArrowUpRight, TrendingUp } from "lucide-react";
+import Link from "next/link";
 
 const portfolioItems = [
   // 製造業
   {
+    id: "manufacturing-precision-parts",
     category: "製造業",
     categoryId: "manufacturing",
     company: "精密部品製造メーカー",
@@ -19,6 +21,7 @@ const portfolioItems = [
   },
   // サービス業
   {
+    id: "service-cleaning",
     category: "サービス業",
     categoryId: "service",
     company: "オフィス清掃サービス",
@@ -31,6 +34,7 @@ const portfolioItems = [
   },
   // 医療
   {
+    id: "medical-clinic",
     category: "医療",
     categoryId: "medical",
     company: "クリニック",
@@ -43,6 +47,7 @@ const portfolioItems = [
   },
   // 教育
   {
+    id: "education-programming",
     category: "教育",
     categoryId: "education",
     company: "プログラミング教室",
@@ -55,6 +60,7 @@ const portfolioItems = [
   },
   // 人材採用
   {
+    id: "recruitment-it-company",
     category: "採用サイト",
     categoryId: "recruitment",
     company: "システム開発企業",
@@ -67,6 +73,7 @@ const portfolioItems = [
   },
   // EC
   {
+    id: "ecommerce-handmade",
     category: "EC",
     categoryId: "ecommerce",
     company: "手作り雑貨販売",
@@ -79,6 +86,7 @@ const portfolioItems = [
   },
   // 飲食
   {
+    id: "restaurant-fine-dining",
     category: "飲食店",
     categoryId: "restaurant",
     company: "高級レストラン",
@@ -91,6 +99,7 @@ const portfolioItems = [
   },
   // 不動産
   {
+    id: "realestate-brokerage",
     category: "不動産",
     categoryId: "realestate",
     company: "不動産仲介会社",
@@ -211,13 +220,14 @@ export default function WebsitePortfolio() {
           variants={containerVariants}
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
         >
-          {filteredItems.map((item) => (
+          {filteredItems.map((item: any) => (
             <motion.div
-              key={item.company}
+              key={item.id || item.company}
               variants={itemVariants}
               className="group relative"
             >
-              <div className="relative bg-[#080808]/50 border border-[rgba(196,163,90,0.08)] group-hover:border-[rgba(196,163,90,0.2)] rounded-lg overflow-hidden transition-all duration-500 h-full flex flex-col">
+              <Link href={item.id ? `/services/website/${item.id}` : "#"}>
+                <div className="relative bg-[#080808]/50 border border-[rgba(196,163,90,0.08)] group-hover:border-[rgba(196,163,90,0.2)] rounded-lg overflow-hidden transition-all duration-500 h-full flex flex-col cursor-pointer">
                 {/* Top Section - Image/Icon Area */}
                 <div className="relative h-40 lg:h-48 bg-gradient-to-br from-[rgba(196,163,90,0.1)] to-[rgba(196,163,90,0.02)] flex items-center justify-center overflow-hidden">
                   <span className="text-6xl lg:text-7xl group-hover:scale-110 transition-transform duration-500">{item.image}</span>
@@ -267,19 +277,13 @@ export default function WebsitePortfolio() {
                   </p>
 
                   {/* CTA Link */}
-                  <a
-                    href="#contact"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
-                    }}
-                    className="flex items-center gap-2 text-[#C4A35A] text-xs font-semibold uppercase tracking-wider hover:gap-3 transition-all duration-300 group"
-                  >
+                  <div className="flex items-center gap-2 text-[#C4A35A] text-xs font-semibold uppercase tracking-wider group-hover:gap-3 transition-all duration-300 group">
                     詳細を見る
                     <ArrowUpRight size={12} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
-                  </a>
+                  </div>
                 </div>
               </div>
+              </Link>
             </motion.div>
           ))}
         </motion.div>
