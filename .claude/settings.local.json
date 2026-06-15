@@ -61,7 +61,8 @@
       "Bash(mkdir -p /Users/MacBook/Downloads/SNS運用代行会社HP/app/blog/\\\\[slug\\\\])",
       "Bash(npm run dev > /tmp/dev.log 2>&1 & *)",
       "Bash(git commit -m 'Add blog link to header navigation *)",
-      "WebFetch(domain:www.grop.co.jp)"
+      "WebFetch(domain:www.grop.co.jp)",
+      "WebFetch(domain:www.to-kousya.or.jp)"
     ]
   }
 }
