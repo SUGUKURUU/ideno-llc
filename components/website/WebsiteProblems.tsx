@@ -107,7 +107,7 @@ export default function WebsiteProblems() {
           className="mt-16 md:mt-20 pt-12 md:pt-16 border-t border-[rgba(196,163,90,0.15)] text-center"
         >
           <p className="text-white/60 text-base md:text-lg">
-            <span className="font-semibold text-[#C4A35A]">ideno LLC では、</span>
+            <span className="font-semibold text-[#C4A35A]">EXECUTIVE SUPPORT では、</span>
             <br className="hidden sm:block" />
             これらの課題をすべて解決するホームページ制作を実現します。
           </p>

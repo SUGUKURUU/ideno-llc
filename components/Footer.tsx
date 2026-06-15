@@ -31,8 +31,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="mb-6">
-              <div className="text-white font-semibold text-sm tracking-[0.15em] mb-1">ideno LLC</div>
-              <div className="text-[#C4A35A] text-[9px] tracking-[0.25em] opacity-70">合同会社出野</div>
+              <div className="text-white font-semibold text-sm tracking-[0.15em] mb-1">EXECUTIVE SUPPORT</div>
+              <div className="text-[#C4A35A] text-[9px] tracking-[0.25em] opacity-70">株式会社エグゼクティブサポート</div>
             </div>
             <p className="text-white/30 text-sm leading-relaxed mb-8 max-w-xs">
               企業と経営者の魅力を発信し、
@@ -86,7 +86,7 @@ export default function Footer() {
 
         <div className="border-t border-white/[0.04] pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/20 text-xs tracking-wide">
-            © {year} 合同会社出野 / ideno LLC. All rights reserved.
+            © {year} 株式会社エグゼクティブサポート / EXECUTIVE SUPPORT. All rights reserved.
           </p>
           <p className="text-white/10 text-xs tracking-wider">
             Built with Next.js

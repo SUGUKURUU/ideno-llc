@@ -46,8 +46,8 @@ export default function Header() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
             className="flex flex-col leading-none"
           >
-            <span className="text-white font-semibold text-sm tracking-[0.15em]">ideno LLC</span>
-            <span className="text-[#C4A35A] text-[9px] tracking-[0.25em] mt-0.5 opacity-70">合同会社出野</span>
+            <span className="text-white font-semibold text-sm tracking-[0.15em]">EXECUTIVE SUPPORT</span>
+            <span className="text-[#C4A35A] text-[9px] tracking-[0.25em] mt-0.5 opacity-70">株式会社エグゼクティブサポート</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-10">

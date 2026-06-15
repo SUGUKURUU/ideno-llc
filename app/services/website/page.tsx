@@ -23,8 +23,8 @@ const jsonLd = {
   serviceType: "Web制作・ホームページ制作",
   provider: {
     "@type": "LocalBusiness",
-    name: "合同会社出野",
-    alternateName: "ideno LLC",
+    name: "株式会社エグゼクティブサポート",
+    alternateName: "EXECUTIVE SUPPORT",
     areaServed: "JP",
     url: "https://ideno-llc.vercel.app",
     description: "SNS運用代行とホームページ制作で企業のデジタル化をサポート",

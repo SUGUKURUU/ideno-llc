@@ -23,8 +23,8 @@ const jsonLd = {
   serviceType: "SNS運用代行",
   provider: {
     "@type": "Organization",
-    name: "合同会社出野",
-    alternateName: "ideno LLC",
+    name: "株式会社エグゼクティブサポート",
+    alternateName: "EXECUTIVE SUPPORT",
   },
   areaServed: "JP",
   description: pageDescription,

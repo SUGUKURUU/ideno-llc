@@ -48,11 +48,11 @@ export default function PortfolioDetailPage() {
     datePublished: new Date().toISOString().split('T')[0],
     author: {
       "@type": "Organization",
-      name: "合同会社出野",
+      name: "株式会社エグゼクティブサポート",
     },
     publisher: {
       "@type": "Organization",
-      name: "合同会社出野",
+      name: "株式会社エグゼクティブサポート",
       logo: {
         "@type": "ImageObject",
         url: "/logo.svg",

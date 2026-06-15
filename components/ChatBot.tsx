@@ -12,7 +12,7 @@ type Message = {
 export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: "assistant", content: "こんにちは！合同会社出野のAIアシスタントです。SNS運用代行・ホームページ制作・社長の一日について何でもご質問ください😊" },
+    { role: "assistant", content: "こんにちは！株式会社エグゼクティブサポートのAIアシスタントです。SNS運用代行・ホームページ制作・社長の一日について何でもご質問ください😊" },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -83,7 +83,7 @@ export default function ChatBot() {
                   </div>
                   <div>
                     <p className="text-white text-sm font-medium">AIアシスタント</p>
-                    <p className="text-white/40 text-xs">合同会社出野</p>
+                    <p className="text-white/40 text-xs">株式会社エグゼクティブサポート</p>
                   </div>
                 </div>
                 <button onClick={() => setOpen(false)} className="text-white/40 hover:text-white transition-colors">

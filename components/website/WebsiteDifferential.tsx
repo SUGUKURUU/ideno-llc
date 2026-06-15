@@ -68,7 +68,7 @@ export default function WebsiteDifferential() {
             <div className="h-px w-8 bg-[#C4A35A]" />
           </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
-            ideno LLC が
+            EXECUTIVE SUPPORT が
             <br />
             <span className="font-serif-display italic font-light text-[#C4A35A]">
               選ばれる3つの理由
@@ -143,7 +143,7 @@ export default function WebsiteDifferential() {
           <p className="text-white/60 text-sm md:text-base bg-[rgba(196,163,90,0.05)] border border-[rgba(196,163,90,0.15)] rounded-lg p-6">
             <span className="font-semibold text-[#C4A35A]">つまり、</span>
             <br />
-            ideno LLC のホームページ制作は、『見た目』ではなく『成果』を最優先にした、企業の真の課題解決パートナーです。
+            EXECUTIVE SUPPORT のホームページ制作は、『見た目』ではなく『成果』を最優先にした、企業の真の課題解決パートナーです。
           </p>
         </motion.div>
       </div>

@@ -5,7 +5,7 @@ const genAI = new GoogleGenerativeAI(
   process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY || ""
 );
 
-const SYSTEM_PROMPT = `あなたは合同会社出野（ideno LLC）のAIアシスタントです。
+const SYSTEM_PROMPT = `あなたは株式会社エグゼクティブサポート（EXECUTIVE SUPPORT）のAIアシスタントです。
 以下のサービスについて丁寧にご案内します：
 
 【SNS運用代行】
@@ -38,7 +38,7 @@ export async function POST(req: NextRequest) {
         },
         {
           role: "model",
-          parts: [{ text: "はい、合同会社出野のAIアシスタントとしてご案内します。何でもお気軽にご相談ください！" }],
+          parts: [{ text: "はい、株式会社エグゼクティブサポートのAIアシスタントとしてご案内します。何でもお気軽にご相談ください！" }],
         },
         ...messages.slice(0, -1).map((m: { role: string; content: string }) => ({
           role: m.role === "user" ? "user" : "model",

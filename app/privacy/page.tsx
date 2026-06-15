@@ -27,7 +27,7 @@ export default function PrivacyPage() {
           {[
             {
               title: "1. 個人情報の取り扱いについて",
-              body: "合同会社出野（以下「当社」）は、お客様の個人情報を適切に管理し、個人情報の保護に関する法令を遵守した取り扱いを行います。",
+              body: "株式会社エグゼクティブサポート（以下「当社」）は、お客様の個人情報を適切に管理し、個人情報の保護に関する法令を遵守した取り扱いを行います。",
             },
             {
               title: "2. 収集する情報",
@@ -56,7 +56,7 @@ export default function PrivacyPage() {
             },
             {
               title: "8. お問い合わせ",
-              body: "個人情報に関するお問い合わせは、下記までご連絡ください。\n合同会社出野 担当窓口：dntty99●gmail.com（●を@に変えてください）",
+              body: "個人情報に関するお問い合わせは、下記までご連絡ください。\n株式会社エグゼクティブサポート 担当窓口：dntty99●gmail.com（●を@に変えてください）",
             },
           ].map((section) => (
             <div key={section.title} className="border-t border-white/[0.05] pt-10">

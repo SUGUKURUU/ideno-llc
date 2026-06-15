@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 const items = [
-  { label: "販売事業者名", value: "合同会社出野" },
+  { label: "販売事業者名", value: "株式会社エグゼクティブサポート" },
   { label: "所在地", value: "お問い合わせいただいた際に開示します" },
   { label: "電話番号", value: "お問い合わせいただいた際に開示します" },
   { label: "販売価格", value: "各プランページに記載の通り（税別）" },

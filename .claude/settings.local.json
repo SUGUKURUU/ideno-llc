@@ -62,7 +62,16 @@
       "Bash(npm run dev > /tmp/dev.log 2>&1 & *)",
       "Bash(git commit -m 'Add blog link to header navigation *)",
       "WebFetch(domain:www.grop.co.jp)",
-      "WebFetch(domain:www.to-kousya.or.jp)"
+      "WebFetch(domain:www.to-kousya.or.jp)",
+      "mcp__aaf4477d-e4ca-48c3-97b6-22f2e8d0f03b__generate",
+      "Bash(curl -s http://localhost:3000/sales/construction)",
+      "Bash(git commit -m 'Add construction industry sales LP page for sales pitch *)",
+      "Bash(gh deployment *)",
+      "Bash(curl -I http://localhost:3000/sales/construction)",
+      "Bash(curl -I http://localhost:3000/ex-spt.com/cell-lp)",
+      "Bash(git commit -m 'Add executive support sales LP for SNS outsourcing service *)",
+      "Bash(grep -r \"株式会社エグゼクティブサポート\" /Users/MacBook/Downloads/SNS運用代行会社HP/app /Users/MacBook/Downloads/SNS運用代行会社HP/components --include=\"*.tsx\" --include=\"*.ts\" ! -path \"*/.next/*\")",
+      "Bash(git commit -m 'Change company name from ideno LLC to Executive Support *)"
     ]
   }
 }

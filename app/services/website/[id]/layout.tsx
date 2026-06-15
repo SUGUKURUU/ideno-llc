@@ -26,15 +26,15 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       "ケーススタディ",
       "成功事例",
     ],
-    authors: [{ name: "合同会社出野" }],
-    creator: "合同会社出野",
+    authors: [{ name: "株式会社エグゼクティブサポート" }],
+    creator: "株式会社エグゼクティブサポート",
     openGraph: {
       type: "article",
       locale: "ja_JP",
       url: `https://ideno-llc.jp/services/website/${id}`,
       title: pageTitle,
       description: pageDescription,
-      siteName: "合同会社出野 | ideno LLC",
+      siteName: "株式会社エグゼクティブサポート | EXECUTIVE SUPPORT",
       images: [
         {
           url: "/og-image.png",

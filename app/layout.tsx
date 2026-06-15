@@ -10,7 +10,7 @@ const geistSans = Geist({
 });
 
 const siteUrl = "https://ideno-llc.jp";
-const siteName = "合同会社出野 | ideno LLC";
+const siteName = "株式会社エグゼクティブサポート | EXECUTIVE SUPPORT";
 const siteDescription =
   "SNSを会社の資産に。認知拡大、採用強化、ブランド構築まで。経営者と企業の魅力を発信するSNS運用代行・ショート動画制作サービス。";
 
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
     "経営者ブランディング",
     "YouTube運営",
     "動画撮影",
-    "合同会社出野",
-    "ideno LLC",
+    "株式会社エグゼクティブサポート",
+    "EXECUTIVE SUPPORT",
   ],
-  authors: [{ name: "合同会社出野" }],
-  creator: "合同会社出野",
-  publisher: "合同会社出野",
+  authors: [{ name: "株式会社エグゼクティブサポート" }],
+  creator: "株式会社エグゼクティブサポート",
+  publisher: "株式会社エグゼクティブサポート",
   robots: {
     index: true,
     follow: true,

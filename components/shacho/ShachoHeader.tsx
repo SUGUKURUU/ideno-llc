@@ -26,7 +26,7 @@ export default function ShachoHeader() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-16 h-16 flex items-center justify-between">
         <Link href="/" className="flex flex-col leading-none">
-          <span className="text-white font-semibold text-sm tracking-[0.15em]">ideno LLC</span>
+          <span className="text-white font-semibold text-sm tracking-[0.15em]">EXECUTIVE SUPPORT</span>
           <span className="text-[#C4A35A] text-[9px] tracking-[0.25em] mt-0.5 opacity-70">社長の一日</span>
         </Link>
 

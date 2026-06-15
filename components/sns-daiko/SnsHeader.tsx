@@ -19,7 +19,7 @@ export default function SnsHeader() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.06] bg-[#080808]/95 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 lg:px-16 h-20 flex items-center justify-between">
         <Link href="/" className="text-white font-semibold text-lg tracking-tight">
-          ideno LLC
+          EXECUTIVE SUPPORT
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">

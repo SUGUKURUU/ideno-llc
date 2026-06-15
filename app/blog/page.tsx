@@ -23,12 +23,12 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "ideno LLC ブログ",
+  name: "EXECUTIVE SUPPORT ブログ",
   description: "中小企業・スタートアップ向けSNS運用・HP制作・社長ブランディングの実践メディア",
   url: `${SITE_URL}/blog`,
   publisher: {
     "@type": "Organization",
-    name: "合同会社出野",
+    name: "株式会社エグゼクティブサポート",
     url: SITE_URL,
   },
   inLanguage: "ja",
@@ -58,7 +58,7 @@ export default function BlogPage() {
         <header className="border-b border-white/10 py-4 px-6 sticky top-0 z-50 bg-[#0a0a0a]/95 backdrop-blur-sm">
           <div className="max-w-6xl mx-auto flex items-center justify-between">
             <Link href="/" className="text-[#c9a84c] font-bold text-lg tracking-widest">
-              ideno LLC
+              EXECUTIVE SUPPORT
             </Link>
             <nav className="flex gap-6 text-sm text-white/60">
               <Link href="/" className="hover:text-white transition-colors">トップ</Link>

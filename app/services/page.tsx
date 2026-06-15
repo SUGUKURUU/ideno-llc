@@ -11,12 +11,12 @@ import Footer from "@/components/Footer";
 
 const pageTitle = "サービス一覧";
 const pageDescription =
-  "合同会社出野の3つのサービス（SNS運用代行・ホームページ制作・社長の一日）をご紹介。認知拡大から信頼構築まで、企業の魅力を伝えるための最適なサービスをお選びいただけます。";
+  "株式会社エグゼクティブサポートの3つのサービス（SNS運用代行・ホームページ制作・社長の一日）をご紹介。認知拡大から信頼構築まで、企業の魅力を伝えるための最適なサービスをお選びいただけます。";
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "合同会社出野 サービス一覧",
+  name: "株式会社エグゼクティブサポート サービス一覧",
   itemListElement: [
     {
       "@type": "ListItem",

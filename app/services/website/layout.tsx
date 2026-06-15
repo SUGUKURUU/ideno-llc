@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-const pageTitle = "ホームページ制作 | 成果につながるサイト設計 | ideno LLC";
+const pageTitle = "ホームページ制作 | 成果につながるサイト設計 | EXECUTIVE SUPPORT";
 const pageDescription =
   "企業サイト制作で成果を出す。UX設計、説得力あるコピーライティング、制作後サポート。実績50+社。問い合わせが平均3.5倍に増加。初回相談無料。";
 
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     "LP制作",
     "中小企業向け",
   ],
-  authors: [{ name: "合同会社出野" }],
-  creator: "合同会社出野",
+  authors: [{ name: "株式会社エグゼクティブサポート" }],
+  creator: "株式会社エグゼクティブサポート",
   openGraph: {
     type: "website",
     locale: "ja_JP",
     url: "https://ideno-llc.jp/services/website",
     title: pageTitle,
     description: pageDescription,
-    siteName: "合同会社出野 | ideno LLC",
+    siteName: "株式会社エグゼクティブサポート | EXECUTIVE SUPPORT",
     images: [
       {
         url: "/og-image.png",
