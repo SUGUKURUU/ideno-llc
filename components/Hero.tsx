@@ -185,7 +185,7 @@ export default function Hero() {
           >
             <button
               onClick={scrollToContact}
-              className="group flex items-center gap-3 px-8 py-4 rounded-full bg-[#C4A35A] text-black font-semibold text-sm tracking-wide hover:bg-[#d4b36a] transition-all duration-300 shadow-lg shadow-[rgba(196,163,90,0.25)] hover:shadow-[rgba(196,163,90,0.4)]"
+              className="cta-sheen group flex items-center gap-3 px-8 py-4 rounded-full bg-[#C4A35A] text-black font-semibold text-sm tracking-wide hover:bg-[#d4b36a] transition-all duration-300 shadow-lg shadow-[rgba(196,163,90,0.25)] hover:shadow-[rgba(196,163,90,0.4)]"
             >
               無料相談を申し込む
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
@@ -216,7 +216,7 @@ export default function Hero() {
                   initial="hidden"
                   animate="visible"
                   variants={slideInRight}
-                  className="flex items-center gap-4 p-4 rounded-lg border border-white/[0.06] hover:border-[rgba(196,163,90,0.2)] transition-colors duration-300 group"
+                  className="hover-lift flex items-center gap-4 p-4 rounded-lg border border-white/[0.06] hover:border-[rgba(196,163,90,0.2)] hover:bg-white/[0.015] transition-colors duration-300 group"
                 >
                   <div className="w-12 h-12 flex items-center justify-center rounded-full bg-[rgba(196,163,90,0.08)] group-hover:bg-[rgba(196,163,90,0.12)] transition-colors">
                     <Icon size={20} className="text-[#C4A35A]" />

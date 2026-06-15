@@ -14,6 +14,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -22,6 +24,12 @@ body {
   font-feature-settings: "palt";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* In-page anchor targets (#about, #service …) shouldn't hide under the fixed header */
+[id] {
+  scroll-margin-top: 5.5rem;
 }
 
 ::selection {
@@ -49,6 +57,21 @@ body {
   outline: 1px solid rgba(196, 163, 90, 0.5);
   outline-offset: 2px;
   border-radius: 4px;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .font-serif-display {
@@ -85,5 +108,62 @@ body {
   .luxury-divider {
     height: 0.5px;
     background: linear-gradient(90deg, transparent, var(--gold-line), transparent);
+  }
+
+  /* Warm gold gradient text — for accent headings */
+  .text-gradient-gold {
+    background: linear-gradient(120deg, #d9bd78 0%, var(--gold) 45%, #9c7e3f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* Reusable fine-grain noise (matches the hero treatment) */
+  .bg-grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Gentle lift on hover — for cards/links */
+  .hover-lift {
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      border-color 0.4s ease, box-shadow 0.4s ease;
+    will-change: transform;
+  }
+  .hover-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Sweeping sheen for primary CTAs */
+  .cta-sheen {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .cta-sheen::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      105deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.45) 48%,
+      transparent 60%
+    );
+    transform: translateX(-120%);
+    transition: transform 0.7s ease;
+    pointer-events: none;
+  }
+  .cta-sheen:hover::after {
+    transform: translateX(120%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hover-lift:hover {
+    transform: none;
+  }
+  .cta-sheen:hover::after {
+    transform: translateX(-120%);
   }
 }

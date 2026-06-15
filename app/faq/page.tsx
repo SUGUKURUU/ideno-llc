@@ -255,7 +255,7 @@ export default function FAQPage() {
         <section ref={ref} className="py-16 lg:py-32 relative">
           <div className="max-w-3xl mx-auto px-6 lg:px-16">
             <div className="space-y-4">
-              <AnimatePresence mode="wait">
+              <AnimatePresence mode="popLayout">
                 {filteredFAQ.map((item, index) => (
                   <motion.div
                     key={item.id}
