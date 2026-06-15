@@ -71,7 +71,10 @@
       "Bash(curl -I http://localhost:3000/ex-spt.com/cell-lp)",
       "Bash(git commit -m 'Add executive support sales LP for SNS outsourcing service *)",
       "Bash(grep -r \"株式会社エグゼクティブサポート\" /Users/MacBook/Downloads/SNS運用代行会社HP/app /Users/MacBook/Downloads/SNS運用代行会社HP/components --include=\"*.tsx\" --include=\"*.ts\" ! -path \"*/.next/*\")",
-      "Bash(git commit -m 'Change company name from ideno LLC to Executive Support *)"
+      "Bash(git commit -m 'Change company name from ideno LLC to Executive Support *)",
+      "Bash(node create_manual.js)",
+      "Read(//Users/MacBook/Downloads/**)",
+      "Bash(git commit -m 'Implement contact form via Next.js API with nodemailer support *)"
     ]
   }
 }

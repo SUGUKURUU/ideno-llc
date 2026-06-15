@@ -30,34 +30,33 @@ export default function Contact() {
   const onSubmit = async (data: FormData) => {
     setLoading(true);
     try {
-      // Google Apps Script Web App URL に POST
-      // ユーザーが自分の GAS URL に置き換える
-      const GAS_WEB_APP_URL = process.env.NEXT_PUBLIC_GAS_URL || "";
+      console.log("📧 お問い合わせ送信開始:", data);
 
-      if (GAS_WEB_APP_URL) {
-        await fetch(GAS_WEB_APP_URL, {
-          method: "POST",
-          headers: { "Content-Type": "text/plain;charset=utf-8" },
-          body: JSON.stringify({
-            timestamp: new Date().toISOString(),
-            ...data,
-          }),
-        }).catch(() => {
-          // CORS エラーは無視（GAS側は正常に処理）
-        });
-      } else {
-        console.warn("NEXT_PUBLIC_GAS_URL not configured. Form data not sent.");
+      // Next.js API ルートに送信
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+      console.log("API Response:", result);
+
+      if (!response.ok) {
+        console.error("❌ Send failed:", result.error);
+        alert(result.error || "送信に失敗しました。もう一度お試しください。");
+        setLoading(false);
+        return;
       }
 
-      console.log("Form data:", data);
+      console.log("✅ 送信成功:", result);
       setLoading(false);
       setSubmitted(true);
       reset();
     } catch (error) {
-      console.error("Form submission error:", error);
+      console.error("❌ Form submission error:", error);
+      alert("送信中にエラーが発生しました。通信環境をご確認ください。");
       setLoading(false);
-      setSubmitted(true);
-      reset();
     }
   };
 
