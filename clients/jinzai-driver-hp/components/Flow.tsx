@@ -1,4 +1,7 @@
-// TODO: 企業向け／ドライバー向けでフローを分けるか検討する
+"use client";
+
+import { motion } from "framer-motion";
+
 const steps = [
   { step: "01", title: "お問い合わせ" },
   { step: "02", title: "ヒアリング" },
@@ -12,12 +15,22 @@ export default function Flow() {
     <section className="py-20 px-6">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">ご利用の流れ</h2>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
-          {steps.map((item) => (
-            <div key={item.step} className="text-center">
-              <p className="text-2xl font-bold text-primary mb-2">{item.step}</p>
+        <div className="relative grid grid-cols-2 md:grid-cols-5 gap-6">
+          <div className="hidden md:block absolute top-5 left-[10%] right-[10%] h-px bg-black/10" />
+          {steps.map((item, i) => (
+            <motion.div
+              key={item.step}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.08, duration: 0.5 }}
+              className="relative text-center"
+            >
+              <div className="mx-auto mb-3 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">
+                {i + 1}
+              </div>
               <p className="text-sm font-semibold">{item.title}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
