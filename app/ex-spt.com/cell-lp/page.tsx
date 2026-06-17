@@ -31,8 +31,6 @@ export default function ExSptCellLP() {
               </h1>
               <p className="text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                 営業代行では訪問できない層への認知拡大と顧客育成を実現。
-                <br />
-                新規顧客獲得をさらに加速させるSNS運用代行を追加提案しましょう。
               </p>
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
@@ -95,7 +93,7 @@ export default function ExSptCellLP() {
                     "✓ 継続的な認知拡大で初回接触の成功率UP",
                     "✓ 低コストで多数の見込み客にリーチ",
                     "✓ ブランド信頼度の向上で提案がスムーズに",
-                    "✓ 24時間の自動営業・顧客育成",
+                    "✓ 自動営業・顧客育成",
                   ].map((item, i) => (
                     <li key={i} className="text-gray-300">
                       {item}
@@ -155,7 +153,7 @@ export default function ExSptCellLP() {
                 {
                   icon: "🎯",
                   title: "提案チャンス拡大",
-                  desc: "訪問できない層への提案が可能に。営業対象を2倍に",
+                  desc: "訪問できない層への提案が可能に。",
                 },
                 {
                   icon: "💰",
@@ -165,7 +163,7 @@ export default function ExSptCellLP() {
                 {
                   icon: "🔄",
                   title: "フォローアップ自動化",
-                  desc: "24時間のSNS運用で、営業との接触機会を継続的に創出",
+                  desc: "SNS運用で、営業との接触機会を継続的に創出",
                 },
                 {
                   icon: "⭐",
@@ -225,7 +223,7 @@ export default function ExSptCellLP() {
                   {[
                     "毎日のInstagram投稿",
                     "月2本の動画編集",
-                    "24時間コメント対応",
+                    "コメント対応",
                     "月1回の戦略相談",
                     "営業チームへのリード共有",
                   ].map((item, i) => (
@@ -262,7 +260,7 @@ export default function ExSptCellLP() {
                   {[
                     "Instagram・TikTok・X毎日投稿",
                     "月4本の動画編集",
-                    "優先サポート（24時間対応）",
+                    "優先サポート",
                     "週1回の戦略改善会議",
                     "営業パイプラインの可視化",
                     "専任マネージャー配置",
@@ -328,7 +326,7 @@ export default function ExSptCellLP() {
                       {
                         stage: "顧客化後",
                         without: "営業再訪問待ち",
-                        with: "24時間のSNS育成継続",
+                        with: "SNSでの育成を継続",
                       },
                     ].map((row, i) => (
                       <tr
@@ -366,7 +364,7 @@ export default function ExSptCellLP() {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-blue-900/30 to-cyan-900/30 border border-blue-500/50 rounded-lg p-8"
             >
-              <div className="grid md:grid-cols-4 gap-6 text-center mb-8">
+              <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
                   <p className="text-gray-400 text-sm mb-2">営業代行のみ</p>
                   <p className="text-2xl font-bold text-gray-300">月5件成約</p>
@@ -387,19 +385,6 @@ export default function ExSptCellLP() {
                   <p className="text-gray-400 text-sm mb-2">年間効果</p>
                   <p className="text-2xl font-bold text-green-400">+36件</p>
                 </div>
-              </div>
-
-              <div className="border-t border-blue-500/30 pt-8">
-                <p className="text-gray-300 text-center mb-4">
-                  <strong>年間投資額：</strong> 120万円（月10万円 × 12ヶ月）
-                </p>
-                <p className="text-center text-cyan-300 font-bold">
-                  追加成約36件 × 100万円（平均案件単価）
-                  <br />
-                  = 3,600万円の売上増
-                  <br />
-                  <span className="text-green-400">投資回収率：3,000倍！</span>
-                </p>
               </div>
             </motion.div>
           </div>
