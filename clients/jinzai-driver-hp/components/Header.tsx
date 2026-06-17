@@ -1,14 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "#services", label: "事業内容" },
-  { href: "#strengths", label: "選ばれる理由" },
-  { href: "#driver", label: "ドライバー募集" },
-  { href: "#company", label: "会社概要" },
-  { href: "#contact", label: "お問い合わせ" },
+  { href: "/", label: "ホーム" },
+  { href: "/service/jinzai", label: "人材紹介サービス" },
+  { href: "/driver", label: "ドライバー募集" },
+  { href: "/company", label: "会社概要" },
+  { href: "/contact", label: "お問い合わせ" },
 ];
 
 export default function Header() {
@@ -17,23 +18,23 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-black/5">
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
-        <a href="#" className="font-bold text-lg text-primary">
+        <Link href="/" className="font-bold text-lg text-primary">
           [会社名]
-        </a>
+        </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm">
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href} className="hover:text-primary transition-colors">
+            <Link key={link.href} href={link.href} className="hover:text-primary transition-colors">
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="hidden sm:inline-block rounded-full bg-primary text-white text-sm font-semibold px-5 py-2 hover:bg-primary-dark transition-colors"
           >
             お問い合わせ
-          </a>
+          </Link>
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -48,22 +49,22 @@ export default function Header() {
       {open && (
         <nav className="md:hidden border-t border-black/5 bg-white px-6 py-4 flex flex-col gap-4 text-sm">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
               className="hover:text-primary transition-colors"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             onClick={() => setOpen(false)}
             className="rounded-full bg-primary text-white text-sm font-semibold px-5 py-2 text-center hover:bg-primary-dark transition-colors"
           >
             お問い合わせ
-          </a>
+          </Link>
         </nav>
       )}
     </header>

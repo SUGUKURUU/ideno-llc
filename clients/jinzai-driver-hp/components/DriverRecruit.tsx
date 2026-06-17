@@ -14,15 +14,15 @@ const items = [
 
 export default function DriverRecruit() {
   return (
-    <section id="driver" className="py-20 px-6 bg-primary/5">
+    <section className="py-20 px-6">
       <div className="mx-auto max-w-3xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">ドライバー募集要項</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">募集要項</h2>
         <motion.dl
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="bg-white rounded-2xl divide-y divide-black/5"
+          className="bg-primary/5 rounded-2xl divide-y divide-black/5"
         >
           {items.map((item) => {
             const Icon = item.icon;
@@ -37,14 +37,6 @@ export default function DriverRecruit() {
             );
           })}
         </motion.dl>
-        <div className="text-center mt-10">
-          <a
-            href="#contact"
-            className="inline-block rounded-full bg-primary text-white font-semibold px-8 py-3 hover:bg-primary-dark transition-colors"
-          >
-            応募・お問い合わせ
-          </a>
-        </div>
       </div>
     </section>
   );

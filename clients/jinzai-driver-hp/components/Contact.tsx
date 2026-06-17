@@ -12,10 +12,8 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-6 bg-primary/5">
+    <section className="py-20 px-6">
       <div className="mx-auto max-w-xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">お問い合わせ</h2>
-
         {submitted ? (
           <p className="text-center text-sm text-slate-600 bg-white rounded-2xl p-8">
             送信ありがとうございます。

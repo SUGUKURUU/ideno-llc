@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Calendar, Users, Truck } from "lucide-react";
 
 const fadeUp = {
@@ -57,18 +58,18 @@ export default function Hero() {
           variants={fadeUp}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
         >
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="rounded-full bg-primary text-white font-semibold px-8 py-3 hover:bg-primary-dark transition-colors"
           >
             お問い合わせ
-          </a>
-          <a
-            href="#driver"
+          </Link>
+          <Link
+            href="/driver"
             className="rounded-full border border-primary text-primary font-semibold px-8 py-3 hover:bg-primary/5 transition-colors"
           >
             ドライバー募集はこちら
-          </a>
+          </Link>
         </motion.div>
 
         <motion.div
