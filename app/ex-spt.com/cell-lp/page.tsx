@@ -261,7 +261,7 @@ export default function ExSptCellLP() {
                     "SNS投稿（Instagram、Facebook、TikTok、X）",
                     "月4本の動画編集",
                     "優先サポート",
-                    "週1回の戦略改善会議",
+                    "月1回の戦略改善会議",
                     "営業パイプラインの可視化",
                     "専任マネージャー配置",
                     "業務改善支援",
