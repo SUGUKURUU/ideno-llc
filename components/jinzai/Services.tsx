@@ -9,13 +9,13 @@ const services = [
     icon: Users,
     title: "人材紹介サービス",
     description: "企業の採用課題に合わせて、最適な人材をご紹介します。",
-    href: "/service/jinzai",
+    href: "/jinzai-driver-hp/service/jinzai",
   },
   {
     icon: Truck,
     title: "貨物軽自動車運送 業務委託",
     description: "軽貨物ドライバーとして独立・業務委託を希望する方をサポートします。",
-    href: "/driver",
+    href: "/jinzai-driver-hp/driver",
   },
 ];
 

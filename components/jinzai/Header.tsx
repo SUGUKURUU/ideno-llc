@@ -5,11 +5,11 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "/", label: "ホーム" },
-  { href: "/service/jinzai", label: "人材紹介サービス" },
-  { href: "/driver", label: "ドライバー募集" },
-  { href: "/company", label: "会社概要" },
-  { href: "/contact", label: "お問い合わせ" },
+  { href: "/jinzai-driver-hp", label: "ホーム" },
+  { href: "/jinzai-driver-hp/service/jinzai", label: "人材紹介サービス" },
+  { href: "/jinzai-driver-hp/driver", label: "ドライバー募集" },
+  { href: "/jinzai-driver-hp/company", label: "会社概要" },
+  { href: "/jinzai-driver-hp/contact", label: "お問い合わせ" },
 ];
 
 export default function Header() {
