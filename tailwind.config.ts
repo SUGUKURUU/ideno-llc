@@ -22,6 +22,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // /jinzai-driver-hp (client proposal preview) — namespaced so it
+        // stays isolated from the root theme and is easy to extract later.
+        "jinzai-bg": "var(--jinzai-bg)",
+        "jinzai-fg": "var(--jinzai-fg)",
+        "jinzai-primary": "#1455D6",
+        "jinzai-primary-dark": "#0B3A99",
+        "jinzai-accent": "#FF7A1A",
       },
       animation: {
         "fade-up": "fadeUp 0.6s ease-out forwards",

@@ -167,3 +167,13 @@ body {
     transform: translateX(-120%);
   }
 }
+
+/* Scoped light theme for /jinzai-driver-hp (client proposal preview).
+   Overrides the root dark/gold theme only within this subtree, since
+   Next.js only allows one root <html>/<body> layout. */
+.jinzai-theme {
+  --jinzai-bg: #ffffff;
+  --jinzai-fg: #14181f;
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+}
