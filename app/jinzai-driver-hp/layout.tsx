@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import JinzaiHeader from "@/components/jinzai/Header";
 import JinzaiFooter from "@/components/jinzai/Footer";
 
-// TODO: 会社名確定後にタイトル・説明文を差し替え
-const siteName = "[会社名]（仮）";
+const siteName = "compath株式会社";
 const siteDescription =
   "人材紹介事業と貨物軽自動車運送の業務委託で、企業の「人」と「物流」の課題を解決します。";
 

@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl">
         <div className="grid sm:grid-cols-3 gap-8 mb-10">
           <div>
-            <p className="font-bold text-lg text-jinzai-primary mb-2">[会社名]</p>
+            <p className="font-bold text-lg text-jinzai-primary mb-2">compath株式会社</p>
             <p className="text-sm text-slate-500 leading-relaxed">
               人材紹介事業と貨物軽自動車運送の業務委託で、
               <br />
@@ -48,7 +48,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="text-center text-xs text-slate-400">
-          &copy; {new Date().getFullYear()} ［会社名］
+          &copy; {new Date().getFullYear()} compath株式会社
         </p>
       </div>
     </footer>

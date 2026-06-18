@@ -19,7 +19,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-black/5">
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <Link href="/jinzai-driver-hp" className="font-bold text-lg text-jinzai-primary">
-          [会社名]
+          compath株式会社
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm">
           {navLinks.map((link) => (

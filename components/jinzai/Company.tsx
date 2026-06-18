@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 
-// TODO: 確定した会社情報に差し替える（仮の項目）
+// TODO: 設立・代表者・所在地など確定情報に差し替える（仮の項目）
 const rows = [
-  { label: "会社名", value: "［会社名］" },
+  { label: "会社名", value: "compath株式会社" },
   { label: "設立", value: "2026年8月（予定）" },
   { label: "代表者", value: "［代表者名］" },
   { label: "事業内容", value: "人材紹介事業 / 貨物軽自動車運送事業の業務委託" },
