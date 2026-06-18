@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Users, Target, ClipboardCheck, MessageSquare } from "lucide-react";
 import PageIntro from "@/components/jinzai/PageIntro";
 import Flow from "@/components/jinzai/Flow";
+import Faq from "@/components/jinzai/Faq";
+import CtaBand from "@/components/jinzai/CtaBand";
 
 export const metadata: Metadata = {
   title: "人材紹介サービス",
@@ -52,13 +53,13 @@ export default function JinzaiServicePage() {
         <div className="mx-auto max-w-5xl">
           <div className="flex items-center gap-3 mb-12 justify-center">
             <Users size={24} className="text-jinzai-primary" />
-            <h2 className="text-2xl md:text-3xl font-bold">サービスの特徴</h2>
+            <h2 className="text-2xl md:text-3xl font-bold tracking-tight">サービスの特徴</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {features.map((feature) => {
               const Icon = feature.icon;
               return (
-                <div key={feature.title} className="rounded-2xl border border-black/10 p-8">
+                <div key={feature.title} className="hover-lift rounded-2xl border border-black/10 bg-white shadow-sm p-8">
                   <div className="w-12 h-12 flex items-center justify-center rounded-full bg-jinzai-primary/10 mb-5">
                     <Icon size={22} className="text-jinzai-primary" />
                   </div>
@@ -76,28 +77,13 @@ export default function JinzaiServicePage() {
         steps={["お問い合わせ", "ヒアリング", "人材のご提案", "面談・選考", "ご成約"]}
       />
 
-      <section className="py-20 px-6 bg-jinzai-primary/5">
-        <div className="mx-auto max-w-3xl">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">よくあるご質問</h2>
-          <div className="space-y-4">
-            {faqs.map((faq) => (
-              <div key={faq.q} className="bg-white rounded-2xl p-6">
-                <p className="font-semibold mb-2">Q. {faq.q}</p>
-                <p className="text-sm text-slate-600 leading-relaxed">A. {faq.a}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Faq items={faqs} />
 
-      <section className="py-20 px-6 text-center">
-        <Link
-          href="/jinzai-driver-hp/contact"
-          className="inline-block rounded-full bg-jinzai-primary text-white font-semibold px-8 py-3 hover:bg-jinzai-primary-dark transition-colors"
-        >
-          お問い合わせ
-        </Link>
-      </section>
+      <CtaBand
+        title="まずはお気軽にご相談ください"
+        description="採用条件のご相談だけでも構いません。お気軽にお問い合わせください。"
+        primary={{ href: "/jinzai-driver-hp/contact", label: "お問い合わせ" }}
+      />
     </main>
   );
 }

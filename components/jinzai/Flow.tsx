@@ -13,7 +13,7 @@ export default function Flow({ title = "ご利用の流れ", steps = defaultStep
   return (
     <section className="py-20 px-6">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">{title}</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 tracking-tight">{title}</h2>
         <div className="relative grid grid-cols-2 md:grid-cols-5 gap-6">
           <div className="hidden md:block absolute top-5 left-[10%] right-[10%] h-px bg-black/10" />
           {steps.map((label, i) => (
@@ -25,7 +25,7 @@ export default function Flow({ title = "ご利用の流れ", steps = defaultStep
               transition={{ delay: i * 0.08, duration: 0.5 }}
               className="relative text-center"
             >
-              <div className="mx-auto mb-3 w-10 h-10 rounded-full bg-jinzai-primary text-white flex items-center justify-center text-sm font-bold">
+              <div className="mx-auto mb-3 w-10 h-10 rounded-full bg-jinzai-primary text-white shadow-sm flex items-center justify-center text-sm font-bold">
                 {i + 1}
               </div>
               <p className="text-sm font-semibold">{label}</p>

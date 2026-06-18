@@ -16,7 +16,7 @@ export default function DriverRecruit() {
   return (
     <section className="py-20 px-6">
       <div className="mx-auto max-w-3xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">募集要項</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 tracking-tight">募集要項</h2>
         <motion.dl
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}

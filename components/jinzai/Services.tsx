@@ -23,7 +23,7 @@ export default function Services() {
   return (
     <section id="services" className="py-20 px-6">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">事業内容</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 tracking-tight">事業内容</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {services.map((service, i) => {
             const Icon = service.icon;
@@ -37,7 +37,7 @@ export default function Services() {
               >
                 <Link
                   href={service.href}
-                  className="group block h-full rounded-2xl border border-black/10 p-8 hover:border-jinzai-primary/30 hover:shadow-md transition-all"
+                  className="hover-lift group block h-full rounded-2xl border border-black/10 bg-white shadow-sm p-8 hover:border-jinzai-primary/30 hover:shadow-md transition-all"
                 >
                   <div className="w-12 h-12 flex items-center justify-center rounded-full bg-jinzai-primary/10 mb-5">
                     <Icon size={22} className="text-jinzai-primary" />

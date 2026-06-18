@@ -31,7 +31,7 @@ export default function Header() {
         <div className="flex items-center gap-2">
           <Link
             href="/jinzai-driver-hp/contact"
-            className="hidden sm:inline-block rounded-full bg-jinzai-primary text-white text-sm font-semibold px-5 py-2 hover:bg-jinzai-primary-dark transition-colors"
+            className="cta-sheen hidden sm:inline-block rounded-full bg-jinzai-primary text-white text-sm font-semibold px-5 py-2 hover:bg-jinzai-primary-dark transition-colors"
           >
             お問い合わせ
           </Link>

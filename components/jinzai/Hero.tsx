@@ -27,12 +27,22 @@ export default function Hero() {
       <div className="absolute top-1/2 -left-24 w-72 h-72 bg-jinzai-accent/10 rounded-full blur-3xl" />
 
       <div className="relative mx-auto max-w-4xl text-center">
-        <motion.h1
+        <motion.p
           custom={0}
           initial="hidden"
           animate="visible"
           variants={fadeUp}
-          className="text-3xl md:text-5xl font-bold leading-tight mb-6"
+          className="inline-flex items-center gap-2 rounded-full bg-jinzai-primary/10 text-jinzai-primary text-xs font-semibold px-4 py-1.5 mb-6"
+        >
+          人材紹介 × 貨物軽自動車運送
+        </motion.p>
+
+        <motion.h1
+          custom={1}
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          className="text-3xl md:text-5xl font-bold leading-tight tracking-tight mb-6"
         >
           人と物流をつなぐ、
           <br />
@@ -40,7 +50,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          custom={1}
+          custom={2}
           initial="hidden"
           animate="visible"
           variants={fadeUp}
@@ -52,7 +62,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.div
-          custom={2}
+          custom={3}
           initial="hidden"
           animate="visible"
           variants={fadeUp}
@@ -60,7 +70,7 @@ export default function Hero() {
         >
           <Link
             href="/jinzai-driver-hp/contact"
-            className="rounded-full bg-jinzai-primary text-white font-semibold px-8 py-3 hover:bg-jinzai-primary-dark transition-colors"
+            className="cta-sheen rounded-full bg-jinzai-primary text-white font-semibold px-8 py-3 hover:bg-jinzai-primary-dark transition-colors"
           >
             お問い合わせ
           </Link>
@@ -73,7 +83,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          custom={3}
+          custom={4}
           initial="hidden"
           animate="visible"
           variants={fadeUp}
