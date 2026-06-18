@@ -221,7 +221,7 @@ export default function ExSptCellLP() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    "毎日のInstagram投稿",
+                    "SNS投稿（Instagram、Facebook、TikTok）",
                     "月2本の動画編集",
                     "コメント対応",
                     "月1回の戦略相談",
@@ -258,12 +258,13 @@ export default function ExSptCellLP() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    "Instagram・TikTok・X毎日投稿",
+                    "SNS投稿（Instagram、Facebook、TikTok、X）",
                     "月4本の動画編集",
                     "優先サポート",
                     "週1回の戦略改善会議",
                     "営業パイプラインの可視化",
                     "専任マネージャー配置",
+                    "業務改善支援",
                   ].map((item, i) => (
                     <li key={i} className="text-gray-300 flex items-start">
                       <Check className="w-5 h-5 mr-3 text-cyan-400 flex-shrink-0 mt-0.5" />
