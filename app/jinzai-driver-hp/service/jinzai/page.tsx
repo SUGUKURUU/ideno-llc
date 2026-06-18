@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Users, Target, ClipboardCheck, MessageSquare } from "lucide-react";
-import PageIntro from "@/components/PageIntro";
-import Flow from "@/components/Flow";
+import PageIntro from "@/components/jinzai/PageIntro";
+import Flow from "@/components/jinzai/Flow";
 
 export const metadata: Metadata = {
   title: "人材紹介サービス",
@@ -51,7 +51,7 @@ export default function JinzaiServicePage() {
       <section className="py-20 px-6">
         <div className="mx-auto max-w-5xl">
           <div className="flex items-center gap-3 mb-12 justify-center">
-            <Users size={24} className="text-primary" />
+            <Users size={24} className="text-jinzai-primary" />
             <h2 className="text-2xl md:text-3xl font-bold">サービスの特徴</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -59,8 +59,8 @@ export default function JinzaiServicePage() {
               const Icon = feature.icon;
               return (
                 <div key={feature.title} className="rounded-2xl border border-black/10 p-8">
-                  <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-5">
-                    <Icon size={22} className="text-primary" />
+                  <div className="w-12 h-12 flex items-center justify-center rounded-full bg-jinzai-primary/10 mb-5">
+                    <Icon size={22} className="text-jinzai-primary" />
                   </div>
                   <h3 className="text-base font-bold mb-2">{feature.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{feature.description}</p>
@@ -76,7 +76,7 @@ export default function JinzaiServicePage() {
         steps={["お問い合わせ", "ヒアリング", "人材のご提案", "面談・選考", "ご成約"]}
       />
 
-      <section className="py-20 px-6 bg-primary/5">
+      <section className="py-20 px-6 bg-jinzai-primary/5">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">よくあるご質問</h2>
           <div className="space-y-4">
@@ -92,8 +92,8 @@ export default function JinzaiServicePage() {
 
       <section className="py-20 px-6 text-center">
         <Link
-          href="/contact"
-          className="inline-block rounded-full bg-primary text-white font-semibold px-8 py-3 hover:bg-primary-dark transition-colors"
+          href="/jinzai-driver-hp/contact"
+          className="inline-block rounded-full bg-jinzai-primary text-white font-semibold px-8 py-3 hover:bg-jinzai-primary-dark transition-colors"
         >
           お問い合わせ
         </Link>

@@ -37,14 +37,14 @@ export default function Services() {
               >
                 <Link
                   href={service.href}
-                  className="group block h-full rounded-2xl border border-black/10 p-8 hover:border-primary/30 hover:shadow-md transition-all"
+                  className="group block h-full rounded-2xl border border-black/10 p-8 hover:border-jinzai-primary/30 hover:shadow-md transition-all"
                 >
-                  <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-5">
-                    <Icon size={22} className="text-primary" />
+                  <div className="w-12 h-12 flex items-center justify-center rounded-full bg-jinzai-primary/10 mb-5">
+                    <Icon size={22} className="text-jinzai-primary" />
                   </div>
                   <h3 className="text-lg font-bold mb-2">{service.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed mb-5">{service.description}</p>
-                  <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary">
+                  <span className="inline-flex items-center gap-1 text-sm font-semibold text-jinzai-primary">
                     詳しく見る
                     <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                   </span>

@@ -1,14 +1,6 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
-import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
+import JinzaiHeader from "@/components/jinzai/Header";
+import JinzaiFooter from "@/components/jinzai/Footer";
 
 // TODO: 会社名確定後にタイトル・説明文を差し替え
 const siteName = "[会社名]（仮）";
@@ -21,20 +13,20 @@ export const metadata: Metadata = {
     template: `%s | ${siteName}`,
   },
   description: siteDescription,
+  // 提案用のサンプルサイトのため検索エンジンには出さない
+  robots: { index: false, follow: false },
 };
 
-export default function RootLayout({
+export default function JinzaiDriverHpLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
-      <body className={`${geistSans.variable} font-sans antialiased`}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <div className="jinzai-theme bg-jinzai-bg text-jinzai-fg min-h-screen flex flex-col font-sans antialiased">
+      <JinzaiHeader />
+      <div className="flex-1">{children}</div>
+      <JinzaiFooter />
+    </div>
   );
 }

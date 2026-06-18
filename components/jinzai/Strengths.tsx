@@ -23,7 +23,7 @@ const strengths = [
 
 export default function Strengths() {
   return (
-    <section id="strengths" className="py-20 px-6 bg-primary/5">
+    <section id="strengths" className="py-20 px-6 bg-jinzai-primary/5">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">選ばれる理由</h2>
         <div className="grid md:grid-cols-3 gap-6">
@@ -38,8 +38,8 @@ export default function Strengths() {
                 transition={{ delay: i * 0.1, duration: 0.6 }}
                 className="rounded-2xl bg-white p-8"
               >
-                <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mb-5">
-                  <Icon size={22} className="text-primary" />
+                <div className="w-12 h-12 flex items-center justify-center rounded-full bg-jinzai-primary/10 mb-5">
+                  <Icon size={22} className="text-jinzai-primary" />
                 </div>
                 <h3 className="text-base font-bold mb-2">{item.title}</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">{item.description}</p>

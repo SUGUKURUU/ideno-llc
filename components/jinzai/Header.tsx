@@ -18,27 +18,27 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-black/5">
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="font-bold text-lg text-primary">
+        <Link href="/jinzai-driver-hp" className="font-bold text-lg text-jinzai-primary">
           [会社名]
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm">
           {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="hover:text-primary transition-colors">
+            <Link key={link.href} href={link.href} className="hover:text-jinzai-primary transition-colors">
               {link.label}
             </Link>
           ))}
         </nav>
         <div className="flex items-center gap-2">
           <Link
-            href="/contact"
-            className="hidden sm:inline-block rounded-full bg-primary text-white text-sm font-semibold px-5 py-2 hover:bg-primary-dark transition-colors"
+            href="/jinzai-driver-hp/contact"
+            className="hidden sm:inline-block rounded-full bg-jinzai-primary text-white text-sm font-semibold px-5 py-2 hover:bg-jinzai-primary-dark transition-colors"
           >
             お問い合わせ
           </Link>
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="md:hidden p-2 -mr-2 text-foreground"
+            className="md:hidden p-2 -mr-2 text-jinzai-fg"
             aria-label={open ? "メニューを閉じる" : "メニューを開く"}
             aria-expanded={open}
           >
@@ -53,15 +53,15 @@ export default function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="hover:text-primary transition-colors"
+              className="hover:text-jinzai-primary transition-colors"
             >
               {link.label}
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="/jinzai-driver-hp/contact"
             onClick={() => setOpen(false)}
-            className="rounded-full bg-primary text-white text-sm font-semibold px-5 py-2 text-center hover:bg-primary-dark transition-colors"
+            className="rounded-full bg-jinzai-primary text-white text-sm font-semibold px-5 py-2 text-center hover:bg-jinzai-primary-dark transition-colors"
           >
             お問い合わせ
           </Link>

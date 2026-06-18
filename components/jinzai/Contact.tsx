@@ -47,7 +47,7 @@ export default function Contact() {
             />
             <button
               type="submit"
-              className="w-full rounded-full bg-primary text-white font-semibold py-3 hover:bg-primary-dark transition-colors"
+              className="w-full rounded-full bg-jinzai-primary text-white font-semibold py-3 hover:bg-jinzai-primary-dark transition-colors"
             >
               送信する
             </button>

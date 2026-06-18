@@ -22,9 +22,9 @@ const badges = [
 export default function Hero() {
   return (
     <section className="relative pt-32 pb-24 px-6 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-white to-white" />
-      <div className="absolute -top-24 -right-24 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
-      <div className="absolute top-1/2 -left-24 w-72 h-72 bg-accent/10 rounded-full blur-3xl" />
+      <div className="absolute inset-0 bg-gradient-to-b from-jinzai-primary/10 via-white to-white" />
+      <div className="absolute -top-24 -right-24 w-72 h-72 bg-jinzai-primary/10 rounded-full blur-3xl" />
+      <div className="absolute top-1/2 -left-24 w-72 h-72 bg-jinzai-accent/10 rounded-full blur-3xl" />
 
       <div className="relative mx-auto max-w-4xl text-center">
         <motion.h1
@@ -59,14 +59,14 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
         >
           <Link
-            href="/contact"
-            className="rounded-full bg-primary text-white font-semibold px-8 py-3 hover:bg-primary-dark transition-colors"
+            href="/jinzai-driver-hp/contact"
+            className="rounded-full bg-jinzai-primary text-white font-semibold px-8 py-3 hover:bg-jinzai-primary-dark transition-colors"
           >
             お問い合わせ
           </Link>
           <Link
-            href="/driver"
-            className="rounded-full border border-primary text-primary font-semibold px-8 py-3 hover:bg-primary/5 transition-colors"
+            href="/jinzai-driver-hp/driver"
+            className="rounded-full border border-jinzai-primary text-jinzai-primary font-semibold px-8 py-3 hover:bg-jinzai-primary/5 transition-colors"
           >
             ドライバー募集はこちら
           </Link>
@@ -86,7 +86,7 @@ export default function Hero() {
                 key={badge.label}
                 className="inline-flex items-center gap-2 rounded-full bg-white border border-black/10 px-4 py-2 text-xs font-medium text-slate-600 shadow-sm"
               >
-                <Icon size={14} className="text-primary" />
+                <Icon size={14} className="text-jinzai-primary" />
                 {badge.label}
               </span>
             );

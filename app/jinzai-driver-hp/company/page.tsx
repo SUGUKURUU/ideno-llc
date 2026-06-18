@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import PageIntro from "@/components/PageIntro";
-import Company from "@/components/Company";
+import PageIntro from "@/components/jinzai/PageIntro";
+import Company from "@/components/jinzai/Company";
 
 export const metadata: Metadata = {
   title: "会社概要",

@@ -25,7 +25,7 @@ export default function Flow({ title = "ご利用の流れ", steps = defaultStep
               transition={{ delay: i * 0.08, duration: 0.5 }}
               className="relative text-center"
             >
-              <div className="mx-auto mb-3 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">
+              <div className="mx-auto mb-3 w-10 h-10 rounded-full bg-jinzai-primary text-white flex items-center justify-center text-sm font-bold">
                 {i + 1}
               </div>
               <p className="text-sm font-semibold">{label}</p>

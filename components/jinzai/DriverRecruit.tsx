@@ -22,14 +22,14 @@ export default function DriverRecruit() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="bg-primary/5 rounded-2xl divide-y divide-black/5"
+          className="bg-jinzai-primary/5 rounded-2xl divide-y divide-black/5"
         >
           {items.map((item) => {
             const Icon = item.icon;
             return (
               <div key={item.label} className="flex flex-col sm:flex-row sm:items-center gap-2 p-5">
                 <dt className="w-40 shrink-0 flex items-center gap-2 text-sm font-semibold text-slate-500">
-                  <Icon size={16} className="text-primary" />
+                  <Icon size={16} className="text-jinzai-primary" />
                   {item.label}
                 </dt>
                 <dd className="text-sm">{item.value}</dd>

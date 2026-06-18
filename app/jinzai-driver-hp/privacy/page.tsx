@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PageIntro from "@/components/PageIntro";
+import PageIntro from "@/components/jinzai/PageIntro";
 
 export const metadata: Metadata = {
   title: "プライバシーポリシー",
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
                 <ul className="mt-2 space-y-1.5">
                   {section.list.map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-slate-600">
-                      <span className="mt-2 w-1 h-1 rounded-full bg-primary shrink-0" />
+                      <span className="mt-2 w-1 h-1 rounded-full bg-jinzai-primary shrink-0" />
                       {item}
                     </li>
                   ))}

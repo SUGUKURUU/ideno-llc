@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import PageIntro from "@/components/PageIntro";
-import Contact from "@/components/Contact";
+import PageIntro from "@/components/jinzai/PageIntro";
+import Contact from "@/components/jinzai/Contact";
 
 export const metadata: Metadata = {
   title: "お問い合わせ",
